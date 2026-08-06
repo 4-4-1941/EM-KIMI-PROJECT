@@ -1,1 +1,49 @@
+<script>
+// Tabs
+document.querySelectorAll('.module-tabs').forEach(tabs => {
+  tabs.querySelectorAll('.module-tab').forEach(tab => {
+    tab.addEventListener('click', () => {
+      const module = tab.closest('.module');
+      module.querySelectorAll('.module-tab').forEach(t => t.classList.remove('active'));
+      module.querySelectorAll('.module-panel').forEach(p => p.classList.remove('active'));
+      tab.classList.add('active');
+      module.querySelector('#' + tab.dataset.tab).classList.add('active');
+    });
+  });
+});
 
+// Scroll reveal
+const observer = new IntersectionObserver((entries) => {
+  entries.forEach(entry => { if(entry.isIntersecting) entry.target.classList.add('visible'); });
+}, { threshold: 0.15 });
+document.querySelectorAll('.module').forEach(m => observer.observe(m));
+
+// Spine progress
+const spineProgress = document.getElementById('spineProgress');
+window.addEventListener('scroll', () => {
+  const scrollTop = window.scrollY;
+  const docHeight = document.documentElement.scrollHeight - window.innerHeight;
+  const percent = (scrollTop / docHeight) * 100;
+  if(spineProgress) spineProgress.style.height = percent + '%';
+  
+  document.querySelectorAll('.module').forEach((mod, i) => {
+    const rect = mod.getBoundingClientRect();
+    const nodes = document.querySelectorAll('.spine-node[data-target]');
+    if(rect.top < window.innerHeight/2 && rect.bottom > window.innerHeight/2) {
+      nodes.forEach(n => n.classList.remove('active'));
+      const target = document.querySelector('.spine-node[data-target=\"' + mod.id + '\"]');
+      if(target) { target.classList.add('active'); target.classList.add('visited'); }
+    }
+  });
+});
+
+// Spine click navigation
+document.querySelectorAll('.spine-node').forEach(node => {
+  node.addEventListener('click', () => {
+    const target = document.getElementById(node.dataset.target);
+    if(target) target.scrollIntoView({ behavior: 'smooth' });
+  });
+});
+</script>
+</body>
+</html>
