@@ -1500,5 +1500,66 @@
 <footer>
   Programa académico basado en evidencia · <span>Entrevista Motivacional: De Aprendiz a Experto</span> · Estándares MINT &amp; MITI 4.2 · 160 horas académicas
 </footer>
+<!-- MODAL DE LECTURA DE UNIDAD (SEPARATA) -->
+<div id="unit-modal" class="em-modal-overlay" aria-hidden="true" role="dialog" aria-labelledby="modal-unit-title">
+  <div class="em-modal-backdrop" onclick="window.closeUnitModal()"></div>
+  <div class="em-modal-container">
+    <header class="em-modal-header">
+      <div class="em-modal-eyebrow">
+        <span id="modal-mod-badge" class="modal-badge-tag">MÓDULO 1</span>
+        <span id="modal-unit-code" class="modal-code-tag">UNIDAD 1.1</span>
+      </div>
+      <button type="button" class="em-modal-close-btn" onclick="window.closeUnitModal()" aria-label="Cerrar lectura">✕</button>
+    </header>
+    <div class="em-modal-scroll" id="modal-scroll-area">
+      <h2 id="modal-unit-title" class="em-modal-main-title">Título de la unidad</h2>
+      <div id="modal-unit-overview" class="em-modal-intro"></div>
+      
+      <div class="em-modal-goals-card">
+        <h4>Objetivos de aprendizaje</h4>
+        <ul id="modal-unit-goals"></ul>
+      </div>
 
-</bod
+      <div id="modal-unit-sections" class="em-modal-sections"></div>
+
+      <div id="modal-unit-check" class="em-modal-check-card"></div>
+
+      <div id="modal-unit-refs" class="em-modal-refs-card"></div>
+    </div>
+    <footer class="em-modal-footer">
+      <button type="button" id="modal-btn-prev" class="btn-modal-nav" onclick="window.navModalUnit(-1)">← Tema anterior</button>
+      <span id="modal-unit-counter" class="modal-unit-counter">1 de 48</span>
+      <button type="button" id="modal-btn-next" class="btn-modal-nav primary" onclick="window.navModalUnit(1)">Siguiente tema →</button>
+    </footer>
+  </div>
+</div>
+
+<!-- MODAL DE EXAMEN CRONOMETRADO -->
+<div id="exam-modal" class="em-modal-overlay" aria-hidden="true" role="dialog" aria-labelledby="exam-modal-title">
+  <div class="em-modal-backdrop" onclick="window.confirmCloseExam()"></div>
+  <div class="em-modal-container exam-container">
+    <header class="em-modal-header exam-header">
+      <div>
+        <span id="exam-modal-badge" class="modal-badge-tag">EVALUACIÓN M1</span>
+        <h2 id="exam-modal-title" class="exam-title-text">Examen de Certificación</h2>
+      </div>
+      <div class="exam-timer-box" id="exam-timer-box">
+        ⏱️ <span id="exam-timer">20:00</span>
+      </div>
+      <button type="button" class="em-modal-close-btn" onclick="window.confirmCloseExam()" aria-label="Cerrar examen">✕</button>
+    </header>
+    <div class="em-modal-scroll" id="exam-scroll-area">
+      <div id="exam-questions-container"></div>
+      <div id="exam-results-container" style="display:none;"></div>
+    </div>
+    <footer class="em-modal-footer" id="exam-footer">
+      <button type="button" class="btn-modal-nav" onclick="window.confirmCloseExam()">Cancelar</button>
+      <button type="button" class="btn-modal-nav primary" id="btn-submit-exam" onclick="window.submitCurrentExam()">Entregar y Calificar</button>
+    </footer>
+  </div>
+</div>
+
+<script src="js/data/curriculum-data.js"></script>
+<script src="js/app.js"></script>
+</body>
+</html>
