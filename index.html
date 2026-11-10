@@ -3,1153 +3,771 @@
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>Programa de Formación en Entrevista Motivacional</title>
-<style>
-  @import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Space+Grotesk:wght@400;500;700&display=swap');
-
-  :root {
-    --cobalt: #1B2B6B;
-    --cobalt-light: #2A3F8F;
-    --cobalt-pale: #E8EBF7;
-    --amber: #D4A017;
-    --amber-light: #F0C040;
-    --amber-pale: #FBF4DC;
-    --ink: #1A1A2E;
-    --graphite: #3D3D5C;
-    --mist: #F8F6F1;
-    --white: #FFFFFF;
-    --border: #D8D8E8;
-    --m1: #1B2B6B;
-    --m2: #2A5298;
-    --m3: #1A6B4A;
-    --m4: #7B2D8B;
-    --m5: #C0392B;
-  }
-
-  * { margin: 0; padding: 0; box-sizing: border-box; }
-
-  body {
-    font-family: 'Inter', sans-serif;
-    background: var(--mist);
-    color: var(--ink);
-    line-height: 1.6;
-  }
-
-  /* HERO */
-  .hero {
-    background: var(--cobalt);
-    color: white;
-    padding: 80px 60px 60px;
-    position: relative;
-    overflow: hidden;
-  }
-  .hero::before {
-    content: '';
-    position: absolute;
-    top: -60px; right: -60px;
-    width: 420px; height: 420px;
-    border-radius: 50%;
-    background: radial-gradient(circle, rgba(212,160,23,0.18) 0%, transparent 70%);
-  }
-  .hero::after {
-    content: '';
-    position: absolute;
-    bottom: 0; left: 0;
-    width: 100%; height: 4px;
-    background: linear-gradient(90deg, var(--amber) 0%, var(--amber-light) 60%, transparent 100%);
-  }
-  .hero-eyebrow {
-    font-family: 'Space Grotesk', sans-serif;
-    font-size: 11px;
-    letter-spacing: 3.5px;
-    text-transform: uppercase;
-    color: var(--amber);
-    margin-bottom: 20px;
-    font-weight: 500;
-  }
-  .hero h1 {
-    font-family: 'Space Grotesk', sans-serif;
-    font-size: clamp(28px, 4vw, 52px);
-    font-weight: 700;
-    line-height: 1.1;
-    max-width: 700px;
-    margin-bottom: 24px;
-  }
-  .hero h1 em {
-    font-style: normal;
-    color: var(--amber-light);
-  }
-  .hero-desc {
-    font-size: 16px;
-    color: rgba(255,255,255,0.78);
-    max-width: 580px;
-    line-height: 1.7;
-    margin-bottom: 36px;
-  }
-  .hero-meta {
-    display: flex;
-    gap: 40px;
-    flex-wrap: wrap;
-  }
-  .meta-item {
-    display: flex;
-    flex-direction: column;
-    gap: 4px;
-  }
-  .meta-label {
-    font-size: 10px;
-    letter-spacing: 2px;
-    text-transform: uppercase;
-    color: var(--amber);
-    font-weight: 600;
-  }
-  .meta-value {
-    font-size: 16px;
-    font-weight: 600;
-    color: white;
-  }
-
-  /* MARCO TEÓRICO */
-  .framework {
-    background: white;
-    padding: 60px;
-    border-bottom: 1px solid var(--border);
-  }
-  .section-label {
-    font-family: 'Space Grotesk', sans-serif;
-    font-size: 10px;
-    letter-spacing: 3px;
-    text-transform: uppercase;
-    color: var(--amber);
-    font-weight: 600;
-    margin-bottom: 16px;
-  }
-  .framework h2 {
-    font-family: 'Space Grotesk', sans-serif;
-    font-size: 26px;
-    font-weight: 700;
-    color: var(--cobalt);
-    margin-bottom: 20px;
-  }
-  .pillars {
-    display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
-    gap: 20px;
-    margin-top: 32px;
-  }
-  .pillar {
-    border-left: 3px solid var(--amber);
-    padding: 16px 20px;
-    background: var(--cobalt-pale);
-    border-radius: 0 8px 8px 0;
-  }
-  .pillar-num {
-    font-size: 11px;
-    letter-spacing: 2px;
-    color: var(--amber);
-    font-weight: 700;
-    text-transform: uppercase;
-    margin-bottom: 6px;
-  }
-  .pillar h4 {
-    font-size: 14px;
-    font-weight: 700;
-    color: var(--cobalt);
-    margin-bottom: 6px;
-  }
-  .pillar p {
-    font-size: 13px;
-    color: var(--graphite);
-    line-height: 1.5;
-  }
-
-  /* ESTRUCTURA MODULAR */
-  .program-body {
-    max-width: 1100px;
-    margin: 0 auto;
-    padding: 60px 40px;
-  }
-
-  .program-header {
-    text-align: center;
-    margin-bottom: 60px;
-  }
-  .program-header h2 {
-    font-family: 'Space Grotesk', sans-serif;
-    font-size: 30px;
-    font-weight: 700;
-    color: var(--cobalt);
-    margin-bottom: 12px;
-  }
-  .program-header p {
-    color: var(--graphite);
-    font-size: 15px;
-    max-width: 560px;
-    margin: 0 auto;
-  }
-
-  /* MÓDULO CARDS */
-  .module {
-    margin-bottom: 48px;
-    border-radius: 12px;
-    overflow: hidden;
-    box-shadow: 0 2px 20px rgba(0,0,0,0.07);
-    background: white;
-    position: relative;
-  }
-
-  .module-header {
-    padding: 28px 36px;
-    display: flex;
-    align-items: flex-start;
-    gap: 24px;
-    cursor: pointer;
-    transition: background 0.2s;
-  }
-  .module-header:hover { background: rgba(0,0,0,0.02); }
-
-  .module-badge {
-    min-width: 56px; height: 56px;
-    border-radius: 12px;
-    display: flex; align-items: center; justify-content: center;
-    font-family: 'Space Grotesk', sans-serif;
-    font-size: 13px;
-    font-weight: 700;
-    color: white;
-    letter-spacing: 0.5px;
-    flex-shrink: 0;
-  }
-
-  .module-meta { flex: 1; }
-  .module-level {
-    font-size: 10px;
-    letter-spacing: 3px;
-    text-transform: uppercase;
-    font-weight: 700;
-    margin-bottom: 6px;
-  }
-  .module-title {
-    font-family: 'Space Grotesk', sans-serif;
-    font-size: 20px;
-    font-weight: 700;
-    color: var(--ink);
-    margin-bottom: 6px;
-    line-height: 1.25;
-  }
-  .module-subtitle {
-    font-size: 13px;
-    color: var(--graphite);
-  }
-  .module-stats {
-    display: flex;
-    gap: 24px;
-    flex-shrink: 0;
-    align-items: center;
-  }
-  .stat { text-align: center; }
-  .stat-val {
-    font-family: 'Space Grotesk', sans-serif;
-    font-size: 22px;
-    font-weight: 700;
-  }
-  .stat-lbl {
-    font-size: 10px;
-    color: #999;
-    letter-spacing: 1px;
-    text-transform: uppercase;
-  }
-
-  .module-body {
-    padding: 0 36px 32px;
-    border-top: 1px solid var(--border);
-  }
-
-  .module-grid {
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-    gap: 32px;
-    margin-top: 28px;
-  }
-
-  .col-label {
-    font-size: 10px;
-    letter-spacing: 2.5px;
-    text-transform: uppercase;
-    font-weight: 700;
-    margin-bottom: 14px;
-    padding-bottom: 8px;
-    border-bottom: 2px solid;
-  }
-
-  .unit-list { list-style: none; }
-  .unit-list li {
-    padding: 10px 0;
-    border-bottom: 1px solid #F0F0F0;
-    font-size: 14px;
-    color: var(--graphite);
-    display: flex;
-    gap: 10px;
-    align-items: flex-start;
-    line-height: 1.45;
-  }
-  .unit-list li:last-child { border-bottom: none; }
-  .unit-num {
-    font-size: 11px;
-    font-weight: 700;
-    min-width: 22px;
-    padding-top: 1px;
-    opacity: 0.6;
-  }
-
-  .comp-list { list-style: none; }
-  .comp-list li {
-    padding: 8px 12px;
-    margin-bottom: 8px;
-    border-radius: 6px;
-    font-size: 13.5px;
-    line-height: 1.45;
-    display: flex;
-    gap: 10px;
-    align-items: flex-start;
-  }
-  .comp-icon { font-size: 15px; flex-shrink: 0; }
-
-  .eval-row {
-    margin-top: 24px;
-    padding: 16px 20px;
-    border-radius: 8px;
-    background: var(--cobalt-pale);
-    display: flex;
-    gap: 20px;
-    flex-wrap: wrap;
-    align-items: center;
-  }
-  .eval-label {
-    font-size: 10px;
-    letter-spacing: 2px;
-    text-transform: uppercase;
-    font-weight: 700;
-    color: var(--cobalt);
-    flex-shrink: 0;
-  }
-  .eval-tags {
-    display: flex;
-    gap: 8px;
-    flex-wrap: wrap;
-  }
-  .eval-tag {
-    background: var(--cobalt);
-    color: white;
-    font-size: 11px;
-    font-weight: 600;
-    padding: 4px 12px;
-    border-radius: 20px;
-    letter-spacing: 0.5px;
-  }
-
-  /* COLORES POR MÓDULO */
-  .m1 .module-badge { background: var(--m1); }
-  .m1 .module-level { color: var(--m1); }
-  .m1 .stat-val { color: var(--m1); }
-  .m1 .col-label { border-color: var(--m1); color: var(--m1); }
-  .m1 .comp-list li { background: #E8EBF7; }
-
-  .m2 .module-badge { background: var(--m2); }
-  .m2 .module-level { color: var(--m2); }
-  .m2 .stat-val { color: var(--m2); }
-  .m2 .col-label { border-color: var(--m2); color: var(--m2); }
-  .m2 .comp-list li { background: #E8F0FC; }
-
-  .m3 .module-badge { background: var(--m3); }
-  .m3 .module-level { color: var(--m3); }
-  .m3 .stat-val { color: var(--m3); }
-  .m3 .col-label { border-color: var(--m3); color: var(--m3); }
-  .m3 .comp-list li { background: #E6F4ED; }
-  .m3 .eval-row { background: #E6F4ED; }
-  .m3 .eval-label { color: var(--m3); }
-  .m3 .eval-tag { background: var(--m3); }
-
-  .m4 .module-badge { background: var(--m4); }
-  .m4 .module-level { color: var(--m4); }
-  .m4 .stat-val { color: var(--m4); }
-  .m4 .col-label { border-color: var(--m4); color: var(--m4); }
-  .m4 .comp-list li { background: #F3E8F8; }
-  .m4 .eval-row { background: #F3E8F8; }
-  .m4 .eval-label { color: var(--m4); }
-  .m4 .eval-tag { background: var(--m4); }
-
-  .m5 .module-badge { background: var(--m5); }
-  .m5 .module-level { color: var(--m5); }
-  .m5 .stat-val { color: var(--m5); }
-  .m5 .col-label { border-color: var(--m5); color: var(--m5); }
-  .m5 .comp-list li { background: #FDEDEB; }
-  .m5 .eval-row { background: #FDEDEB; }
-  .m5 .eval-label { color: var(--m5); }
-  .m5 .eval-tag { background: var(--m5); }
-
-  /* EVIDENCIA */
-  .evidence-strip {
-    background: var(--amber-pale);
-    border-left: 4px solid var(--amber);
-    padding: 14px 20px;
-    border-radius: 0 8px 8px 0;
-    margin-top: 20px;
-    font-size: 13px;
-    color: var(--graphite);
-    line-height: 1.6;
-  }
-  .evidence-strip strong {
-    color: var(--ink);
-    font-weight: 600;
-  }
-
-  /* MAPA DE COMPETENCIAS */
-  .competency-map {
-    background: var(--cobalt);
-    color: white;
-    padding: 60px;
-    margin-top: 20px;
-  }
-  .competency-map h2 {
-    font-family: 'Space Grotesk', sans-serif;
-    font-size: 26px;
-    margin-bottom: 8px;
-  }
-  .competency-map .intro {
-    color: rgba(255,255,255,0.7);
-    font-size: 14px;
-    margin-bottom: 40px;
-  }
-  .comp-matrix {
-    display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
-    gap: 20px;
-  }
-  .comp-card {
-    background: rgba(255,255,255,0.08);
-    border: 1px solid rgba(255,255,255,0.12);
-    border-radius: 10px;
-    padding: 20px;
-    transition: background 0.2s;
-  }
-  .comp-card:hover { background: rgba(255,255,255,0.13); }
-  .comp-card h4 {
-    font-family: 'Space Grotesk', sans-serif;
-    font-size: 14px;
-    font-weight: 700;
-    color: var(--amber-light);
-    margin-bottom: 10px;
-  }
-  .comp-card ul { list-style: none; }
-  .comp-card ul li {
-    font-size: 12.5px;
-    color: rgba(255,255,255,0.8);
-    padding: 4px 0;
-    border-bottom: 1px solid rgba(255,255,255,0.07);
-    line-height: 1.4;
-  }
-  .comp-card ul li:last-child { border-bottom: none; }
-
-  /* TABLA EVALUACIÓN */
-  .eval-section {
-    background: white;
-    padding: 60px;
-  }
-  .eval-section h2 {
-    font-family: 'Space Grotesk', sans-serif;
-    font-size: 26px;
-    color: var(--cobalt);
-    margin-bottom: 8px;
-  }
-  .eval-section .intro {
-    color: var(--graphite);
-    font-size: 14px;
-    margin-bottom: 36px;
-  }
-  table {
-    width: 100%;
-    border-collapse: collapse;
-    font-size: 13.5px;
-  }
-  th {
-    background: var(--cobalt);
-    color: white;
-    text-align: left;
-    padding: 12px 16px;
-    font-family: 'Space Grotesk', sans-serif;
-    font-size: 11px;
-    letter-spacing: 1.5px;
-    text-transform: uppercase;
-    font-weight: 600;
-  }
-  td {
-    padding: 12px 16px;
-    border-bottom: 1px solid #EBEBEB;
-    vertical-align: top;
-    color: var(--graphite);
-    line-height: 1.5;
-  }
-  tr:nth-child(even) td { background: #FAFAFA; }
-  .badge-inline {
-    display: inline-block;
-    padding: 2px 10px;
-    border-radius: 20px;
-    font-size: 11px;
-    font-weight: 700;
-    color: white;
-  }
-
-  /* BIBLIOGRAFÍA */
-  .biblio {
-    padding: 60px;
-    background: var(--mist);
-    border-top: 2px solid var(--border);
-  }
-  .biblio h2 {
-    font-family: 'Space Grotesk', sans-serif;
-    font-size: 22px;
-    color: var(--cobalt);
-    margin-bottom: 28px;
-  }
-  .biblio-grid {
-    display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
-    gap: 16px;
-  }
-  .biblio-item {
-    background: white;
-    border-radius: 8px;
-    padding: 16px 20px;
-    border-left: 3px solid var(--amber);
-    font-size: 13px;
-    line-height: 1.6;
-    color: var(--graphite);
-  }
-  .biblio-item strong { color: var(--ink); display: block; margin-bottom: 4px; }
-  .biblio-cat {
-    font-size: 10px;
-    letter-spacing: 2px;
-    text-transform: uppercase;
-    color: var(--amber);
-    font-weight: 700;
-    margin-bottom: 16px;
-  }
-
-  /* FOOTER */
-  footer {
-    background: var(--ink);
-    color: rgba(255,255,255,0.5);
-    text-align: center;
-    padding: 28px;
-    font-size: 12px;
-    letter-spacing: 0.5px;
-  }
-  footer span { color: var(--amber); }
-
-  /* PROGRESS BAR */
-  .progress-container {
-    background: white;
-    padding: 40px 60px;
-    border-bottom: 1px solid var(--border);
-  }
-  .progress-label {
-    font-size: 11px;
-    letter-spacing: 2px;
-    text-transform: uppercase;
-    font-weight: 700;
-    color: var(--cobalt);
-    margin-bottom: 20px;
-  }
-  .progress-track {
-    display: flex;
-    align-items: center;
-    gap: 0;
-  }
-  .prog-node {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    flex: 1;
-    position: relative;
-  }
-  .prog-dot {
-    width: 36px; height: 36px;
-    border-radius: 50%;
-    color: white;
-    font-family: 'Space Grotesk', sans-serif;
-    font-size: 13px;
-    font-weight: 700;
-    display: flex; align-items: center; justify-content: center;
-    position: relative;
-    z-index: 1;
-  }
-  .prog-line {
-    position: absolute;
-    top: 18px; left: 50%;
-    width: 100%; height: 3px;
-    z-index: 0;
-  }
-  .prog-text {
-    font-size: 11px;
-    text-align: center;
-    margin-top: 8px;
-    line-height: 1.3;
-    color: var(--graphite);
-    max-width: 100px;
-  }
-  .prog-text strong {
-    display: block;
-    color: var(--ink);
-    font-size: 12px;
-  }
-
-  @media (max-width: 768px) {
-    .hero { padding: 48px 24px 40px; }
-    .framework, .competency-map, .eval-section, .biblio { padding: 40px 24px; }
-    .program-body { padding: 40px 20px; }
-    .module-header { flex-wrap: wrap; padding: 20px 20px; }
-    .module-body { padding: 0 20px 24px; }
-    .module-grid { grid-template-columns: 1fr; }
-    .module-stats { display: none; }
-    .progress-container { padding: 32px 24px; }
-    .prog-text { display: none; }
-  }
-
-  @media print {
-    .module-body { display: block !important; }
-  }
-</style>
-<base target="_blank">
+<title>Campus Virtual de Formación en Entrevista Motivacional</title>
+<link rel="stylesheet" href="css/styles.css">
 </head>
 <body>
 
-<!-- HERO -->
-<header class="hero">
-  <div class="hero-eyebrow">Programa de Formación Especializada · Psicología Clínica</div>
-  <h1>Entrevista<br>Motivacional:<br><em>De Aprendiz a Experto</em></h1>
-  <p class="hero-desc">Programa modular de formación clínica basado en el modelo de Miller &amp; Rollnick (3.ª ed.) e integrado con la investigación en neurociencia del cambio, psicometría del proceso terapéutico y supervisión con estándares internacionales MINT.</p>
-  <div class="hero-meta">
-    <div class="meta-item">
-      <span class="meta-label">Módulos</span>
-      <span class="meta-value">5 Niveles</span>
+<!-- BARRA DE NAVEGACIÓN SUPERIOR INTERACTIVA -->
+<header class="top-nav">
+  <div class="nav-container">
+    <div class="nav-brand">
+      <span class="brand-badge">CAMPUS MINT / EM</span>
+      <span class="brand-title">Entrevista Motivacional</span>
     </div>
-    <div class="meta-item">
-      <span class="meta-label">Horas académicas</span>
-      <span class="meta-value">160 h</span>
-    </div>
-    <div class="meta-item">
-      <span class="meta-label">Modalidad</span>
-      <span class="meta-value">Teórico-práctica</span>
-    </div>
-    <div class="meta-item">
-      <span class="meta-label">Nivel</span>
-      <span class="meta-value">Posgrado / Especialización</span>
-    </div>
-    <div class="meta-item">
-      <span class="meta-label">Evidencia base</span>
-      <span class="meta-value">Miller &amp; Rollnick · MINT · MITI 4.2</span>
+    <nav class="nav-tabs">
+      <a href="#separatas" class="nav-tab active" data-tab="separatas">📖 Separatas de Lectura</a>
+      <a href="#simulator" class="nav-tab" data-tab="simulator">🩺 Clínica Virtual (Simulador)</a>
+      <a href="#lab" class="nav-tab" data-tab="lab">🔬 Laboratorio DARN-CAT / OARS</a>
+      <a href="#timeline" class="nav-tab" data-tab="timeline">🏛️ Historia (1982–2023)</a>
+      <a href="#program" class="nav-tab" data-tab="program">📚 Programa Curricular</a>
+      <a href="#eval" class="nav-tab" data-tab="eval">📋 Rúbrica MITI y Referencias</a>
+    </nav>
+  </div>
+  <div class="progress-strip">
+    <div class="progress-strip-inner">
+      <span id="progress-separatas-count">0 de 6 separatas leídas</span>
+      <div class="progress-bar-container">
+        <div id="progress-bar-fill" class="progress-bar-fill"></div>
+      </div>
+      <span>Curso Interactivo con Respaldo Académico APA</span>
     </div>
   </div>
 </header>
 
-<!-- PROGRESO VISUAL -->
-<div class="progress-container">
-  <div class="progress-label">Trayectoria de formación</div>
-  <div class="progress-track">
-    <div class="prog-node">
-      <div class="prog-dot" style="background:var(--m1)">M1</div>
-      <div class="prog-line" style="background:linear-gradient(90deg,var(--m1),var(--m2))"></div>
-      <div class="prog-text"><strong>Fundamentos</strong>Aprendiz</div>
-    </div>
-    <div class="prog-node">
-      <div class="prog-dot" style="background:var(--m2)">M2</div>
-      <div class="prog-line" style="background:linear-gradient(90deg,var(--m2),var(--m3))"></div>
-      <div class="prog-text"><strong>Habilidades PACE</strong>Iniciado</div>
-    </div>
-    <div class="prog-node">
-      <div class="prog-dot" style="background:var(--m3)">M3</div>
-      <div class="prog-line" style="background:linear-gradient(90deg,var(--m3),var(--m4))"></div>
-      <div class="prog-text"><strong>Proceso EM</strong>Competente</div>
-    </div>
-    <div class="prog-node">
-      <div class="prog-dot" style="background:var(--m4)">M4</div>
-      <div class="prog-line" style="background:linear-gradient(90deg,var(--m4),var(--m5))"></div>
-      <div class="prog-text"><strong>Poblaciones</strong>Avanzado</div>
-    </div>
-    <div class="prog-node">
-      <div class="prog-dot" style="background:var(--m5)">M5</div>
-      <div class="prog-line" style="background:transparent"></div>
-      <div class="prog-text"><strong>Supervisión</strong>Experto</div>
+<!-- HERO PRINCIPAL -->
+<header class="hero">
+  <div class="hero-content">
+    <div class="hero-eyebrow">Programa de Formación Profesional y Clínica</div>
+    <h1>Entrevista Motivacional: <em>De Aprendiz a Experto</em></h1>
+    <p class="hero-desc">
+      Entorno formativo interactivo basado en la literatura científica de Miller & Rollnick (1983–2023), 
+      investigación psicolingüística de Amrhein (2003) y el sistema estandarizado de fidelidad MITI 4.2.1.
+    </p>
+    <div class="hero-meta">
+      <div class="meta-item">
+        <span class="meta-label">Versión Canónica</span>
+        <span class="meta-value">4.ª Edición (2023) PACE-E</span>
+      </div>
+      <div class="meta-item">
+        <span class="meta-label">Modalidad</span>
+        <span class="meta-value">Lectura Activa + Simulación Clínica</span>
+      </div>
+      <div class="meta-item">
+        <span class="meta-label">Estándar de Fidelidad</span>
+        <span class="meta-value">MITI 4.2.1 (MINT)</span>
+      </div>
+      <div class="meta-item">
+        <span class="meta-label">Rigor Teórico</span>
+        <span class="meta-value">Rogers · Bem · Festinger · Bandura</span>
+      </div>
     </div>
   </div>
-</div>
+</header>
 
-<!-- MARCO TEÓRICO -->
-<section class="framework">
-  <div class="section-label">Base epistemológica</div>
-  <h2>Fundamentos conceptuales del programa</h2>
-  <p style="color:var(--graphite);max-width:720px;font-size:14.5px;line-height:1.7">
+<main class="main-wrapper">
+
+  <!-- SECCIÓN 1: SEPARATAS DE LECTURA ACADÉMICA -->
+  <section id="section-separatas" class="tab-section active">
+    <div class="section-headline">
+      <span class="section-tag">Biblioteca Formativa</span>
+      <h2>Separatas de Lectura y Resúmenes Académicos</h2>
+      <p>Material bibliográfico estructurado con rigor conceptual, casos clínicos documentados y citas en normas APA 7.ª edición. Haz clic en "Leer en Visor" para estudiar sin salir de la plataforma.</p>
+    </div>
+
+    <div class="separatas-grid">
+      <!-- Separatas 0 -->
+      <article class="separata-card">
+        <div>
+          <span class="card-badge">Separatas 0 · Epistemología</span>
+          <h3>Historia, Evolución y Raíces Psicológicas (1982–2023)</h3>
+          <p>De la clínica Hjellestad en Bergen (1982) a la 4.ª edición (2023). Integración teórica de Rogers, Bem (Autopercepción), Festinger (Disonancia) y Bandura (Autoeficacia). Clarificación frente al Modelo Transteórico.</p>
+          <div class="card-highlights">
+            ⏱️ Lectura: 25 min · 📚 14 referencias APA · 🔬 Estudio Amrhein 2003
+          </div>
+        </div>
+        <div class="card-actions">
+          <button class="btn-read-modal" onclick="window.app.openReader('separatas/separata-0-historia-fundamentos.html', 'sep-0')">📖 Leer en Visor</button>
+          <a href="separatas/separata-0-historia-fundamentos.html" target="_blank" class="btn-open-tab">↗ Abrir Pestaña</a>
+        </div>
+      </article>
+
+      <!-- Separatas 1 -->
+      <article class="separata-card">
+        <div>
+          <span class="card-badge">Separatas 1 · Filosofía Clínica</span>
+          <h3>El Espíritu PACE-E y Obstáculos Comunicacionales</h3>
+          <p>Profundización en Asociación, Aceptación, Compasión y Empoderamiento (Empowerment). Deconstrucción del <em>Fixing Reflex</em> y las 6 trampas comunicacionales que dañan la alianza.</p>
+          <div class="card-highlights">
+            ⏱️ Lectura: 20 min · 🎯 De Evocación a Empoderamiento · 🛡️ Trampas
+          </div>
+        </div>
+        <div class="card-actions">
+          <button class="btn-read-modal" onclick="window.app.openReader('separatas/separata-1-espiritu-pace.html', 'sep-1')">📖 Leer en Visor</button>
+          <a href="separatas/separata-1-espiritu-pace.html" target="_blank" class="btn-open-tab">↗ Abrir Pestaña</a>
+        </div>
+      </article>
+
+      <!-- Separatas 2 -->
+      <article class="separata-card">
+        <div>
+          <span class="card-badge">Separatas 2 · Lingüística Aplicada</span>
+          <h3>Habilidades OARS y Psicolingüística DARN-CAT</h3>
+          <p>Formulación de preguntas abiertas, afirmaciones simples vs. complejas (Miller & Moyers, 2021), niveles de escucha reflexiva y discriminación del lenguaje preparatorio (DARN) y de compromiso (CAT).</p>
+          <div class="card-highlights">
+            ⏱️ Lectura: 22 min · 💬 Modelo DARN-CAT · 🔄 Reflejos Complejos
+          </div>
+        </div>
+        <div class="card-actions">
+          <button class="btn-read-modal" onclick="window.app.openReader('separatas/separata-2-oars-darn-cat.html', 'sep-2')">📖 Leer en Visor</button>
+          <a href="separatas/separata-2-oars-darn-cat.html" target="_blank" class="btn-open-tab">↗ Abrir Pestaña</a>
+        </div>
+      </article>
+
+      <!-- Separatas 3 -->
+      <article class="separata-card">
+        <div>
+          <span class="card-badge">Separatas 3 · Proceso Clínico</span>
+          <h3>Las Cuatro Tareas de la EM (Tasks)</h3>
+          <p>Vincular (Engaging), Elegir un Camino (Choosing a Path), Evocar / Sembrar Semillas (Planting Seeds) y Planificar (Planning). Reglas de importancia y confianza, exploración de extremos y valores.</p>
+          <div class="card-highlights">
+            ⏱️ Lectura: 25 min · 🧭 Choosing a Path · 🌱 Planting Seeds
+          </div>
+        </div>
+        <div class="card-actions">
+          <button class="btn-read-modal" onclick="window.app.openReader('separatas/separata-3-cuatro-tareas.html', 'sep-3')">📖 Leer en Visor</button>
+          <a href="separatas/separata-3-cuatro-tareas.html" target="_blank" class="btn-open-tab">↗ Abrir Pestaña</a>
+        </div>
+      </article>
+
+      <!-- Separatas 4 -->
+      <article class="separata-card">
+        <div>
+          <span class="card-badge">Separatas 4 · Evidencia y Contextos</span>
+          <h3>EM en Contextos Clínicos Especializados</h3>
+          <p>Aplicación en trastornos por consumo de sustancias y reducción de daños, manejo de patologías crónicas (diabetes tipo 2, HTA), clientes no voluntarios (justicia penal) y protocolo SBIRT.</p>
+          <div class="card-highlights">
+            ⏱️ Lectura: 25 min · 💊 Salud Crónica · ⚖️ Clientes Mandatados
+          </div>
+        </div>
+        <div class="card-actions">
+          <button class="btn-read-modal" onclick="window.app.openReader('separatas/separata-4-contextos-clinicos.html', 'sep-4')">📖 Leer en Visor</button>
+          <a href="separatas/separata-4-contextos-clinicos.html" target="_blank" class="btn-open-tab">↗ Abrir Pestaña</a>
+        </div>
+      </article>
+
+      <!-- Separatas 5 -->
+      <article class="separata-card">
+        <div>
+          <span class="card-badge">Separatas 5 · Evaluación y Supervisión</span>
+          <h3>Fidelidad Clínica y el Manual MITI 4.2.1</h3>
+          <p>Puntuaciones globales (técnicas y relacionales), conteo de conductas (preguntas, reflejos, EMA/EMNA), umbrales numéricos de competencia MINT y práctica deliberada en supervisión.</p>
+          <div class="card-highlights">
+            ⏱️ Lectura: 25 min · 📊 Rúbricas MITI · 🎓 Formación de Formadores
+          </div>
+        </div>
+        <div class="card-actions">
+          <button class="btn-read-modal" onclick="window.app.openReader('separatas/separata-5-fidelidad-miti.html', 'sep-5')">📖 Leer en Visor</button>
+          <a href="separatas/separata-5-fidelidad-miti.html" target="_blank" class="btn-open-tab">↗ Abrir Pestaña</a>
+        </div>
+      </article>
+    </div>
+  </section>
+
+  <!-- SECCIÓN 2: SIMULADOR CLÍNICO INTERACTIVO -->
+  <section id="section-simulator" class="tab-section">
+    <div class="section-headline">
+      <span class="section-tag">Clínica Virtual</span>
+      <h2>Simulador de Diálogos Clínicos y Toma de Decisiones</h2>
+      <p>Entrénate asumiendo el rol del terapeuta ante viñetas clínicas complejas. Cada intervención elegida se califica en vivo según la rúbrica MITI 4.2.1 y la literatura científica de Miller & Rollnick (2023).</p>
+    </div>
+    <div id="simulator-container"></div>
+  </section>
+
+  <!-- SECCIÓN 3: LABORATORIO DE MICRO-HABILIDADES -->
+  <section id="section-lab" class="tab-section">
+    <div class="section-headline">
+      <span class="section-tag">Práctica Deliberada</span>
+      <h2>Laboratorio de Micro-habilidades (DARN-CAT & OARS)</h2>
+      <p>Ejercicios de discriminación fina: clasifica en tiempo real el discurso de pacientes reales e identifica las formulaciones con verdadero espíritu de Entrevista Motivacional.</p>
+    </div>
+    <div id="laboratory-container"></div>
+  </section>
+
+  <!-- SECCIÓN 4: LÍNEA DE TIEMPO HISTÓRICA -->
+  <section id="section-timeline" class="tab-section">
+    <div class="section-headline">
+      <span class="section-tag">Hitos Científicos</span>
+      <h2>Evolución Histórica y Epistemológica de la EM (1982–2023)</h2>
+      <p>Cuatro décadas de desarrollo desde la práctica clínica de Miller en Noruega hasta la 4.ª edición revisada.</p>
+    </div>
+
+    <div class="timeline-track">
+      <div class="timeline-item">
+        <div class="timeline-node"></div>
+        <div class="timeline-box">
+          <span class="timeline-year">1982 · BERGEN, NORUEGA</span>
+          <h4>La Génesis en la Clínica Hjellestad</h4>
+          <p>William R. Miller, en año sabático trabajando con personas con consumo problemático de alcohol, supervisa a psicólogos noveles. Al explicar por qué no confronta a los pacientes, sistematiza por primera vez el estilo clínico de no confrontación y calidez rogeriana en un borrador mecanografiado de 35 páginas.</p>
+        </div>
+      </div>
+
+      <div class="timeline-item">
+        <div class="timeline-node"></div>
+        <div class="timeline-box">
+          <span class="timeline-year">1983 · PRIMERA PUBLICACIÓN</span>
+          <h4>"Motivational Interviewing with Problem Drinkers"</h4>
+          <p>Miller publica el artículo fundacional en <em>Behavioural Psychotherapy</em> (11(2), 147–172). Se integran formalmente la empatía de Carl Rogers con la psicología social experimental: teoría de la atribución, disonancia cognitiva de Festinger y autoeficacia de Bandura.</p>
+        </div>
+      </div>
+
+      <div class="timeline-item">
+        <div class="timeline-node"></div>
+        <div class="timeline-box">
+          <span class="timeline-year">1989–1991 · COOPERACIÓN INTERNACIONAL</span>
+          <h4>Encuentro con Stephen Rollnick y 1.ª Edición</h4>
+          <p>Miller conoce en Sídney a Stephen Rollnick, quien trabajaba en adicciones y medicina comunitaria en el Reino Unido. Publican juntos en 1991 el primer manual oficial: <em>Motivational Interviewing: Preparing People to Change Addictive Behavior</em> (Guilford Press).</p>
+        </div>
+      </div>
+
+      <div class="timeline-item">
+        <div class="timeline-node"></div>
+        <div class="timeline-box">
+          <span class="timeline-year">1994 · COMUNIDAD CIENTÍFICA</span>
+          <h4>Fundación de la Red MINT</h4>
+          <p>Nace en Albuquerque (Nuevo México) la <em>Motivational Interviewing Network of Trainers</em> (MINT) para garantizar la calidad pedagógica, fidelidad clínica y supervisión internacional de la práctica.</p>
+        </div>
+      </div>
+
+      <div class="timeline-item">
+        <div class="timeline-node"></div>
+        <div class="timeline-box">
+          <span class="timeline-year">2002 · EXPANSIÓN MÉDICA</span>
+          <h4>2.ª Edición: Aplicación General en Salud</h4>
+          <p>Publicación de <em>Motivational Interviewing: Preparing People for Change</em>. La EM se expande a la medicina general, manejo de diabetes, hipertensión, ejercicio físico y adherencia terapéutica.</p>
+        </div>
+      </div>
+
+      <div class="timeline-item">
+        <div class="timeline-node"></div>
+        <div class="timeline-box">
+          <span class="timeline-year">2003 · EVIDENCIA PSICOLINGÜÍSTICA</span>
+          <h4>El Modelo DARN-CAT de Paul Amrhein</h4>
+          <p>Investigación pionera (Amrhein et al., 2003) en el <em>Journal of Consulting and Clinical Psychology</em> demuestra que el patrón y fuerza del lenguaje de compromiso intra-sesión predice la abstinencia meses después.</p>
+        </div>
+      </div>
+
+      <div class="timeline-item">
+        <div class="timeline-node"></div>
+        <div class="timeline-box">
+          <span class="timeline-year">2012 · REESTRUCTURACIÓN METODOLÓGICA</span>
+          <h4>3.ª Edición: Los Cuatro Procesos y PACE</h4>
+          <p>Se introducen formalmente los Cuatro Procesos (Vincular, Enfocar, Evocar, Planificar) y el acrónimo del espíritu clínico PACE (Partnership, Acceptance, Compassion, Evocation).</p>
+        </div>
+      </div>
+
+      <div class="timeline-item">
+        <div class="timeline-node"></div>
+        <div class="timeline-box">
+          <span class="timeline-year">2014–2017 · MEDICIÓN DE FIDELIDAD</span>
+          <h4>Sistema MITI 4.2.1 de Evaluación</h4>
+          <p>Moyers, Manuel & Ernst publican el manual estandarizado de codificación psicométrica MITI 4.2.1, estableciendo umbrales objetivos de calidad para la práctica clínica y la supervisión.</p>
+        </div>
+      </div>
+
+      <div class="timeline-item">
+        <div class="timeline-node"></div>
+        <div class="timeline-box">
+          <span class="timeline-year">2023 · NUEVA FRONTERA</span>
+          <h4>4.ª Edición: Helping People Change and Grow</h4>
+          <p>Miller y Rollnick publican la 4.ª edición revisada: se profundiza el espíritu hacia el <strong>Empoderamiento (*Empowerment*)</strong>; los procesos se simplifican a <strong>Tareas (*Tasks*)</strong>; se adopta el <strong>Fixing Reflex</strong>; y se introducen las técnicas de <em>Choosing a Path</em> y <em>Planting Seeds</em>.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- SECCIÓN 5: PROGRAMA Y MÓDULOS CURRICULARES -->
+  <section id="section-program" class="tab-section">
+    <section class="framework">
+<div class="section-label">Base epistemológica</div>
+<h2>Fundamentos conceptuales del programa</h2>
+<p style="color:var(--graphite);max-width:720px;font-size:14.5px;line-height:1.7">
     La Entrevista Motivacional (EM) es un método clínico directivo y centrado en la persona para resolver la ambivalencia y fortalecer la motivación intrínseca hacia el cambio. La formación integra el espíritu de la EM, sus cuatro procesos y las habilidades PACE como ejes vertebradores progresivos.
   </p>
-  <div class="pillars">
-    <div class="pillar">
-      <div class="pillar-num">Pilar 01</div>
-      <h4>Espíritu de la EM</h4>
-      <p>Asociación, aceptación incondicional, compasión y evocación como actitudes clínicas fundamentales no negociables.</p>
-    </div>
-    <div class="pillar">
-      <div class="pillar-num">Pilar 02</div>
-      <h4>Modelo Transteórico</h4>
-      <p>Prochaska &amp; DiClemente: fases de cambio como contexto diagnóstico para adaptar la intervención motivacional.</p>
-    </div>
-    <div class="pillar">
-      <div class="pillar-num">Pilar 03</div>
-      <h4>Cuatro Procesos EM</h4>
-      <p>Vincular, Enfocar, Evocar y Planificar como secuencia clínica con flexibilidad no lineal.</p>
-    </div>
-    <div class="pillar">
-      <div class="pillar-num">Pilar 04</div>
-      <h4>Neurociencia del cambio</h4>
-      <p>Regulación del cortex prefrontal, activación dopaminérgica y plasticidad motivacional como sustrato del proceso.</p>
-    </div>
-    <div class="pillar">
-      <div class="pillar-num">Pilar 05</div>
-      <h4>Fidelidad MITI 4.2</h4>
-      <p>Motivational Interviewing Treatment Integrity como estándar de evaluación de competencia clínica observable.</p>
-    </div>
-  </div>
+<div class="pillars">
+<div class="pillar">
+<div class="pillar-num">Pilar 01</div>
+<h4>Espíritu de la EM</h4>
+<p>Asociación, aceptación incondicional, compasión y evocación como actitudes clínicas fundamentales no negociables.</p>
+</div>
+<div class="pillar">
+<div class="pillar-num">Pilar 02</div>
+<h4>Modelo Transteórico</h4>
+<p>Prochaska &amp; DiClemente: fases de cambio como contexto diagnóstico para adaptar la intervención motivacional.</p>
+</div>
+<div class="pillar">
+<div class="pillar-num">Pilar 03</div>
+<h4>Cuatro Procesos EM</h4>
+<p>Vincular, Enfocar, Evocar y Planificar como secuencia clínica con flexibilidad no lineal.</p>
+</div>
+<div class="pillar">
+<div class="pillar-num">Pilar 04</div>
+<h4>Neurociencia del cambio</h4>
+<p>Regulación del cortex prefrontal, activación dopaminérgica y plasticidad motivacional como sustrato del proceso.</p>
+</div>
+<div class="pillar">
+<div class="pillar-num">Pilar 05</div>
+<h4>Fidelidad MITI 4.2</h4>
+<p>Motivational Interviewing Treatment Integrity como estándar de evaluación de competencia clínica observable.</p>
+</div>
+</div>
 </section>
-
-<!-- MÓDULOS -->
-<main class="program-body">
-  <div class="program-header">
-    <div class="section-label">Estructura curricular</div>
-    <h2>Cinco módulos de formación progresiva</h2>
-    <p>Cada módulo construye sobre el anterior. La transición entre niveles requiere evaluación de competencias certificada mediante codificación MITI.</p>
-  </div>
-
-  <!-- M1 -->
-  <div class="module m1">
-    <div class="module-header">
-      <div class="module-badge">M1</div>
-      <div class="module-meta">
-        <div class="module-level">Nivel: Aprendiz · Fundamentos epistemológicos</div>
-        <div class="module-title">Bases Teóricas y Espíritu de la Entrevista Motivacional</div>
-        <div class="module-subtitle">Qué es la EM, qué no es, y por qué funciona</div>
-      </div>
-      <div class="module-stats">
-        <div class="stat"><div class="stat-val">32</div><div class="stat-lbl">Horas</div></div>
-        <div class="stat"><div class="stat-val">8</div><div class="stat-lbl">Unidades</div></div>
-      </div>
-    </div>
-    <div class="module-body">
-      <div class="module-grid">
-        <div>
-          <div class="col-label">Contenidos del módulo</div>
-          <ul class="unit-list">
-            <li><span class="unit-num">1.1</span>Historia y desarrollo de la EM: de Drinker Project (1983) a la 3.ª edición (2012). Contexto sociohistórico.</li>
-            <li><span class="unit-num">1.2</span>Diferenciación conceptual: EM vs. counseling rogersiano, TCC, terapia de confrontación y psicoeducación directiva.</li>
-            <li><span class="unit-num">1.3</span>El espíritu de la EM: PACE (Partnership, Acceptance, Compassion, Evocation). Análisis componencial.</li>
-            <li><span class="unit-num">1.4</span>Modelo Transteórico del Cambio: precontemplación, contemplación, preparación, acción, mantenimiento y recaída.</li>
-            <li><span class="unit-num">1.5</span>Neurociencia de la motivación: dopamina, sistema de recompensa, cortex prefrontal ventromedial y comportamiento dirigido a metas.</li>
-            <li><span class="unit-num">1.6</span>Resistencia y discordancia: definición actualizada (Miller &amp; Rollnick, 2012) y su diferencia con el concepto clásico de "resistencia".</li>
-            <li><span class="unit-num">1.7</span>Meta-análisis de eficacia: Lundahl et al. (2010), Hettema et al. (2005) y revisiones Cochrane por área clínica.</li>
-            <li><span class="unit-num">1.8</span>Ética en EM: autonomía del paciente, consentimiento informado y límites de la evocación del cambio.</li>
-          </ul>
-        </div>
-        <div>
-          <div class="col-label">Competencias a desarrollar</div>
-          <ul class="comp-list">
-            <li><span class="comp-icon">🧭</span>Distinguir la EM de otras intervenciones psicoterapéuticas con criterios empíricos precisos.</li>
-            <li><span class="comp-icon">🧠</span>Explicar el sustrato neurobiológico de la motivación intrínseca y la ambivalencia.</li>
-            <li><span class="comp-icon">📊</span>Ubicar al paciente en el estadio de cambio pertinente usando indicadores conductuales y verbales.</li>
-            <li><span class="comp-icon">🔬</span>Citar y contextualizar evidencia empírica sobre eficacia de la EM por diagnóstico.</li>
-            <li><span class="comp-icon">⚖️</span>Identificar dilemas éticos en el uso de la EM en contextos coercitivos o institucionales.</li>
-          </ul>
-          <div class="evidence-strip">
-            <strong>Base de evidencia clave:</strong> Miller &amp; Rollnick (2012, 3.ª ed.); Lundahl et al. (2010) meta-análisis 119 estudios RCT; Hettema, Steele &amp; Miller (2005) Annual Review of Clinical Psychology.
+    <main class="program-body">
+<div class="program-header">
+<div class="section-label">Estructura curricular</div>
+<h2>Cinco módulos de formación progresiva</h2>
+<p>Cada módulo construye sobre el anterior. La transición entre niveles requiere evaluación de competencias certificada mediante codificación MITI.</p>
+</div>
+<!-- M1 -->
+<div class="module m1">
+<div class="module-header">
+<div class="module-badge">M1</div>
+<div class="module-meta">
+<div class="module-level">Nivel: Aprendiz · Fundamentos epistemológicos</div>
+<div class="module-title">Bases Teóricas y Espíritu de la Entrevista Motivacional</div>
+<div class="module-subtitle">Qué es la EM, qué no es, y por qué funciona</div>
+</div>
+<div class="module-stats">
+<div class="stat"><div class="stat-val">32</div><div class="stat-lbl">Horas</div></div>
+<div class="stat"><div class="stat-val">8</div><div class="stat-lbl">Unidades</div></div>
+</div>
+</div>
+<div class="module-body">
+<div class="module-grid">
+<div>
+<div class="col-label">Contenidos del módulo</div>
+<ul class="unit-list">
+<li><span class="unit-num">1.1</span>Historia y desarrollo de la EM: de Drinker Project (1983) a la 3.ª edición (2012). Contexto sociohistórico.</li>
+<li><span class="unit-num">1.2</span>Diferenciación conceptual: EM vs. counseling rogersiano, TCC, terapia de confrontación y psicoeducación directiva.</li>
+<li><span class="unit-num">1.3</span>El espíritu de la EM: PACE (Partnership, Acceptance, Compassion, Evocation). Análisis componencial.</li>
+<li><span class="unit-num">1.4</span>Modelo Transteórico del Cambio: precontemplación, contemplación, preparación, acción, mantenimiento y recaída.</li>
+<li><span class="unit-num">1.5</span>Neurociencia de la motivación: dopamina, sistema de recompensa, cortex prefrontal ventromedial y comportamiento dirigido a metas.</li>
+<li><span class="unit-num">1.6</span>Resistencia y discordancia: definición actualizada (Miller &amp; Rollnick, 2012) y su diferencia con el concepto clásico de "resistencia".</li>
+<li><span class="unit-num">1.7</span>Meta-análisis de eficacia: Lundahl et al. (2010), Hettema et al. (2005) y revisiones Cochrane por área clínica.</li>
+<li><span class="unit-num">1.8</span>Ética en EM: autonomía del paciente, consentimiento informado y límites de la evocación del cambio.</li>
+</ul>
+</div>
+<div>
+<div class="col-label">Competencias a desarrollar</div>
+<ul class="comp-list">
+<li><span class="comp-icon">🧭</span>Distinguir la EM de otras intervenciones psicoterapéuticas con criterios empíricos precisos.</li>
+<li><span class="comp-icon">🧠</span>Explicar el sustrato neurobiológico de la motivación intrínseca y la ambivalencia.</li>
+<li><span class="comp-icon">📊</span>Ubicar al paciente en el estadio de cambio pertinente usando indicadores conductuales y verbales.</li>
+<li><span class="comp-icon">🔬</span>Citar y contextualizar evidencia empírica sobre eficacia de la EM por diagnóstico.</li>
+<li><span class="comp-icon">⚖️</span>Identificar dilemas éticos en el uso de la EM en contextos coercitivos o institucionales.</li>
+</ul>
+<div class="evidence-strip">
+<strong>Base de evidencia clave:</strong> Miller &amp; Rollnick (2012, 3.ª ed.); Lundahl et al. (2010) meta-análisis 119 estudios RCT; Hettema, Steele &amp; Miller (2005) Annual Review of Clinical Psychology.
           </div>
-        </div>
-      </div>
-      <div class="eval-row">
-        <span class="eval-label">Evaluación</span>
-        <div class="eval-tags">
-          <span class="eval-tag">Examen conceptual escrito</span>
-          <span class="eval-tag">Mapa conceptual integrador</span>
-          <span class="eval-tag">Análisis de caso en estadio de cambio</span>
-        </div>
-      </div>
-    </div>
-  </div>
-
-  <!-- M2 -->
-  <div class="module m2">
-    <div class="module-header">
-      <div class="module-badge">M2</div>
-      <div class="module-meta">
-        <div class="module-level">Nivel: Iniciado · Habilidades comunicacionales nucleares</div>
-        <div class="module-title">Habilidades OARS: La Caja de Herramientas Técnicas</div>
-        <div class="module-subtitle">Preguntas abiertas, Afirmaciones, Reflejo y Resúmenes en profundidad clínica</div>
-      </div>
-      <div class="module-stats">
-        <div class="stat"><div class="stat-val">32</div><div class="stat-lbl">Horas</div></div>
-        <div class="stat"><div class="stat-val">10</div><div class="stat-lbl">Unidades</div></div>
-      </div>
-    </div>
-    <div class="module-body">
-      <div class="module-grid">
-        <div>
-          <div class="col-label">Contenidos del módulo</div>
-          <ul class="unit-list">
-            <li><span class="unit-num">2.1</span>Preguntas abiertas: tipología, función estratégica y errores frecuentes. Diferencia entre explorar y interrogar.</li>
-            <li><span class="unit-num">2.2</span>Afirmaciones genuinas: distinción de la validación conductual superficial. Construcción basada en fortalezas reales.</li>
-            <li><span class="unit-num">2.3</span>Reflejo simple: función especular y riesgo de parroteo. Selección del contenido relevante.</li>
-            <li><span class="unit-num">2.4</span>Reflejo complejo: amplificado, de doble cara, de metáfora y parafraseado hipotético. Taxonomía y aplicación.</li>
-            <li><span class="unit-num">2.5</span>Resúmenes colectores, de enlace y de transición: cuándo y cómo estructurarlos sin interrumpir el flujo.</li>
-            <li><span class="unit-num">2.6</span>Razón de reflejo/pregunta (R:P) como indicador de fidelidad: objetivo ≥ 2:1 en codificación MITI.</li>
-            <li><span class="unit-num">2.7</span>Codificación de sesiones con MITI 4.2: entrenamiento en identificación de conductas del terapeuta.</li>
-            <li><span class="unit-num">2.8</span>Trampas relacionales: el experto, la etiqueta, el foco prematuro, la confrontación y el dar soluciones.</li>
-            <li><span class="unit-num">2.9</span>Rol-play estructurado I: ejercicios dyádicos con retroalimentación diferida por video.</li>
-            <li><span class="unit-num">2.10</span>Supervisión entre pares: análisis de fragmentos con rúbrica MITI. Autoevaluación reflexiva.</li>
-          </ul>
-        </div>
-        <div>
-          <div class="col-label">Competencias a desarrollar</div>
-          <ul class="comp-list">
-            <li><span class="comp-icon">🎯</span>Aplicar OARS de forma deliberada y estratégica, no como técnicas mecánicas.</li>
-            <li><span class="comp-icon">🔊</span>Formular reflejos complejos en tiempo real que añadan comprensión al contenido del paciente.</li>
-            <li><span class="comp-icon">📐</span>Mantener una razón R:P ≥ 2:1 en sesiones simuladas codificadas con MITI.</li>
-            <li><span class="comp-icon">🎬</span>Identificar las cinco trampas relacionales en fragmentos de video y proponer correcciones.</li>
-            <li><span class="comp-icon">📝</span>Construir resúmenes de transición que enmarquen la ambivalencia sin tomar partido.</li>
-          </ul>
-          <div class="evidence-strip">
-            <strong>Base de evidencia:</strong> Moyers et al. (2009) MITI 3.1; Moyers, Manuel &amp; Ernst (2014) MITI 4.2.1; Miller, Moyers, Ernst &amp; Amrhein (2003) codificación de habilidades terapéuticas.
+</div>
+</div>
+<div class="eval-row">
+<span class="eval-label">Evaluación</span>
+<div class="eval-tags">
+<span class="eval-tag">Examen conceptual escrito</span>
+<span class="eval-tag">Mapa conceptual integrador</span>
+<span class="eval-tag">Análisis de caso en estadio de cambio</span>
+</div>
+</div>
+</div>
+</div>
+<!-- M2 -->
+<div class="module m2">
+<div class="module-header">
+<div class="module-badge">M2</div>
+<div class="module-meta">
+<div class="module-level">Nivel: Iniciado · Habilidades comunicacionales nucleares</div>
+<div class="module-title">Habilidades OARS: La Caja de Herramientas Técnicas</div>
+<div class="module-subtitle">Preguntas abiertas, Afirmaciones, Reflejo y Resúmenes en profundidad clínica</div>
+</div>
+<div class="module-stats">
+<div class="stat"><div class="stat-val">32</div><div class="stat-lbl">Horas</div></div>
+<div class="stat"><div class="stat-val">10</div><div class="stat-lbl">Unidades</div></div>
+</div>
+</div>
+<div class="module-body">
+<div class="module-grid">
+<div>
+<div class="col-label">Contenidos del módulo</div>
+<ul class="unit-list">
+<li><span class="unit-num">2.1</span>Preguntas abiertas: tipología, función estratégica y errores frecuentes. Diferencia entre explorar y interrogar.</li>
+<li><span class="unit-num">2.2</span>Afirmaciones genuinas: distinción de la validación conductual superficial. Construcción basada en fortalezas reales.</li>
+<li><span class="unit-num">2.3</span>Reflejo simple: función especular y riesgo de parroteo. Selección del contenido relevante.</li>
+<li><span class="unit-num">2.4</span>Reflejo complejo: amplificado, de doble cara, de metáfora y parafraseado hipotético. Taxonomía y aplicación.</li>
+<li><span class="unit-num">2.5</span>Resúmenes colectores, de enlace y de transición: cuándo y cómo estructurarlos sin interrumpir el flujo.</li>
+<li><span class="unit-num">2.6</span>Razón de reflejo/pregunta (R:P) como indicador de fidelidad: objetivo ≥ 2:1 en codificación MITI.</li>
+<li><span class="unit-num">2.7</span>Codificación de sesiones con MITI 4.2: entrenamiento en identificación de conductas del terapeuta.</li>
+<li><span class="unit-num">2.8</span>Trampas relacionales: el experto, la etiqueta, el foco prematuro, la confrontación y el dar soluciones.</li>
+<li><span class="unit-num">2.9</span>Rol-play estructurado I: ejercicios dyádicos con retroalimentación diferida por video.</li>
+<li><span class="unit-num">2.10</span>Supervisión entre pares: análisis de fragmentos con rúbrica MITI. Autoevaluación reflexiva.</li>
+</ul>
+</div>
+<div>
+<div class="col-label">Competencias a desarrollar</div>
+<ul class="comp-list">
+<li><span class="comp-icon">🎯</span>Aplicar OARS de forma deliberada y estratégica, no como técnicas mecánicas.</li>
+<li><span class="comp-icon">🔊</span>Formular reflejos complejos en tiempo real que añadan comprensión al contenido del paciente.</li>
+<li><span class="comp-icon">📐</span>Mantener una razón R:P ≥ 2:1 en sesiones simuladas codificadas con MITI.</li>
+<li><span class="comp-icon">🎬</span>Identificar las cinco trampas relacionales en fragmentos de video y proponer correcciones.</li>
+<li><span class="comp-icon">📝</span>Construir resúmenes de transición que enmarquen la ambivalencia sin tomar partido.</li>
+</ul>
+<div class="evidence-strip">
+<strong>Base de evidencia:</strong> Moyers et al. (2009) MITI 3.1; Moyers, Manuel &amp; Ernst (2014) MITI 4.2.1; Miller, Moyers, Ernst &amp; Amrhein (2003) codificación de habilidades terapéuticas.
           </div>
-        </div>
-      </div>
-      <div class="eval-row">
-        <span class="eval-label">Evaluación</span>
-        <div class="eval-tags">
-          <span class="eval-tag">Sesión grabada 20 min codificada MITI</span>
-          <span class="eval-tag">Análisis de fragmentos escritos</span>
-          <span class="eval-tag">Rol-play con retroalimentación inmediata</span>
-        </div>
-      </div>
-    </div>
-  </div>
-
-  <!-- M3 -->
-  <div class="module m3">
-    <div class="module-header">
-      <div class="module-badge">M3</div>
-      <div class="module-meta">
-        <div class="module-level">Nivel: Competente · Procesos terapéuticos nucleares</div>
-        <div class="module-title">Los Cuatro Procesos EM: Vincular, Enfocar, Evocar y Planificar</div>
-        <div class="module-subtitle">Gestión clínica de la ambivalencia, el discurso de cambio y el discurso de sostenimiento</div>
-      </div>
-      <div class="module-stats">
-        <div class="stat"><div class="stat-val">40</div><div class="stat-lbl">Horas</div></div>
-        <div class="stat"><div class="stat-val">12</div><div class="stat-lbl">Unidades</div></div>
-      </div>
-    </div>
-    <div class="module-body">
-      <div class="module-grid">
-        <div>
-          <div class="col-label">Contenidos del módulo</div>
-          <ul class="unit-list">
-            <li><span class="unit-num">3.1</span>Proceso I — Vincular: construcción de alianza terapéutica motivacional. Indicadores de engagement y su evaluación.</li>
-            <li><span class="unit-num">3.2</span>Proceso II — Enfocar: definición colaborativa de la dirección. Agenda setting y exploración de múltiples metas.</li>
-            <li><span class="unit-num">3.3</span>Proceso III — Evocar: reconocimiento del discurso de cambio (DARN-CAT). Preparatorio vs. movilizador.</li>
-            <li><span class="unit-num">3.4</span>Evocación estratégica: preguntas evocadoras, explorar extremos, mirar hacia adelante/atrás, explorar valores.</li>
-            <li><span class="unit-num">3.5</span>Discurso de sostenimiento: identificación, respuesta neutral no contingente y redirección sin confrontación.</li>
-            <li><span class="unit-num">3.6</span>Ambivalencia: modelo de balanza decisional. Aplicación, riesgos y cuándo no usarla.</li>
-            <li><span class="unit-num">3.7</span>Discordancia y respuestas de movimiento: rodar con la resistencia, reformular, amplificar.</li>
-            <li><span class="unit-num">3.8</span>Proceso IV — Planificar: señales de preparación para el cambio. Desarrollo del plan de acción colaborativo.</li>
-            <li><span class="unit-num">3.9</span>Información y consejo en EM: solicitar permiso, ofrecer menú de opciones, respetar autonomía (EPE).</li>
-            <li><span class="unit-num">3.10</span>Consolidación del compromiso: discurso de compromiso (CAT) y su codificación.</li>
-            <li><span class="unit-num">3.11</span>Integración proceso–habilidades: fluidez entre procesos en sesión clínica real.</li>
-            <li><span class="unit-num">3.12</span>Análisis de sesiones completas grabadas con retroalimentación estructurada MITI + MISC 2.0.</li>
-          </ul>
-        </div>
-        <div>
-          <div class="col-label">Competencias a desarrollar</div>
-          <ul class="comp-list">
-            <li><span class="comp-icon">🔗</span>Conducir el proceso de vinculación con pacientes ambivalentes o con poca conciencia de problema.</li>
-            <li><span class="comp-icon">🎯</span>Enfocar la conversación sin directividad explícita, navegando agendas múltiples.</li>
-            <li><span class="comp-icon">📡</span>Reconocer y reforzar selectivamente el discurso de cambio DARN-CAT en tiempo real.</li>
-            <li><span class="comp-icon">⚡</span>Responder al discurso de sostenimiento sin generar confrontación ni apaciguamiento.</li>
-            <li><span class="comp-icon">🗺️</span>Construir un plan de cambio colaborativo que emerja del paciente, no del terapeuta.</li>
-            <li><span class="comp-icon">📊</span>Alcanzar umbrales mínimos de competencia MITI: Promedio de Reflejo Complejo ≥ 40%; % EM Adherente ≥ 90%.</li>
-          </ul>
-          <div class="evidence-strip">
-            <strong>Evidencia clave:</strong> Amrhein et al. (2003) relación discurso de compromiso-cambio conductual; Moyers &amp; Martin (2006) MISC 2.0; Rollnick, Miller &amp; Butler (2008) aplicación clínica; Resnicow &amp; McMaster (2012) meta-análisis proceso EM.
+</div>
+</div>
+<div class="eval-row">
+<span class="eval-label">Evaluación</span>
+<div class="eval-tags">
+<span class="eval-tag">Sesión grabada 20 min codificada MITI</span>
+<span class="eval-tag">Análisis de fragmentos escritos</span>
+<span class="eval-tag">Rol-play con retroalimentación inmediata</span>
+</div>
+</div>
+</div>
+</div>
+<!-- M3 -->
+<div class="module m3">
+<div class="module-header">
+<div class="module-badge">M3</div>
+<div class="module-meta">
+<div class="module-level">Nivel: Competente · Procesos terapéuticos nucleares</div>
+<div class="module-title">Los Cuatro Procesos EM: Vincular, Enfocar, Evocar y Planificar</div>
+<div class="module-subtitle">Gestión clínica de la ambivalencia, el discurso de cambio y el discurso de sostenimiento</div>
+</div>
+<div class="module-stats">
+<div class="stat"><div class="stat-val">40</div><div class="stat-lbl">Horas</div></div>
+<div class="stat"><div class="stat-val">12</div><div class="stat-lbl">Unidades</div></div>
+</div>
+</div>
+<div class="module-body">
+<div class="module-grid">
+<div>
+<div class="col-label">Contenidos del módulo</div>
+<ul class="unit-list">
+<li><span class="unit-num">3.1</span>Proceso I — Vincular: construcción de alianza terapéutica motivacional. Indicadores de engagement y su evaluación.</li>
+<li><span class="unit-num">3.2</span>Proceso II — Enfocar: definición colaborativa de la dirección. Agenda setting y exploración de múltiples metas.</li>
+<li><span class="unit-num">3.3</span>Proceso III — Evocar: reconocimiento del discurso de cambio (DARN-CAT). Preparatorio vs. movilizador.</li>
+<li><span class="unit-num">3.4</span>Evocación estratégica: preguntas evocadoras, explorar extremos, mirar hacia adelante/atrás, explorar valores.</li>
+<li><span class="unit-num">3.5</span>Discurso de sostenimiento: identificación, respuesta neutral no contingente y redirección sin confrontación.</li>
+<li><span class="unit-num">3.6</span>Ambivalencia: modelo de balanza decisional. Aplicación, riesgos y cuándo no usarla.</li>
+<li><span class="unit-num">3.7</span>Discordancia y respuestas de movimiento: rodar con la resistencia, reformular, amplificar.</li>
+<li><span class="unit-num">3.8</span>Proceso IV — Planificar: señales de preparación para el cambio. Desarrollo del plan de acción colaborativo.</li>
+<li><span class="unit-num">3.9</span>Información y consejo en EM: solicitar permiso, ofrecer menú de opciones, respetar autonomía (EPE).</li>
+<li><span class="unit-num">3.10</span>Consolidación del compromiso: discurso de compromiso (CAT) y su codificación.</li>
+<li><span class="unit-num">3.11</span>Integración proceso–habilidades: fluidez entre procesos en sesión clínica real.</li>
+<li><span class="unit-num">3.12</span>Análisis de sesiones completas grabadas con retroalimentación estructurada MITI + MISC 2.0.</li>
+</ul>
+</div>
+<div>
+<div class="col-label">Competencias a desarrollar</div>
+<ul class="comp-list">
+<li><span class="comp-icon">🔗</span>Conducir el proceso de vinculación con pacientes ambivalentes o con poca conciencia de problema.</li>
+<li><span class="comp-icon">🎯</span>Enfocar la conversación sin directividad explícita, navegando agendas múltiples.</li>
+<li><span class="comp-icon">📡</span>Reconocer y reforzar selectivamente el discurso de cambio DARN-CAT en tiempo real.</li>
+<li><span class="comp-icon">⚡</span>Responder al discurso de sostenimiento sin generar confrontación ni apaciguamiento.</li>
+<li><span class="comp-icon">🗺️</span>Construir un plan de cambio colaborativo que emerja del paciente, no del terapeuta.</li>
+<li><span class="comp-icon">📊</span>Alcanzar umbrales mínimos de competencia MITI: Promedio de Reflejo Complejo ≥ 40%; % EM Adherente ≥ 90%.</li>
+</ul>
+<div class="evidence-strip">
+<strong>Evidencia clave:</strong> Amrhein et al. (2003) relación discurso de compromiso-cambio conductual; Moyers &amp; Martin (2006) MISC 2.0; Rollnick, Miller &amp; Butler (2008) aplicación clínica; Resnicow &amp; McMaster (2012) meta-análisis proceso EM.
           </div>
-        </div>
-      </div>
-      <div class="eval-row">
-        <span class="eval-label">Evaluación</span>
-        <div class="eval-tags">
-          <span class="eval-tag">Sesión completa 45 min codificada MITI 4.2</span>
-          <span class="eval-tag">Identificación DARN-CAT en transcripciones</span>
-          <span class="eval-tag">Plan de acción colaborativo documentado</span>
-          <span class="eval-tag">Supervisión grupal con video</span>
-        </div>
-      </div>
-    </div>
-  </div>
-
-  <!-- M4 -->
-  <div class="module m4">
-    <div class="module-header">
-      <div class="module-badge">M4</div>
-      <div class="module-meta">
-        <div class="module-level">Nivel: Avanzado · Adaptación clínica y poblaciones específicas</div>
-        <div class="module-title">EM en Contextos Clínicos Especializados y Poblaciones Diversas</div>
-        <div class="module-subtitle">Adicciones, salud mental severa, conductas de riesgo, adolescentes, pacientes mandados</div>
-      </div>
-      <div class="module-stats">
-        <div class="stat"><div class="stat-val">32</div><div class="stat-lbl">Horas</div></div>
-        <div class="stat"><div class="stat-val">10</div><div class="stat-lbl">Unidades</div></div>
-      </div>
-    </div>
-    <div class="module-body">
-      <div class="module-grid">
-        <div>
-          <div class="col-label">Contenidos del módulo</div>
-          <ul class="unit-list">
-            <li><span class="unit-num">4.1</span>EM en adicciones: alcohol, tabaco, sustancias ilegales y adicciones conductuales. Adaptaciones según sustancia y severidad.</li>
-            <li><span class="unit-num">4.2</span>EM y salud mental: depresión, ansiedad y trastornos de personalidad. Riesgos y ajustes del proceso evocador.</li>
-            <li><span class="unit-num">4.3</span>EM con pacientes mandados o involuntarios: contextos legales, judiciales e institucionales. Ética y coerción.</li>
-            <li><span class="unit-num">4.4</span>EM en adolescentes: adaptaciones comunicacionales, autonomía emergente e impulsividad. FRAMES adaptado.</li>
-            <li><span class="unit-num">4.5</span>EM breve (BMI) en entornos de atención primaria: intervención en 15-20 minutos. FRAMES y AUDIT-C.</li>
-            <li><span class="unit-num">4.6</span>EM y adherencia en enfermedades crónicas: diabetes, hipertensión, VIH. Integración con manejo de la enfermedad.</li>
-            <li><span class="unit-num">4.7</span>EM y diversidad cultural: adaptación de estilo, lenguaje y valores. Competencia cultural en la evocación.</li>
-            <li><span class="unit-num">4.8</span>EM integrada (EM+TCC; EM+ACT; EM+prevención de recaídas): modelos combinados basados en evidencia.</li>
-            <li><span class="unit-num">4.9</span>EM y suicidio: protocolo de seguridad sin confrontación. Restricciones y derivación responsable.</li>
-            <li><span class="unit-num">4.10</span>Prácticas supervisadas en contexto real o simulado de alta fidelidad con retroalimentación MITI.</li>
-          </ul>
-        </div>
-        <div>
-          <div class="col-label">Competencias a desarrollar</div>
-          <ul class="comp-list">
-            <li><span class="comp-icon">🏥</span>Adaptar el proceso EM a diagnósticos específicos sin perder el espíritu ni la fidelidad técnica.</li>
-            <li><span class="comp-icon">⚖️</span>Manejar la tensión ética entre autonomía del paciente y contextos de derivación involuntaria.</li>
-            <li><span class="comp-icon">🌎</span>Ajustar el estilo comunicacional a variables culturales sin estereotipar ni perder autenticidad.</li>
-            <li><span class="comp-icon">🔀</span>Integrar EM con otros marcos terapéuticos (TCC, ACT, Prevención de Recaídas) de forma coherente.</li>
-            <li><span class="comp-icon">🚨</span>Aplicar protocolos de seguridad en crisis (suicidio, violencia) desde el espíritu de la EM.</li>
-          </ul>
-          <div class="evidence-strip">
-            <strong>Evidencia clave:</strong> Burke, Arkowitz &amp; Menchola (2003) aplicaciones EM; Naar-King &amp; Suarez (2011) EM con adolescentes; Rollnick, Miller &amp; Butler (2008) entornos sanitarios; Arkowitz et al. (2015) EM en salud mental.
+</div>
+</div>
+<div class="eval-row">
+<span class="eval-label">Evaluación</span>
+<div class="eval-tags">
+<span class="eval-tag">Sesión completa 45 min codificada MITI 4.2</span>
+<span class="eval-tag">Identificación DARN-CAT en transcripciones</span>
+<span class="eval-tag">Plan de acción colaborativo documentado</span>
+<span class="eval-tag">Supervisión grupal con video</span>
+</div>
+</div>
+</div>
+</div>
+<!-- M4 -->
+<div class="module m4">
+<div class="module-header">
+<div class="module-badge">M4</div>
+<div class="module-meta">
+<div class="module-level">Nivel: Avanzado · Adaptación clínica y poblaciones específicas</div>
+<div class="module-title">EM en Contextos Clínicos Especializados y Poblaciones Diversas</div>
+<div class="module-subtitle">Adicciones, salud mental severa, conductas de riesgo, adolescentes, pacientes mandados</div>
+</div>
+<div class="module-stats">
+<div class="stat"><div class="stat-val">32</div><div class="stat-lbl">Horas</div></div>
+<div class="stat"><div class="stat-val">10</div><div class="stat-lbl">Unidades</div></div>
+</div>
+</div>
+<div class="module-body">
+<div class="module-grid">
+<div>
+<div class="col-label">Contenidos del módulo</div>
+<ul class="unit-list">
+<li><span class="unit-num">4.1</span>EM en adicciones: alcohol, tabaco, sustancias ilegales y adicciones conductuales. Adaptaciones según sustancia y severidad.</li>
+<li><span class="unit-num">4.2</span>EM y salud mental: depresión, ansiedad y trastornos de personalidad. Riesgos y ajustes del proceso evocador.</li>
+<li><span class="unit-num">4.3</span>EM con pacientes mandados o involuntarios: contextos legales, judiciales e institucionales. Ética y coerción.</li>
+<li><span class="unit-num">4.4</span>EM en adolescentes: adaptaciones comunicacionales, autonomía emergente e impulsividad. FRAMES adaptado.</li>
+<li><span class="unit-num">4.5</span>EM breve (BMI) en entornos de atención primaria: intervención en 15-20 minutos. FRAMES y AUDIT-C.</li>
+<li><span class="unit-num">4.6</span>EM y adherencia en enfermedades crónicas: diabetes, hipertensión, VIH. Integración con manejo de la enfermedad.</li>
+<li><span class="unit-num">4.7</span>EM y diversidad cultural: adaptación de estilo, lenguaje y valores. Competencia cultural en la evocación.</li>
+<li><span class="unit-num">4.8</span>EM integrada (EM+TCC; EM+ACT; EM+prevención de recaídas): modelos combinados basados en evidencia.</li>
+<li><span class="unit-num">4.9</span>EM y suicidio: protocolo de seguridad sin confrontación. Restricciones y derivación responsable.</li>
+<li><span class="unit-num">4.10</span>Prácticas supervisadas en contexto real o simulado de alta fidelidad con retroalimentación MITI.</li>
+</ul>
+</div>
+<div>
+<div class="col-label">Competencias a desarrollar</div>
+<ul class="comp-list">
+<li><span class="comp-icon">🏥</span>Adaptar el proceso EM a diagnósticos específicos sin perder el espíritu ni la fidelidad técnica.</li>
+<li><span class="comp-icon">⚖️</span>Manejar la tensión ética entre autonomía del paciente y contextos de derivación involuntaria.</li>
+<li><span class="comp-icon">🌎</span>Ajustar el estilo comunicacional a variables culturales sin estereotipar ni perder autenticidad.</li>
+<li><span class="comp-icon">🔀</span>Integrar EM con otros marcos terapéuticos (TCC, ACT, Prevención de Recaídas) de forma coherente.</li>
+<li><span class="comp-icon">🚨</span>Aplicar protocolos de seguridad en crisis (suicidio, violencia) desde el espíritu de la EM.</li>
+</ul>
+<div class="evidence-strip">
+<strong>Evidencia clave:</strong> Burke, Arkowitz &amp; Menchola (2003) aplicaciones EM; Naar-King &amp; Suarez (2011) EM con adolescentes; Rollnick, Miller &amp; Butler (2008) entornos sanitarios; Arkowitz et al. (2015) EM en salud mental.
           </div>
-        </div>
-      </div>
-      <div class="eval-row">
-        <span class="eval-label">Evaluación</span>
-        <div class="eval-tags">
-          <span class="eval-tag">Caso clínico especializado con análisis de proceso</span>
-          <span class="eval-tag">Sesión con paciente mandado (simulado) codificada</span>
-          <span class="eval-tag">Protocolo de adaptación cultural documentado</span>
-        </div>
-      </div>
-    </div>
-  </div>
-
-  <!-- M5 -->
-  <div class="module m5">
-    <div class="module-header">
-      <div class="module-badge">M5</div>
-      <div class="module-meta">
-        <div class="module-level">Nivel: Experto · Supervisión, enseñanza y desarrollo avanzado</div>
-        <div class="module-title">Supervisión, Formación de Formadores y Práctica Experta</div>
-        <div class="module-subtitle">Entrenamiento de terapeutas, investigación de proceso y práctica reflexiva avanzada</div>
-      </div>
-      <div class="module-stats">
-        <div class="stat"><div class="stat-val">24</div><div class="stat-lbl">Horas</div></div>
-        <div class="stat"><div class="stat-val">8</div><div class="stat-lbl">Unidades</div></div>
-      </div>
-    </div>
-    <div class="module-body">
-      <div class="module-grid">
-        <div>
-          <div class="col-label">Contenidos del módulo</div>
-          <ul class="unit-list">
-            <li><span class="unit-num">5.1</span>Modelos de supervisión en EM: supervisión individual, grupal y por pares con codificación MITI sistemática.</li>
-            <li><span class="unit-num">5.2</span>Feedback formativo eficaz: cómo dar retroalimentación que mejore la práctica sin generar defensividad.</li>
-            <li><span class="unit-num">5.3</span>Diseño de talleres de EM: estructura pedagógica, rol-play, demostraciones y consolidación de habilidades.</li>
-            <li><span class="unit-num">5.4</span>Drift y erosión de habilidades: investigación sobre el mantenimiento de la fidelidad post-entrenamiento.</li>
-            <li><span class="unit-num">5.5</span>Investigación de proceso en EM: MISC 2.0, MITI 4.2, VASES. Métricas y diseños de investigación.</li>
-            <li><span class="unit-num">5.6</span>Práctica reflexiva avanzada: autoconciencia del terapeuta, contratransferencia y uso del self.</li>
-            <li><span class="unit-num">5.7</span>Implementación institucional de EM: fidelidad a escala, supervisión de supervisores y sistemas de calidad.</li>
-            <li><span class="unit-num">5.8</span>Proyecto final integrador: análisis longitudinal de serie de casos propios con informe de desarrollo de competencias.</li>
-          </ul>
-        </div>
-        <div>
-          <div class="col-label">Competencias a desarrollar</div>
-          <ul class="comp-list">
-            <li><span class="comp-icon">🎓</span>Supervisar terapeutas en formación con retroalimentación MITI estructurada y pedagógicamente eficaz.</li>
-            <li><span class="comp-icon">🏫</span>Diseñar e impartir talleres de formación en EM con bases en aprendizaje experiencial.</li>
-            <li><span class="comp-icon">📈</span>Monitorear y prevenir la erosión de habilidades en equipos clínicos mediante sistemas de fidelidad.</li>
-            <li><span class="comp-icon">🔍</span>Diseñar protocolos de investigación de proceso en EM para contextos de práctica clínica real.</li>
-            <li><span class="comp-icon">🪞</span>Sostener una práctica clínica reflexiva que integre autoconocimiento, teoría y evidencia.</li>
-          </ul>
-          <div class="evidence-strip">
-            <strong>Evidencia clave:</strong> Miller &amp; Mount (2001) eficacia entrenamiento EM; Schwalbe et al. (2014) revisión sistemática estrategias de formación; Fixsen et al. (2005) ciencia de la implementación; Moyers et al. (2016) drift de habilidades.
+</div>
+</div>
+<div class="eval-row">
+<span class="eval-label">Evaluación</span>
+<div class="eval-tags">
+<span class="eval-tag">Caso clínico especializado con análisis de proceso</span>
+<span class="eval-tag">Sesión con paciente mandado (simulado) codificada</span>
+<span class="eval-tag">Protocolo de adaptación cultural documentado</span>
+</div>
+</div>
+</div>
+</div>
+<!-- M5 -->
+<div class="module m5">
+<div class="module-header">
+<div class="module-badge">M5</div>
+<div class="module-meta">
+<div class="module-level">Nivel: Experto · Supervisión, enseñanza y desarrollo avanzado</div>
+<div class="module-title">Supervisión, Formación de Formadores y Práctica Experta</div>
+<div class="module-subtitle">Entrenamiento de terapeutas, investigación de proceso y práctica reflexiva avanzada</div>
+</div>
+<div class="module-stats">
+<div class="stat"><div class="stat-val">24</div><div class="stat-lbl">Horas</div></div>
+<div class="stat"><div class="stat-val">8</div><div class="stat-lbl">Unidades</div></div>
+</div>
+</div>
+<div class="module-body">
+<div class="module-grid">
+<div>
+<div class="col-label">Contenidos del módulo</div>
+<ul class="unit-list">
+<li><span class="unit-num">5.1</span>Modelos de supervisión en EM: supervisión individual, grupal y por pares con codificación MITI sistemática.</li>
+<li><span class="unit-num">5.2</span>Feedback formativo eficaz: cómo dar retroalimentación que mejore la práctica sin generar defensividad.</li>
+<li><span class="unit-num">5.3</span>Diseño de talleres de EM: estructura pedagógica, rol-play, demostraciones y consolidación de habilidades.</li>
+<li><span class="unit-num">5.4</span>Drift y erosión de habilidades: investigación sobre el mantenimiento de la fidelidad post-entrenamiento.</li>
+<li><span class="unit-num">5.5</span>Investigación de proceso en EM: MISC 2.0, MITI 4.2, VASES. Métricas y diseños de investigación.</li>
+<li><span class="unit-num">5.6</span>Práctica reflexiva avanzada: autoconciencia del terapeuta, contratransferencia y uso del self.</li>
+<li><span class="unit-num">5.7</span>Implementación institucional de EM: fidelidad a escala, supervisión de supervisores y sistemas de calidad.</li>
+<li><span class="unit-num">5.8</span>Proyecto final integrador: análisis longitudinal de serie de casos propios con informe de desarrollo de competencias.</li>
+</ul>
+</div>
+<div>
+<div class="col-label">Competencias a desarrollar</div>
+<ul class="comp-list">
+<li><span class="comp-icon">🎓</span>Supervisar terapeutas en formación con retroalimentación MITI estructurada y pedagógicamente eficaz.</li>
+<li><span class="comp-icon">🏫</span>Diseñar e impartir talleres de formación en EM con bases en aprendizaje experiencial.</li>
+<li><span class="comp-icon">📈</span>Monitorear y prevenir la erosión de habilidades en equipos clínicos mediante sistemas de fidelidad.</li>
+<li><span class="comp-icon">🔍</span>Diseñar protocolos de investigación de proceso en EM para contextos de práctica clínica real.</li>
+<li><span class="comp-icon">🪞</span>Sostener una práctica clínica reflexiva que integre autoconocimiento, teoría y evidencia.</li>
+</ul>
+<div class="evidence-strip">
+<strong>Evidencia clave:</strong> Miller &amp; Mount (2001) eficacia entrenamiento EM; Schwalbe et al. (2014) revisión sistemática estrategias de formación; Fixsen et al. (2005) ciencia de la implementación; Moyers et al. (2016) drift de habilidades.
           </div>
-        </div>
-      </div>
-      <div class="eval-row">
-        <span class="eval-label">Evaluación</span>
-        <div class="eval-tags">
-          <span class="eval-tag">Supervisión grabada con terapeuta en formación</span>
-          <span class="eval-tag">Diseño de taller de 4h documentado</span>
-          <span class="eval-tag">Proyecto integrador longitudinal</span>
-          <span class="eval-tag">Portafolio de competencias MITI</span>
-        </div>
-      </div>
-    </div>
-  </div>
+</div>
+</div>
+<div class="eval-row">
+<span class="eval-label">Evaluación</span>
+<div class="eval-tags">
+<span class="eval-tag">Supervisión grabada con terapeuta en formación</span>
+<span class="eval-tag">Diseño de taller de 4h documentado</span>
+<span class="eval-tag">Proyecto integrador longitudinal</span>
+<span class="eval-tag">Portafolio de competencias MITI</span>
+</div>
+</div>
+</div>
+</div>
 </main>
-
-<!-- MAPA DE COMPETENCIAS -->
-<section class="competency-map">
-  <div class="section-label" style="color:var(--amber)">Matriz de competencias</div>
-  <h2>Perfil del egresado por dominio</h2>
-  <p class="intro">Competencias distribuidas en cinco dominios clínicos observables y evaluables con instrumentos estandarizados.</p>
-  <div class="comp-matrix">
-    <div class="comp-card">
-      <h4>⚗️ Conceptual-Epistémico</h4>
-      <ul>
-        <li>Historia y fundamentos EM</li>
-        <li>Modelo transteórico del cambio</li>
-        <li>Neurociencia de la motivación</li>
-        <li>Meta-análisis de eficacia</li>
-        <li>Ética en práctica motivacional</li>
-      </ul>
-    </div>
-    <div class="comp-card">
-      <h4>🎙️ Comunicacional-Técnico</h4>
-      <ul>
-        <li>Dominio OARS en tiempo real</li>
-        <li>Reflejo complejo fluido</li>
-        <li>Razón R:P ≥ 2:1</li>
-        <li>Resúmenes estratégicos</li>
-        <li>Eliminación de trampas relacionales</li>
-      </ul>
-    </div>
-    <div class="comp-card">
-      <h4>🧭 Proceso Clínico</h4>
-      <ul>
-        <li>Navegación 4 procesos EM</li>
-        <li>Identificación DARN-CAT</li>
-        <li>Manejo de discordancia</li>
-        <li>Planificación del cambio</li>
-        <li>Uso estratégico de EPE</li>
-      </ul>
-    </div>
-    <div class="comp-card">
-      <h4>🌐 Adaptativo-Poblacional</h4>
-      <ul>
-        <li>EM en adicciones</li>
-        <li>EM con pacientes involuntarios</li>
-        <li>Adaptación cultural</li>
-        <li>EM integrada (TCC/ACT/PR)</li>
-        <li>Protocolos de crisis</li>
-      </ul>
-    </div>
-    <div class="comp-card">
-      <h4>🔬 Supervisión-Investigación</h4>
-      <ul>
-        <li>Codificación MITI 4.2</li>
-        <li>Feedback formativo eficaz</li>
-        <li>Diseño de talleres EM</li>
-        <li>Prevención de drift</li>
-        <li>Investigación de proceso</li>
-      </ul>
-    </div>
-  </div>
+    <section class="competency-map">
+<div class="section-label" style="color:var(--amber)">Matriz de competencias</div>
+<h2>Perfil del egresado por dominio</h2>
+<p class="intro">Competencias distribuidas en cinco dominios clínicos observables y evaluables con instrumentos estandarizados.</p>
+<div class="comp-matrix">
+<div class="comp-card">
+<h4>⚗️ Conceptual-Epistémico</h4>
+<ul>
+<li>Historia y fundamentos EM</li>
+<li>Modelo transteórico del cambio</li>
+<li>Neurociencia de la motivación</li>
+<li>Meta-análisis de eficacia</li>
+<li>Ética en práctica motivacional</li>
+</ul>
+</div>
+<div class="comp-card">
+<h4>🎙️ Comunicacional-Técnico</h4>
+<ul>
+<li>Dominio OARS en tiempo real</li>
+<li>Reflejo complejo fluido</li>
+<li>Razón R:P ≥ 2:1</li>
+<li>Resúmenes estratégicos</li>
+<li>Eliminación de trampas relacionales</li>
+</ul>
+</div>
+<div class="comp-card">
+<h4>🧭 Proceso Clínico</h4>
+<ul>
+<li>Navegación 4 procesos EM</li>
+<li>Identificación DARN-CAT</li>
+<li>Manejo de discordancia</li>
+<li>Planificación del cambio</li>
+<li>Uso estratégico de EPE</li>
+</ul>
+</div>
+<div class="comp-card">
+<h4>🌐 Adaptativo-Poblacional</h4>
+<ul>
+<li>EM en adicciones</li>
+<li>EM con pacientes involuntarios</li>
+<li>Adaptación cultural</li>
+<li>EM integrada (TCC/ACT/PR)</li>
+<li>Protocolos de crisis</li>
+</ul>
+</div>
+<div class="comp-card">
+<h4>🔬 Supervisión-Investigación</h4>
+<ul>
+<li>Codificación MITI 4.2</li>
+<li>Feedback formativo eficaz</li>
+<li>Diseño de talleres EM</li>
+<li>Prevención de drift</li>
+<li>Investigación de proceso</li>
+</ul>
+</div>
+</div>
 </section>
+  </section>
 
-<!-- TABLA DE EVALUACIÓN -->
-<section class="eval-section">
-  <div class="section-label">Sistema de evaluación y certificación</div>
-  <h2>Criterios de aprobación y certificación por módulo</h2>
-  <p class="intro">Todos los módulos requieren evidencia de práctica observable. Los módulos 2-5 incluyen evaluación con codificación MITI 4.2 como estándar de fidelidad internacional.</p>
-  <table>
-    <thead>
-      <tr>
-        <th>Módulo</th>
-        <th>Instrumentos</th>
-        <th>Estándar mínimo</th>
-        <th>Certificación</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td><span class="badge-inline" style="background:var(--m1)">M1</span> Fundamentos</td>
-        <td>Examen escrito + Análisis de caso</td>
-        <td>70% prueba escrita + Mapa conceptual aprobado</td>
-        <td>Certificado Nivel Aprendiz</td>
-      </tr>
-      <tr>
-        <td><span class="badge-inline" style="background:var(--m2)">M2</span> OARS</td>
-        <td>Sesión grabada + MITI 4.2 + Rol-play</td>
-        <td>R:P ≥ 1.5:1 · % Preguntas Abiertas ≥ 50% · Reflejos complejos ≥ 30%</td>
-        <td>Certificado Nivel Iniciado</td>
-      </tr>
-      <tr>
-        <td><span class="badge-inline" style="background:var(--m3)">M3</span> Procesos</td>
-        <td>Sesión 45 min + MITI 4.2 + DARN-CAT</td>
-        <td>R:P ≥ 2:1 · % Reflejo Complejo ≥ 40% · % EM Adherente ≥ 90% · Global ≥ 3.5/5</td>
-        <td>Certificado Nivel Competente</td>
-      </tr>
-      <tr>
-        <td><span class="badge-inline" style="background:var(--m4)">M4</span> Contextos</td>
-        <td>Caso especializado + Sesión con paciente mandado</td>
-        <td>MITI Umbral Competencia + Análisis clínico aprobado por supervisor</td>
-        <td>Certificado Nivel Avanzado</td>
-      </tr>
-      <tr>
-        <td><span class="badge-inline" style="background:var(--m5)">M5</span> Supervisión</td>
-        <td>Supervisión grabada + Portafolio + Proyecto integrador</td>
-        <td>Portafolio con 3 casos longitudinales + Taller diseñado + Supervisión evaluada</td>
-        <td>Certificado EXPERTO en EM</td>
-      </tr>
-    </tbody>
-  </table>
+  <!-- SECCIÓN 6: RÚBRICA MITI Y EVALUACIÓN -->
+  <section id="section-eval" class="tab-section">
+    <section class="eval-section">
+<div class="section-label">Sistema de evaluación y certificación</div>
+<h2>Criterios de aprobación y certificación por módulo</h2>
+<p class="intro">Todos los módulos requieren evidencia de práctica observable. Los módulos 2-5 incluyen evaluación con codificación MITI 4.2 como estándar de fidelidad internacional.</p>
+<table>
+<thead>
+<tr>
+<th>Módulo</th>
+<th>Instrumentos</th>
+<th>Estándar mínimo</th>
+<th>Certificación</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><span class="badge-inline" style="background:var(--m1)">M1</span> Fundamentos</td>
+<td>Examen escrito + Análisis de caso</td>
+<td>70% prueba escrita + Mapa conceptual aprobado</td>
+<td>Certificado Nivel Aprendiz</td>
+</tr>
+<tr>
+<td><span class="badge-inline" style="background:var(--m2)">M2</span> OARS</td>
+<td>Sesión grabada + MITI 4.2 + Rol-play</td>
+<td>R:P ≥ 1.5:1 · % Preguntas Abiertas ≥ 50% · Reflejos complejos ≥ 30%</td>
+<td>Certificado Nivel Iniciado</td>
+</tr>
+<tr>
+<td><span class="badge-inline" style="background:var(--m3)">M3</span> Procesos</td>
+<td>Sesión 45 min + MITI 4.2 + DARN-CAT</td>
+<td>R:P ≥ 2:1 · % Reflejo Complejo ≥ 40% · % EM Adherente ≥ 90% · Global ≥ 3.5/5</td>
+<td>Certificado Nivel Competente</td>
+</tr>
+<tr>
+<td><span class="badge-inline" style="background:var(--m4)">M4</span> Contextos</td>
+<td>Caso especializado + Sesión con paciente mandado</td>
+<td>MITI Umbral Competencia + Análisis clínico aprobado por supervisor</td>
+<td>Certificado Nivel Avanzado</td>
+</tr>
+<tr>
+<td><span class="badge-inline" style="background:var(--m5)">M5</span> Supervisión</td>
+<td>Supervisión grabada + Portafolio + Proyecto integrador</td>
+<td>Portafolio con 3 casos longitudinales + Taller diseñado + Supervisión evaluada</td>
+<td>Certificado EXPERTO en EM</td>
+</tr>
+</tbody>
+</table>
 </section>
+    <section class="biblio">
+<h2>Bibliografía fundamental y de referencia</h2>
+<div class="biblio-grid">
+<div>
+<div class="biblio-cat">Textos fundacionales</div>
+<div class="biblio-item"><strong>Miller, W.R. &amp; Rollnick, S. (2012)</strong> Motivational Interviewing: Helping People Change (3.ª ed.). Guilford Press. <em>[Texto base del programa]</em></div>
+<div class="biblio-item"><strong>Rollnick, S., Miller, W.R. &amp; Butler, C.C. (2008)</strong> Motivational Interviewing in Health Care. Guilford Press.</div>
+<div class="biblio-item"><strong>Miller, W.R. &amp; Rollnick, S. (1991)</strong> Motivational Interviewing: Preparing People to Change Addictive Behavior. Guilford Press.</div>
+</div>
+<div>
+<div class="biblio-cat">Investigación y proceso</div>
+<div class="biblio-item"><strong>Lundahl et al. (2010)</strong> A Meta-Analysis of Motivational Interviewing: Twenty-Five Years of Empirical Studies. Research on Social Work Practice, 20(2), 137-160.</div>
+<div class="biblio-item"><strong>Amrhein et al. (2003)</strong> Client commitment language during Motivational Interviewing predicts drug use outcomes. J. Consulting &amp; Clinical Psychology, 71(5), 862-878.</div>
+<div class="biblio-item"><strong>Hettema, J., Steele, J. &amp; Miller, W.R. (2005)</strong> Motivational Interviewing. Annual Review of Clinical Psychology, 1, 91-111.</div>
+</div>
+<div>
+<div class="biblio-cat">Instrumentos de fidelidad</div>
+<div class="biblio-item"><strong>Moyers, T.B., Manuel, J.K. &amp; Ernst, D. (2014)</strong> Motivational Interviewing Treatment Integrity Coding Manual 4.2.1. Unpublished manual. University of New Mexico.</div>
+<div class="biblio-item"><strong>Moyers, T.B. &amp; Martin, T. (2006)</strong> Therapist influence on client language during motivational interviewing sessions. J. Substance Abuse Treatment, 30(3), 245-251.</div>
+</div>
+<div>
+<div class="biblio-cat">Poblaciones y aplicaciones</div>
+<div class="biblio-item"><strong>Arkowitz, H., Miller, W.R. &amp; Rollnick, S. (Eds.) (2015)</strong> Motivational Interviewing in the Treatment of Psychological Problems (2.ª ed.). Guilford Press.</div>
+<div class="biblio-item"><strong>Naar-King, S. &amp; Suarez, M. (2011)</strong> Motivational Interviewing with Adolescents and Young Adults. Guilford Press.</div>
+<div class="biblio-item"><strong>Burke, B.L., Arkowitz, H. &amp; Menchola, M. (2003)</strong> The efficacy of motivational interviewing: A meta-analysis. J. Consulting and Clinical Psychology, 71(5), 843-861.</div>
+</div>
+</div>
+</section>
+  </section>
 
-<!-- BIBLIOGRAFÍA -->
-<section class="biblio">
-  <h2>Bibliografía fundamental y de referencia</h2>
-  <div class="biblio-grid">
-    <div>
-      <div class="biblio-cat">Textos fundacionales</div>
-      <div class="biblio-item"><strong>Miller, W.R. &amp; Rollnick, S. (2012)</strong> Motivational Interviewing: Helping People Change (3.ª ed.). Guilford Press. <em>[Texto base del programa]</em></div>
-      <div class="biblio-item"><strong>Rollnick, S., Miller, W.R. &amp; Butler, C.C. (2008)</strong> Motivational Interviewing in Health Care. Guilford Press.</div>
-      <div class="biblio-item"><strong>Miller, W.R. &amp; Rollnick, S. (1991)</strong> Motivational Interviewing: Preparing People to Change Addictive Behavior. Guilford Press.</div>
-    </div>
-    <div>
-      <div class="biblio-cat">Investigación y proceso</div>
-      <div class="biblio-item"><strong>Lundahl et al. (2010)</strong> A Meta-Analysis of Motivational Interviewing: Twenty-Five Years of Empirical Studies. Research on Social Work Practice, 20(2), 137-160.</div>
-      <div class="biblio-item"><strong>Amrhein et al. (2003)</strong> Client commitment language during Motivational Interviewing predicts drug use outcomes. J. Consulting &amp; Clinical Psychology, 71(5), 862-878.</div>
-      <div class="biblio-item"><strong>Hettema, J., Steele, J. &amp; Miller, W.R. (2005)</strong> Motivational Interviewing. Annual Review of Clinical Psychology, 1, 91-111.</div>
-    </div>
-    <div>
-      <div class="biblio-cat">Instrumentos de fidelidad</div>
-      <div class="biblio-item"><strong>Moyers, T.B., Manuel, J.K. &amp; Ernst, D. (2014)</strong> Motivational Interviewing Treatment Integrity Coding Manual 4.2.1. Unpublished manual. University of New Mexico.</div>
-      <div class="biblio-item"><strong>Moyers, T.B. &amp; Martin, T. (2006)</strong> Therapist influence on client language during motivational interviewing sessions. J. Substance Abuse Treatment, 30(3), 245-251.</div>
-    </div>
-    <div>
-      <div class="biblio-cat">Poblaciones y aplicaciones</div>
-      <div class="biblio-item"><strong>Arkowitz, H., Miller, W.R. &amp; Rollnick, S. (Eds.) (2015)</strong> Motivational Interviewing in the Treatment of Psychological Problems (2.ª ed.). Guilford Press.</div>
-      <div class="biblio-item"><strong>Naar-King, S. &amp; Suarez, M. (2011)</strong> Motivational Interviewing with Adolescents and Young Adults. Guilford Press.</div>
-      <div class="biblio-item"><strong>Burke, B.L., Arkowitz, H. &amp; Menchola, M. (2003)</strong> The efficacy of motivational interviewing: A meta-analysis. J. Consulting and Clinical Psychology, 71(5), 843-861.</div>
-    </div>
-  </div>
-</section>
+</main>
 
 <footer>
   Programa académico basado en evidencia · <span>Entrevista Motivacional: De Aprendiz a Experto</span> · Estándares MINT &amp; MITI 4.2 · 160 horas académicas
 </footer>
 
-</bod
+<!-- VISOR MODAL DE LECTURA DE SEPARATAS -->
+<div id="reading-modal" class="modal-overlay">
+  <div class="modal-card">
+    <div class="modal-header">
+      <h3 id="modal-title">Visor Académico de Separatas</h3>
+      <button id="close-modal-btn" class="modal-close-btn" title="Cerrar visor">✕</button>
+    </div>
+    <div class="modal-body">
+      <iframe id="modal-iframe" src="" title="Lectura de separata"></iframe>
+    </div>
+  </div>
+</div>
+
+<!-- SCRIPTS DE COMPONENTES INTERACTIVOS -->
+<script src="js/data/cases-data.js"></script>
+<script src="js/data/drills-data.js"></script>
+<script src="js/components/simulator.js"></script>
+<script src="js/components/drills.js"></script>
+<script src="js/app.js"></script>
+
+</body>
+</html>
