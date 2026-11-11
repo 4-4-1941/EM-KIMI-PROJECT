@@ -13,346 +13,418 @@ window.EM_CURRICULUM = {
       "units": [
         {
           "id": "1.1",
-          "title": "Historia y desarrollo de la EM: de Drinker Project (1983) a la 3.ª edición (2012). Contexto sociohistórico.",
-          "overview": "Lectura guiada de Historia y desarrollo de la EM: de Drinker Project (1983) a la 3.ª edición (2012). Contexto sociohistórico.. Incluye desarrollo conceptual, aplicación clínica, análisis de una viñeta ficticia y una comprobación de comprensión.",
+          "title": "Historia y desarrollo de la EM: de Drinker Project (1983) a la 4.ª edición (2023). Contexto sociohistórico y epistemología.",
+          "overview": "Estudio exhaustivo del origen empírico de la Entrevista Motivacional en Noruega, su ruptura paradigmática con el modelo confrontativo de adicciones, y su evolución a lo largo de cuatro décadas hasta la 4.ª edición (Miller & Rollnick, 2023).",
           "learningGoals": [
-            "Explicar los conceptos centrales de Historia y desarrollo de la EM: de Drinker Project (1983) a la 3.ª edición (2012). Contexto sociohistórico. con lenguaje propio.",
-            "Relacionar el contenido con una decisión clínica observable.",
-            "Reconocer límites, riesgos de simplificación y preguntas que requieren evidencia adicional."
+            "Analizar la génesis de la EM en el 'Drinker Project' (Hordaland, Noruega, 1982) y la observación empírica del efecto iatrogénico de la confrontación.",
+            "Comprender la transición conceptual desde una técnica conductual para bebedores problema hasta un estilo universal de comunicación para el cambio y el crecimiento.",
+            "Identificar las innovaciones terminológicas y metodológicas introducidas en la 4.ª edición (2023): de procesos a tareas clínicas, y de evocación a empoderamiento."
           ],
           "sections": [
             {
-              "heading": "Marco conceptual",
-              "html": "<p>Esta unidad ubica <strong>Historia y desarrollo de la EM: de Drinker Project (1983) a la 3.ª edición (2012). Contexto sociohistórico.</strong> dentro de los fundamentos de la Entrevista Motivacional (EM). La EM es una manera colaborativa y orientada de conversar sobre cambio y crecimiento para fortalecer la motivación y el compromiso propios de la persona, no un guion para convencerla. Su práctica combina el modo de relacionarse con tareas clínicas concretas; por eso una técnica aislada no demuestra competencia.</p><p>Para estudiar el tema, distingue tres niveles: <strong>descripción</strong> (qué fenómeno o concepto se observa), <strong>proceso</strong> (cómo se expresa en la conversación) y <strong>decisión clínica</strong> (qué respuesta respeta la autonomía y favorece una conversación útil). Esta distinción evita convertir un modelo explicativo en diagnóstico o en receta.</p>"
+              "heading": "1. El paradigma hegemónico de los años 80 y la crisis del modelo confrontativo",
+              "html": "<p>A principios de la década de 1980, el abordaje clínico de los trastornos por consumo de sustancias en el mundo anglosajón estaba dominado por un supuesto axiomático: <em>la persona con dependencia padece un mecanismo masivo de negación patológica y engaño que debe ser quebrado mediante la confrontación directa</em>. Se consideraba que los pacientes eran intrínsecamente 'mentirosos', 'manipuladores' y 'resistentes', requiriendo intervenciones duras destinadas a forzar la admisión de su impotencia y enfermedad.</p><p>En 1982, durante un año sabático en la Universidad de Bergen (Hordaland, Noruega), William R. Miller recibió el encargo de entrenar a psicólogos noveles en el marco del <em>Drinker Project</em>. Al no contar con una teoría previa sobre el alcoholismo, Miller adoptó un método empírico: supervisar a los profesionales pidiéndoles que ensayaran intervenciones grabadas con bebedores problema. Pronto emergió un hallazgo sistemático que desafió la ortodoxia de la época: <strong>cuanto más argumentaba el terapeuta a favor de la abstinencia, más justificaba el paciente su consumo; por el contrario, cuando el terapeuta utilizaba escucha reflexiva y comprensión empática, era el propio paciente quien verbalizaba espontáneamente razones para modificar su conducta</strong>.</p>"
             },
             {
-              "heading": "Desarrollo académico y aplicación",
-              "html": "<p>Comienza separando el contexto histórico, la formulación conceptual y la aplicación clínica de de Drinker Project (1983) a la 3.ª edición (2012). Contexto sociohistórico.. Una innovación en la práctica no se convierte automáticamente en una teoría demostrada: identifica qué evidencia apoya cada interpretación y qué sigue siendo una hipótesis explicativa.</p><p>En la lectura, compara las definiciones utilizadas en las distintas ediciones de Miller y Rollnick. La cuarta edición define la EM como una manera particular de hablar sobre cambio y crecimiento para fortalecer la propia motivación y compromiso de la persona; el vocabulario y ejemplos se simplifican, manteniendo las cuatro tareas de involucrar, enfocar, evocar y planificar.</p><p>En clínica, el concepto sirve para guiar la escucha, no para etiquetar al consultante. Traduce cada afirmación teórica a una conducta comprobable del profesional y a una pregunta sobre la experiencia de la persona. Distingue asociación temporal, mecanismo plausible y causalidad demostrada.</p><p>Al analizar un caso, pregunta qué cambiaría en la intervención si la hipótesis fuera correcta, qué dato podría refutarla y cómo se mantendrían el consentimiento y la autonomía. Esta disciplina previene la neuro-reducción, el uso ornamental de teorías y las explicaciones demasiado seguras.</p>"
+              "heading": "2. La publicación fundacional de 1983 y la alianza con Stephen Rollnick (1989-1991)",
+              "html": "<p>Este descubrimiento de laboratorio se tradujo en el artículo fundacional de la disciplina: <strong>Miller, W. R. (1983). <em>Motivational interviewing with problem drinkers</em>. Behavioral Psychotherapy, 11(2), 147-172</strong>. En este texto pionero, Miller definió por primera vez la entrevista motivacional no como un conjunto de trucos retóricos, sino como una manera colaborativa de ayudar a la persona a explorar y resolver su ambivalencia respecto a una conducta problemática.</p><p>En 1989, Stephen Rollnick, psicólogo clínico sudafricano radicado en Gales que trabajaba con adicciones en entornos de salud pública, contactó a Miller tras constatar que el modelo noruego resolvía las frustraciones cotidianas de los terapeutas comunitarios. De su colaboración nació la primera edición del libro oficial en 1991 (<em>Motivational Interviewing: Preparing People to Change Addictive Behavior</em>), donde formalizaron la interacción entre la empatía centrada en la persona de Carl Rogers y la teoría de la disonancia cognitiva de Leon Festinger.</p>"
             },
             {
-              "heading": "Aplicación clínica y límites",
-              "html": "<p>Al aplicar <strong>Historia y desarrollo de la EM: de Drinker Project (1983) a la 3.ª edición (2012). Contexto sociohistórico.</strong>, empieza por preguntar qué significado tiene el cambio para esta persona y qué beneficios y costos percibe. Comprueba tus hipótesis con reflejos y preguntas abiertas; no presentes inferencias como hechos. Si aparece desacuerdo, detén el impulso de argumentar y vuelve a explorar la perspectiva y las prioridades del consultante.</p><p>El marco histórico y teórico orienta la conversación, pero no reemplaza la evaluación clínica, la evidencia específica de cada condición ni las obligaciones de seguridad y consentimiento.</p>"
+              "heading": "3. Evolución a través de cuatro ediciones (1991, 2002, 2012 y 2023)",
+              "html": "<p>A lo largo de más de 40 años, la Entrevista Motivacional ha transitado cuatro hitos editoriales determinantes:</p><ul><li><strong>1.ª Edición (1991):</strong> Centrada en la preparación para el tratamiento de adicciones y en el manejo de la resistencia.</li><li><strong>2.ª Edición (2002):</strong> Expansión a la medicina general, enfermedades crónicas y estilos de vida; consolidación de los 4 principios clásicos (empatía, discrepancia, rodar con la resistencia y autoeficacia).</li><li><strong>3.ª Edición (2012):</strong> Giro relacional hacia los <em>Cuatro Procesos</em> (Vincular, Enfocar, Evocar, Planificar) y conceptualización precisa del lenguaje de cambio (DARN-CAT) frente al discurso de mantenimiento.</li><li><strong>4.ª Edición (2023 - <em>Helping People Change and Grow</em>):</strong> Destilación y desmitificación. Miller y Rollnick redefinen la EM como <em>'una manera particular de hablar con las personas sobre cambio y crecimiento para fortalecer su propia motivación y compromiso'</em>. Los 4 procesos pasan a denominarse <strong>4 Tareas clínicas</strong> (Tasks), el componente de evocación del espíritu se amplía a <strong>Empoderamiento (Empowerment / PACE-E)</strong>, el 'reflejo de corrección' se designa como <em>Fixing Reflex</em>, y se introducen distinciones clave como las afirmaciones simples frente a complejas.</li></ul>"
             },
             {
-              "heading": "Viñeta clínica comentada",
-              "html": "<div class=\"dialogue-line\"><b>Consultante (viñeta ficticia):</b> «Sé que esto me preocupa, pero todavía no sé qué estoy dispuesto a cambiar».</div><div class=\"dialogue-line\"><b>Profesional:</b> «Una parte de ti ve motivos para hacer algo distinto, y otra necesita entender qué perderías con ese cambio».</div><div class=\"dialogue-line\"><b>Nota docente:</b> El reflejo es una hipótesis, no una conclusión. La respuesta adecuada depende del contexto; invita a corregirla o ampliarla.</div>"
+              "heading": "4. Viñeta clínica comparativa: Enfoque confrontativo vs. Enfoque motivacional",
+              "html": "<div class=\"clinical-box\"><p><strong>Caso:</strong> Varón de 46 años derivado por hipertensión arterial descontrolada y consumo de 6 unidades estándar de alcohol diarias.</p><div class=\"dialogue-bad\"><p class=\"speaker\">🔴 Intervención Tradicional Confrontativa:</p><p><strong>Clínico:</strong> 'Mire sus cifras tensionales, están en 165/105. Si continúa bebiendo así va a sufrir un ictus o una insuficiencia cardíaca. Tiene que asumir que tiene un problema serio con la bebida y dejarla hoy mismo.'</p><p><strong>Paciente:</strong> 'Usted exagera. Bebo lo mismo que mis compañeros de trabajo para relajarme del estrés. Además mi abuelo bebió toda la vida y murió a los noventa años.'</p><p class=\"critique\"><em>Análisis:</em> El clínico activó reactancia psicológica. Al defender el terapeuta la abstinencia, forzó al paciente a defender el statu quo, reforzando su discurso de mantenimiento.</p></div><div class=\"dialogue-good\"><p class=\"speaker\">🟢 Intervención Consistente con Entrevista Motivacional:</p><p><strong>Clínico:</strong> 'Con el trabajo tan exigente que tiene, el alcohol ha sido una vía rápida para desconectar al final del día. Y al mismo tiempo, estas cifras de presión arterial le hacen preguntarse si su cuerpo está empezando a pasarle factura.' [Reflejo complejo de doble cara]</p><p><strong>Paciente:</strong> 'Exacto... no me gusta ver los números tan altos. Por mis hijos no quisiera tener un susto de salud, pero no sé cómo calmar la cabeza sin un par de copas.'</p><p class=\"critique\"><em>Análisis:</em> El reflejo no juzga, valida la función del consumo y abre espacio para que el propio paciente verbalice su deseo y necesidad de cambio (DARN).</p></div></div>"
+            }
+          ],
+          "references": [
+            {
+              "title": "Hernández Ribas, R. (2018)",
+              "citation": "Habilidades de comunicación profesional: Entrevista motivacional. Universitat Oberta de Catalunya (FUOC), PID_00255172."
+            },
+            {
+              "title": "Lizarraga, S., & Ayarra, M. (2001)",
+              "citation": "Entrevista motivacional. Anales del Sistema Sanitario de Navarra, 24(Supl. 2), 43-53."
+            },
+            {
+              "title": "Miller, W. R. (1983)",
+              "citation": "Motivational interviewing with problem drinkers. Behavioral Psychotherapy, 11(2), 147-172."
+            },
+            {
+              "title": "Miller, W. R., & Rollnick, S. (2023)",
+              "citation": "Motivational Interviewing: Helping People Change and Grow (4th ed.). Guilford Press."
             }
           ],
           "quickCheck": {
-            "question": "¿Qué respuesta refleja mejor la idea central de «Historia y desarrollo de la EM: de Drinker Project (1983) a la 3.ª edición (2012). Contexto sociohistórico.»?",
+            "stem": "¿Cuál fue el hallazgo empírico central que William R. Miller observó en el 'Drinker Project' (1982) al analizar las interacciones terapéuticas grabadas?",
             "options": [
-              "Repetir una recomendación profesional aunque no responda a la perspectiva de la persona.",
-              "Explorar el tema de manera colaborativa, respetar la autonomía y verificar la comprensión.",
-              "Interpretar la ambivalencia como resistencia y confrontarla de inmediato.",
-              "Dar por supuesto que una técnica produce el mismo resultado en cualquier contexto."
+              "Los bebedores problema requerían que el terapeuta adoptara un estilo directivo estricto para aceptar su patología.",
+              "Cuanto más confrontaba y argumentaba el terapeuta a favor de la abstinencia, más argumentos a favor del consumo verbalizaba el paciente.",
+              "La terapia cognitivo-conductual estructurada era la única intervención capaz de modificar los esquemas de consumo.",
+              "El cambio solo ocurría cuando el paciente tocaba fondo y pedía ayuda voluntaria sin intervención profesional."
             ],
-            "correctIndex": 1,
-            "explanation": "Esta unidad aborda Lectura guiada de Historia y desarrollo de la EM: de Drinker Project (1983) a la 3.ª edición (2012). Contexto sociohistórico.. Incluye desarrollo conceptual, aplicación clínica, análisis de una viñeta ficticia y una comprobación de comprensión.. En EM, la aplicación debe ser colaborativa, sensible al contexto y abierta a la perspectiva de la persona; no se trata de imponer una respuesta única."
-          },
-          "supplementaryReading": {
-            "heading": "Lectura complementaria del material del curso",
-            "html": "<div class=\"supplementary-intro\">Lectura ampliada basada en las separatas del programa. Úsala junto con el desarrollo conceptual y verifica las afirmaciones relevantes en las fuentes primarias incluidas en la bibliografía.</div><h4>1. Introducción y Epistemología</h4><h2>1. Introducción y Epistemología</h2>\n<p>La <strong>Entrevista Motivacional (EM)</strong> no surgió en un laboratorio académico a partir de una deducción puramente teórica, sino en la práctica clínica directa a principios de la década de 1980. Definida formalmente en su evolución más reciente como <em>«un estilo colaborativo de conversación orientado a metas para fortalecer la motivación y el compromiso de una persona hacia el cambio y el crecimiento»</em> (Miller &amp; Rollnick, 2023), la EM representa un cambio de paradigma frente a los modelos tradicionales confrontativos y prescriptivos que dominaron la medicina y la psicoterapia durante el siglo XX.</p>\n<p>A nivel epistemológico, la EM abandona la concepción de la motivación como un rasgo estático o una condición inherente del paciente (\"el paciente no está motivado\") y la redefine como un <strong>estado dinámico, fluctuante e interpersonal</strong>. La motivación se construye, modula o deteriora en el diálogo mismo entre el profesional y el consultante.</p>\n<div class=\"callout-box\">\n<strong>Principio Epistemológico Central:</strong> La ambivalencia no es una patología ni una resistencia malintencionada; es una etapa natural y universal en todo proceso de toma de decisiones humanas. Cuando el clínico argumenta a favor del cambio, fuerza inadvertidamente al consultante a defender el estatus quo.\n</div>"
+            "answerIndex": 1,
+            "explanation": "El descubrimiento fundacional de la EM fue que la resistencia no es un rasgo fijo del paciente, sino un fenómeno interpersonal: confrontar directamente provoca que la persona defienda el lado opuesto de su ambivalencia, consolidando su conducta de consumo."
           }
         },
         {
           "id": "1.2",
           "title": "Diferenciación conceptual: EM vs. counseling rogersiano, TCC, terapia de confrontación y psicoeducación directiva.",
-          "overview": "Lectura guiada de Diferenciación conceptual: EM vs. counseling rogersiano, TCC, terapia de confrontación y psicoeducación directiva.. Incluye desarrollo conceptual, aplicación clínica, análisis de una viñeta ficticia y una comprobación de comprensión.",
+          "overview": "Distinción rigurosa de la Entrevista Motivacional respecto a otras corrientes clínicas y modelos pedagógicos, clarificando qué es la EM, qué no es, y cómo opera su directividad estratégica hacia metas de salud.",
           "learningGoals": [
-            "Explicar los conceptos centrales de Diferenciación conceptual: EM vs. counseling rogersiano, TCC, terapia de confrontación y psicoeducación directiva. con lenguaje propio.",
-            "Relacionar el contenido con una decisión clínica observable.",
-            "Reconocer límites, riesgos de simplificación y preguntas que requieren evidencia adicional."
+            "Diferenciar la directividad estratégica de la EM frente a la no-directividad pura de la terapia centrada en la persona (Rogers).",
+            "Contrastar la complementariedad entre EM (resolver la ambivalencia / querer cambiar) y la TCC (entrenar destrezas / saber cómo cambiar).",
+            "Identificar las distorsiones clínicas del estilo directivo prescriptivo y la trampa del experto en la consulta cotidiana."
           ],
           "sections": [
             {
-              "heading": "Marco conceptual",
-              "html": "<p>Esta unidad ubica <strong>Diferenciación conceptual: EM vs. counseling rogersiano, TCC, terapia de confrontación y psicoeducación directiva.</strong> dentro de los fundamentos de la Entrevista Motivacional (EM). La EM es una manera colaborativa y orientada de conversar sobre cambio y crecimiento para fortalecer la motivación y el compromiso propios de la persona, no un guion para convencerla. Su práctica combina el modo de relacionarse con tareas clínicas concretas; por eso una técnica aislada no demuestra competencia.</p><p>Para estudiar el tema, distingue tres niveles: <strong>descripción</strong> (qué fenómeno o concepto se observa), <strong>proceso</strong> (cómo se expresa en la conversación) y <strong>decisión clínica</strong> (qué respuesta respeta la autonomía y favorece una conversación útil). Esta distinción evita convertir un modelo explicativo en diagnóstico o en receta.</p>"
+              "heading": "1. El linaje rogeriano y la divergencia fundamental: La directividad intencional",
+              "html": "<p>La Entrevista Motivacional tiene sus raíces en la terapia centrada en la persona de Carl Rogers (1951, 1957). De Rogers toma las actitudes facilitadoras indispensables: empatía precisa, autenticidad y consideración positiva incondicional. Sin embargo, existe una diferencia epistemológica crucial: <strong>el counseling rogersiano clásico es rigurosamente no-directivo</strong>; el terapeuta sigue al cliente hacia donde este desee ir sin orientar la conversación hacia ninguna meta prefijada.</p><p>Por el contrario, <strong>la Entrevista Motivacional es deliberada y estratégicamente directiva</strong>. El clínico de EM no es neutral ante conductas de alto riesgo (ej. tabaquismo, descontrol glucémico, consumo problemático de alcohol). La EM tiene una dirección clara: evocar y reforzar el lenguaje de cambio del paciente mientras responde con reflejos que suavizan el discurso de mantenimiento. Es un método directivo para resolver la ambivalencia interpersonal.</p>"
             },
             {
-              "heading": "Desarrollo académico y aplicación",
-              "html": "<p>Comienza separando el contexto histórico, la formulación conceptual y la aplicación clínica de EM vs. counseling rogersiano, TCC, terapia de confrontación y psicoeducación directiva.. Una innovación en la práctica no se convierte automáticamente en una teoría demostrada: identifica qué evidencia apoya cada interpretación y qué sigue siendo una hipótesis explicativa.</p><p>En la lectura, compara las definiciones utilizadas en las distintas ediciones de Miller y Rollnick. La cuarta edición define la EM como una manera particular de hablar sobre cambio y crecimiento para fortalecer la propia motivación y compromiso de la persona; el vocabulario y ejemplos se simplifican, manteniendo las cuatro tareas de involucrar, enfocar, evocar y planificar.</p><p>En clínica, el concepto sirve para guiar la escucha, no para etiquetar al consultante. Traduce cada afirmación teórica a una conducta comprobable del profesional y a una pregunta sobre la experiencia de la persona. Distingue asociación temporal, mecanismo plausible y causalidad demostrada.</p><p>Al analizar un caso, pregunta qué cambiaría en la intervención si la hipótesis fuera correcta, qué dato podría refutarla y cómo se mantendrían el consentimiento y la autonomía. Esta disciplina previene la neuro-reducción, el uso ornamental de teorías y las explicaciones demasiado seguras.</p>"
+              "heading": "2. Entrevista Motivacional frente a Terapia Cognitivo-Conductual (TCC)",
+              "html": "<p>Existe una sinergia natural pero funcionalmente diferenciada entre la EM y la TCC:</p><table class=\"em-compare-table\" style=\"width:100%; border-collapse:collapse; margin:16px 0;\"><tr style=\"background:#f1f5f9; border-bottom:2px solid #cbd5e1;\"><th style=\"padding:10px; text-align:left;\">Dimensión</th><th style=\"padding:10px; text-align:left;\">Entrevista Motivacional (EM)</th><th style=\"padding:10px; text-align:left;\">Terapia Cognitivo-Conductual (TCC)</th></tr><tr style=\"border-bottom:1px solid #e2e8f0;\"><td style=\"padding:10px; font-weight:600;\">Foco principal</td><td style=\"padding:10px;\">¿Por qué cambiar? Resolución de la ambivalencia intrínseca y motivación.</td><td style=\"padding:10px;\">¿Cómo cambiar? Reestructuración cognitiva, habilidades de afrontamiento y prevención de recaídas.</td></tr><tr style=\"border-bottom:1px solid #e2e8f0;\"><td style=\"padding:10px; font-weight:600;\">Fase del cambio</td><td style=\"padding:10px;\">Precontemplación, Contemplación y Preparación.</td><td style=\"padding:10px;\">Acción y Mantenimiento.</td></tr><tr style=\"border-bottom:1px solid #e2e8f0;\"><td style=\"padding:10px; font-weight:600;\">Rol del clínico</td><td style=\"padding:10px;\">Guía/Colaborador que evoca los motivos de la persona.</td><td style=\"padding:10px;\">Entrenador/Psicoeducador que enseña técnicas estructuradas.</td></tr></table><p>Administrar TCC (ej. autorregistros o tareas para casa) a un paciente que todavía se encuentra en fase de contemplación suele ser interpretado como presión externa y fracasa sistemáticamente. La EM actúa frecuentemente como pre-tratamiento que optimiza la adherencia a la TCC.</p>"
             },
             {
-              "heading": "Aplicación clínica y límites",
-              "html": "<p>Al aplicar <strong>Diferenciación conceptual: EM vs. counseling rogersiano, TCC, terapia de confrontación y psicoeducación directiva.</strong>, empieza por preguntar qué significado tiene el cambio para esta persona y qué beneficios y costos percibe. Comprueba tus hipótesis con reflejos y preguntas abiertas; no presentes inferencias como hechos. Si aparece desacuerdo, detén el impulso de argumentar y vuelve a explorar la perspectiva y las prioridades del consultante.</p><p>El marco histórico y teórico orienta la conversación, pero no reemplaza la evaluación clínica, la evidencia específica de cada condición ni las obligaciones de seguridad y consentimiento.</p>"
+              "heading": "3. Los tres estilos de comunicación en salud (Lizarraga & Ayarra, 2001)",
+              "html": "<p>En su influyente trabajo sobre entrevista motivacional en atención primaria, Socorro Lizarraga y Maite Ayarra (2001) describen tres estilos básicos de interacción clínica:</p><ul><li><strong>Estilo Directivo (Dirigir):</strong> El profesional toma el control, evalúa, diagnostica e indica al paciente exactamente lo que debe hacer ('Tome esto, deje aquello'). Útil en emergencias médicas, pero ineficaz ante dilemas conductuales y cambios de hábitos.</li><li><strong>Estilo Facilitador o Seguidor (Seguir):</strong> El profesional escucha pasivamente sin marcar agenda, esperando que el paciente descubra su propio camino. Apropiado en situaciones de duelo agudo o alivio emocional inicial.</li><li><strong>Estilo Guía o Colaborativo (Guiar):</strong> Es el corazón de la EM. El profesional ofrece un mapa, señala las bifurcaciones y acompaña respetuosamente al paciente mientras este decide el ritmo y el camino de su viaje de cambio.</li></ul>"
+            }
+          ],
+          "references": [
+            {
+              "title": "Hernández Ribas, R. (2018)",
+              "citation": "Habilidades de comunicación profesional: Entrevista motivacional. FUOC."
             },
             {
-              "heading": "Viñeta clínica comentada",
-              "html": "<div class=\"dialogue-line\"><b>Consultante (viñeta ficticia):</b> «Sé que esto me preocupa, pero todavía no sé qué estoy dispuesto a cambiar».</div><div class=\"dialogue-line\"><b>Profesional:</b> «Una parte de ti ve motivos para hacer algo distinto, y otra necesita entender qué perderías con ese cambio».</div><div class=\"dialogue-line\"><b>Nota docente:</b> El reflejo es una hipótesis, no una conclusión. La respuesta adecuada depende del contexto; invita a corregirla o ampliarla.</div>"
+              "title": "Lizarraga, S., & Ayarra, M. (2001)",
+              "citation": "Entrevista motivacional. Anales del Sistema Sanitario de Navarra, 24(Supl. 2), 43-53."
+            },
+            {
+              "title": "Rogers, C. R. (1957)",
+              "citation": "The necessary and sufficient conditions of therapeutic personality change. Journal of Consulting Psychology, 21(2), 95-103."
+            },
+            {
+              "title": "Universidad Central del Caribe (2016)",
+              "citation": "Módulo Instruccional: Entrevista Motivacional. Escuela de Medicina UCC / SAMHSA."
             }
           ],
           "quickCheck": {
-            "question": "¿Qué respuesta refleja mejor la idea central de «Diferenciación conceptual: EM vs. counseling rogersiano, TCC, terapia de confrontación y psicoeducación directiva.»?",
+            "stem": "¿Cuál es la diferencia primordial entre la Entrevista Motivacional y el counseling centrado en la persona de Carl Rogers?",
             "options": [
-              "Repetir una recomendación profesional aunque no responda a la perspectiva de la persona.",
-              "Explorar el tema de manera colaborativa, respetar la autonomía y verificar la comprensión.",
-              "Interpretar la ambivalencia como resistencia y confrontarla de inmediato.",
-              "Dar por supuesto que una técnica produce el mismo resultado en cualquier contexto."
+              "La EM utiliza confrontación técnica mientras que Rogers utilizaba interpretación psicoanalítica.",
+              "El counseling rogersiano es estrictamente no directivo, mientras que la EM es estratégicamente directiva hacia la resolución de la ambivalencia y el cambio.",
+              "Rogers solo atendía a pacientes neuróticos, mientras que la EM solo es aplicable a personas con dependencia química severa.",
+              "La EM prescribe tareas cognitivas para el hogar en cada sesión y Rogers prohibía las tareas."
             ],
-            "correctIndex": 1,
-            "explanation": "Esta unidad aborda Lectura guiada de Diferenciación conceptual: EM vs. counseling rogersiano, TCC, terapia de confrontación y psicoeducación directiva.. Incluye desarrollo conceptual, aplicación clínica, análisis de una viñeta ficticia y una comprobación de comprensión.. En EM, la aplicación debe ser colaborativa, sensible al contexto y abierta a la perspectiva de la persona; no se trata de imponer una respuesta única."
-          },
-          "supplementaryReading": {
-            "heading": "Lectura complementaria del material del curso",
-            "html": "<div class=\"supplementary-intro\">Lectura ampliada basada en las separatas del programa. Úsala junto con el desarrollo conceptual y verifica las afirmaciones relevantes en las fuentes primarias incluidas en la bibliografía.</div><h4>1. Introducción y Epistemología</h4><h2>1. Introducción y Epistemología</h2>\n<p>La <strong>Entrevista Motivacional (EM)</strong> no surgió en un laboratorio académico a partir de una deducción puramente teórica, sino en la práctica clínica directa a principios de la década de 1980. Definida formalmente en su evolución más reciente como <em>«un estilo colaborativo de conversación orientado a metas para fortalecer la motivación y el compromiso de una persona hacia el cambio y el crecimiento»</em> (Miller &amp; Rollnick, 2023), la EM representa un cambio de paradigma frente a los modelos tradicionales confrontativos y prescriptivos que dominaron la medicina y la psicoterapia durante el siglo XX.</p>\n<p>A nivel epistemológico, la EM abandona la concepción de la motivación como un rasgo estático o una condición inherente del paciente (\"el paciente no está motivado\") y la redefine como un <strong>estado dinámico, fluctuante e interpersonal</strong>. La motivación se construye, modula o deteriora en el diálogo mismo entre el profesional y el consultante.</p>\n<div class=\"callout-box\">\n<strong>Principio Epistemológico Central:</strong> La ambivalencia no es una patología ni una resistencia malintencionada; es una etapa natural y universal en todo proceso de toma de decisiones humanas. Cuando el clínico argumenta a favor del cambio, fuerza inadvertidamente al consultante a defender el estatus quo.\n</div>"
+            "answerIndex": 1,
+            "explanation": "Aunque la EM comparte el espíritu rogeriano de calidez y aceptación, se distingue de él porque el clínico orienta de forma consciente y deliberada la interacción hacia metas de cambio específicas mediante el refuerzo selectivo del lenguaje de cambio."
           }
         },
         {
           "id": "1.3",
-          "title": "El espíritu de la EM: PACE en las ediciones actuales y su evolución",
-          "overview": "Partnership, Acceptance, Compassion y Empowerment en la 4.ª edición; comparación con Evocation en la formulación anterior.",
+          "title": "El espíritu de la EM: PACE-E (Asociación, Aceptación, Compasión y Empoderamiento).",
+          "overview": "Análisis profundo de la dimensión actitudinal de la Entrevista Motivacional. Por qué las técnicas comunicativas carecen de eficacia si no están enraizadas en una genuina disposición relacional de respeto, compasión y autonomía.",
           "learningGoals": [
-            "Explicar los conceptos centrales de El espíritu de la EM: PACE (Partnership, Acceptance, Compassion, Evocation). Análisis componencial. con lenguaje propio.",
-            "Relacionar el contenido con una decisión clínica observable.",
-            "Reconocer límites, riesgos de simplificación y preguntas que requieren evidencia adicional."
+            "Desglosar los cuatro componentes del espíritu de la EM: Asociación (Partnership), Aceptación (Acceptance), Compasión (Compassion) y Empoderamiento (Empowerment / Evocación).",
+            "Identificar las 4 dimensiones de la Aceptación: Valor intrínseco, Empatía precisa, Apoyo a la autonomía y Afirmación.",
+            "Reconocer las manifestaciones de la pérdida del espíritu motivacional en la interacción clínica cotidiana."
           ],
           "sections": [
             {
-              "heading": "Marco conceptual",
-              "html": "<p>En la 3.ª edición, el espíritu se presenta mediante PACE: Partnership (colaboración), Acceptance (aceptación), Compassion (compasión) y Evocation (evocación). En la 4.ª edición, Miller y Rollnick mantienen los tres primeros componentes y ponen el énfasis en Empowerment (empoderamiento), destacando las fortalezas, recursos, autonomía y capacidad de la persona. Por ello, no conviene llamar “PACE-E” al acrónimo como si fuera el término oficial: la sigla PACE se conserva, pero la E corresponde a empowerment en la cuarta edición. <a href=\"https://motivationalinterviewing.org/sites/default/files/what_new_in_mi-4.pdf\" target=\"_blank\" rel=\"noopener\">Miller y Rollnick explican el cambio en esta nota ↗</a>.</p>"
+              "heading": "1. El primado del espíritu sobre la técnica",
+              "html": "<p>En el manual de codificación MITI 4.2.1 (Moyers, Manuel & Ernst, 2015) y en los estudios de fidelidad, se reitera una máxima: <em>la Entrevista Motivacional no es una bolsa de trucos verbales ni una técnica que se 'hace a alguien'</em>. Si un profesional domina las preguntas abiertas y los reflejos pero mantiene una actitud interna de desdén, condescendencia o impaciencia hacia el paciente, el resultado es la desconfianza y el alejamiento. El espíritu es la matriz relacional desde la cual cobra sentido cualquier intervención técnica.</p>"
             },
             {
-              "heading": "Desarrollo académico y aplicación",
-              "html": "<p>Compara cada componente con una conducta observable: colaboración se refleja en decisiones compartidas; aceptación en empatía precisa y respeto por autonomía; compasión en orientar la conversación al bienestar del consultante; empoderamiento en reconocer y evocar sus propias capacidades. Evocación sigue siendo una tarea clínica central, aunque no sea ya la E del acrónimo de espíritu en la cuarta edición.</p><p>Enseña la diferencia sin convertirla en una ruptura absoluta: la edición de 2023 amplía y actualiza el énfasis, preservando continuidad con la práctica previa. Usa la edición que corresponde cuando cites el marco.</p>"
+              "heading": "2. Los cuatro pilares del Espíritu (PACE-E)",
+              "html": "<p>En la 4.ª edición de Miller y Rollnick (2023), el acrónimo PACE se consolida con una evolución significativa:</p><ul><li><strong>P - Asociación / Colaboración (Partnership):</strong> Es una alianza horizontal entre dos expertos: el clínico es experto en salud y evidencia científica, pero el paciente es el único experto en su propia vida, valores, miedos y contexto. No es un combate de lucha libre (donde uno intenta derribar al otro), sino un baile en pareja donde se sincronizan los pasos.</li><li><strong>A - Aceptación (Acceptance):</strong> No significa aprobación incondicional de conductas de riesgo; significa aceptar incondicionalmente a la persona. Posee cuatro ramificaciones rogerianas:<ul><li><em>Valor intrínseco (Absolute Worth):</em> Reconocimiento de la dignidad sagrada de cada ser humano, independiente de su estado de salud o conducta actual.</li><li><em>Empatía precisa (Accurate Empathy):</em> Esfuerzo activo y sincero por comprender el mundo interno del paciente tal como él lo experimenta, libre de juicios diagnósticos.</li><li><em>Apoyo a la autonomía (Autonomy Support):</em> Reconocimiento de que la decisión final de cambiar (o no cambiar) pertenece exclusivamente a la persona. La coerción solo engendra sumisión transitoria o desafío.</li><li><em>Afirmación (Affirmation):</em> Identificación consciente de las fortalezas, intenciones y esfuerzos del paciente, distinguiéndola del mero halago superficial.</li></ul></li><li><strong>C - Compasión (Compassion):</strong> El compromiso inquebrantable de priorizar el bienestar, los intereses y las necesidades del paciente por encima de la conveniencia personal, los incentivos económicos o las exigencias institucionales del profesional.</li><li><strong>E - Empoderamiento / Evocación (Empowerment):</strong> Tradicionalmente llamado 'evocación', en la 4.ª edición (2023) se profundiza como <strong>empoderamiento</strong>: asumir que la persona ya tiene en su interior la sabiduría, los recursos y las semillas necesarias para su propio cambio. El rol del clínico no es inyectar motivación en un contenedor vacío, sino facilitar que emerja y florezca su propia fuerza motriz.</li></ul>"
             },
             {
-              "heading": "Aplicación clínica y límites",
-              "html": "<p>Al aplicar <strong>El espíritu de la EM: PACE (Partnership, Acceptance, Compassion, Evocation). Análisis componencial.</strong>, empieza por preguntar qué significado tiene el cambio para esta persona y qué beneficios y costos percibe. Comprueba tus hipótesis con reflejos y preguntas abiertas; no presentes inferencias como hechos. Si aparece desacuerdo, detén el impulso de argumentar y vuelve a explorar la perspectiva y las prioridades del consultante.</p><p>El marco histórico y teórico orienta la conversación, pero no reemplaza la evaluación clínica, la evidencia específica de cada condición ni las obligaciones de seguridad y consentimiento.</p>"
+              "heading": "3. Desmontando el juicio moral en consulta (Hernández Ribas, UOC)",
+              "html": "<p>Como subraya Rosa Hernández Ribas (UOC, 2018), cuando un paciente acude a consulta fumando, con obesidad mórbida o incumpliendo un tratamiento antirretroviral, lo último que necesita es que un profesional le informe de que 'fumar es malo' o 'estar gordo enferma'. La persona ya lo sabe y convive a diario con el autorreproche y la culpa. El espíritu de la EM crea un espacio seguro donde el paciente puede admitir sus dudas y temores sin temer el juicio, lo que paradójicamente desbloquea el deseo de cambio.</p>"
+            }
+          ],
+          "references": [
+            {
+              "title": "Hernández Ribas, R. (2018)",
+              "citation": "Habilidades de comunicación profesional: Entrevista motivacional. FUOC, Módulo didáctico 1."
             },
             {
-              "heading": "Viñeta clínica comentada",
-              "html": "<div class=\"dialogue-line\"><b>Consultante (viñeta ficticia):</b> «Sé que esto me preocupa, pero todavía no sé qué estoy dispuesto a cambiar».</div><div class=\"dialogue-line\"><b>Profesional:</b> «Una parte de ti ve motivos para hacer algo distinto, y otra necesita entender qué perderías con ese cambio».</div><div class=\"dialogue-line\"><b>Nota docente:</b> El reflejo es una hipótesis, no una conclusión. La respuesta adecuada depende del contexto; invita a corregirla o ampliarla.</div>"
+              "title": "Miller, W. R., & Rollnick, S. (2023)",
+              "citation": "Motivational Interviewing: Helping People Change and Grow (4th ed.). Guilford Press."
+            },
+            {
+              "title": "Moyers, T. B., Manuel, J. K., & Ernst, D. (2015)",
+              "citation": "Motivational Interviewing Treatment Integrity Coding Manual 4.2.1 (MITI 4.2.1). University of New Mexico."
             }
           ],
           "quickCheck": {
-            "question": "¿Qué respuesta refleja mejor la idea central de «El espíritu de la EM: PACE en las ediciones actuales y su evolución»?",
+            "stem": "¿A qué se refiere el pilar de 'Apoyo a la autonomía' dentro de la Aceptación en el espíritu de la EM?",
             "options": [
-              "Repetir una recomendación profesional aunque no responda a la perspectiva de la persona.",
-              "Explorar el tema de manera colaborativa, respetar la autonomía y verificar la comprensión.",
-              "Interpretar la ambivalencia como resistencia y confrontarla de inmediato.",
-              "Dar por supuesto que una técnica produce el mismo resultado en cualquier contexto."
+              "A que el profesional debe desentenderse de la salud del paciente y dejarlo librado a su suerte.",
+              "Al reconocimiento explícito de que la persona tiene la libertad y la potestad irrevocable de decidir si cambia o no su conducta.",
+              "A condicionar la atención médica únicamente a los pacientes que firmen un contrato de adherencia.",
+              "A permitir que el paciente decida qué fármacos recetarse a sí mismo sin supervisión clínica."
             ],
-            "correctIndex": 1,
-            "explanation": "Esta unidad aborda Partnership, Acceptance, Compassion y Empowerment en la 4.ª edición; comparación con Evocation en la formulación anterior.. En EM, la aplicación debe ser colaborativa, sensible al contexto y abierta a la perspectiva de la persona; no se trata de imponer una respuesta única."
-          },
-          "supplementaryReading": {
-            "heading": "Lectura complementaria del material del curso",
-            "html": "<div class=\"supplementary-intro\">Lectura ampliada basada en las separatas del programa. Úsala junto con el desarrollo conceptual y verifica las afirmaciones relevantes en las fuentes primarias incluidas en la bibliografía.</div><h4>1. Introducción y Epistemología</h4><h2>1. Introducción y Epistemología</h2>\n<p>La <strong>Entrevista Motivacional (EM)</strong> no surgió en un laboratorio académico a partir de una deducción puramente teórica, sino en la práctica clínica directa a principios de la década de 1980. Definida formalmente en su evolución más reciente como <em>«un estilo colaborativo de conversación orientado a metas para fortalecer la motivación y el compromiso de una persona hacia el cambio y el crecimiento»</em> (Miller &amp; Rollnick, 2023), la EM representa un cambio de paradigma frente a los modelos tradicionales confrontativos y prescriptivos que dominaron la medicina y la psicoterapia durante el siglo XX.</p>\n<p>A nivel epistemológico, la EM abandona la concepción de la motivación como un rasgo estático o una condición inherente del paciente (\"el paciente no está motivado\") y la redefine como un <strong>estado dinámico, fluctuante e interpersonal</strong>. La motivación se construye, modula o deteriora en el diálogo mismo entre el profesional y el consultante.</p>\n<div class=\"callout-box\">\n<strong>Principio Epistemológico Central:</strong> La ambivalencia no es una patología ni una resistencia malintencionada; es una etapa natural y universal en todo proceso de toma de decisiones humanas. Cuando el clínico argumenta a favor del cambio, fuerza inadvertidamente al consultante a defender el estatus quo.\n</div>"
+            "answerIndex": 1,
+            "explanation": "El apoyo a la autonomía implica reconocer la realidad clínica insoslayable: ningún terapeuta puede forzar físicamente a un paciente a tomarse una pastilla o dejar un hábito. Admitir abiertamente que la elección es suya desactiva la reactancia y transfiere la responsabilidad a quien corresponde: el propio individuo."
           }
         },
         {
           "id": "1.4",
-          "title": "Modelo Transteórico del Cambio: precontemplación, contemplación, preparación, acción, mantenimiento y recaída.",
-          "overview": "Lectura guiada de Modelo Transteórico del Cambio: precontemplación, contemplación, preparación, acción, mantenimiento y recaída.. Incluye desarrollo conceptual, aplicación clínica, análisis de una viñeta ficticia y una comprobación de comprensión.",
+          "title": "Modelo Transteórico del Cambio: Precontemplación, Contemplación, Preparación, Acción, Mantenimiento y Recaída.",
+          "overview": "Integración del modelo de James Prochaska y Carlo DiClemente con la Entrevista Motivacional. Cómo sincronizar el estilo clínico con la etapa temporal del paciente y evitar el desacoplamiento motivacional.",
           "learningGoals": [
-            "Explicar los conceptos centrales de Modelo Transteórico del Cambio: precontemplación, contemplación, preparación, acción, mantenimiento y recaída. con lenguaje propio.",
-            "Relacionar el contenido con una decisión clínica observable.",
-            "Reconocer límites, riesgos de simplificación y preguntas que requieren evidencia adicional."
+            "Caracterizar el discurso y los marcadores clínicos de cada una de las seis etapas del Modelo Transteórico.",
+            "Diferenciar los procesos de cambio cognitivo-afectivos (fases tempranas) de los conductuales (fases tardías).",
+            "Conceptualizar la recaída no como un fracaso patológico, sino como un evento de aprendizaje dentro de un modelo en espiral."
           ],
           "sections": [
             {
-              "heading": "Marco conceptual",
-              "html": "<p>Esta unidad ubica <strong>Modelo Transteórico del Cambio: precontemplación, contemplación, preparación, acción, mantenimiento y recaída.</strong> dentro de los fundamentos de la Entrevista Motivacional (EM). La EM es una manera colaborativa y orientada de conversar sobre cambio y crecimiento para fortalecer la motivación y el compromiso propios de la persona, no un guion para convencerla. Su práctica combina el modo de relacionarse con tareas clínicas concretas; por eso una técnica aislada no demuestra competencia.</p><p>Para estudiar el tema, distingue tres niveles: <strong>descripción</strong> (qué fenómeno o concepto se observa), <strong>proceso</strong> (cómo se expresa en la conversación) y <strong>decisión clínica</strong> (qué respuesta respeta la autonomía y favorece una conversación útil). Esta distinción evita convertir un modelo explicativo en diagnóstico o en receta.</p>"
+              "heading": "1. Origen y naturaleza del Modelo Transteórico (MTT)",
+              "html": "<p>Desarrollado a principios de los años 80 por James O. Prochaska y Carlo C. DiClemente (1982, 1984), el Modelo Transteórico nació del estudio empírico de personas que lograban abandonar el tabaquismo, tanto de forma espontánea como en terapia. Los autores descubrieron que la modificación de una conducta arraigada no es un evento dicotómico (estar motivado o no estarlo), sino un <strong>proceso temporal continuo que atraviesa etapas cualitativamente distintas</strong> (Módulo UCC / SAMHSA, 2016).</p>"
             },
             {
-              "heading": "Desarrollo académico y aplicación",
-              "html": "<p>Comienza separando el contexto histórico, la formulación conceptual y la aplicación clínica de precontemplación, contemplación, preparación, acción, mantenimiento y recaída.. Una innovación en la práctica no se convierte automáticamente en una teoría demostrada: identifica qué evidencia apoya cada interpretación y qué sigue siendo una hipótesis explicativa.</p><p>En la lectura, compara las definiciones utilizadas en las distintas ediciones de Miller y Rollnick. La cuarta edición define la EM como una manera particular de hablar sobre cambio y crecimiento para fortalecer la propia motivación y compromiso de la persona; el vocabulario y ejemplos se simplifican, manteniendo las cuatro tareas de involucrar, enfocar, evocar y planificar.</p><p>En clínica, el concepto sirve para guiar la escucha, no para etiquetar al consultante. Traduce cada afirmación teórica a una conducta comprobable del profesional y a una pregunta sobre la experiencia de la persona. Distingue asociación temporal, mecanismo plausible y causalidad demostrada.</p><p>Al analizar un caso, pregunta qué cambiaría en la intervención si la hipótesis fuera correcta, qué dato podría refutarla y cómo se mantendrían el consentimiento y la autonomía. Esta disciplina previene la neuro-reducción, el uso ornamental de teorías y las explicaciones demasiado seguras.</p>"
+              "heading": "2. Las etapas del cambio y sus correlatos clínicos",
+              "html": "<div class=\"stage-card-grid\"><ul><li><strong>1. Precontemplación ('No quiero / No veo el problema'):</strong> La persona no tiene intención de cambiar en los próximos 6 meses. Desconoce las consecuencias o se encuentra desmoralizada por intentos fallidos previos. La presión externa solo genera resistencia. <em>Objetivo EM:</em> Sembrar dudas, invitar a la autoexploración sin exigir decisiones.</li><li><strong>2. Contemplación ('Quiero y no quiero / La ambivalencia'):</strong> La persona planea cambiar en los próximos 6 meses. Reconoce los riesgos pero no quiere renunciar a los beneficios inmediatos de la conducta. Puede permanecer atrapada aquí durante años en una 'contemplación crónica'. <em>Objetivo EM:</em> Explorar la ambivalencia, inclinar la balanza decisional hacia las razones de cambio.</li><li><strong>3. Preparación ('Voy a cambiar pronto'):</strong> La persona pretende actuar en el próximo mes y ya ha dado pequeños pasos tentativos. Comienza a verbalizar lenguaje de compromiso preparatorio (CATs). <em>Objetivo EM:</em> Clarificar metas, identificar obstáculos y co-diseñar un plan de cambio viable.</li><li><strong>4. Acción ('Estoy cambiando'):</strong> La persona ha modificado ostensiblemente su conducta en los últimos 6 meses. Requiere una alta inversión de energía y tiempo. <em>Objetivo EM:</em> Apoyar la autoeficacia, celebrar logros y afianzar nuevas rutinas.</li><li><strong>5. Mantenimiento ('Sostengo el cambio'):</strong> La conducta saludable se ha mantenido por más de 6 meses. El reto principal es evitar la complacencia y prevenir situaciones de alto riesgo de desliz.</li><li><strong>6. Recaída / Reciclaje:</strong> Retorno a etapas previas. En el MTT, la recaída no se concibe como una derrota moral, sino como una oportunidad de aprendizaje clínico para revisar qué estrategias fallaron y volver a iniciar el ciclo con mayor sabiduría empírica.</li></ul></div>"
             },
             {
-              "heading": "Aplicación clínica y límites",
-              "html": "<p>Al aplicar <strong>Modelo Transteórico del Cambio: precontemplación, contemplación, preparación, acción, mantenimiento y recaída.</strong>, empieza por preguntar qué significado tiene el cambio para esta persona y qué beneficios y costos percibe. Comprueba tus hipótesis con reflejos y preguntas abiertas; no presentes inferencias como hechos. Si aparece desacuerdo, detén el impulso de argumentar y vuelve a explorar la perspectiva y las prioridades del consultante.</p><p>El marco histórico y teórico orienta la conversación, pero no reemplaza la evaluación clínica, la evidencia específica de cada condición ni las obligaciones de seguridad y consentimiento.</p>"
+              "heading": "3. Procesos de cambio y el error del desacoplamiento clínico",
+              "html": "<p>El Módulo UCC/SAMHSA (2016) subraya que los <strong>procesos cognitivo-afectivos</strong> (aumento de conciencia, autoevaluación, alivio dramático) operan con mayor potencia en precontemplación y contemplación, mientras que los <strong>procesos conductuales</strong> (control de estímulos, contracondicionamiento, manejo de contingencias) solo son eficaces a partir de la preparación y acción.</p><p>El error más frecuente en medicina y psicología es el <em>desacoplamiento o mismatching</em>: el profesional le entrega al paciente un folleto de acción ('Aquí tiene la dieta de 1.200 calorías y la tabla de ejercicios') cuando el paciente todavía está contemplando si realmente vale la pena privarse de sus comidas favoritas. El resultado inmediato es el abandono del tratamiento.</p>"
+            }
+          ],
+          "references": [
+            {
+              "title": "Prochaska, J. O., & DiClemente, C. C. (1982)",
+              "citation": "Transtheoretical therapy: Toward a more integrative model of change. Psychotherapy: Theory, Research & Practice, 19(3), 276-288."
             },
             {
-              "heading": "Viñeta clínica comentada",
-              "html": "<div class=\"dialogue-line\"><b>Consultante (viñeta ficticia):</b> «Sé que esto me preocupa, pero todavía no sé qué estoy dispuesto a cambiar».</div><div class=\"dialogue-line\"><b>Profesional:</b> «Una parte de ti ve motivos para hacer algo distinto, y otra necesita entender qué perderías con ese cambio».</div><div class=\"dialogue-line\"><b>Nota docente:</b> El reflejo es una hipótesis, no una conclusión. La respuesta adecuada depende del contexto; invita a corregirla o ampliarla.</div>"
+              "title": "Prochaska, J. O., DiClemente, C. C., & Norcross, J. C. (1992)",
+              "citation": "In search of how people change: Applications to addictive behaviors. American Psychologist, 47(9), 1102-1114."
+            },
+            {
+              "title": "Universidad Central del Caribe / SAMHSA (2016)",
+              "citation": "Módulo Instruccional: Entrevista Motivacional. OEC/IRESA, Escuela de Medicina UCC."
             }
           ],
           "quickCheck": {
-            "question": "¿Qué respuesta refleja mejor la idea central de «Modelo Transteórico del Cambio: precontemplación, contemplación, preparación, acción, mantenimiento y recaída.»?",
+            "stem": "Un paciente con diabetes tipo 2 acude a control y afirma: 'Sé perfectamente que comer dulces me sube el azúcar y me asusta perder la vista, pero cuando llego con estrés a casa el chocolate es lo único que me calma'. ¿En qué etapa del Modelo Transteórico se encuentra?",
             "options": [
-              "Repetir una recomendación profesional aunque no responda a la perspectiva de la persona.",
-              "Explorar el tema de manera colaborativa, respetar la autonomía y verificar la comprensión.",
-              "Interpretar la ambivalencia como resistencia y confrontarla de inmediato.",
-              "Dar por supuesto que una técnica produce el mismo resultado en cualquier contexto."
+              "Precontemplación, porque sigue comiendo dulces.",
+              "Contemplación, porque reconoce el problema y el riesgo, pero experimenta una intensa ambivalencia ante la pérdida de los beneficios del hábito.",
+              "Acción, porque ha sido honesto con el profesional sobre sus dificultades.",
+              "Mantenimiento defectuoso, porque ha sufrido un desliz alimentario."
             ],
-            "correctIndex": 1,
-            "explanation": "Esta unidad aborda Lectura guiada de Modelo Transteórico del Cambio: precontemplación, contemplación, preparación, acción, mantenimiento y recaída.. Incluye desarrollo conceptual, aplicación clínica, análisis de una viñeta ficticia y una comprobación de comprensión.. En EM, la aplicación debe ser colaborativa, sensible al contexto y abierta a la perspectiva de la persona; no se trata de imponer una respuesta única."
-          },
-          "supplementaryReading": {
-            "heading": "Lectura complementaria del material del curso",
-            "html": "<div class=\"supplementary-intro\">Lectura ampliada basada en las separatas del programa. Úsala junto con el desarrollo conceptual y verifica las afirmaciones relevantes en las fuentes primarias incluidas en la bibliografía.</div><h4>1. Introducción y Epistemología</h4><h2>1. Introducción y Epistemología</h2>\n<p>La <strong>Entrevista Motivacional (EM)</strong> no surgió en un laboratorio académico a partir de una deducción puramente teórica, sino en la práctica clínica directa a principios de la década de 1980. Definida formalmente en su evolución más reciente como <em>«un estilo colaborativo de conversación orientado a metas para fortalecer la motivación y el compromiso de una persona hacia el cambio y el crecimiento»</em> (Miller &amp; Rollnick, 2023), la EM representa un cambio de paradigma frente a los modelos tradicionales confrontativos y prescriptivos que dominaron la medicina y la psicoterapia durante el siglo XX.</p>\n<p>A nivel epistemológico, la EM abandona la concepción de la motivación como un rasgo estático o una condición inherente del paciente (\"el paciente no está motivado\") y la redefine como un <strong>estado dinámico, fluctuante e interpersonal</strong>. La motivación se construye, modula o deteriora en el diálogo mismo entre el profesional y el consultante.</p>\n<div class=\"callout-box\">\n<strong>Principio Epistemológico Central:</strong> La ambivalencia no es una patología ni una resistencia malintencionada; es una etapa natural y universal en todo proceso de toma de decisiones humanas. Cuando el clínico argumenta a favor del cambio, fuerza inadvertidamente al consultante a defender el estatus quo.\n</div>"
+            "answerIndex": 1,
+            "explanation": "El sello distintivo de la Contemplación es la coexistencia simultánea de razones para cambiar ('me asusta perder la vista') y razones para mantener la conducta ('el chocolate es lo único que me calma'). Este estado de conflicto interno define la ambivalencia pura."
           }
         },
         {
           "id": "1.5",
-          "title": "Neurociencia de la motivación: dopamina, sistema de recompensa, cortex prefrontal ventromedial y comportamiento dirigido a metas.",
-          "overview": "Lectura guiada de Neurociencia de la motivación: dopamina, sistema de recompensa, cortex prefrontal ventromedial y comportamiento dirigido a metas.. Incluye desarrollo conceptual, aplicación clínica, análisis de una viñeta ficticia y una comprobación de comprensión.",
+          "title": "Psicología y neurociencia de la motivación: dopamina, disonancia cognitiva y reactancia psicológica.",
+          "overview": "Fundamentación empírica en ciencias cognitivas y neurobiología de por qué la Entrevista Motivacional facilita la toma de decisiones, analizando la reactancia de Brehm, la disonancia de Festinger y la autopercepción de Bem.",
           "learningGoals": [
-            "Explicar los conceptos centrales de Neurociencia de la motivación: dopamina, sistema de recompensa, cortex prefrontal ventromedial y comportamiento dirigido a metas. con lenguaje propio.",
-            "Relacionar el contenido con una decisión clínica observable.",
-            "Reconocer límites, riesgos de simplificación y preguntas que requieren evidencia adicional."
+            "Explicar la Teoría de la Reactancia Psicológica (Brehm) y su impacto en la activación de defensas cuando se percibe coerción.",
+            "Analizar el principio de Autopercepción (Bem): 'Escucho lo que digo y entonces sé lo que creo'.",
+            "Identificar el papel del sistema dopaminérgico mesolímbico y la corteza prefrontal ventromedial en la deliberación y resolución de la ambivalencia."
           ],
           "sections": [
             {
-              "heading": "Marco conceptual",
-              "html": "<p>Esta unidad ubica <strong>Neurociencia de la motivación: dopamina, sistema de recompensa, cortex prefrontal ventromedial y comportamiento dirigido a metas.</strong> dentro de los fundamentos de la Entrevista Motivacional (EM). La EM es una manera colaborativa y orientada de conversar sobre cambio y crecimiento para fortalecer la motivación y el compromiso propios de la persona, no un guion para convencerla. Su práctica combina el modo de relacionarse con tareas clínicas concretas; por eso una técnica aislada no demuestra competencia.</p><p>Para estudiar el tema, distingue tres niveles: <strong>descripción</strong> (qué fenómeno o concepto se observa), <strong>proceso</strong> (cómo se expresa en la conversación) y <strong>decisión clínica</strong> (qué respuesta respeta la autonomía y favorece una conversación útil). Esta distinción evita convertir un modelo explicativo en diagnóstico o en receta.</p>"
+              "heading": "1. La Teoría de la Reactancia Psicológica (Jack Brehm, 1966)",
+              "html": "<p>La reactancia psicológica es una reacción emocional e inconsciente que se desencadena cuando un individuo siente que su libertad de elección está siendo amenazada, coartada o arrebatada. Cuando una figura de autoridad (médico, psicólogo, juez o familiar) le dice categóricamente a alguien: <em>'Usted tiene que...'</em> o <em>'Está obligado a...'</em>, el cerebro humano reacciona protegiendo su autonomía mediante la reafirmación de la conducta prohibida ('Pues ahora con más ganas lo haré'). La EM evita deliberadamente las fórmulas impositivas, desactivando la reactancia biológica y relacional.</p>"
             },
             {
-              "heading": "Desarrollo académico y aplicación",
-              "html": "<p>Comienza separando el contexto histórico, la formulación conceptual y la aplicación clínica de dopamina, sistema de recompensa, cortex prefrontal ventromedial y comportamiento dirigido a metas.. Una innovación en la práctica no se convierte automáticamente en una teoría demostrada: identifica qué evidencia apoya cada interpretación y qué sigue siendo una hipótesis explicativa.</p><p>En la lectura, compara las definiciones utilizadas en las distintas ediciones de Miller y Rollnick. La cuarta edición define la EM como una manera particular de hablar sobre cambio y crecimiento para fortalecer la propia motivación y compromiso de la persona; el vocabulario y ejemplos se simplifican, manteniendo las cuatro tareas de involucrar, enfocar, evocar y planificar.</p><p>En clínica, el concepto sirve para guiar la escucha, no para etiquetar al consultante. Traduce cada afirmación teórica a una conducta comprobable del profesional y a una pregunta sobre la experiencia de la persona. Distingue asociación temporal, mecanismo plausible y causalidad demostrada.</p><p>Al analizar un caso, pregunta qué cambiaría en la intervención si la hipótesis fuera correcta, qué dato podría refutarla y cómo se mantendrían el consentimiento y la autonomía. Esta disciplina previene la neuro-reducción, el uso ornamental de teorías y las explicaciones demasiado seguras.</p>"
+              "heading": "2. Disonancia Cognitiva (Festinger, 1957) y Teoría de la Autopercepción (Bem, 1972)",
+              "html": "<p>Leon Festinger postuló que mantener dos cogniciones contradictorias (o una cognición y una conducta inconsistente con los valores propios) genera un malestar interno intolerable (disonancia) que el organismo intenta resolver. Si el clínico confronta al paciente, este reduce la disonancia justificando su conducta. En cambio, si el clínico <em>desarrolla la discrepancia</em> de manera empática, el paciente experimenta el desfase entre lo que hace y quién desea ser en realidad.</p><p>A esto se suma la ley de Daryl Bem (1972): <strong>las personas descubren sus propias actitudes observando lo que dicen y hacen en voz alta</strong>. Cuando el terapeuta logra evocar lenguaje de cambio (DARN-CAT) de la boca del propio paciente, este escucha sus propios argumentos, interioriza el mensaje y consolida su compromiso neurológico mucho más que si escuchara el sermón de un tercero.</p>"
             },
             {
-              "heading": "Aplicación clínica y límites",
-              "html": "<p>Al aplicar <strong>Neurociencia de la motivación: dopamina, sistema de recompensa, cortex prefrontal ventromedial y comportamiento dirigido a metas.</strong>, empieza por preguntar qué significado tiene el cambio para esta persona y qué beneficios y costos percibe. Comprueba tus hipótesis con reflejos y preguntas abiertas; no presentes inferencias como hechos. Si aparece desacuerdo, detén el impulso de argumentar y vuelve a explorar la perspectiva y las prioridades del consultante.</p><p>El marco histórico y teórico orienta la conversación, pero no reemplaza la evaluación clínica, la evidencia específica de cada condición ni las obligaciones de seguridad y consentimiento.</p>"
+              "heading": "3. Neurobiología de la resolución del conflicto motivacional",
+              "html": "<p>Estudios de neuroimagen funcional (ej. Feldstein Ewing et al., 2011, 2014) revelan que cuando un paciente verbaliza <strong>lenguaje de cambio</strong>, se produce una activación incrementada en la <em>corteza prefrontal ventromedial (VMPFC)</em> y en la <em>corteza cingulada anterior (ACC)</em>, áreas cerebrales responsables de la integración valorativa, la evaluación de riesgos a largo plazo y la autorregulación emocional. Por el contrario, cuando se activa el <strong>discurso de mantenimiento</strong> producto de la confrontación, se dispara la reactividad en la amígdala y áreas basales ligadas a la defensa frente a amenazas.</p>"
+            }
+          ],
+          "references": [
+            {
+              "title": "Bem, D. J. (1972)",
+              "citation": "Self-perception theory. Advances in Experimental Social Psychology, 6, 1-62."
             },
             {
-              "heading": "Viñeta clínica comentada",
-              "html": "<div class=\"dialogue-line\"><b>Consultante (viñeta ficticia):</b> «Sé que esto me preocupa, pero todavía no sé qué estoy dispuesto a cambiar».</div><div class=\"dialogue-line\"><b>Profesional:</b> «Una parte de ti ve motivos para hacer algo distinto, y otra necesita entender qué perderías con ese cambio».</div><div class=\"dialogue-line\"><b>Nota docente:</b> El reflejo es una hipótesis, no una conclusión. La respuesta adecuada depende del contexto; invita a corregirla o ampliarla.</div>"
+              "title": "Brehm, J. W. (1966)",
+              "citation": "A theory of psychological reactance. Academic Press."
+            },
+            {
+              "title": "Feldstein Ewing, S. W. et al. (2011)",
+              "citation": "How does motivational interviewing work? A neuroimaging perspective. Addiction, 106(4), 699-708."
+            },
+            {
+              "title": "Festinger, L. (1957)",
+              "citation": "A Theory of Cognitive Dissonance. Stanford University Press."
             }
           ],
           "quickCheck": {
-            "question": "¿Qué respuesta refleja mejor la idea central de «Neurociencia de la motivación: dopamina, sistema de recompensa, cortex prefrontal ventromedial y comportamiento dirigido a metas.»?",
+            "stem": "Según la Teoría de la Autopercepción de Daryl Bem (1972) aplicada a la Entrevista Motivacional, ¿cuál es el mecanismo por el cual el paciente consolida su decisión de cambiar?",
             "options": [
-              "Repetir una recomendación profesional aunque no responda a la perspectiva de la persona.",
-              "Explorar el tema de manera colaborativa, respetar la autonomía y verificar la comprensión.",
-              "Interpretar la ambivalencia como resistencia y confrontarla de inmediato.",
-              "Dar por supuesto que una técnica produce el mismo resultado en cualquier contexto."
+              "Al memorizar las consecuencias fisiológicas explicadas detalladamente por el médico.",
+              "Al escuchar sus propios argumentos y razones para cambiar verbalizados por él mismo durante la sesión.",
+              "Al someterse a pruebas de biofeedback que cuantifican su reactividad emocional.",
+              "Al recibir recompensas externas inmediatas cada vez que asiste puntualmente a la consulta."
             ],
-            "correctIndex": 1,
-            "explanation": "Esta unidad aborda Lectura guiada de Neurociencia de la motivación: dopamina, sistema de recompensa, cortex prefrontal ventromedial y comportamiento dirigido a metas.. Incluye desarrollo conceptual, aplicación clínica, análisis de una viñeta ficticia y una comprobación de comprensión.. En EM, la aplicación debe ser colaborativa, sensible al contexto y abierta a la perspectiva de la persona; no se trata de imponer una respuesta única."
-          },
-          "supplementaryReading": {
-            "heading": "Lectura complementaria del material del curso",
-            "html": "<div class=\"supplementary-intro\">Lectura ampliada basada en las separatas del programa. Úsala junto con el desarrollo conceptual y verifica las afirmaciones relevantes en las fuentes primarias incluidas en la bibliografía.</div><h4>1. Introducción y Epistemología</h4><h2>1. Introducción y Epistemología</h2>\n<p>La <strong>Entrevista Motivacional (EM)</strong> no surgió en un laboratorio académico a partir de una deducción puramente teórica, sino en la práctica clínica directa a principios de la década de 1980. Definida formalmente en su evolución más reciente como <em>«un estilo colaborativo de conversación orientado a metas para fortalecer la motivación y el compromiso de una persona hacia el cambio y el crecimiento»</em> (Miller &amp; Rollnick, 2023), la EM representa un cambio de paradigma frente a los modelos tradicionales confrontativos y prescriptivos que dominaron la medicina y la psicoterapia durante el siglo XX.</p>\n<p>A nivel epistemológico, la EM abandona la concepción de la motivación como un rasgo estático o una condición inherente del paciente (\"el paciente no está motivado\") y la redefine como un <strong>estado dinámico, fluctuante e interpersonal</strong>. La motivación se construye, modula o deteriora en el diálogo mismo entre el profesional y el consultante.</p>\n<div class=\"callout-box\">\n<strong>Principio Epistemológico Central:</strong> La ambivalencia no es una patología ni una resistencia malintencionada; es una etapa natural y universal en todo proceso de toma de decisiones humanas. Cuando el clínico argumenta a favor del cambio, fuerza inadvertidamente al consultante a defender el estatus quo.\n</div>"
+            "answerIndex": 1,
+            "explanation": "La formulación clásica de Bem ('A medida que me escucho hablar, aprendo lo que creo') es central en la EM: el cambio no se consolida porque el terapeuta convenza al paciente, sino porque el paciente se convence a sí mismo al escucharse argumentar a favor del cambio."
           }
         },
         {
           "id": "1.6",
-          "title": "Resistencia y discordancia: definición actualizada (Miller & Rollnick, 2012) y su diferencia con el concepto clásico de \"resistencia\".",
-          "overview": "Lectura guiada de Resistencia y discordancia: definición actualizada (Miller & Rollnick, 2012) y su diferencia con el concepto clásico de \"resistencia\".. Incluye desarrollo conceptual, aplicación clínica, análisis de una viñeta ficticia y una comprobación de comprensión.",
+          "title": "El reflejo de corrección (Fixing reflex), resistencia y discordancia interpersonal.",
+          "overview": "Estudio del principal obstáculo clínico del terapeuta (el reflejo de corrección) y la deconstrucción de la resistencia como un fenómeno relacional. Los 12 obstáculos a la comunicación de Thomas Gordon.",
           "learningGoals": [
-            "Explicar los conceptos centrales de Resistencia y discordancia: definición actualizada (Miller & Rollnick, 2012) y su diferencia con el concepto clásico de \"resistencia\". con lenguaje propio.",
-            "Relacionar el contenido con una decisión clínica observable.",
-            "Reconocer límites, riesgos de simplificación y preguntas que requieren evidencia adicional."
+            "Definir el 'reflejo de corrección' (Lizarraga & Ayarra; Miller & Rollnick) e identificar sus manifestaciones en la consulta.",
+            "Reconceptualizar la resistencia como 'discordancia interpersonal' provocada por el desencuentro entre clínico y paciente.",
+            "Reconocer y neutralizar los 12 obstáculos (roadblocks) de Thomas Gordon."
           ],
           "sections": [
             {
-              "heading": "Marco conceptual",
-              "html": "<p>Esta unidad ubica <strong>Resistencia y discordancia: definición actualizada (Miller & Rollnick, 2012) y su diferencia con el concepto clásico de \"resistencia\".</strong> dentro de los fundamentos de la Entrevista Motivacional (EM). La EM es una manera colaborativa y orientada de conversar sobre cambio y crecimiento para fortalecer la motivación y el compromiso propios de la persona, no un guion para convencerla. Su práctica combina el modo de relacionarse con tareas clínicas concretas; por eso una técnica aislada no demuestra competencia.</p><p>Para estudiar el tema, distingue tres niveles: <strong>descripción</strong> (qué fenómeno o concepto se observa), <strong>proceso</strong> (cómo se expresa en la conversación) y <strong>decisión clínica</strong> (qué respuesta respeta la autonomía y favorece una conversación útil). Esta distinción evita convertir un modelo explicativo en diagnóstico o en receta.</p>"
+              "heading": "1. La trampa del Reflejo de Corrección (Fixing Reflex)",
+              "html": "<p>El término acuñado por Miller y Rollnick, ampliamente difundido en España por Lizarraga y Ayarra (2001), define una inclinación profundamente arraigada en los profesionales de la salud y la ayuda: <strong>el deseo automático y bienintencionado de arreglar los problemas de los demás, prescribir la solución correcta, advertir sobre los peligros y convencer al paciente de lo que debe hacer</strong>.</p><p>Aunque nace de la vocación de ayuda, el reflejo de corrección produce un efecto iatrogénico catastrófico: si una persona está ambivalente ('una parte de mí quiere y otra no'), y el profesional salta a defender con vehemencia la parte del cambio, <em>la dinámica psicológica empuja al paciente a defender la otra mitad del argumento</em>: las razones para no cambiar, los obstáculos y la justificación de su statu quo.</p>"
             },
             {
-              "heading": "Desarrollo académico y aplicación",
-              "html": "<p>Comienza separando el contexto histórico, la formulación conceptual y la aplicación clínica de definición actualizada (Miller & Rollnick, 2012) y su diferencia con el concepto clásico de \"resistencia\".. Una innovación en la práctica no se convierte automáticamente en una teoría demostrada: identifica qué evidencia apoya cada interpretación y qué sigue siendo una hipótesis explicativa.</p><p>En la lectura, compara las definiciones utilizadas en las distintas ediciones de Miller y Rollnick. La cuarta edición define la EM como una manera particular de hablar sobre cambio y crecimiento para fortalecer la propia motivación y compromiso de la persona; el vocabulario y ejemplos se simplifican, manteniendo las cuatro tareas de involucrar, enfocar, evocar y planificar.</p><p>En clínica, el concepto sirve para guiar la escucha, no para etiquetar al consultante. Traduce cada afirmación teórica a una conducta comprobable del profesional y a una pregunta sobre la experiencia de la persona. Distingue asociación temporal, mecanismo plausible y causalidad demostrada.</p><p>Al analizar un caso, pregunta qué cambiaría en la intervención si la hipótesis fuera correcta, qué dato podría refutarla y cómo se mantendrían el consentimiento y la autonomía. Esta disciplina previene la neuro-reducción, el uso ornamental de teorías y las explicaciones demasiado seguras.</p>"
+              "heading": "2. De la resistencia intrapersonal a la discordancia relacional",
+              "html": "<p>En la 3.ª y 4.ª ediciones de la EM, Miller y Rollnick abandonaron el concepto tradicional de 'resistencia del paciente' como un rasgo patológico interno. La resistencia fue dividida en dos fenómenos distintos:</p><ul><li><strong>1. Discurso de mantenimiento (Sustain Talk):</strong> Es la manifestación normal del lado conservador de la ambivalencia (ej. 'Me gusta fumar después del café'). No tiene connotación hostil.</li><li><strong>2. Discordancia (Discord):</strong> Es una señal de fricción en la relación terapéutica (ej. interrupciones, descalificaciones, silencios hostiles, quejas). La discordancia no es un problema del paciente: es el barómetro de que el terapeuta ha tomado un ritmo equivocado, ha empujado más rápido de la cuenta o ha intentado dirigir sin permiso.</li></ul>"
             },
             {
-              "heading": "Aplicación clínica y límites",
-              "html": "<p>Al aplicar <strong>Resistencia y discordancia: definición actualizada (Miller & Rollnick, 2012) y su diferencia con el concepto clásico de \"resistencia\".</strong>, empieza por preguntar qué significado tiene el cambio para esta persona y qué beneficios y costos percibe. Comprueba tus hipótesis con reflejos y preguntas abiertas; no presentes inferencias como hechos. Si aparece desacuerdo, detén el impulso de argumentar y vuelve a explorar la perspectiva y las prioridades del consultante.</p><p>El marco histórico y teórico orienta la conversación, pero no reemplaza la evaluación clínica, la evidencia específica de cada condición ni las obligaciones de seguridad y consentimiento.</p>"
+              "heading": "3. Los 12 obstáculos a la comunicación de Thomas Gordon (Hernández Ribas, UOC)",
+              "html": "<p>Como detalla el Módulo Didáctico de la UOC (2018), Thomas Gordon sistematizó 12 respuestas verbales espontáneas de los profesionales que bloquean la comunicación y activan la defensividad:</p><ol><li><strong>Ordenar o mandar:</strong> 'Tiene que dejar de hacer eso inmediatamente.'</li><li><strong>Amenazar o advertir:</strong> 'Si sigue así, terminará en diálisis.'</li><li><strong>Moralizar o sermonear:</strong> 'Debería pensar en el sufrimiento que causa a su familia.'</li><li><strong>Aconsejar o aportar soluciones no pedidas:</strong> 'Lo que yo haría en su lugar es levantarme media hora antes.'</li><li><strong>Argumentar con lógica excesiva:</strong> 'Estadísticamente, el 85% de los infartos...'</li><li><strong>Juzgar, criticar o culpar:</strong> 'Es muy irresponsable venir a control sin tomarse la medicación.'</li><li><strong>Aprobar o alabar de forma condescendiente:</strong> '¡Muy bien, qué buen chico has sido esta semana!'</li><li><strong>Ridiculizar o etiquetar:</strong> 'Esa es la típica conducta de un adicto.'</li><li><strong>Interpretar o psicoanalizar:</strong> 'En el fondo usted hace esto para llamar la atención de su madre.'</li><li><strong>Tranquilizar o consolar en falso:</strong> 'No se preocupe, todo saldrá bien, no es para tanto.'</li><li><strong>Interrogar agresivamente:</strong> '¿Por qué no lo hizo? ¿Con quién estaba? ¿Cuánto gastó?'</li><li><strong>Desviar o cambiar de tema:</strong> 'Bueno, hablemos de cosas más alegres.'</li></ol>"
+            }
+          ],
+          "references": [
+            {
+              "title": "Gordon, T. (1970)",
+              "citation": "Parent Effectiveness Training: The Tested New Way to Raise Responsible Children. Peter H. Wyden."
             },
             {
-              "heading": "Viñeta clínica comentada",
-              "html": "<div class=\"dialogue-line\"><b>Consultante (viñeta ficticia):</b> «Sé que esto me preocupa, pero todavía no sé qué estoy dispuesto a cambiar».</div><div class=\"dialogue-line\"><b>Profesional:</b> «Una parte de ti ve motivos para hacer algo distinto, y otra necesita entender qué perderías con ese cambio».</div><div class=\"dialogue-line\"><b>Nota docente:</b> El reflejo es una hipótesis, no una conclusión. La respuesta adecuada depende del contexto; invita a corregirla o ampliarla.</div>"
+              "title": "Hernández Ribas, R. (2018)",
+              "citation": "Habilidades de comunicación profesional: Entrevista motivacional. FUOC, Módulo 1, pp. 11-13."
+            },
+            {
+              "title": "Lizarraga, S., & Ayarra, M. (2001)",
+              "citation": "Entrevista motivacional. Anales Sis San Navarra, 24(Supl. 2), 43-53."
+            },
+            {
+              "title": "Miller, W. R., & Rollnick, S. (2023)",
+              "citation": "Motivational Interviewing: Helping People Change and Grow (4th ed.). Guilford Press."
             }
           ],
           "quickCheck": {
-            "question": "¿Qué respuesta refleja mejor la idea central de «Resistencia y discordancia: definición actualizada (Miller & Rollnick, 2012) y su diferencia con el concepto clásico de \"resistencia\".»?",
+            "stem": "Cuando un paciente muestra señales de discordancia en la consulta (ej. interrumpe al terapeuta, mira el reloj y responde con sarcasmo), ¿cómo interpreta la EM este fenómeno?",
             "options": [
-              "Repetir una recomendación profesional aunque no responda a la perspectiva de la persona.",
-              "Explorar el tema de manera colaborativa, respetar la autonomía y verificar la comprensión.",
-              "Interpretar la ambivalencia como resistencia y confrontarla de inmediato.",
-              "Dar por supuesto que una técnica produce el mismo resultado en cualquier contexto."
+              "Como una manifestación de patología de la personalidad que exige remitir al paciente a psiquiatría.",
+              "Como una señal de que el clínico ha acelerado el ritmo, ha caído en el reflejo de corrección o ha asumido una postura experta directiva no consensuada.",
+              "Como una prueba irrefutable de que el paciente se encuentra en precontemplación y debe darse por terminada la sesión.",
+              "Como un intento consciente de manipulación que debe ser confrontado de inmediato con firmeza."
             ],
-            "correctIndex": 1,
-            "explanation": "Esta unidad aborda Lectura guiada de Resistencia y discordancia: definición actualizada (Miller & Rollnick, 2012) y su diferencia con el concepto clásico de \"resistencia\".. Incluye desarrollo conceptual, aplicación clínica, análisis de una viñeta ficticia y una comprobación de comprensión.. En EM, la aplicación debe ser colaborativa, sensible al contexto y abierta a la perspectiva de la persona; no se trata de imponer una respuesta única."
-          },
-          "supplementaryReading": {
-            "heading": "Lectura complementaria del material del curso",
-            "html": "<div class=\"supplementary-intro\">Lectura ampliada basada en las separatas del programa. Úsala junto con el desarrollo conceptual y verifica las afirmaciones relevantes en las fuentes primarias incluidas en la bibliografía.</div><h4>1. Introducción y Epistemología</h4><h2>1. Introducción y Epistemología</h2>\n<p>La <strong>Entrevista Motivacional (EM)</strong> no surgió en un laboratorio académico a partir de una deducción puramente teórica, sino en la práctica clínica directa a principios de la década de 1980. Definida formalmente en su evolución más reciente como <em>«un estilo colaborativo de conversación orientado a metas para fortalecer la motivación y el compromiso de una persona hacia el cambio y el crecimiento»</em> (Miller &amp; Rollnick, 2023), la EM representa un cambio de paradigma frente a los modelos tradicionales confrontativos y prescriptivos que dominaron la medicina y la psicoterapia durante el siglo XX.</p>\n<p>A nivel epistemológico, la EM abandona la concepción de la motivación como un rasgo estático o una condición inherente del paciente (\"el paciente no está motivado\") y la redefine como un <strong>estado dinámico, fluctuante e interpersonal</strong>. La motivación se construye, modula o deteriora en el diálogo mismo entre el profesional y el consultante.</p>\n<div class=\"callout-box\">\n<strong>Principio Epistemológico Central:</strong> La ambivalencia no es una patología ni una resistencia malintencionada; es una etapa natural y universal en todo proceso de toma de decisiones humanas. Cuando el clínico argumenta a favor del cambio, fuerza inadvertidamente al consultante a defender el estatus quo.\n</div>"
+            "answerIndex": 1,
+            "explanation": "En la EM contemporánea, la discordancia es una llamada de atención para el profesional: indica que la relación ha perdido sintonía. La respuesta terapéutica indicada es dar un paso atrás, escuchar reflexivamente, validar la perspectiva del paciente y disculparse si se presionó indebidamente."
           }
         },
         {
           "id": "1.7",
-          "title": "Meta-análisis de eficacia: Lundahl et al. (2010), Hettema et al. (2005) y revisiones Cochrane por área clínica.",
-          "overview": "Lectura guiada de Meta-análisis de eficacia: Lundahl et al. (2010), Hettema et al. (2005) y revisiones Cochrane por área clínica.. Incluye desarrollo conceptual, aplicación clínica, análisis de una viñeta ficticia y una comprobación de comprensión.",
+          "title": "Meta-análisis de eficacia y base empírica: Project MATCH, Cochrane y ensayos clínicos.",
+          "overview": "Revisión crítica de la evidencia empírica acumulada en más de 2.000 ensayos clínicos aleatorizados, los grandes hitos de investigación internacional y los factores mediadores de la eficacia de la EM.",
           "learningGoals": [
-            "Explicar los conceptos centrales de Meta-análisis de eficacia: Lundahl et al. (2010), Hettema et al. (2005) y revisiones Cochrane por área clínica. con lenguaje propio.",
-            "Relacionar el contenido con una decisión clínica observable.",
-            "Reconocer límites, riesgos de simplificación y preguntas que requieren evidencia adicional."
+            "Analizar los resultados históricos del Project MATCH (1997) y el estudio UKATT (2005) respecto a la Terapia de Estímulo Motivacional (MET).",
+            "Examinar las conclusiones de los metaanálisis de Lundahl et al. (2010), Rubak et al. (2005) y revisiones sistemáticas Cochrane.",
+            "Identificar el efecto moderador de la fidelidad técnica (MITI) y la empatía en los resultados clínicos a largo plazo."
           ],
           "sections": [
             {
-              "heading": "Marco conceptual",
-              "html": "<p>Esta unidad ubica <strong>Meta-análisis de eficacia: Lundahl et al. (2010), Hettema et al. (2005) y revisiones Cochrane por área clínica.</strong> dentro de los fundamentos de la Entrevista Motivacional (EM). La EM es una manera colaborativa y orientada de conversar sobre cambio y crecimiento para fortalecer la motivación y el compromiso propios de la persona, no un guion para convencerla. Su práctica combina el modo de relacionarse con tareas clínicas concretas; por eso una técnica aislada no demuestra competencia.</p><p>Para estudiar el tema, distingue tres niveles: <strong>descripción</strong> (qué fenómeno o concepto se observa), <strong>proceso</strong> (cómo se expresa en la conversación) y <strong>decisión clínica</strong> (qué respuesta respeta la autonomía y favorece una conversación útil). Esta distinción evita convertir un modelo explicativo en diagnóstico o en receta.</p>"
+              "heading": "1. El hito histórico de Project MATCH (1997) y UKATT (2005)",
+              "html": "<p>En la década de 1990, el National Institute on Alcohol Abuse and Alcoholism (NIAAA) de EE.UU. financió el mayor ensayo clínico jamás realizado en psicoterapia de adicciones: <strong>Project MATCH (1997)</strong>, con 1.726 participantes. Se compararon tres tratamientos de alta calidad: Terapia Cognitivo-Conductual (CBT - 12 sesiones), Facilitación en 12 Pasos (TSF - 12 sesiones) y <strong>Terapia de Estímulo Motivacional (MET - 4 sesiones)</strong>.</p><p>Los resultados sorprendieron a la comunidad científica: <strong>las 4 breves sesiones de MET lograron reducciones en los días de consumo y abstinencia estadísticamente idénticas a los tratamientos intensivos de 12 sesiones</strong>, demostrando un costo-beneficio y eficiencia extraordinarios. Este hallazgo se replicó en el Reino Unido en el estudio multicéntrico UKATT (2005).</p>"
             },
             {
-              "heading": "Desarrollo académico y aplicación",
-              "html": "<p>Comienza separando el contexto histórico, la formulación conceptual y la aplicación clínica de Lundahl et al. (2010), Hettema et al. (2005) y revisiones Cochrane por área clínica.. Una innovación en la práctica no se convierte automáticamente en una teoría demostrada: identifica qué evidencia apoya cada interpretación y qué sigue siendo una hipótesis explicativa.</p><p>En la lectura, compara las definiciones utilizadas en las distintas ediciones de Miller y Rollnick. La cuarta edición define la EM como una manera particular de hablar sobre cambio y crecimiento para fortalecer la propia motivación y compromiso de la persona; el vocabulario y ejemplos se simplifican, manteniendo las cuatro tareas de involucrar, enfocar, evocar y planificar.</p><p>En clínica, el concepto sirve para guiar la escucha, no para etiquetar al consultante. Traduce cada afirmación teórica a una conducta comprobable del profesional y a una pregunta sobre la experiencia de la persona. Distingue asociación temporal, mecanismo plausible y causalidad demostrada.</p><p>Al analizar un caso, pregunta qué cambiaría en la intervención si la hipótesis fuera correcta, qué dato podría refutarla y cómo se mantendrían el consentimiento y la autonomía. Esta disciplina previene la neuro-reducción, el uso ornamental de teorías y las explicaciones demasiado seguras.</p>"
+              "heading": "2. Síntesis de los grandes metaanálisis internacionales",
+              "html": "<p>La evidencia de la EM se ha evaluado mediante rigurosas revisiones sistemáticas en múltiples dominios:</p><ul><li><strong>Rubak et al. (2005) - British Journal of General Practice:</strong> Metaanálisis de 72 ensayos clínicos aleatorizados. Concluyó que la EM superó al asesoramiento tradicional en un 74% de los estudios en áreas como cesación tabáquica, control de peso, diabetes, hipertensión arterial y reducción de colesterol, con efectos significativos incluso en consultas breves de 15 minutos en atención primaria.</li><li><strong>Lundahl et al. (2010) - Journal of Clinical Psychology:</strong> Metaanálisis de 119 estudios. Constató que la EM produce tamaños del efecto moderados-altos en comparación con el tratamiento habitual y la lista de espera, y efectos equivalentes a tratamientos activos específicos, requiriendo significativamente menos tiempo de intervención.</li><li><strong>Revisiones Cochrane (2015, 2019):</strong> Confirmaron la eficacia de la EM en alcohol, tabaco en jóvenes y adherencia terapéutica a medicamentos de patología crónica (asma, VIH, hipertensión).</li></ul>"
             },
             {
-              "heading": "Aplicación clínica y límites",
-              "html": "<p>Al aplicar <strong>Meta-análisis de eficacia: Lundahl et al. (2010), Hettema et al. (2005) y revisiones Cochrane por área clínica.</strong>, empieza por preguntar qué significado tiene el cambio para esta persona y qué beneficios y costos percibe. Comprueba tus hipótesis con reflejos y preguntas abiertas; no presentes inferencias como hechos. Si aparece desacuerdo, detén el impulso de argumentar y vuelve a explorar la perspectiva y las prioridades del consultante.</p><p>El marco histórico y teórico orienta la conversación, pero no reemplaza la evaluación clínica, la evidencia específica de cada condición ni las obligaciones de seguridad y consentimiento.</p>"
+              "heading": "3. El mediador causal: El lenguaje de cambio como predictor de desenlace",
+              "html": "<p>Estudios de proceso psicoterapéutico liderados por Moyers, Martin y Amrhein (2003, 2007) demostraron el mecanismo causal interno de la EM: <em>las habilidades del terapeuta predicen la cantidad de lenguaje de cambio (Change Talk) que emite el paciente, y la fuerza de las declaraciones de compromiso (CATs) al final de la sesión predice con precisión matemática el cambio de conducta objetivo medido a los 6 y 12 meses</em>.</p>"
+            }
+          ],
+          "references": [
+            {
+              "title": "Amrhein, P. C. et al. (2003)",
+              "citation": "Client commitment language during motivational interviewing predicts drug use outcomes. Journal of Consulting and Clinical Psychology, 71(5), 862."
             },
             {
-              "heading": "Viñeta clínica comentada",
-              "html": "<div class=\"dialogue-line\"><b>Consultante (viñeta ficticia):</b> «Sé que esto me preocupa, pero todavía no sé qué estoy dispuesto a cambiar».</div><div class=\"dialogue-line\"><b>Profesional:</b> «Una parte de ti ve motivos para hacer algo distinto, y otra necesita entender qué perderías con ese cambio».</div><div class=\"dialogue-line\"><b>Nota docente:</b> El reflejo es una hipótesis, no una conclusión. La respuesta adecuada depende del contexto; invita a corregirla o ampliarla.</div>"
+              "title": "Lundahl, B. et al. (2010)",
+              "citation": "A meta-analysis of motivational interviewing: Twenty-five years of empirical research. Journal of Clinical Psychology, 66(2), 137-160."
+            },
+            {
+              "title": "Project MATCH Research Group. (1997)",
+              "citation": "Matching alcoholism treatments to client heterogeneity: Project MATCH posttreatment drinking outcomes. Journal of Studies on Alcohol, 58(1), 7-29."
+            },
+            {
+              "title": "Rubak, S. et al. (2005)",
+              "citation": "Motivational interviewing: a systematic review and meta-analysis. British Journal of General Practice, 55(513), 305-312."
             }
           ],
           "quickCheck": {
-            "question": "¿Qué respuesta refleja mejor la idea central de «Meta-análisis de eficacia: Lundahl et al. (2010), Hettema et al. (2005) y revisiones Cochrane por área clínica.»?",
+            "stem": "¿Cuál fue una de las principales conclusiones del Project MATCH (1997) respecto a la Terapia de Estímulo Motivacional (MET) basada en la EM?",
             "options": [
-              "Repetir una recomendación profesional aunque no responda a la perspectiva de la persona.",
-              "Explorar el tema de manera colaborativa, respetar la autonomía y verificar la comprensión.",
-              "Interpretar la ambivalencia como resistencia y confrontarla de inmediato.",
-              "Dar por supuesto que una técnica produce el mismo resultado en cualquier contexto."
+              "Que la EM fue completamente ineficaz para pacientes con alta gravedad de consumo.",
+              "Que solo 4 sesiones breves de intervención motivacional obtuvieron resultados equivalentes en reducción del consumo a 12 sesiones completas de TCC y Facilitación en 12 Pasos.",
+              "Que la EM solo funcionó cuando se combinó con terapia farmacológica de aversión.",
+              "Que los pacientes requirieron un mínimo de 2 años de terapia continua para no recaer."
             ],
-            "correctIndex": 1,
-            "explanation": "Esta unidad aborda Lectura guiada de Meta-análisis de eficacia: Lundahl et al. (2010), Hettema et al. (2005) y revisiones Cochrane por área clínica.. Incluye desarrollo conceptual, aplicación clínica, análisis de una viñeta ficticia y una comprobación de comprensión.. En EM, la aplicación debe ser colaborativa, sensible al contexto y abierta a la perspectiva de la persona; no se trata de imponer una respuesta única."
-          },
-          "supplementaryReading": {
-            "heading": "Lectura complementaria del material del curso",
-            "html": "<div class=\"supplementary-intro\">Lectura ampliada basada en las separatas del programa. Úsala junto con el desarrollo conceptual y verifica las afirmaciones relevantes en las fuentes primarias incluidas en la bibliografía.</div><h4>1. Introducción y Epistemología</h4><h2>1. Introducción y Epistemología</h2>\n<p>La <strong>Entrevista Motivacional (EM)</strong> no surgió en un laboratorio académico a partir de una deducción puramente teórica, sino en la práctica clínica directa a principios de la década de 1980. Definida formalmente en su evolución más reciente como <em>«un estilo colaborativo de conversación orientado a metas para fortalecer la motivación y el compromiso de una persona hacia el cambio y el crecimiento»</em> (Miller &amp; Rollnick, 2023), la EM representa un cambio de paradigma frente a los modelos tradicionales confrontativos y prescriptivos que dominaron la medicina y la psicoterapia durante el siglo XX.</p>\n<p>A nivel epistemológico, la EM abandona la concepción de la motivación como un rasgo estático o una condición inherente del paciente (\"el paciente no está motivado\") y la redefine como un <strong>estado dinámico, fluctuante e interpersonal</strong>. La motivación se construye, modula o deteriora en el diálogo mismo entre el profesional y el consultante.</p>\n<div class=\"callout-box\">\n<strong>Principio Epistemológico Central:</strong> La ambivalencia no es una patología ni una resistencia malintencionada; es una etapa natural y universal en todo proceso de toma de decisiones humanas. Cuando el clínico argumenta a favor del cambio, fuerza inadvertidamente al consultante a defender el estatus quo.\n</div>"
+            "answerIndex": 1,
+            "explanation": "El resultado histórico de Project MATCH demostró la enorme potencia y eficiencia de la intervención motivacional breve: 4 sesiones espaciadas de MET produjeron desenlaces clínicos de reducción de daños equivalentes a psicoterapias intensivas del triple de duración."
           }
         },
         {
           "id": "1.8",
-          "title": "Ética en EM: autonomía del paciente, consentimiento informado y límites de la evocación del cambio.",
-          "overview": "Lectura guiada de Ética en EM: autonomía del paciente, consentimiento informado y límites de la evocación del cambio.. Incluye desarrollo conceptual, aplicación clínica, análisis de una viñeta ficticia y una comprobación de comprensión.",
+          "title": "Principios éticos en la Entrevista Motivacional: autonomía, directividad y no coerción.",
+          "overview": "Análisis ético de la práctica de la EM: la tensión entre directividad y autonomía, cómo evitar la manipulación o persuasión encubierta, y los criterios para el counseling con neutralidad.",
           "learningGoals": [
-            "Explicar los conceptos centrales de Ética en EM: autonomía del paciente, consentimiento informado y límites de la evocación del cambio. con lenguaje propio.",
-            "Relacionar el contenido con una decisión clínica observable.",
-            "Reconocer límites, riesgos de simplificación y preguntas que requieren evidencia adicional."
+            "Delimitar la frontera ética entre persuasión benevolente, influencia directiva legítima y manipulación coercitiva.",
+            "Aplicar el protocolo de 'Consejería con Neutralidad' (Counseling with Neutrality) ante dilemas donde el clínico debe mantenerse neutral.",
+            "Conocer las directrices deontológicas internacionales de la Motivational Interviewing Network of Trainers (MINT)."
           ],
           "sections": [
             {
-              "heading": "Marco conceptual",
-              "html": "<p>Esta unidad ubica <strong>Ética en EM: autonomía del paciente, consentimiento informado y límites de la evocación del cambio.</strong> dentro de los fundamentos de la Entrevista Motivacional (EM). La EM es una manera colaborativa y orientada de conversar sobre cambio y crecimiento para fortalecer la motivación y el compromiso propios de la persona, no un guion para convencerla. Su práctica combina el modo de relacionarse con tareas clínicas concretas; por eso una técnica aislada no demuestra competencia.</p><p>Para estudiar el tema, distingue tres niveles: <strong>descripción</strong> (qué fenómeno o concepto se observa), <strong>proceso</strong> (cómo se expresa en la conversación) y <strong>decisión clínica</strong> (qué respuesta respeta la autonomía y favorece una conversación útil). Esta distinción evita convertir un modelo explicativo en diagnóstico o en receta.</p>"
+              "heading": "1. La acusación de manipulación y su refutación ética",
+              "html": "<p>Debido a que la Entrevista Motivacional entrena a los clínicos en el uso estratégico y direccional de las reflexiones y las preguntas para inclinar la balanza hacia el cambio, en ocasiones se ha planteado una pregunta ética legítima: <em>¿Es la EM una forma sofisticada de lavado de cerebro o manipulación encubierta?</em></p><p>Miller y Rollnick (2012, 2023) responden taxativamente: <strong>no, porque la EM no puede imponer un valor o una meta que no pertenezca previamente al propio paciente</strong>. La manipulación implica engaño y el uso de la persona para los fines del manipulador. La EM opera con transparencia radical: evoca los valores, aspiraciones y metas que el paciente ya posee pero que se encuentran en conflicto con su conducta actual.</p>"
             },
             {
-              "heading": "Desarrollo académico y aplicación",
-              "html": "<p>Comienza separando el contexto histórico, la formulación conceptual y la aplicación clínica de autonomía del paciente, consentimiento informado y límites de la evocación del cambio.. Una innovación en la práctica no se convierte automáticamente en una teoría demostrada: identifica qué evidencia apoya cada interpretación y qué sigue siendo una hipótesis explicativa.</p><p>En la lectura, compara las definiciones utilizadas en las distintas ediciones de Miller y Rollnick. La cuarta edición define la EM como una manera particular de hablar sobre cambio y crecimiento para fortalecer la propia motivación y compromiso de la persona; el vocabulario y ejemplos se simplifican, manteniendo las cuatro tareas de involucrar, enfocar, evocar y planificar.</p><p>En clínica, el concepto sirve para guiar la escucha, no para etiquetar al consultante. Traduce cada afirmación teórica a una conducta comprobable del profesional y a una pregunta sobre la experiencia de la persona. Distingue asociación temporal, mecanismo plausible y causalidad demostrada.</p><p>Al analizar un caso, pregunta qué cambiaría en la intervención si la hipótesis fuera correcta, qué dato podría refutarla y cómo se mantendrían el consentimiento y la autonomía. Esta disciplina previene la neuro-reducción, el uso ornamental de teorías y las explicaciones demasiado seguras.</p>"
+              "heading": "2. Criterios de directividad ética frente a neutralidad",
+              "html": "<p>¿Cuándo es éticamente apropiado utilizar la directividad de la EM y cuándo se debe adoptar neutralidad estricta?</p><ul><li><strong>Uso legítimo de la directividad en EM:</strong> Cuando existe un consenso claro sobre el bienestar de la persona (ej. cesar el tabaquismo, controlar una glucemia de 300 mg/dl, evitar conducir bajo los efectos del alcohol) o cuando el paciente solicita explícitamente ayuda para cambiar un hábito.</li><li><strong>Uso obligatorio de 'Consejería con Neutralidad' (Equipose):</strong> Cuando existen dilemas éticos, morales o existenciales donde no corresponde al profesional inclinar la balanza hacia ninguna opción específica (ej. decidir si someterse o no a una cirugía profiláctica, interrumpir o continuar un embarazo, perdonar una infidelidad o divorciarse, cambiar de profesión). En estos casos, el clínico aplica el <em>Balance Decisional Neutro</em>, explorando pros y contras de cada opción con idéntica profundidad sin favorecer ninguna.</li></ul>"
             },
             {
-              "heading": "Aplicación clínica y límites",
-              "html": "<p>Al aplicar <strong>Ética en EM: autonomía del paciente, consentimiento informado y límites de la evocación del cambio.</strong>, empieza por preguntar qué significado tiene el cambio para esta persona y qué beneficios y costos percibe. Comprueba tus hipótesis con reflejos y preguntas abiertas; no presentes inferencias como hechos. Si aparece desacuerdo, detén el impulso de argumentar y vuelve a explorar la perspectiva y las prioridades del consultante.</p><p>El marco histórico y teórico orienta la conversación, pero no reemplaza la evaluación clínica, la evidencia específica de cada condición ni las obligaciones de seguridad y consentimiento.</p>"
+              "heading": "3. El mandato de no coerción y poblaciones en entornos obligatorios",
+              "html": "<p>En entornos donde los pacientes acuden bajo mandato judicial, laboral o familiar (ej. suspensión de condena, programas penitenciarios, peticiones de empleadores), el clínico debe ser especialmente escrupuloso: clarificar desde el inicio los límites de la confidencialidad y afirmar la autonomía irreductible del paciente. Forzar una confesión fingida o un falso compromiso es una violación del espíritu motivacional que invalida la eficacia terapéutica.</p>"
+            }
+          ],
+          "references": [
+            {
+              "title": "Miller, W. R., & Rollnick, S. (2012)",
+              "citation": "Motivational Interviewing: Helping People Change (3rd ed.). Guilford Press, Capítulo 28: Ética y Valores."
             },
             {
-              "heading": "Viñeta clínica comentada",
-              "html": "<div class=\"dialogue-line\"><b>Consultante (viñeta ficticia):</b> «Sé que esto me preocupa, pero todavía no sé qué estoy dispuesto a cambiar».</div><div class=\"dialogue-line\"><b>Profesional:</b> «Una parte de ti ve motivos para hacer algo distinto, y otra necesita entender qué perderías con ese cambio».</div><div class=\"dialogue-line\"><b>Nota docente:</b> El reflejo es una hipótesis, no una conclusión. La respuesta adecuada depende del contexto; invita a corregirla o ampliarla.</div>"
+              "title": "Miller, W. R., & Rollnick, S. (2023)",
+              "citation": "Motivational Interviewing: Helping People Change and Grow (4th ed.). Guilford Press."
+            },
+            {
+              "title": "Motivational Interviewing Network of Trainers (MINT). (2020)",
+              "citation": "Ethical Guidelines and Professional Standards for MI Trainers."
             }
           ],
           "quickCheck": {
-            "question": "¿Qué respuesta refleja mejor la idea central de «Ética en EM: autonomía del paciente, consentimiento informado y límites de la evocación del cambio.»?",
+            "stem": "¿Cuándo debe un profesional de la salud adoptar deliberadamente una postura de neutralidad clínica (equipoise) en lugar de orientar estratégicamente hacia el cambio?",
             "options": [
-              "Repetir una recomendación profesional aunque no responda a la perspectiva de la persona.",
-              "Explorar el tema de manera colaborativa, respetar la autonomía y verificar la comprensión.",
-              "Interpretar la ambivalencia como resistencia y confrontarla de inmediato.",
-              "Dar por supuesto que una técnica produce el mismo resultado en cualquier contexto."
+              "Siempre que el paciente pertenezca a una minoría étnica.",
+              "Cuando la decisión del paciente involucra un dilema personal, moral o médico donde no existe un beneficio unívoco y no corresponde al clínico favorecer una opción sobre la otra (ej. continuar o interrumpir un embarazo, divorciarse o no).",
+              "Únicamente cuando el paciente le pide expresamente al clínico que tome la decisión en su lugar.",
+              "En ningún caso: el clínico siempre debe elegir el camino que considere más conveniente para el paciente."
             ],
-            "correctIndex": 1,
-            "explanation": "Esta unidad aborda Lectura guiada de Ética en EM: autonomía del paciente, consentimiento informado y límites de la evocación del cambio.. Incluye desarrollo conceptual, aplicación clínica, análisis de una viñeta ficticia y una comprobación de comprensión.. En EM, la aplicación debe ser colaborativa, sensible al contexto y abierta a la perspectiva de la persona; no se trata de imponer una respuesta única."
-          },
-          "supplementaryReading": {
-            "heading": "Lectura complementaria del material del curso",
-            "html": "<div class=\"supplementary-intro\">Lectura ampliada basada en las separatas del programa. Úsala junto con el desarrollo conceptual y verifica las afirmaciones relevantes en las fuentes primarias incluidas en la bibliografía.</div><h4>1. Introducción y Epistemología</h4><h2>1. Introducción y Epistemología</h2>\n<p>La <strong>Entrevista Motivacional (EM)</strong> no surgió en un laboratorio académico a partir de una deducción puramente teórica, sino en la práctica clínica directa a principios de la década de 1980. Definida formalmente en su evolución más reciente como <em>«un estilo colaborativo de conversación orientado a metas para fortalecer la motivación y el compromiso de una persona hacia el cambio y el crecimiento»</em> (Miller &amp; Rollnick, 2023), la EM representa un cambio de paradigma frente a los modelos tradicionales confrontativos y prescriptivos que dominaron la medicina y la psicoterapia durante el siglo XX.</p>\n<p>A nivel epistemológico, la EM abandona la concepción de la motivación como un rasgo estático o una condición inherente del paciente (\"el paciente no está motivado\") y la redefine como un <strong>estado dinámico, fluctuante e interpersonal</strong>. La motivación se construye, modula o deteriora en el diálogo mismo entre el profesional y el consultante.</p>\n<div class=\"callout-box\">\n<strong>Principio Epistemológico Central:</strong> La ambivalencia no es una patología ni una resistencia malintencionada; es una etapa natural y universal en todo proceso de toma de decisiones humanas. Cuando el clínico argumenta a favor del cambio, fuerza inadvertidamente al consultante a defender el estatus quo.\n</div>"
+            "answerIndex": 1,
+            "explanation": "Cuando no existe un criterio clínico unívoco de salud o cuando el dilema es estrictamente existencial, moral o personal, la directividad de la EM constituiría una vulneración ética. El profesional debe explorar ambos lados con neutralidad clínica equitativa."
           }
         }
       ],
@@ -362,99 +434,123 @@ window.EM_CURRICULUM = {
         "questions": [
           {
             "id": "m1-q1",
-            "question": "¿Cuál es el tema que corresponde a esta descripción? Lectura guiada de Historia y desarrollo de la EM: de Drinker Project (1983) a la 3.ª edición (2012). Contexto sociohistórico.. Incluye desarrollo conceptual, aplicación clínica, análisis de una viñeta ficticia y una comprobación de comprensión.",
+            "question": "¿Cuál fue la observación empírica fundamental realizada por William R. Miller en el 'Drinker Project' (Noruega, 1982) que dio origen a la Entrevista Motivacional?",
             "options": [
-              "Diferenciación conceptual: EM vs. counseling rogersiano, TCC, terapia de confrontación y psicoeducación directiva.",
-              "Historia y desarrollo de la EM: de Drinker Project (1983) a la 3.ª edición (2012). Contexto sociohistórico.",
-              "El espíritu de la EM: PACE en las ediciones actuales y su evolución",
-              "Modelo Transteórico del Cambio: precontemplación, contemplación, preparación, acción, mantenimiento y recaída."
+              "Que los pacientes alcohólicos requieren confrontación constante para admitir su negación biológica.",
+              "Que la resistencia del paciente se incrementa directamente en proporción a la confrontación y persuasión directa del terapeuta.",
+              "Que la terapia de grupo de 12 pasos es la única eficaz para la deshabituación etílica.",
+              "Que los pacientes solo cambian cuando sufren consecuencias legales o familiares graves."
             ],
-            "correctIndex": 1,
-            "explanation": "La respuesta correcta es «Historia y desarrollo de la EM: de Drinker Project (1983) a la 3.ª edición (2012). Contexto sociohistórico.». La unidad desarrolla: Lectura guiada de Historia y desarrollo de la EM: de Drinker Project (1983) a la 3.ª edición (2012). Contexto sociohistórico.. Incluye desarrollo conceptual, aplicación clínica, análisis de una viñeta ficticia y una comprobación de comprensión."
+            "answerIndex": 1,
+            "explanation": "Miller constató empíricamente que la resistencia es un fenómeno interpersonal: cuanto más argumentaba el terapeuta por la abstinencia, más defendía el paciente su conducta habitual."
           },
           {
             "id": "m1-q2",
-            "question": "¿Cuál es el tema que corresponde a esta descripción? Lectura guiada de Diferenciación conceptual: EM vs. counseling rogersiano, TCC, terapia de confrontación y psicoeducación directiva.. Incluye desarrollo conceptual, aplicación clínica, análisis de una viñeta ficticia y una comprobación de comprensión.",
+            "question": "¿En qué se diferencia fundamentalmente la Entrevista Motivacional de la terapia centrada en la persona de Carl Rogers?",
             "options": [
-              "Diferenciación conceptual: EM vs. counseling rogersiano, TCC, terapia de confrontación y psicoeducación directiva.",
-              "El espíritu de la EM: PACE en las ediciones actuales y su evolución",
-              "Historia y desarrollo de la EM: de Drinker Project (1983) a la 3.ª edición (2012). Contexto sociohistórico.",
-              "Modelo Transteórico del Cambio: precontemplación, contemplación, preparación, acción, mantenimiento y recaída."
+              "La EM no utiliza empatía ni escucha reflexiva.",
+              "El counseling rogersiano es no directivo, mientras que la EM es estratégicamente directiva hacia la resolución de la ambivalencia y metas específicas de cambio.",
+              "Rogers utilizaba psicoanálisis y la EM utiliza condicionamiento operante.",
+              "La EM es aplicable exclusivamente en sesiones grupales obligatorias."
             ],
-            "correctIndex": 0,
-            "explanation": "La respuesta correcta es «Diferenciación conceptual: EM vs. counseling rogersiano, TCC, terapia de confrontación y psicoeducación directiva.». La unidad desarrolla: Lectura guiada de Diferenciación conceptual: EM vs. counseling rogersiano, TCC, terapia de confrontación y psicoeducación directiva.. Incluye desarrollo conceptual, aplicación clínica, análisis de una viñeta ficticia y una comprobación de comprensión."
+            "answerIndex": 1,
+            "explanation": "La EM toma de Rogers el espíritu y la escucha reflexiva, pero se desvía al ser intencional y deliberadamente directiva hacia el lenguaje de cambio y las metas acordadas de salud."
           },
           {
             "id": "m1-q3",
-            "question": "¿Cuál es el tema que corresponde a esta descripción? Partnership, Acceptance, Compassion y Empowerment en la 4.ª edición; comparación con Evocation en la formulación anterior.",
+            "question": "En la 4.ª edición de Entrevista Motivacional (Miller & Rollnick, 2023), ¿cuál es el componente del espíritu PACE que fue ampliado para enfatizar los recursos y fortalezas intrínsecos de la persona?",
             "options": [
-              "Neurociencia de la motivación: dopamina, sistema de recompensa, cortex prefrontal ventromedial y comportamiento dirigido a metas.",
-              "Diferenciación conceptual: EM vs. counseling rogersiano, TCC, terapia de confrontación y psicoeducación directiva.",
-              "Modelo Transteórico del Cambio: precontemplación, contemplación, preparación, acción, mantenimiento y recaída.",
-              "El espíritu de la EM: PACE en las ediciones actuales y su evolución"
+              "La Asociación se transformó en Liderazgo.",
+              "La Evocación se amplió a Empoderamiento (Empowerment / PACE-E).",
+              "La Aceptación se sustituyó por Autoridad clínica.",
+              "La Compasión fue eliminada por ser un concepto no empírico."
             ],
-            "correctIndex": 3,
-            "explanation": "La respuesta correcta es «El espíritu de la EM: PACE en las ediciones actuales y su evolución». La unidad desarrolla: Partnership, Acceptance, Compassion y Empowerment en la 4.ª edición; comparación con Evocation en la formulación anterior."
+            "answerIndex": 1,
+            "explanation": "En la 4.ª edición de 2023, el componente de Evocación fue conceptualizado y ampliado como Empoderamiento (Empowerment), recalcando que la motivación y los recursos nacen de la propia persona."
           },
           {
             "id": "m1-q4",
-            "question": "¿Cuál es el tema que corresponde a esta descripción? Lectura guiada de Modelo Transteórico del Cambio: precontemplación, contemplación, preparación, acción, mantenimiento y recaída.. Incluye desarrollo conceptual, aplicación clínica, análisis de una viñeta ficticia y una comprobación de comprensión.",
+            "question": "Según Lizarraga y Ayarra (2001) y Miller y Rollnick (2023), ¿qué es el 'reflejo de corrección' (Fixing reflex)?",
             "options": [
-              "El espíritu de la EM: PACE en las ediciones actuales y su evolución",
-              "Neurociencia de la motivación: dopamina, sistema de recompensa, cortex prefrontal ventromedial y comportamiento dirigido a metas.",
-              "Modelo Transteórico del Cambio: precontemplación, contemplación, preparación, acción, mantenimiento y recaída.",
-              "Diferenciación conceptual: EM vs. counseling rogersiano, TCC, terapia de confrontación y psicoeducación directiva."
+              "Una prueba psicométrica estandarizada para evaluar el insight del paciente.",
+              "El impulso casi automático del profesional de corregir, convencer y advertir al paciente sobre lo que debería hacer.",
+              "La capacidad del paciente de reconocer sus errores cognitivos durante la sesión.",
+              "Un procedimiento médico para corregir arritmias provocadas por el estrés de consulta."
             ],
-            "correctIndex": 2,
-            "explanation": "La respuesta correcta es «Modelo Transteórico del Cambio: precontemplación, contemplación, preparación, acción, mantenimiento y recaída.». La unidad desarrolla: Lectura guiada de Modelo Transteórico del Cambio: precontemplación, contemplación, preparación, acción, mantenimiento y recaída.. Incluye desarrollo conceptual, aplicación clínica, análisis de una viñeta ficticia y una comprobación de comprensión."
+            "answerIndex": 1,
+            "explanation": "El reflejo de corrección es la inclinación espontánea del clínico a solucionar los problemas del paciente dando consejos y advertencias, lo que paradójicamente activa la reactancia y defensividad."
           },
           {
             "id": "m1-q5",
-            "question": "¿Cuál es el tema que corresponde a esta descripción? Lectura guiada de Neurociencia de la motivación: dopamina, sistema de recompensa, cortex prefrontal ventromedial y comportamiento dirigido a metas.. Incluye desarrollo conceptual, aplicación clínica, análisis de una viñeta ficticia y una comprobación de comprensión.",
+            "question": "Un paciente con hipercolesterolemia grave comenta: 'Sé que comer tanta carne con grasa me tapa las arterias, pero me deprimo si tengo que comer verduras hervidas todos los días'. Según el Modelo Transteórico, ¿en qué etapa se encuentra?",
             "options": [
-              "Resistencia y discordancia: definición actualizada (Miller & Rollnick, 2012) y su diferencia con el concepto clásico de \"resistencia\".",
-              "Neurociencia de la motivación: dopamina, sistema de recompensa, cortex prefrontal ventromedial y comportamiento dirigido a metas.",
-              "Modelo Transteórico del Cambio: precontemplación, contemplación, preparación, acción, mantenimiento y recaída.",
-              "El espíritu de la EM: PACE en las ediciones actuales y su evolución"
+              "Precontemplación",
+              "Contemplación (coexistencia de ambivalencia pura)",
+              "Preparación activa",
+              "Acción consolidada"
             ],
-            "correctIndex": 1,
-            "explanation": "La respuesta correcta es «Neurociencia de la motivación: dopamina, sistema de recompensa, cortex prefrontal ventromedial y comportamiento dirigido a metas.». La unidad desarrolla: Lectura guiada de Neurociencia de la motivación: dopamina, sistema de recompensa, cortex prefrontal ventromedial y comportamiento dirigido a metas.. Incluye desarrollo conceptual, aplicación clínica, análisis de una viñeta ficticia y una comprobación de comprensión."
+            "answerIndex": 1,
+            "explanation": "La persona reconoce el problema y el riesgo objetivo, pero aún no se decide a actuar debido a que valora los beneficios placenteros de la conducta actual; esto define la Contemplación."
           },
           {
             "id": "m1-q6",
-            "question": "¿Cuál es el tema que corresponde a esta descripción? Lectura guiada de Resistencia y discordancia: definición actualizada (Miller & Rollnick, 2012) y su diferencia con el concepto clásico de \"resistencia\".. Incluye desarrollo conceptual, aplicación clínica, análisis de una viñeta ficticia y una comprobación de comprensión.",
+            "question": "¿Cuál es la implicación clínica de la Teoría de la Autopercepción de Daryl Bem (1972) en la Entrevista Motivacional?",
             "options": [
-              "Resistencia y discordancia: definición actualizada (Miller & Rollnick, 2012) y su diferencia con el concepto clásico de \"resistencia\".",
-              "Neurociencia de la motivación: dopamina, sistema de recompensa, cortex prefrontal ventromedial y comportamiento dirigido a metas.",
-              "Meta-análisis de eficacia: Lundahl et al. (2010), Hettema et al. (2005) y revisiones Cochrane por área clínica.",
-              "Ética en EM: autonomía del paciente, consentimiento informado y límites de la evocación del cambio."
+              "El paciente debe mirarse en un espejo mientras el terapeuta le señala sus signos de envejecimiento prematuro.",
+              "Las personas descubren e interiorizan lo que creen a partir de escuchar lo que dicen en voz alta durante la conversación clínica.",
+              "El terapeuta debe filmar la sesión para que el paciente evalúe su postura corporal.",
+              "La autopercepción solo se consolida si el paciente aprueba un examen escrito de psicoeducación."
             ],
-            "correctIndex": 0,
-            "explanation": "La respuesta correcta es «Resistencia y discordancia: definición actualizada (Miller & Rollnick, 2012) y su diferencia con el concepto clásico de \"resistencia\".». La unidad desarrolla: Lectura guiada de Resistencia y discordancia: definición actualizada (Miller & Rollnick, 2012) y su diferencia con el concepto clásico de \"resistencia\".. Incluye desarrollo conceptual, aplicación clínica, análisis de una viñeta ficticia y una comprobación de comprensión."
+            "answerIndex": 1,
+            "explanation": "Bem postuló que al escucharnos argumentar en voz alta, asumimos y creemos esos argumentos; por ello, lograr que el paciente verbalice lenguaje de cambio consolida su decisión interna."
           },
           {
             "id": "m1-q7",
-            "question": "¿Cuál es el tema que corresponde a esta descripción? Lectura guiada de Meta-análisis de eficacia: Lundahl et al. (2010), Hettema et al. (2005) y revisiones Cochrane por área clínica.. Incluye desarrollo conceptual, aplicación clínica, análisis de una viñeta ficticia y una comprobación de comprensión.",
+            "question": "¿Cuál de las siguientes afirmaciones pertenece a los 12 obstáculos a la comunicación descritos por Thomas Gordon?",
             "options": [
-              "Neurociencia de la motivación: dopamina, sistema de recompensa, cortex prefrontal ventromedial y comportamiento dirigido a metas.",
-              "Ética en EM: autonomía del paciente, consentimiento informado y límites de la evocación del cambio.",
-              "Resistencia y discordancia: definición actualizada (Miller & Rollnick, 2012) y su diferencia con el concepto clásico de \"resistencia\".",
-              "Meta-análisis de eficacia: Lundahl et al. (2010), Hettema et al. (2005) y revisiones Cochrane por área clínica."
+              "Reflejo complejo de doble cara.",
+              "Pregunta abierta evocadora de valores.",
+              "Tranquilizar o consolar en falso ('No se preocupe, todo saldrá bien, no es para tanto').",
+              "Resumen recolector con apoyo a la autonomía."
             ],
-            "correctIndex": 3,
-            "explanation": "La respuesta correcta es «Meta-análisis de eficacia: Lundahl et al. (2010), Hettema et al. (2005) y revisiones Cochrane por área clínica.». La unidad desarrolla: Lectura guiada de Meta-análisis de eficacia: Lundahl et al. (2010), Hettema et al. (2005) y revisiones Cochrane por área clínica.. Incluye desarrollo conceptual, aplicación clínica, análisis de una viñeta ficticia y una comprobación de comprensión."
+            "answerIndex": 2,
+            "explanation": "Tranquilizar o minimizar en falso es uno de los obstáculos identificados por Gordon, pues invalida la emoción real del paciente y corta la exploración en profundidad."
           },
           {
             "id": "m1-q8",
-            "question": "¿Cuál es el tema que corresponde a esta descripción? Lectura guiada de Ética en EM: autonomía del paciente, consentimiento informado y límites de la evocación del cambio.. Incluye desarrollo conceptual, aplicación clínica, análisis de una viñeta ficticia y una comprobación de comprensión.",
+            "question": "¿Qué demostró el histórico ensayo clínico 'Project MATCH' (1997) sobre la Terapia de Estímulo Motivacional (MET)?",
             "options": [
-              "Resistencia y discordancia: definición actualizada (Miller & Rollnick, 2012) y su diferencia con el concepto clásico de \"resistencia\".",
-              "Meta-análisis de eficacia: Lundahl et al. (2010), Hettema et al. (2005) y revisiones Cochrane por área clínica.",
-              "Ética en EM: autonomía del paciente, consentimiento informado y límites de la evocación del cambio.",
-              "Neurociencia de la motivación: dopamina, sistema de recompensa, cortex prefrontal ventromedial y comportamiento dirigido a metas."
+              "Que la intervención motivacional requería al menos 24 sesiones para ser efectiva.",
+              "Que 4 sesiones breves de MET lograron resultados equivalentes en reducción del consumo a 12 sesiones de TCC y Facilitación en 12 Pasos.",
+              "Que la MET fue significativamente inferior al tratamiento ambulatorio habitual.",
+              "Que ningún tratamiento psicológico tuvo impacto superior al placebo."
             ],
-            "correctIndex": 2,
-            "explanation": "La respuesta correcta es «Ética en EM: autonomía del paciente, consentimiento informado y límites de la evocación del cambio.». La unidad desarrolla: Lectura guiada de Ética en EM: autonomía del paciente, consentimiento informado y límites de la evocación del cambio.. Incluye desarrollo conceptual, aplicación clínica, análisis de una viñeta ficticia y una comprobación de comprensión."
+            "answerIndex": 1,
+            "explanation": "Project MATCH demostró la extraordinaria eficacia y eficiencia de la intervención motivacional breve: 4 sesiones de MET igualaron los resultados de terapias del triple de sesiones."
+          },
+          {
+            "id": "m1-q9",
+            "question": "En la conceptualización actual de la EM, ¿qué diferencia existe entre 'Discurso de mantenimiento' (Sustain talk) y 'Discordancia' (Discord)?",
+            "options": [
+              "El discurso de mantenimiento es psicopatológico y la discordancia es normal.",
+              "El discurso de mantenimiento expresa el lado conservador de la ambivalencia respecto a la conducta; la discordancia señala fricción y desalineación en la relación terapéutica.",
+              "La discordancia ocurre solo en precontemplación y el discurso de mantenimiento en acción.",
+              "No hay diferencia, son sinónimos absolutos que denotan resistencia del paciente."
+            ],
+            "answerIndex": 1,
+            "explanation": "El discurso de mantenimiento es sobre la conducta objetivo (ej. 'fumar me tranquiliza'); la discordancia es sobre la relación con el terapeuta (ej. desconfianza, interrupciones, sarcasmo) y avisa que el clínico está empujando indebidamente."
+          },
+          {
+            "id": "m1-q10",
+            "question": "¿En qué situación clínica es éticamente obligatorio aplicar 'Consejería con Neutralidad' (Equipoise) en lugar de orientar hacia el cambio?",
+            "options": [
+              "En un paciente con diabetes descompensada que rehúsa usar insulina.",
+              "Ante un dilema personal, moral o existencial donde no existe un curso de acción unívocamente saludable y el clínico no debe tomar partido (ej. continuar o no un matrimonio, abortar o llevar a término un embarazo).",
+              "En cualquier paciente que asista a un centro de salud pública.",
+              "Cuando el paciente no ha pagado la tarifa completa de la sesión de terapia."
+            ],
+            "answerIndex": 1,
+            "explanation": "Cuando la decisión del paciente involucra valores personales o dilemas donde no hay una prescripción médica o legal unívoca, el clínico debe permanecer neutral y explorar ambos lados con idéntico respeto."
           }
         ]
       },
