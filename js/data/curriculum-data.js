@@ -591,438 +591,528 @@ window.EM_CURRICULUM = {
       "badge": "M2",
       "title": "Habilidades OARS: La Caja de Herramientas Técnicas",
       "level": "Nivel: Iniciado · Habilidades comunicacionales nucleares",
-      "subtitle": "Preguntas abiertas, Afirmaciones, Reflejo y Resúmenes en profundidad clínica",
+      "subtitle": "Preguntas abiertas, Afirmaciones, Reflejos simples/complejos y Resúmenes estratégicos en profundidad clínica",
       "hours": 32,
       "units": [
         {
           "id": "2.1",
-          "title": "Preguntas abiertas: tipología, función estratégica y errores frecuentes. Diferencia entre explorar y interrogar.",
-          "overview": "Lectura guiada de Preguntas abiertas: tipología, función estratégica y errores frecuentes. Diferencia entre explorar y interrogar.. Incluye desarrollo conceptual, aplicación clínica, análisis de una viñeta ficticia y una comprobación de comprensión.",
+          "title": "Preguntas abiertas: tipología, función estratégica y errores frecuentes. Diferencia entre explorar e interrogar.",
+          "overview": "Estudio detallado de la sintaxis y pragmática clínica de las preguntas abiertas en la Entrevista Motivacional. Análisis de su capacidad para evocar el lenguaje de cambio y prevención de la trampa del interrogatorio.",
           "learningGoals": [
-            "Explicar los conceptos centrales de Preguntas abiertas: tipología, función estratégica y errores frecuentes. Diferencia entre explorar y interrogar. con lenguaje propio.",
-            "Relacionar el contenido con una decisión clínica observable.",
-            "Reconocer límites, riesgos de simplificación y preguntas que requieren evidencia adicional."
+            "Discriminar operativamente entre preguntas cerradas de recolección de datos y preguntas abiertas orientadas a la exploración experiencial.",
+            "Formular preguntas abiertas estratégicas que exploren valores nucleares, extremos y proyecciones temporales sin inducir defensividad.",
+            "Prevenir la acumulación de preguntas consecutivas que pasivizan al paciente y deterioran la alianza de trabajo colaborativa."
           ],
           "sections": [
             {
-              "heading": "Marco conceptual",
-              "html": "<p>Esta unidad desarrolla <strong>Preguntas abiertas: tipología, función estratégica y errores frecuentes. Diferencia entre explorar y interrogar.</strong> como conducta observable y deliberada, no como una frase hecha. En EM, las habilidades OARS (preguntas abiertas, afirmaciones, reflejos y resúmenes) se seleccionan según lo que el consultante acaba de comunicar y la tarea de la conversación.</p><p>Una pregunta abierta invita a elaborar, pero una secuencia larga de preguntas puede sentirse como interrogatorio. Una afirmación debe ser específica y genuina; un reflejo ofrece una hipótesis comprensiva que el consultante puede corregir. Un resumen selecciona y enlaza elementos, y no debe usarse para forzar una conclusión.</p>"
+              "heading": "1. Estructura sintáctica y función pragmática del preguntar",
+              "html": "<p>En la comunicación clínica convencional, las preguntas cerradas suelen predominar debido a la necesidad de recabar antecedentes nosológicos o diagnósticos. Sin embargo, en la Entrevista Motivacional (Miller & Rollnick, 2023), una pregunta cerrada restringe el campo de respuesta a un monosílabo o a un dato puntual (ej. <em>«¿Fuma usted más de 10 cigarrillos al día?»</em>), situando al profesional en el rol de interrogador activo y al consultante en una posición pasiva de suministro de datos.</p><p>Por el contrario, la <strong>pregunta abierta</strong> no prescribe una respuesta unívoca ni anticipa la dirección del discurso. Abre un espacio narrativo donde el paciente debe recurrir a su experiencia subjetiva interna, jerarquías de valores y percepciones de autoeficacia (ej. <em>«¿Qué cosas has notado que te hacen pensar que el tabaco está interfiriendo en tu vida?»</em>).</p>"
             },
             {
-              "heading": "Desarrollo académico y aplicación",
-              "html": "<p>Estudia tipología, función estratégica y errores frecuentes. Diferencia entre explorar y interrogar. como una habilidad que se elige según la función de la conversación. OARS no es una lista de frases para marcar: una intervención puede parecer una pregunta abierta y aun así dirigir demasiado, mientras que un reflejo breve puede abrir espacio si capta con precisión lo que la persona quiso decir.</p><p>En una secuencia de práctica, escucha sin interrumpir, formula una respuesta, espera la reacción y evalúa su efecto. Si la persona corrige tu reflejo, recibe esa corrección como información. Si habla más, aclara o expresa una prioridad, sigue esa dirección en vez de volver a un guion propio.</p><p>Para dar retroalimentación, describe primero la conducta observable (por ejemplo, pregunta cerrada, reflejo, afirmación o resumen), después su posible impacto y luego ofrece una alternativa concreta. No deduzcas calidad terapéutica solamente de conteos ni conviertas un indicador de investigación en regla universal para todas las sesiones.</p><p>La práctica deliberada puede usar transcripciones simuladas, ejercicios por pares y revisión de grabaciones con consentimiento. Protege confidencialidad, explica el propósito de la evaluación y distingue claramente el entrenamiento pedagógico de la codificación formal MITI.</p>"
+              "heading": "2. Tipología estratégica de preguntas abiertas evocadoras",
+              "html": "<p>Lejos de ser genéricas o erráticas, las preguntas abiertas en la EM persiguen objetivos clínicos definidos:</p><ul><li><strong>Exploración de extremos:</strong> <em>«En el peor de los casos, si nada cambia, ¿qué es lo que más te preocuparía dentro de cinco años?»</em> o <em>«¿Cuáles serían las mejores consecuencias que podrías experimentar si logras hacer este cambio?»</em>.</li><li><strong>Mirar hacia atrás (anclaje biográfico):</strong> <em>«¿Cómo eran las cosas en tu vida antes de que el consumo comenzara a generar estos problemas cotidianos?»</em>.</li><li><strong>Mirar hacia adelante (proyección temporal):</strong> <em>«Si tomaras la decisión de iniciar este tratamiento hoy, ¿cómo te gustaría verte de aquí a un año?»</em>.</li><li><strong>Exploración de la escala de importancia y confianza:</strong> <em>«¿Por qué te situaste en un 6 y no en un 2 en la escala de disposición al cambio?»</em>. Esta formulación obliga al paciente a verbalizar sus razones de cambio en lugar de argumentar por qué no está en el 10.</li></ul>"
             },
             {
-              "heading": "Aplicación clínica y límites",
-              "html": "<p>En el entrenamiento de <strong>Preguntas abiertas: tipología, función estratégica y errores frecuentes. Diferencia entre explorar y interrogar.</strong>, escucha primero la respuesta completa, elige una sola habilidad y observa qué ocurre después. Practica dos versiones: una intervención que sigue la perspectiva del paciente y otra que introduce prematuramente la agenda profesional. Compara su efecto relacional, no solo su forma gramatical.</p><p>Los recuentos conductuales pueden ayudar a supervisar sesiones, pero no son por sí solos una calificación clínica oficial. El MITI requiere codificación entrenada de una muestra de sesión; esta actividad del curso es práctica formativa y no sustituye esa codificación.</p>"
-            },
-            {
-              "heading": "Viñeta clínica comentada",
-              "html": "<div class=\"dialogue-line\"><b>Consultante (viñeta ficticia):</b> «Sé que esto me preocupa, pero todavía no sé qué estoy dispuesto a cambiar».</div><div class=\"dialogue-line\"><b>Profesional:</b> «Una parte de ti ve motivos para hacer algo distinto, y otra necesita entender qué perderías con ese cambio».</div><div class=\"dialogue-line\"><b>Nota docente:</b> El reflejo es una hipótesis, no una conclusión. La respuesta adecuada depende del contexto; invita a corregirla o ampliarla.</div>"
+              "heading": "3. Análisis de viñeta clínica: estilo interrogativo vs. exploración motivacional",
+              "html": "<div style='background:#f8f9fa; border-left:4px solid #1B2B6B; padding:12px; margin:10px 0;'><p><strong>Escenario A (Trampa del interrogatorio):</strong></p><p><em>Profesional:</em> ¿Usted toma la medicación todas las mañanas?<br><em>Paciente:</em> Casi siempre.<br><em>Profesional:</em> ¿Se olvida los fines de semana?<br><em>Paciente:</em> A veces.<br><em>Profesional:</em> ¿Sabe lo peligroso que es suspender el antihipertensivo?<br><em>Paciente:</em> Sí, ya lo sé.</p><p><strong>Resultado:</strong> Paciente pasivo, culpabilizado, con respuestas monosilábicas a la defensiva.</p><hr style='margin:8px 0;'><p><strong>Escenario B (Pregunta abierta evocadora):</strong></p><p><em>Profesional:</em> ¿Cómo te las arreglas normalmente con las pastillas a lo largo de una semana típica?<br><em>Paciente:</em> Bueno, de lunes a viernes tengo la alarma y no fallo. Los fines de semana salgo de rutina con los nietos y ahí es cuando me descuido.<br><em>Profesional:</em> Entiendo. ¿Qué ideas se te ocurren que podrían ayudarte a tenerlas presentes los domingos sin arruinarte el tiempo familiar?</p><p><strong>Resultado:</strong> El paciente formula el problema con sus palabras y aporta ideas de solución desde su propia autonomía.</p></div>"
             }
           ],
           "quickCheck": {
-            "question": "¿Qué respuesta refleja mejor la idea central de «Preguntas abiertas: tipología, función estratégica y errores frecuentes. Diferencia entre explorar y interrogar.»?",
+            "stem": "Un profesional de atención primaria atiende a un paciente sedentario con prediabetes. Desea evocar lenguaje de cambio mediante una pregunta abierta estratégica. ¿Cuál de las siguientes formulaciones cumple con este objetivo según la EM?",
             "options": [
-              "Repetir una recomendación profesional aunque no responda a la perspectiva de la persona.",
-              "Explorar el tema de manera colaborativa, respetar la autonomía y verificar la comprensión.",
-              "Interpretar la ambivalencia como resistencia y confrontarla de inmediato.",
-              "Dar por supuesto que una técnica produce el mismo resultado en cualquier contexto."
+              "«¿No cree que a su edad ya debería salir a caminar al menos media hora al día?»",
+              "«¿Qué beneficios concretos cree usted que traería para su energía y su salud retomar alguna actividad física?»",
+              "«¿Ha intentado hacer ejercicio en el último mes o sigue sin hacer nada?»",
+              "«¿Entiende usted el riesgo de desarrollar diabetes tipo 2 si no modifica su conducta sedentaria?»"
             ],
-            "correctIndex": 1,
-            "explanation": "Esta unidad aborda Lectura guiada de Preguntas abiertas: tipología, función estratégica y errores frecuentes. Diferencia entre explorar y interrogar.. Incluye desarrollo conceptual, aplicación clínica, análisis de una viñeta ficticia y una comprobación de comprensión.. En EM, la aplicación debe ser colaborativa, sensible al contexto y abierta a la perspectiva de la persona; no se trata de imponer una respuesta única."
+            "answerIndex": 1,
+            "explanation": "La opción B es una pregunta abierta orientada explícitamente a que el paciente explore y verbalice razones internas y beneficios percibidos (lenguaje de cambio DARN-CAT). Las opciones A y D son preguntas cerradas o confrontativas con juicio de valor implícito, y la opción C es una pregunta cerrada que induce a la justificación o a la culpa."
           },
-          "supplementaryReading": {
-            "heading": "Lectura complementaria del material del curso",
-            "html": "<div class=\"supplementary-intro\">Lectura ampliada basada en las separatas del programa. Úsala junto con el desarrollo conceptual y verifica las afirmaciones relevantes en las fuentes primarias incluidas en la bibliografía.</div><h4>1. Las Habilidades OARS: La Caja de Herramientas Nucleares</h4><h2>1. Las Habilidades OARS: La Caja de Herramientas Nucleares</h2>\n<p>Las habilidades <strong>OARS</strong> constituyen las micro-habilidades verbales esenciales de la Entrevista Motivacional. Lejos de ser técnicas aisladas, son instrumentos de precisión mediante los cuales se materializa el espíritu clínico y se facilita el avance por las cuatro tareas de la EM.</p>\n<h3>O · Preguntas Abiertas (Open Questions)</h3>\n<p>Las preguntas abiertas invitan a la exploración amplia, la reflexión interior y el relato narrativo del consultante. A diferencia de las preguntas cerradas (que se responden con \"sí\", \"no\" o datos breves), las abiertas comienzan comúnmente con: <em>«¿Qué...?», «¿Cómo...?», «¿De qué manera...?», «Cuénteme más acerca de...»</em>. En la codificación de fidelidad MITI 4.2.1, un terapeuta competente mantiene un balance donde más del 50% de sus preguntas son abiertas.</p>\n<h3>A · Afirmaciones de Fortalezas (Affirmations)</h3>\n<p>Una afirmación genuina reconoce las fortalezas intrínsecas, valores, esfuerzos y logros del consultante. No debe confundirse con el elogio condescendiente (*«¡Qué bien lo hiciste, estoy orgulloso de ti!»*), que sitúa al terapeuta como juez evaluador externo.\n<br/><br/>\n<strong>Avance de la 4.ª Edición (Miller &amp; Moyers, 2021; Miller &amp; Rollnick, 2023):</strong>\n<ul>\n<li><strong>Afirmación Simple:</strong> Reconoce un hecho positivo concreto (*«Llegó puntual hoy a pesar del tráfico complicado»*).</li>\n<li><strong>Afirmación Compleja:</strong> Vincula la conducta con un valor nuclear, rasgo de identidad o fortaleza de carácter profunda del consultante (*«El hecho de que haya venido hoy demuestra el enorme compromiso que usted tiene con estar presente para sus hijos, aun cuando se siente exhausto»*).</li>\n</ul>\n</p>\n<h3>R · Escucha Reflexiva (Reflective Listening)</h3>\n<p>Constituye el corazón operativo de la EM. Un reflejo es una afirmación hipotética que devuelve al consultante el significado de su propio mensaje, formulada con entonación descendente (como una hipótesis comprensiva, no como una pregunta inquisitiva). La proporción recomendada en el estándar internacional MITI es de <strong>al menos 1 a 2 reflejos por cada pregunta formulada</strong>.\n<ul>\n<li><strong>Reflejo Simple:</strong> Reitera o parafrasea el contenido explícito con mínimas alteraciones verbales (*«Siente que el trabajo ha sido muy demandante»*). Estabiliza la alianza.</li>\n<li><strong>Reflejo Complejo:</strong> Va más allá de las palabras literales; deduce el sentimiento implícito, el significado subyacente, metáforas o valores nucleares (*«Parece que en el fondo tiene miedo de perder su independencia si acepta este diagnóstico»*).</li>\n<li><strong>Reflejo Doble (Ambivalencia):</strong> Captura simultáneamente las dos caras de la moneda, utilizando la conjunción <em>«y»</em> en lugar de <em>«pero»</em>: <em>«Por un lado, salir de copas los fines de semana le permite desconectarse de la presión laboral, <strong>y al mismo tiempo</strong> le angustia notar que los lunes llega tarde a su trabajo y teme perder su puesto»</em>.</li>\n</ul>\n</p>\n<h3>S · Resúmenes Estructurados (Summaries)</h3>\n<p>Recopilan y articulan los elementos clave explorados. Miller y Rollnick clasifican los resúmenes en tres tipologías:\n<ol>\n<li><strong>Resumen Colector (*Collecting*):</strong> Reúne varios puntos expresados durante los últimos minutos para verificar comprensión y ordenar la narrativa.</li>\n<li><strong>Resumen Vinculante (*Linking*):</strong> Conecta lo expresado en el momento presente con algo compartido en sesiones anteriores o con valores clave (*«Usted me decía hace un momento que se siente sin energía; recuerdo que en la primera sesión mencionó que su mayor ilusión era poder jugar con sus nietos en el parque...»*).</li>\n<li><strong>Resumen de Transición (*Transitional*):</strong> Marca el cierre de una etapa conversacional o de una tarea y abre el paso hacia la siguiente (*«Permítame resumir lo que hemos conversado para ver si tenemos el cuadro completo antes de hablar sobre los siguientes pasos...»*).</li>\n</ol>\n</p>"
-          }
+          "references": [
+            {
+              "title": "Hernández Ribas, R. (2018)",
+              "citation": "Habilidades de comunicación profesional: Entrevista motivacional. Universitat Oberta de Catalunya (FUOC), PID_00255172.",
+              "url": "https://openaccess.uoc.edu/"
+            },
+            {
+              "title": "Lizarraga, S., & Ayarra, M. (2001)",
+              "citation": "Entrevista motivacional. Anales del Sistema Sanitario de Navarra, 24(Supl. 2), 43-53.",
+              "url": "https://scielo.isciii.es/scielo.php?script=sci_arttext&pid=S1137-66272001000500005"
+            },
+            {
+              "title": "Miller, W. R., & Rollnick, S. (2023)",
+              "citation": "Motivational Interviewing: Helping People Change and Grow (4th ed.). Guilford Press.",
+              "url": "https://www.guilford.com/books/Motivational-Interviewing/Miller-Rollnick/9781462552795"
+            }
+          ]
         },
         {
           "id": "2.2",
           "title": "Afirmaciones genuinas: distinción de la validación conductual superficial. Construcción basada en fortalezas reales.",
-          "overview": "Lectura guiada de Afirmaciones genuinas: distinción de la validación conductual superficial. Construcción basada en fortalezas reales.. Incluye desarrollo conceptual, aplicación clínica, análisis de una viñeta ficticia y una comprobación de comprensión.",
+          "overview": "Estudio del micro-componente Afirmar (Affirm) en la Entrevista Motivacional. Análisis de la diferencia entre el elogio jerárquico ('estoy orgulloso de ti') y el reconocimiento terapéutico de las capacidades y valores intrínsecos del paciente.",
           "learningGoals": [
-            "Explicar los conceptos centrales de Afirmaciones genuinas: distinción de la validación conductual superficial. Construcción basada en fortalezas reales. con lenguaje propio.",
-            "Relacionar el contenido con una decisión clínica observable.",
-            "Reconocer límites, riesgos de simplificación y preguntas que requieren evidencia adicional."
+            "Diferenciar clínicamente entre el elogio paternalista que crea dependencia y la afirmación empoderadora centrada en la autonomía.",
+            "Identificar y articular fortalezas personales, perseverancia y recursos internos a partir de relatos de fracaso aparente.",
+            "Dominar los criterios de codificación del manual MITI 4.2.1 para la asignación de conductas válidas de afirmación."
           ],
           "sections": [
             {
-              "heading": "Marco conceptual",
-              "html": "<p>Esta unidad desarrolla <strong>Afirmaciones genuinas: distinción de la validación conductual superficial. Construcción basada en fortalezas reales.</strong> como conducta observable y deliberada, no como una frase hecha. En EM, las habilidades OARS (preguntas abiertas, afirmaciones, reflejos y resúmenes) se seleccionan según lo que el consultante acaba de comunicar y la tarea de la conversación.</p><p>Una pregunta abierta invita a elaborar, pero una secuencia larga de preguntas puede sentirse como interrogatorio. Una afirmación debe ser específica y genuina; un reflejo ofrece una hipótesis comprensiva que el consultante puede corregir. Un resumen selecciona y enlaza elementos, y no debe usarse para forzar una conclusión.</p>"
+              "heading": "1. La afirmación como anclaje de autoeficacia y no como juicio evaluativo",
+              "html": "<p>En la práctica clínica habitual es común escuchar felicitaciones como: <em>«¡Muy bien hecho! ¡Estoy muy orgulloso de ti por haber bajado dos kilos!»</em>. Aunque formuladas con afecto, tales expresiones sitúan al terapeuta en una posición asimétrica de <strong>juez evaluador</strong> que concede aprobación externa, condicionando la valía del paciente a la satisfacción de las expectativas del profesional (Miller & Rollnick, 2023).</p><p>En la Entrevista Motivacional, una <strong>afirmación genuina</strong> consiste en reconocer y reflejar una cualidad personal, un valor nuclear o un esfuerzo conductual del paciente (ej. coraje, constancia, lealtad a los hijos, paciencia). Se centra en el pronombre «Tú» o en la acción del paciente, nunca en el «Yo» del evaluador: <em>«A pesar del estrés tan severo que viviste en el trabajo esta semana, mantuviste el compromiso con tu salud y perseveraste sin beber»</em>.</p>"
             },
             {
-              "heading": "Desarrollo académico y aplicación",
-              "html": "<p>Estudia distinción de la validación conductual superficial. Construcción basada en fortalezas reales. como una habilidad que se elige según la función de la conversación. OARS no es una lista de frases para marcar: una intervención puede parecer una pregunta abierta y aun así dirigir demasiado, mientras que un reflejo breve puede abrir espacio si capta con precisión lo que la persona quiso decir.</p><p>En una secuencia de práctica, escucha sin interrumpir, formula una respuesta, espera la reacción y evalúa su efecto. Si la persona corrige tu reflejo, recibe esa corrección como información. Si habla más, aclara o expresa una prioridad, sigue esa dirección en vez de volver a un guion propio.</p><p>Para dar retroalimentación, describe primero la conducta observable (por ejemplo, pregunta cerrada, reflejo, afirmación o resumen), después su posible impacto y luego ofrece una alternativa concreta. No deduzcas calidad terapéutica solamente de conteos ni conviertas un indicador de investigación en regla universal para todas las sesiones.</p><p>La práctica deliberada puede usar transcripciones simuladas, ejercicios por pares y revisión de grabaciones con consentimiento. Protege confidencialidad, explica el propósito de la evaluación y distingue claramente el entrenamiento pedagógico de la codificación formal MITI.</p>"
+              "heading": "2. Criterios de autenticidad y codificación MITI 4.2.1",
+              "html": "<p>El manual <em>Motivational Interviewing Treatment Integrity</em> (MITI 4.2.1; Moyers, Manuel & Ernst, 2015) establece pautas estrictas para codificar una conducta como <strong>Afirmación (Affirm)</strong>:</p><ul><li>Debe referirse a una fortaleza intrínseca, un esfuerzo o un logro específico del consultante.</li><li>Debe ser sentida y percibida como genuina, no como una técnica hueca o complaciente.</li><li>No debe contener reservas, condicionamientos ni comparaciones devaluatorias (ej. <em>«Lo hiciste bien esta vez, no como la semana pasada»</em> queda descalificada).</li><li>Refuerza la autoeficacia percibida (Bandura, 1997), un predictor neurocognitivo crucial para el mantenimiento de cambios a largo plazo.</li></ul>"
             },
             {
-              "heading": "Aplicación clínica y límites",
-              "html": "<p>En el entrenamiento de <strong>Afirmaciones genuinas: distinción de la validación conductual superficial. Construcción basada en fortalezas reales.</strong>, escucha primero la respuesta completa, elige una sola habilidad y observa qué ocurre después. Practica dos versiones: una intervención que sigue la perspectiva del paciente y otra que introduce prematuramente la agenda profesional. Compara su efecto relacional, no solo su forma gramatical.</p><p>Los recuentos conductuales pueden ayudar a supervisar sesiones, pero no son por sí solos una calificación clínica oficial. El MITI requiere codificación entrenada de una muestra de sesión; esta actividad del curso es práctica formativa y no sustituye esa codificación.</p>"
-            },
-            {
-              "heading": "Viñeta clínica comentada",
-              "html": "<div class=\"dialogue-line\"><b>Consultante (viñeta ficticia):</b> «Sé que esto me preocupa, pero todavía no sé qué estoy dispuesto a cambiar».</div><div class=\"dialogue-line\"><b>Profesional:</b> «Una parte de ti ve motivos para hacer algo distinto, y otra necesita entender qué perderías con ese cambio».</div><div class=\"dialogue-line\"><b>Nota docente:</b> El reflejo es una hipótesis, no una conclusión. La respuesta adecuada depende del contexto; invita a corregirla o ampliarla.</div>"
+              "heading": "3. Ejemplo clínico: transformando el elogio en afirmación terapéutica",
+              "html": "<div style='background:#f8f9fa; border-left:4px solid #1B2B6B; padding:12px; margin:10px 0;'><p><strong>Viñeta:</strong> El paciente comenta: <em>«Esta semana fue horrible en el trabajo, casi recaigo con la cocaína el jueves porque no daba más con la angustia, pero me quedé en casa ordenando el garaje hasta calmarme»</em>.</p><p><strong>Intervención A (Elogio complaciente):</strong> <em>«¡Excelente! Sabía que podías hacerlo, me alegra mucho ver que me estás haciendo caso»</em>. (Refuerza la dependencia del juicio del clínico).</p><p><strong>Intervención B (Afirmación motivacional profunda):</strong> <em>«Demostraste una enorme fortaleza mental y claridad de propósito al buscar una alternativa constructiva cuando la urgencia por consumir era tan intensa. Tu compromiso con salir adelante es admirable»</em>. (Refuerza la agencia interna y el auto-respeto del consultante).</p></div>"
             }
           ],
           "quickCheck": {
-            "question": "¿Qué respuesta refleja mejor la idea central de «Afirmaciones genuinas: distinción de la validación conductual superficial. Construcción basada en fortalezas reales.»?",
+            "stem": "Durante una sesión, un consultante con trastorno por juego patológico relata que logró pasar frente al casino sin entrar tras recordar el cumpleaños próximo de su hija. ¿Cuál de las siguientes respuestas constituye una afirmación genuina según los estándares de la EM?",
             "options": [
-              "Repetir una recomendación profesional aunque no responda a la perspectiva de la persona.",
-              "Explorar el tema de manera colaborativa, respetar la autonomía y verificar la comprensión.",
-              "Interpretar la ambivalencia como resistencia y confrontarla de inmediato.",
-              "Dar por supuesto que una técnica produce el mismo resultado en cualquier contexto."
+              "«¡Bravo! Si sigues así te voy a dar el alta muy pronto, estás cumpliendo con lo que te pedí»",
+              "«Espero que la próxima semana no vuelva a pasar por esa misma calle, fue muy imprudente de su parte»",
+              "«Poner el bienestar de tu hija y tus valores familiares por encima de un impulso tan fuerte refleja una gran determinación y madurez»",
+              "«¿No le pareció muy difícil resistir las ganas de apostar cuando vio las luces del local?»"
             ],
-            "correctIndex": 1,
-            "explanation": "Esta unidad aborda Lectura guiada de Afirmaciones genuinas: distinción de la validación conductual superficial. Construcción basada en fortalezas reales.. Incluye desarrollo conceptual, aplicación clínica, análisis de una viñeta ficticia y una comprobación de comprensión.. En EM, la aplicación debe ser colaborativa, sensible al contexto y abierta a la perspectiva de la persona; no se trata de imponer una respuesta única."
+            "answerIndex": 2,
+            "explanation": "La opción C reconoce una cualidad personal nuclear (determinación, valores familiares, madurez) anclada en el esfuerzo propio del paciente, sin situar al terapeuta como juez dispensador de premios. La opción A es un elogio jerárquico condicional, la B es un juicio culpabilizador y la D es una pregunta cerrada sobre el impulso."
           },
-          "supplementaryReading": {
-            "heading": "Lectura complementaria del material del curso",
-            "html": "<div class=\"supplementary-intro\">Lectura ampliada basada en las separatas del programa. Úsala junto con el desarrollo conceptual y verifica las afirmaciones relevantes en las fuentes primarias incluidas en la bibliografía.</div><h4>1. Las Habilidades OARS: La Caja de Herramientas Nucleares</h4><h2>1. Las Habilidades OARS: La Caja de Herramientas Nucleares</h2>\n<p>Las habilidades <strong>OARS</strong> constituyen las micro-habilidades verbales esenciales de la Entrevista Motivacional. Lejos de ser técnicas aisladas, son instrumentos de precisión mediante los cuales se materializa el espíritu clínico y se facilita el avance por las cuatro tareas de la EM.</p>\n<h3>O · Preguntas Abiertas (Open Questions)</h3>\n<p>Las preguntas abiertas invitan a la exploración amplia, la reflexión interior y el relato narrativo del consultante. A diferencia de las preguntas cerradas (que se responden con \"sí\", \"no\" o datos breves), las abiertas comienzan comúnmente con: <em>«¿Qué...?», «¿Cómo...?», «¿De qué manera...?», «Cuénteme más acerca de...»</em>. En la codificación de fidelidad MITI 4.2.1, un terapeuta competente mantiene un balance donde más del 50% de sus preguntas son abiertas.</p>\n<h3>A · Afirmaciones de Fortalezas (Affirmations)</h3>\n<p>Una afirmación genuina reconoce las fortalezas intrínsecas, valores, esfuerzos y logros del consultante. No debe confundirse con el elogio condescendiente (*«¡Qué bien lo hiciste, estoy orgulloso de ti!»*), que sitúa al terapeuta como juez evaluador externo.\n<br/><br/>\n<strong>Avance de la 4.ª Edición (Miller &amp; Moyers, 2021; Miller &amp; Rollnick, 2023):</strong>\n<ul>\n<li><strong>Afirmación Simple:</strong> Reconoce un hecho positivo concreto (*«Llegó puntual hoy a pesar del tráfico complicado»*).</li>\n<li><strong>Afirmación Compleja:</strong> Vincula la conducta con un valor nuclear, rasgo de identidad o fortaleza de carácter profunda del consultante (*«El hecho de que haya venido hoy demuestra el enorme compromiso que usted tiene con estar presente para sus hijos, aun cuando se siente exhausto»*).</li>\n</ul>\n</p>\n<h3>R · Escucha Reflexiva (Reflective Listening)</h3>\n<p>Constituye el corazón operativo de la EM. Un reflejo es una afirmación hipotética que devuelve al consultante el significado de su propio mensaje, formulada con entonación descendente (como una hipótesis comprensiva, no como una pregunta inquisitiva). La proporción recomendada en el estándar internacional MITI es de <strong>al menos 1 a 2 reflejos por cada pregunta formulada</strong>.\n<ul>\n<li><strong>Reflejo Simple:</strong> Reitera o parafrasea el contenido explícito con mínimas alteraciones verbales (*«Siente que el trabajo ha sido muy demandante»*). Estabiliza la alianza.</li>\n<li><strong>Reflejo Complejo:</strong> Va más allá de las palabras literales; deduce el sentimiento implícito, el significado subyacente, metáforas o valores nucleares (*«Parece que en el fondo tiene miedo de perder su independencia si acepta este diagnóstico»*).</li>\n<li><strong>Reflejo Doble (Ambivalencia):</strong> Captura simultáneamente las dos caras de la moneda, utilizando la conjunción <em>«y»</em> en lugar de <em>«pero»</em>: <em>«Por un lado, salir de copas los fines de semana le permite desconectarse de la presión laboral, <strong>y al mismo tiempo</strong> le angustia notar que los lunes llega tarde a su trabajo y teme perder su puesto»</em>.</li>\n</ul>\n</p>\n<h3>S · Resúmenes Estructurados (Summaries)</h3>\n<p>Recopilan y articulan los elementos clave explorados. Miller y Rollnick clasifican los resúmenes en tres tipologías:\n<ol>\n<li><strong>Resumen Colector (*Collecting*):</strong> Reúne varios puntos expresados durante los últimos minutos para verificar comprensión y ordenar la narrativa.</li>\n<li><strong>Resumen Vinculante (*Linking*):</strong> Conecta lo expresado en el momento presente con algo compartido en sesiones anteriores o con valores clave (*«Usted me decía hace un momento que se siente sin energía; recuerdo que en la primera sesión mencionó que su mayor ilusión era poder jugar con sus nietos en el parque...»*).</li>\n<li><strong>Resumen de Transición (*Transitional*):</strong> Marca el cierre de una etapa conversacional o de una tarea y abre el paso hacia la siguiente (*«Permítame resumir lo que hemos conversado para ver si tenemos el cuadro completo antes de hablar sobre los siguientes pasos...»*).</li>\n</ol>\n</p>"
-          }
+          "references": [
+            {
+              "title": "Miller, W. R., & Rollnick, S. (2023)",
+              "citation": "Motivational Interviewing: Helping People Change and Grow (4th ed.). Guilford Press.",
+              "url": "https://www.guilford.com/books/Motivational-Interviewing/Miller-Rollnick/9781462552795"
+            },
+            {
+              "title": "Moyers, T. B., Manuel, J. K., & Ernst, D. (2015)",
+              "citation": "Motivational Interviewing Treatment Integrity Coding Manual 4.2.1 (MITI 4.2.1). University of New Mexico, CASAA.",
+              "url": "https://casaa.unm.edu/download/miti4_2.pdf"
+            },
+            {
+              "title": "Universidad Central del Caribe / SAMHSA (2016)",
+              "citation": "Módulo Instruccional: Entrevista Motivacional. OEC/IRESA, Escuela de Medicina UCC.",
+              "url": "https://www.samhsa.gov/"
+            }
+          ]
         },
         {
           "id": "2.3",
           "title": "Reflejo simple: función especular y riesgo de parroteo. Selección del contenido relevante.",
-          "overview": "Lectura guiada de Reflejo simple: función especular y riesgo de parroteo. Selección del contenido relevante.. Incluye desarrollo conceptual, aplicación clínica, análisis de una viñeta ficticia y una comprobación de comprensión.",
+          "overview": "El reflejo simple como intervención base de la escucha reflexiva rogeriana. Mecanismos para transmitir comprensión empática, estabilizar el diálogo y seleccionar estratégicamente el material motivacionalmente relevante.",
           "learningGoals": [
-            "Explicar los conceptos centrales de Reflejo simple: función especular y riesgo de parroteo. Selección del contenido relevante. con lenguaje propio.",
-            "Relacionar el contenido con una decisión clínica observable.",
-            "Reconocer límites, riesgos de simplificación y preguntas que requieren evidencia adicional."
+            "Dominar la técnica del reflejo simple evitando la repetición mimética o parroteo literal que genera artificialidad.",
+            "Ajustar la prosodia mediante inflexión declarativa descendente para no transformar un reflejo en una pregunta encubierta.",
+            "Seleccionar selectivamente los elementos verbales orientados al cambio en lugar de amplificar quejas o argumentos de mantenimiento."
           ],
           "sections": [
             {
-              "heading": "Marco conceptual",
-              "html": "<p>Esta unidad desarrolla <strong>Reflejo simple: función especular y riesgo de parroteo. Selección del contenido relevante.</strong> como conducta observable y deliberada, no como una frase hecha. En EM, las habilidades OARS (preguntas abiertas, afirmaciones, reflejos y resúmenes) se seleccionan según lo que el consultante acaba de comunicar y la tarea de la conversación.</p><p>Una pregunta abierta invita a elaborar, pero una secuencia larga de preguntas puede sentirse como interrogatorio. Una afirmación debe ser específica y genuina; un reflejo ofrece una hipótesis comprensiva que el consultante puede corregir. Un resumen selecciona y enlaza elementos, y no debe usarse para forzar una conclusión.</p>"
+              "heading": "1. Naturaleza especular y no directiva del reflejo simple",
+              "html": "<p>Heredado directamente de la psicoterapia centrada en la persona de Carl Rogers (1957), el <strong>reflejo simple</strong> consiste en devolver al paciente una declaración que reformula o repite con ligeras variantes lo que este acaba de expresar de manera explícita. Su propósito primario no es añadir interpretación analítica ni profundizar en el inconsciente, sino actuar como un espejo claro que confirma: <em>«Te estoy escuchando con atención plena y comprendo exactamente lo que estás viviendo»</em> (Miller & Rollnick, 2023).</p><p>El peligro más común en terapeutas principiantes es el <strong>parroteo</strong> (repetir mecánicamente las últimas palabras del paciente con tono monótono), lo cual resulta irritante y rompe la calidez relacional. El profesional competente reordena los conceptos empleando sinónimos sobrios y manteniendo una actitud de aceptación incondicional.</p>"
             },
             {
-              "heading": "Desarrollo académico y aplicación",
-              "html": "<p>Estudia función especular y riesgo de parroteo. Selección del contenido relevante. como una habilidad que se elige según la función de la conversación. OARS no es una lista de frases para marcar: una intervención puede parecer una pregunta abierta y aun así dirigir demasiado, mientras que un reflejo breve puede abrir espacio si capta con precisión lo que la persona quiso decir.</p><p>En una secuencia de práctica, escucha sin interrumpir, formula una respuesta, espera la reacción y evalúa su efecto. Si la persona corrige tu reflejo, recibe esa corrección como información. Si habla más, aclara o expresa una prioridad, sigue esa dirección en vez de volver a un guion propio.</p><p>Para dar retroalimentación, describe primero la conducta observable (por ejemplo, pregunta cerrada, reflejo, afirmación o resumen), después su posible impacto y luego ofrece una alternativa concreta. No deduzcas calidad terapéutica solamente de conteos ni conviertas un indicador de investigación en regla universal para todas las sesiones.</p><p>La práctica deliberada puede usar transcripciones simuladas, ejercicios por pares y revisión de grabaciones con consentimiento. Protege confidencialidad, explica el propósito de la evaluación y distingue claramente el entrenamiento pedagógico de la codificación formal MITI.</p>"
+              "heading": "2. La inflexión de la voz: afirmación frente a interrogación encubierta",
+              "html": "<p>Uno de los errores técnicos más críticos al entrenar en EM es la entonación interrogativa al final de una frase (inflexión ascendente al estilo de: <em>«¿Sientes que tu familia te presiona demasiado...?»</em>). Cuando la voz sube de tono al final, el cerebro del paciente lo procesa como una pregunta o una exigencia de confirmación, lo que suele provocar respuestas cortas como <em>«Sí»</em> o <em>«No»</em>.</p><p>En la Entrevista Motivacional, el reflejo es una <strong>oración declarativa</strong> con tono descendente al final: <em>«Sientes que las exigencias de tu familia han sobrepasado lo que puedes tolerar en este momento.»</em>. Esto transmite serenidad, confianza y permite que el consultante continúe profundizando en su propio monólogo terapéutico sin sentirse examinado.</p>"
             },
             {
-              "heading": "Aplicación clínica y límites",
-              "html": "<p>En el entrenamiento de <strong>Reflejo simple: función especular y riesgo de parroteo. Selección del contenido relevante.</strong>, escucha primero la respuesta completa, elige una sola habilidad y observa qué ocurre después. Practica dos versiones: una intervención que sigue la perspectiva del paciente y otra que introduce prematuramente la agenda profesional. Compara su efecto relacional, no solo su forma gramatical.</p><p>Los recuentos conductuales pueden ayudar a supervisar sesiones, pero no son por sí solos una calificación clínica oficial. El MITI requiere codificación entrenada de una muestra de sesión; esta actividad del curso es práctica formativa y no sustituye esa codificación.</p>"
-            },
-            {
-              "heading": "Viñeta clínica comentada",
-              "html": "<div class=\"dialogue-line\"><b>Consultante (viñeta ficticia):</b> «Sé que esto me preocupa, pero todavía no sé qué estoy dispuesto a cambiar».</div><div class=\"dialogue-line\"><b>Profesional:</b> «Una parte de ti ve motivos para hacer algo distinto, y otra necesita entender qué perderías con ese cambio».</div><div class=\"dialogue-line\"><b>Nota docente:</b> El reflejo es una hipótesis, no una conclusión. La respuesta adecuada depende del contexto; invita a corregirla o ampliarla.</div>"
+              "heading": "3. Selección estratégica: ¿qué reflejamos?",
+              "html": "<p>En una sesión clínica, el discurso del paciente contiene simultáneamente argumentos para el cambio (<em>Change Talk</em>) y argumentos para no cambiar (<em>Sustain Talk</em>). El reflejo simple nunca es neutral al azar: el terapeuta selecciona deliberadamente aquellos fragmentos donde asoma la discrepancia, la necesidad o el deseo de cambio, dejando que los argumentos de sostenimiento se apaguen por falta de refuerzo atencional (Lizarraga & Ayarra, 2001).</p>"
             }
           ],
           "quickCheck": {
-            "question": "¿Qué respuesta refleja mejor la idea central de «Reflejo simple: función especular y riesgo de parroteo. Selección del contenido relevante.»?",
+            "stem": "Un paciente con adicción al tabaco manifiesta: «Sé que me hace mal para el asma, pero cuando estoy nervioso encender un cigarro es lo único que me calma al instante». Si el terapeuta desea realizar un reflejo simple estratégico que no refuerce la dependencia del tabaco, ¿cuál es la mejor opción?",
             "options": [
-              "Repetir una recomendación profesional aunque no responda a la perspectiva de la persona.",
-              "Explorar el tema de manera colaborativa, respetar la autonomía y verificar la comprensión.",
-              "Interpretar la ambivalencia como resistencia y confrontarla de inmediato.",
-              "Dar por supuesto que una técnica produce el mismo resultado en cualquier contexto."
+              "«Entonces el tabaco es tu único amigo en los momentos difíciles»",
+              "«Te preocupa el impacto directo que el humo está teniendo sobre tu respiración y tu asma»",
+              "«¿Por qué no prueba salir a caminar cuando esté nervioso en vez de fumar?»",
+              "«No debería justificarse diciendo que es lo único que lo calma»"
             ],
-            "correctIndex": 1,
-            "explanation": "Esta unidad aborda Lectura guiada de Reflejo simple: función especular y riesgo de parroteo. Selección del contenido relevante.. Incluye desarrollo conceptual, aplicación clínica, análisis de una viñeta ficticia y una comprobación de comprensión.. En EM, la aplicación debe ser colaborativa, sensible al contexto y abierta a la perspectiva de la persona; no se trata de imponer una respuesta única."
+            "answerIndex": 1,
+            "explanation": "La opción B es un reflejo simple que selecciona estratégicamente la parte del mensaje donde el paciente reconoce el daño para su salud (lenguaje de cambio), desestimando amplificar el argumento de sostenimiento del alivio momentáneo. La opción A amplifica el sostenimiento, la C es una sugerencia prematura y la D es una confrontación directa."
           },
-          "supplementaryReading": {
-            "heading": "Lectura complementaria del material del curso",
-            "html": "<div class=\"supplementary-intro\">Lectura ampliada basada en las separatas del programa. Úsala junto con el desarrollo conceptual y verifica las afirmaciones relevantes en las fuentes primarias incluidas en la bibliografía.</div><h4>1. Las Habilidades OARS: La Caja de Herramientas Nucleares</h4><h2>1. Las Habilidades OARS: La Caja de Herramientas Nucleares</h2>\n<p>Las habilidades <strong>OARS</strong> constituyen las micro-habilidades verbales esenciales de la Entrevista Motivacional. Lejos de ser técnicas aisladas, son instrumentos de precisión mediante los cuales se materializa el espíritu clínico y se facilita el avance por las cuatro tareas de la EM.</p>\n<h3>O · Preguntas Abiertas (Open Questions)</h3>\n<p>Las preguntas abiertas invitan a la exploración amplia, la reflexión interior y el relato narrativo del consultante. A diferencia de las preguntas cerradas (que se responden con \"sí\", \"no\" o datos breves), las abiertas comienzan comúnmente con: <em>«¿Qué...?», «¿Cómo...?», «¿De qué manera...?», «Cuénteme más acerca de...»</em>. En la codificación de fidelidad MITI 4.2.1, un terapeuta competente mantiene un balance donde más del 50% de sus preguntas son abiertas.</p>\n<h3>A · Afirmaciones de Fortalezas (Affirmations)</h3>\n<p>Una afirmación genuina reconoce las fortalezas intrínsecas, valores, esfuerzos y logros del consultante. No debe confundirse con el elogio condescendiente (*«¡Qué bien lo hiciste, estoy orgulloso de ti!»*), que sitúa al terapeuta como juez evaluador externo.\n<br/><br/>\n<strong>Avance de la 4.ª Edición (Miller &amp; Moyers, 2021; Miller &amp; Rollnick, 2023):</strong>\n<ul>\n<li><strong>Afirmación Simple:</strong> Reconoce un hecho positivo concreto (*«Llegó puntual hoy a pesar del tráfico complicado»*).</li>\n<li><strong>Afirmación Compleja:</strong> Vincula la conducta con un valor nuclear, rasgo de identidad o fortaleza de carácter profunda del consultante (*«El hecho de que haya venido hoy demuestra el enorme compromiso que usted tiene con estar presente para sus hijos, aun cuando se siente exhausto»*).</li>\n</ul>\n</p>\n<h3>R · Escucha Reflexiva (Reflective Listening)</h3>\n<p>Constituye el corazón operativo de la EM. Un reflejo es una afirmación hipotética que devuelve al consultante el significado de su propio mensaje, formulada con entonación descendente (como una hipótesis comprensiva, no como una pregunta inquisitiva). La proporción recomendada en el estándar internacional MITI es de <strong>al menos 1 a 2 reflejos por cada pregunta formulada</strong>.\n<ul>\n<li><strong>Reflejo Simple:</strong> Reitera o parafrasea el contenido explícito con mínimas alteraciones verbales (*«Siente que el trabajo ha sido muy demandante»*). Estabiliza la alianza.</li>\n<li><strong>Reflejo Complejo:</strong> Va más allá de las palabras literales; deduce el sentimiento implícito, el significado subyacente, metáforas o valores nucleares (*«Parece que en el fondo tiene miedo de perder su independencia si acepta este diagnóstico»*).</li>\n<li><strong>Reflejo Doble (Ambivalencia):</strong> Captura simultáneamente las dos caras de la moneda, utilizando la conjunción <em>«y»</em> en lugar de <em>«pero»</em>: <em>«Por un lado, salir de copas los fines de semana le permite desconectarse de la presión laboral, <strong>y al mismo tiempo</strong> le angustia notar que los lunes llega tarde a su trabajo y teme perder su puesto»</em>.</li>\n</ul>\n</p>\n<h3>S · Resúmenes Estructurados (Summaries)</h3>\n<p>Recopilan y articulan los elementos clave explorados. Miller y Rollnick clasifican los resúmenes en tres tipologías:\n<ol>\n<li><strong>Resumen Colector (*Collecting*):</strong> Reúne varios puntos expresados durante los últimos minutos para verificar comprensión y ordenar la narrativa.</li>\n<li><strong>Resumen Vinculante (*Linking*):</strong> Conecta lo expresado en el momento presente con algo compartido en sesiones anteriores o con valores clave (*«Usted me decía hace un momento que se siente sin energía; recuerdo que en la primera sesión mencionó que su mayor ilusión era poder jugar con sus nietos en el parque...»*).</li>\n<li><strong>Resumen de Transición (*Transitional*):</strong> Marca el cierre de una etapa conversacional o de una tarea y abre el paso hacia la siguiente (*«Permítame resumir lo que hemos conversado para ver si tenemos el cuadro completo antes de hablar sobre los siguientes pasos...»*).</li>\n</ol>\n</p>"
-          }
+          "references": [
+            {
+              "title": "Lizarraga, S., & Ayarra, M. (2001)",
+              "citation": "Entrevista motivacional. Anales del Sistema Sanitario de Navarra, 24(Supl. 2), 43-53.",
+              "url": "https://scielo.isciii.es/scielo.php?script=sci_arttext&pid=S1137-66272001000500005"
+            },
+            {
+              "title": "Miller, W. R., & Rollnick, S. (2023)",
+              "citation": "Motivational Interviewing: Helping People Change and Grow (4th ed.). Guilford Press.",
+              "url": "https://www.guilford.com/books/Motivational-Interviewing/Miller-Rollnick/9781462552795"
+            },
+            {
+              "title": "Rogers, C. R. (1957)",
+              "citation": "The necessary and sufficient conditions of therapeutic personality change. Journal of Consulting Psychology, 21(2), 95-103.",
+              "url": "https://doi.org/10.1037/h0045357"
+            }
+          ]
         },
         {
           "id": "2.4",
           "title": "Reflejo complejo: amplificado, de doble cara, de metáfora y parafraseado hipotético. Taxonomía y aplicación.",
-          "overview": "Lectura guiada de Reflejo complejo: amplificado, de doble cara, de metáfora y parafraseado hipotético. Taxonomía y aplicación.. Incluye desarrollo conceptual, aplicación clínica, análisis de una viñeta ficticia y una comprobación de comprensión.",
+          "overview": "Exploración de las modalidades avanzadas de reflejo complejo en la Entrevista Motivacional. Técnicas para articular la ambivalencia, profundizar en afectos no verbalizados y desarmar el sostenimiento mediante la amplificación calibrada.",
           "learningGoals": [
-            "Explicar los conceptos centrales de Reflejo complejo: amplificado, de doble cara, de metáfora y parafraseado hipotético. Taxonomía y aplicación. con lenguaje propio.",
-            "Relacionar el contenido con una decisión clínica observable.",
-            "Reconocer límites, riesgos de simplificación y preguntas que requieren evidencia adicional."
+            "Construir reflejos de doble cara eficaces utilizando la conjunción coordinada 'y' para integrar las dos vertientes de la ambivalencia.",
+            "Emplear el reflejo amplificado para manejar el discurso de sostenimiento extremo permitiendo que el paciente contraargumente hacia el cambio.",
+            "Formular reflejos de metáfora y profundidad emocional que aceleren la toma de conciencia sobre discrepancias entre valores y conductas."
           ],
           "sections": [
             {
-              "heading": "Marco conceptual",
-              "html": "<p>Esta unidad desarrolla <strong>Reflejo complejo: amplificado, de doble cara, de metáfora y parafraseado hipotético. Taxonomía y aplicación.</strong> como conducta observable y deliberada, no como una frase hecha. En EM, las habilidades OARS (preguntas abiertas, afirmaciones, reflejos y resúmenes) se seleccionan según lo que el consultante acaba de comunicar y la tarea de la conversación.</p><p>Una pregunta abierta invita a elaborar, pero una secuencia larga de preguntas puede sentirse como interrogatorio. Una afirmación debe ser específica y genuina; un reflejo ofrece una hipótesis comprensiva que el consultante puede corregir. Un resumen selecciona y enlaza elementos, y no debe usarse para forzar una conclusión.</p>"
+              "heading": "1. De la repetición a la creación de significado: el reflejo complejo",
+              "html": "<p>A diferencia del reflejo simple, el <strong>reflejo complejo</strong> da un paso hacia adelante: añade significado, explicita emociones tácitas, identifica patrones implícitos o completa el párrafo que el paciente dejó inconcluso (Miller & Rollnick, 2023). En las investigaciones de proceso de la EM (Moyers et al., 2016), una mayor proporción de reflejos complejos sobre simples correlaciona fuertemente con la disminución de la defensividad y un aumento sostenido en la tasa de lenguaje de cambio.</p>"
             },
             {
-              "heading": "Desarrollo académico y aplicación",
-              "html": "<p>Estudia amplificado, de doble cara, de metáfora y parafraseado hipotético. Taxonomía y aplicación. como una habilidad que se elige según la función de la conversación. OARS no es una lista de frases para marcar: una intervención puede parecer una pregunta abierta y aun así dirigir demasiado, mientras que un reflejo breve puede abrir espacio si capta con precisión lo que la persona quiso decir.</p><p>En una secuencia de práctica, escucha sin interrumpir, formula una respuesta, espera la reacción y evalúa su efecto. Si la persona corrige tu reflejo, recibe esa corrección como información. Si habla más, aclara o expresa una prioridad, sigue esa dirección en vez de volver a un guion propio.</p><p>Para dar retroalimentación, describe primero la conducta observable (por ejemplo, pregunta cerrada, reflejo, afirmación o resumen), después su posible impacto y luego ofrece una alternativa concreta. No deduzcas calidad terapéutica solamente de conteos ni conviertas un indicador de investigación en regla universal para todas las sesiones.</p><p>La práctica deliberada puede usar transcripciones simuladas, ejercicios por pares y revisión de grabaciones con consentimiento. Protege confidencialidad, explica el propósito de la evaluación y distingue claramente el entrenamiento pedagógico de la codificación formal MITI.</p>"
+              "heading": "2. Tipologías clínicas del reflejo complejo",
+              "html": "<ul><li><strong>Reflejo de doble cara (Double-sided reflection):</strong> Articula simultáneamente los dos lados del conflicto interno del consultante. La regla gramatical de oro en EM es enlazar ambas proposiciones con la conjunción <em>«y»</em>, evitando tajantemente el <em>«pero»</em> (que psicológicamente anula lo dicho antes): <em>«Por un lado disfrutas de la desconexión que te da beber con tus colegas los viernes, <strong>y</strong> al mismo tiempo te asusta despertar con esa culpa inmensa sabiendo que faltaste a lo acordado con tu pareja»</em>.</li><li><strong>Reflejo amplificado (Amplified reflection):</strong> Devuelve el argumento de sostenimiento del paciente de manera ligeramente exagerada o absoluta, pero con calidez empática y sin ironía: <em>«Paciente: No creo que el alcohol sea tan grave en mi vida. / Terapeuta: Para ti el alcohol no ha traído absolutamente ninguna consecuencia negativa y tu entorno se preocupa por pura exageración»</em>. La reacción natural del paciente ante este reflejo es matizar y contraargumentar a favor del cambio: <em>«Bueno, tampoco tanto... es verdad que he tenido multas y problemas de salud»</em>.</li><li><strong>Reflejo de metáfora o analogía:</strong> Traduce la vivencia del paciente a una imagen visual vívida: <em>«Es como si estuvieras intentando conducir a toda velocidad con el freno de mano puesto»</em>.</li><li><strong>Reflejo de afecto profundo:</strong> Nombra el sentimiento que subyace a la cólera o a la indiferencia (ej. miedo al fracaso, dolor por abandono, vulnerabilidad).</li></ul>"
             },
             {
-              "heading": "Aplicación clínica y límites",
-              "html": "<p>En el entrenamiento de <strong>Reflejo complejo: amplificado, de doble cara, de metáfora y parafraseado hipotético. Taxonomía y aplicación.</strong>, escucha primero la respuesta completa, elige una sola habilidad y observa qué ocurre después. Practica dos versiones: una intervención que sigue la perspectiva del paciente y otra que introduce prematuramente la agenda profesional. Compara su efecto relacional, no solo su forma gramatical.</p><p>Los recuentos conductuales pueden ayudar a supervisar sesiones, pero no son por sí solos una calificación clínica oficial. El MITI requiere codificación entrenada de una muestra de sesión; esta actividad del curso es práctica formativa y no sustituye esa codificación.</p>"
-            },
-            {
-              "heading": "Viñeta clínica comentada",
-              "html": "<div class=\"dialogue-line\"><b>Consultante (viñeta ficticia):</b> «Sé que esto me preocupa, pero todavía no sé qué estoy dispuesto a cambiar».</div><div class=\"dialogue-line\"><b>Profesional:</b> «Una parte de ti ve motivos para hacer algo distinto, y otra necesita entender qué perderías con ese cambio».</div><div class=\"dialogue-line\"><b>Nota docente:</b> El reflejo es una hipótesis, no una conclusión. La respuesta adecuada depende del contexto; invita a corregirla o ampliarla.</div>"
+              "heading": "3. Precauciones clínicas con el reflejo amplificado",
+              "html": "<p>El reflejo amplificado es una herramienta de alta precisión que jamás debe utilizarse con tono de reproche o sarcasmo. Si el tono del terapeuta denota burla o superioridad moral, se activa inmediatamente la reactancia psicológica (Brehm, 1966) y el paciente se atrinchera en su resistencia. Debe formularse con genuina curiosidad fenomenológica (EVICT, 2019).</p>"
             }
           ],
           "quickCheck": {
-            "question": "¿Qué respuesta refleja mejor la idea central de «Reflejo complejo: amplificado, de doble cara, de metáfora y parafraseado hipotético. Taxonomía y aplicación.»?",
+            "stem": "Un paciente con dolor crónico y sobreuso de opioides expresa: «No soporto las mañanas cuando me duele la espalda, tomar las pastillas es lo único que me hace ser funcional, pero me da terror pensar que me estoy convirtiendo en un drogadicto». ¿Cuál es la formulación más precisa de un reflejo de doble cara?",
             "options": [
-              "Repetir una recomendación profesional aunque no responda a la perspectiva de la persona.",
-              "Explorar el tema de manera colaborativa, respetar la autonomía y verificar la comprensión.",
-              "Interpretar la ambivalencia como resistencia y confrontarla de inmediato.",
-              "Dar por supuesto que una técnica produce el mismo resultado en cualquier contexto."
+              "«Tomar la medicación le ayuda a tolerar las mañanas, pero usted sabe que está enganchado a las drogas»",
+              "«Por un lado los analgésicos te permiten afrontar el día y aliviar el dolor, y al mismo tiempo sientes una gran angustia por el riesgo de perder el control sobre ellos»",
+              "«No se preocupe tanto, mientras el médico se los recete usted no es ningún drogadicto»",
+              "«¿Por qué no intenta aguantar el dolor por la mañana sin tomar nada para comprobar su fuerza de voluntad?»"
             ],
-            "correctIndex": 1,
-            "explanation": "Esta unidad aborda Lectura guiada de Reflejo complejo: amplificado, de doble cara, de metáfora y parafraseado hipotético. Taxonomía y aplicación.. Incluye desarrollo conceptual, aplicación clínica, análisis de una viñeta ficticia y una comprobación de comprensión.. En EM, la aplicación debe ser colaborativa, sensible al contexto y abierta a la perspectiva de la persona; no se trata de imponer una respuesta única."
+            "answerIndex": 1,
+            "explanation": "La opción B valida con exactitud ambas polaridades de la ambivalencia conectándolas con la conjunción «y», captando el alivio funcional del paciente y su genuino terror a la dependencia sin juzgarlo. La opción A usa el «pero» invalidante, la C minimiza la angustia del paciente y la D es un reto directivo arriesgado."
           },
-          "supplementaryReading": {
-            "heading": "Lectura complementaria del material del curso",
-            "html": "<div class=\"supplementary-intro\">Lectura ampliada basada en las separatas del programa. Úsala junto con el desarrollo conceptual y verifica las afirmaciones relevantes en las fuentes primarias incluidas en la bibliografía.</div><h4>1. Las Habilidades OARS: La Caja de Herramientas Nucleares</h4><h2>1. Las Habilidades OARS: La Caja de Herramientas Nucleares</h2>\n<p>Las habilidades <strong>OARS</strong> constituyen las micro-habilidades verbales esenciales de la Entrevista Motivacional. Lejos de ser técnicas aisladas, son instrumentos de precisión mediante los cuales se materializa el espíritu clínico y se facilita el avance por las cuatro tareas de la EM.</p>\n<h3>O · Preguntas Abiertas (Open Questions)</h3>\n<p>Las preguntas abiertas invitan a la exploración amplia, la reflexión interior y el relato narrativo del consultante. A diferencia de las preguntas cerradas (que se responden con \"sí\", \"no\" o datos breves), las abiertas comienzan comúnmente con: <em>«¿Qué...?», «¿Cómo...?», «¿De qué manera...?», «Cuénteme más acerca de...»</em>. En la codificación de fidelidad MITI 4.2.1, un terapeuta competente mantiene un balance donde más del 50% de sus preguntas son abiertas.</p>\n<h3>A · Afirmaciones de Fortalezas (Affirmations)</h3>\n<p>Una afirmación genuina reconoce las fortalezas intrínsecas, valores, esfuerzos y logros del consultante. No debe confundirse con el elogio condescendiente (*«¡Qué bien lo hiciste, estoy orgulloso de ti!»*), que sitúa al terapeuta como juez evaluador externo.\n<br/><br/>\n<strong>Avance de la 4.ª Edición (Miller &amp; Moyers, 2021; Miller &amp; Rollnick, 2023):</strong>\n<ul>\n<li><strong>Afirmación Simple:</strong> Reconoce un hecho positivo concreto (*«Llegó puntual hoy a pesar del tráfico complicado»*).</li>\n<li><strong>Afirmación Compleja:</strong> Vincula la conducta con un valor nuclear, rasgo de identidad o fortaleza de carácter profunda del consultante (*«El hecho de que haya venido hoy demuestra el enorme compromiso que usted tiene con estar presente para sus hijos, aun cuando se siente exhausto»*).</li>\n</ul>\n</p>\n<h3>R · Escucha Reflexiva (Reflective Listening)</h3>\n<p>Constituye el corazón operativo de la EM. Un reflejo es una afirmación hipotética que devuelve al consultante el significado de su propio mensaje, formulada con entonación descendente (como una hipótesis comprensiva, no como una pregunta inquisitiva). La proporción recomendada en el estándar internacional MITI es de <strong>al menos 1 a 2 reflejos por cada pregunta formulada</strong>.\n<ul>\n<li><strong>Reflejo Simple:</strong> Reitera o parafrasea el contenido explícito con mínimas alteraciones verbales (*«Siente que el trabajo ha sido muy demandante»*). Estabiliza la alianza.</li>\n<li><strong>Reflejo Complejo:</strong> Va más allá de las palabras literales; deduce el sentimiento implícito, el significado subyacente, metáforas o valores nucleares (*«Parece que en el fondo tiene miedo de perder su independencia si acepta este diagnóstico»*).</li>\n<li><strong>Reflejo Doble (Ambivalencia):</strong> Captura simultáneamente las dos caras de la moneda, utilizando la conjunción <em>«y»</em> en lugar de <em>«pero»</em>: <em>«Por un lado, salir de copas los fines de semana le permite desconectarse de la presión laboral, <strong>y al mismo tiempo</strong> le angustia notar que los lunes llega tarde a su trabajo y teme perder su puesto»</em>.</li>\n</ul>\n</p>\n<h3>S · Resúmenes Estructurados (Summaries)</h3>\n<p>Recopilan y articulan los elementos clave explorados. Miller y Rollnick clasifican los resúmenes en tres tipologías:\n<ol>\n<li><strong>Resumen Colector (*Collecting*):</strong> Reúne varios puntos expresados durante los últimos minutos para verificar comprensión y ordenar la narrativa.</li>\n<li><strong>Resumen Vinculante (*Linking*):</strong> Conecta lo expresado en el momento presente con algo compartido en sesiones anteriores o con valores clave (*«Usted me decía hace un momento que se siente sin energía; recuerdo que en la primera sesión mencionó que su mayor ilusión era poder jugar con sus nietos en el parque...»*).</li>\n<li><strong>Resumen de Transición (*Transitional*):</strong> Marca el cierre de una etapa conversacional o de una tarea y abre el paso hacia la siguiente (*«Permítame resumir lo que hemos conversado para ver si tenemos el cuadro completo antes de hablar sobre los siguientes pasos...»*).</li>\n</ol>\n</p>"
-          }
+          "references": [
+            {
+              "title": "EVICT (2019)",
+              "citation": "Entrevista Motivacional en el abordaje del tabaquismo y adicciones en equipos multidisciplinares. Grupo EVICT.",
+              "url": "https://www.evict.org/"
+            },
+            {
+              "title": "Miller, W. R., & Rollnick, S. (2023)",
+              "citation": "Motivational Interviewing: Helping People Change and Grow (4th ed.). Guilford Press.",
+              "url": "https://www.guilford.com/books/Motivational-Interviewing/Miller-Rollnick/9781462552795"
+            },
+            {
+              "title": "Moyers, T. B., Manuel, J. K., & Ernst, D. (2015)",
+              "citation": "Motivational Interviewing Treatment Integrity Coding Manual 4.2.1 (MITI 4.2.1). University of New Mexico, CASAA.",
+              "url": "https://casaa.unm.edu/download/miti4_2.pdf"
+            }
+          ]
         },
         {
           "id": "2.5",
           "title": "Resúmenes colectores, de enlace y de transición: cuándo y cómo estructurarlos sin interrumpir el flujo.",
-          "overview": "Lectura guiada de Resúmenes colectores, de enlace y de transición: cuándo y cómo estructurarlos sin interrumpir el flujo.. Incluye desarrollo conceptual, aplicación clínica, análisis de una viñeta ficticia y una comprobación de comprensión.",
+          "overview": "El componente Resumir (Summarize) en la EM como integrador cognitivo. Estructura, sintaxis y propósitos diferenciales de los resúmenes colectores, de enlace y de transición en la gestión del proceso clínico.",
           "learningGoals": [
-            "Explicar los conceptos centrales de Resúmenes colectores, de enlace y de transición: cuándo y cómo estructurarlos sin interrumpir el flujo. con lenguaje propio.",
-            "Relacionar el contenido con una decisión clínica observable.",
-            "Reconocer límites, riesgos de simplificación y preguntas que requieren evidencia adicional."
+            "Clasificar y seleccionar oportunamente entre resúmenes colectores, de enlace y de transición en función del momento de la sesión.",
+            "Integrar y organizar fragmentos dispersos de lenguaje de cambio presentados por el paciente a lo largo del encuentro.",
+            "Cerrar los resúmenes con una pregunta de verificación abierta que devuelva el control y la autoría del diálogo al consultante."
           ],
           "sections": [
             {
-              "heading": "Marco conceptual",
-              "html": "<p>Esta unidad desarrolla <strong>Resúmenes colectores, de enlace y de transición: cuándo y cómo estructurarlos sin interrumpir el flujo.</strong> como conducta observable y deliberada, no como una frase hecha. En EM, las habilidades OARS (preguntas abiertas, afirmaciones, reflejos y resúmenes) se seleccionan según lo que el consultante acaba de comunicar y la tarea de la conversación.</p><p>Una pregunta abierta invita a elaborar, pero una secuencia larga de preguntas puede sentirse como interrogatorio. Una afirmación debe ser específica y genuina; un reflejo ofrece una hipótesis comprensiva que el consultante puede corregir. Un resumen selecciona y enlaza elementos, y no debe usarse para forzar una conclusión.</p>"
+              "heading": "1. El resumen como 'ramillete de flores' de cambio",
+              "html": "<p>Miller y Rollnick utilizan la bella analogía del florista: a lo largo de una conversación clínica, el paciente arroja al suelo diversas flores de lenguaje de cambio entremezcladas con ramas secas de sostenimiento y espinas de frustración. La labor del profesional consiste en recoger con paciencia esas flores dispersas y entregar al paciente un <strong>ramillete ordenado y bello</strong> que le permita contemplar de golpe la totalidad de sus motivaciones (Miller & Rollnick, 2023; MINSAL, 2018).</p>"
             },
             {
-              "heading": "Desarrollo académico y aplicación",
-              "html": "<p>Estudia cuándo y cómo estructurarlos sin interrumpir el flujo. como una habilidad que se elige según la función de la conversación. OARS no es una lista de frases para marcar: una intervención puede parecer una pregunta abierta y aun así dirigir demasiado, mientras que un reflejo breve puede abrir espacio si capta con precisión lo que la persona quiso decir.</p><p>En una secuencia de práctica, escucha sin interrumpir, formula una respuesta, espera la reacción y evalúa su efecto. Si la persona corrige tu reflejo, recibe esa corrección como información. Si habla más, aclara o expresa una prioridad, sigue esa dirección en vez de volver a un guion propio.</p><p>Para dar retroalimentación, describe primero la conducta observable (por ejemplo, pregunta cerrada, reflejo, afirmación o resumen), después su posible impacto y luego ofrece una alternativa concreta. No deduzcas calidad terapéutica solamente de conteos ni conviertas un indicador de investigación en regla universal para todas las sesiones.</p><p>La práctica deliberada puede usar transcripciones simuladas, ejercicios por pares y revisión de grabaciones con consentimiento. Protege confidencialidad, explica el propósito de la evaluación y distingue claramente el entrenamiento pedagógico de la codificación formal MITI.</p>"
+              "heading": "2. Las tres categorías fundamentales de resúmenes clínicos",
+              "html": "<ul><li><strong>Resumen colector (Collecting summary):</strong> Se ofrece periódicamente (cada pocos minutos) para agrupar lo expuesto hasta ese punto, reforzando las ideas principales y demostrando que no se ha perdido ningún hilo: <em>«Hasta ahora me has contado que hay tres razones principales que te inquietan: el gasto económico, el mal ejemplo para tus hijos y la fatiga física al subir escaleras...»</em>.</li><li><strong>Resumen de enlace (Linking summary):</strong> Conecta lo que el paciente acaba de expresar con algo manifestado en una sesión anterior o en un momento previo del diálogo, evidenciando patrones o discrepancias con sus valores más queridos: <em>«Eso que me cuentas hoy sobre tu deseo de volver a jugar con tus nietos en el parque enlaza de lleno con lo que mencionabas la semana pasada sobre tu anhelo de recuperar la vitalidad perdida»</em>.</li><li><strong>Resumen de transición (Transitional summary):</strong> Se utiliza para marcar el cierre formal de una fase clínica y preparar el paso hacia una nueva tarea o proceso (ej. pasar del proceso de Vincular al de Enfocar, o de Evocar a Planificar): <em>«Hemos revisado con detenimiento los motivos por los que cambiar cobra tanto sentido para ti... Si te parece bien, ¿podríamos dedicar los próximos minutos a explorar qué caminos prácticos te gustaría considerar a partir de aquí?»</em>.</li></ul>"
             },
             {
-              "heading": "Aplicación clínica y límites",
-              "html": "<p>En el entrenamiento de <strong>Resúmenes colectores, de enlace y de transición: cuándo y cómo estructurarlos sin interrumpir el flujo.</strong>, escucha primero la respuesta completa, elige una sola habilidad y observa qué ocurre después. Practica dos versiones: una intervención que sigue la perspectiva del paciente y otra que introduce prematuramente la agenda profesional. Compara su efecto relacional, no solo su forma gramatical.</p><p>Los recuentos conductuales pueden ayudar a supervisar sesiones, pero no son por sí solos una calificación clínica oficial. El MITI requiere codificación entrenada de una muestra de sesión; esta actividad del curso es práctica formativa y no sustituye esa codificación.</p>"
-            },
-            {
-              "heading": "Viñeta clínica comentada",
-              "html": "<div class=\"dialogue-line\"><b>Consultante (viñeta ficticia):</b> «Sé que esto me preocupa, pero todavía no sé qué estoy dispuesto a cambiar».</div><div class=\"dialogue-line\"><b>Profesional:</b> «Una parte de ti ve motivos para hacer algo distinto, y otra necesita entender qué perderías con ese cambio».</div><div class=\"dialogue-line\"><b>Nota docente:</b> El reflejo es una hipótesis, no una conclusión. La respuesta adecuada depende del contexto; invita a corregirla o ampliarla.</div>"
+              "heading": "3. La pregunta de verificación: devolver la palabra",
+              "html": "<p>Ningún resumen en EM debe concluir de manera unilateral y asertiva como si el terapeuta tuviera la verdad definitiva. Siempre debe finalizar con una <strong>invitación abierta de verificación</strong> que permita al paciente corregir, matizar o ampliar: <em>«¿Qué me he dejado fuera? ¿Cómo resuena esto contigo?»</em>.</p>"
             }
           ],
           "quickCheck": {
-            "question": "¿Qué respuesta refleja mejor la idea central de «Resúmenes colectores, de enlace y de transición: cuándo y cómo estructurarlos sin interrumpir el flujo.»?",
+            "stem": "Al término de una fase de evocación de 25 minutos, la terapeuta agrupa todas las razones de cambio manifestadas por el paciente y concluye: «Hemos revisado las razones que hacen urgente este tratamiento para tu corazón y tu familia. Si estás de acuerdo, me gustaría que pensáramos en qué opciones concretas tienes para iniciar la próxima semana. ¿Cómo te parece si nos enfocamos en eso?». ¿Qué tipo de resumen ha ejecutado?",
             "options": [
-              "Repetir una recomendación profesional aunque no responda a la perspectiva de la persona.",
-              "Explorar el tema de manera colaborativa, respetar la autonomía y verificar la comprensión.",
-              "Interpretar la ambivalencia como resistencia y confrontarla de inmediato.",
-              "Dar por supuesto que una técnica produce el mismo resultado en cualquier contexto."
+              "Un resumen colector simple de rutina.",
+              "Un resumen de transición hacia la tarea de planificación.",
+              "Un resumen de enlace con datos de su historia biográfica infantil.",
+              "Una confrontación terapéutica directiva."
             ],
-            "correctIndex": 1,
-            "explanation": "Esta unidad aborda Lectura guiada de Resúmenes colectores, de enlace y de transición: cuándo y cómo estructurarlos sin interrumpir el flujo.. Incluye desarrollo conceptual, aplicación clínica, análisis de una viñeta ficticia y una comprobación de comprensión.. En EM, la aplicación debe ser colaborativa, sensible al contexto y abierta a la perspectiva de la persona; no se trata de imponer una respuesta única."
+            "answerIndex": 1,
+            "explanation": "La intervención resume el material evocado y sirve de puente explícito para transicionar desde la fase de evocación hacia la fase de planificación del cambio, solicitando permiso para cambiar de foco temático."
           },
-          "supplementaryReading": {
-            "heading": "Lectura complementaria del material del curso",
-            "html": "<div class=\"supplementary-intro\">Lectura ampliada basada en las separatas del programa. Úsala junto con el desarrollo conceptual y verifica las afirmaciones relevantes en las fuentes primarias incluidas en la bibliografía.</div><h4>1. Las Habilidades OARS: La Caja de Herramientas Nucleares</h4><h2>1. Las Habilidades OARS: La Caja de Herramientas Nucleares</h2>\n<p>Las habilidades <strong>OARS</strong> constituyen las micro-habilidades verbales esenciales de la Entrevista Motivacional. Lejos de ser técnicas aisladas, son instrumentos de precisión mediante los cuales se materializa el espíritu clínico y se facilita el avance por las cuatro tareas de la EM.</p>\n<h3>O · Preguntas Abiertas (Open Questions)</h3>\n<p>Las preguntas abiertas invitan a la exploración amplia, la reflexión interior y el relato narrativo del consultante. A diferencia de las preguntas cerradas (que se responden con \"sí\", \"no\" o datos breves), las abiertas comienzan comúnmente con: <em>«¿Qué...?», «¿Cómo...?», «¿De qué manera...?», «Cuénteme más acerca de...»</em>. En la codificación de fidelidad MITI 4.2.1, un terapeuta competente mantiene un balance donde más del 50% de sus preguntas son abiertas.</p>\n<h3>A · Afirmaciones de Fortalezas (Affirmations)</h3>\n<p>Una afirmación genuina reconoce las fortalezas intrínsecas, valores, esfuerzos y logros del consultante. No debe confundirse con el elogio condescendiente (*«¡Qué bien lo hiciste, estoy orgulloso de ti!»*), que sitúa al terapeuta como juez evaluador externo.\n<br/><br/>\n<strong>Avance de la 4.ª Edición (Miller &amp; Moyers, 2021; Miller &amp; Rollnick, 2023):</strong>\n<ul>\n<li><strong>Afirmación Simple:</strong> Reconoce un hecho positivo concreto (*«Llegó puntual hoy a pesar del tráfico complicado»*).</li>\n<li><strong>Afirmación Compleja:</strong> Vincula la conducta con un valor nuclear, rasgo de identidad o fortaleza de carácter profunda del consultante (*«El hecho de que haya venido hoy demuestra el enorme compromiso que usted tiene con estar presente para sus hijos, aun cuando se siente exhausto»*).</li>\n</ul>\n</p>\n<h3>R · Escucha Reflexiva (Reflective Listening)</h3>\n<p>Constituye el corazón operativo de la EM. Un reflejo es una afirmación hipotética que devuelve al consultante el significado de su propio mensaje, formulada con entonación descendente (como una hipótesis comprensiva, no como una pregunta inquisitiva). La proporción recomendada en el estándar internacional MITI es de <strong>al menos 1 a 2 reflejos por cada pregunta formulada</strong>.\n<ul>\n<li><strong>Reflejo Simple:</strong> Reitera o parafrasea el contenido explícito con mínimas alteraciones verbales (*«Siente que el trabajo ha sido muy demandante»*). Estabiliza la alianza.</li>\n<li><strong>Reflejo Complejo:</strong> Va más allá de las palabras literales; deduce el sentimiento implícito, el significado subyacente, metáforas o valores nucleares (*«Parece que en el fondo tiene miedo de perder su independencia si acepta este diagnóstico»*).</li>\n<li><strong>Reflejo Doble (Ambivalencia):</strong> Captura simultáneamente las dos caras de la moneda, utilizando la conjunción <em>«y»</em> en lugar de <em>«pero»</em>: <em>«Por un lado, salir de copas los fines de semana le permite desconectarse de la presión laboral, <strong>y al mismo tiempo</strong> le angustia notar que los lunes llega tarde a su trabajo y teme perder su puesto»</em>.</li>\n</ul>\n</p>\n<h3>S · Resúmenes Estructurados (Summaries)</h3>\n<p>Recopilan y articulan los elementos clave explorados. Miller y Rollnick clasifican los resúmenes en tres tipologías:\n<ol>\n<li><strong>Resumen Colector (*Collecting*):</strong> Reúne varios puntos expresados durante los últimos minutos para verificar comprensión y ordenar la narrativa.</li>\n<li><strong>Resumen Vinculante (*Linking*):</strong> Conecta lo expresado en el momento presente con algo compartido en sesiones anteriores o con valores clave (*«Usted me decía hace un momento que se siente sin energía; recuerdo que en la primera sesión mencionó que su mayor ilusión era poder jugar con sus nietos en el parque...»*).</li>\n<li><strong>Resumen de Transición (*Transitional*):</strong> Marca el cierre de una etapa conversacional o de una tarea y abre el paso hacia la siguiente (*«Permítame resumir lo que hemos conversado para ver si tenemos el cuadro completo antes de hablar sobre los siguientes pasos...»*).</li>\n</ol>\n</p>"
-          }
+          "references": [
+            {
+              "title": "EVICT (2019)",
+              "citation": "Entrevista Motivacional en el abordaje del tabaquismo y adicciones en equipos multidisciplinares. Grupo EVICT.",
+              "url": "https://www.evict.org/"
+            },
+            {
+              "title": "Miller, W. R., & Rollnick, S. (2023)",
+              "citation": "Motivational Interviewing: Helping People Change and Grow (4th ed.). Guilford Press.",
+              "url": "https://www.guilford.com/books/Motivational-Interviewing/Miller-Rollnick/9781462552795"
+            },
+            {
+              "title": "MINSAL (2018)",
+              "citation": "Guía Clínica de Entrevista Motivacional en Atención Primaria de Salud. Ministerio de Salud de Chile.",
+              "url": "https://www.minsal.cl/"
+            }
+          ]
         },
         {
           "id": "2.6",
-          "title": "Razón de reflejo/pregunta (R:P) como indicador de fidelidad: objetivo ≥ 2:1 en codificación MITI.",
-          "overview": "Lectura guiada de Razón de reflejo/pregunta (R:P) como indicador de fidelidad: objetivo ≥ 2:1 en codificación MITI.. Incluye desarrollo conceptual, aplicación clínica, análisis de una viñeta ficticia y una comprobación de comprensión.",
+          "title": "Razón de reflejo/pregunta (R:P) como indicador de fidelidad: objetivo formativo y delimitación del MITI 4.2.",
+          "overview": "Análisis cuantitativo y cualitativo de la razón reflejo/pregunta (R:P) en el entrenamiento en EM. Clarificación epistemológica sobre el estatuto de las recomendaciones de expertos frente a normas empíricas universales.",
           "learningGoals": [
-            "Explicar los conceptos centrales de Razón de reflejo/pregunta (R:P) como indicador de fidelidad: objetivo ≥ 2:1 en codificación MITI. con lenguaje propio.",
-            "Relacionar el contenido con una decisión clínica observable.",
-            "Reconocer límites, riesgos de simplificación y preguntas que requieren evidencia adicional."
+            "Calcular e interpretar la razón de reflejos por preguntas (R:P) en muestras de audio o transcripciones clínicas.",
+            "Comprender la base teórica de por qué un predominio de reflejos sobre preguntas incrementa la profundidad reflexiva y disminuye la reactancia.",
+            "Conocer con precisión el marco del MITI 4.2.1, reconociendo que los umbrales de referencia (1:1 y 2:1) son consensos formativos y no verdades psicométricas definitivas."
           ],
           "sections": [
             {
-              "heading": "Marco conceptual",
-              "html": "<p>Esta unidad desarrolla <strong>Razón de reflejo/pregunta (R:P) como indicador de fidelidad: objetivo ≥ 2:1 en codificación MITI.</strong> como conducta observable y deliberada, no como una frase hecha. En EM, las habilidades OARS (preguntas abiertas, afirmaciones, reflejos y resúmenes) se seleccionan según lo que el consultante acaba de comunicar y la tarea de la conversación.</p><p>Una pregunta abierta invita a elaborar, pero una secuencia larga de preguntas puede sentirse como interrogatorio. Una afirmación debe ser específica y genuina; un reflejo ofrece una hipótesis comprensiva que el consultante puede corregir. Un resumen selecciona y enlaza elementos, y no debe usarse para forzar una conclusión.</p>"
+              "heading": "1. El balance dinámico entre indagar y reflejar",
+              "html": "<p>En una entrevista tradicional, la proporción típica suele ser de 3 a 5 preguntas por cada reflejo emitido. Esto genera una experiencia dialógica fragmentada y directiva. En la Entrevista Motivacional, la métrica central de balance técnico es la <strong>Razón de Reflejos por Preguntas (R:P Ratio)</strong>, calculada como el número total de reflejos (simples + complejos) dividido por el número total de preguntas (abiertas + cerradas) durante una muestra clínica de 20 minutos (Moyers et al., 2015).</p><p>Cuando la razón R:P es superior a 1:1 (y preferentemente cercana a 2:1), el paciente experimenta un espacio de escucha activa donde no se ve forzado a justificar sus conductas, lo que libera recursos cognitivos para el autoexamen de la ambivalencia.</p>"
             },
             {
-              "heading": "Desarrollo académico y aplicación",
-              "html": "<p>Estudia P) como indicador de fidelidad: objetivo ≥ 2:1 en codificación MITI. como una habilidad que se elige según la función de la conversación. OARS no es una lista de frases para marcar: una intervención puede parecer una pregunta abierta y aun así dirigir demasiado, mientras que un reflejo breve puede abrir espacio si capta con precisión lo que la persona quiso decir.</p><p>En una secuencia de práctica, escucha sin interrumpir, formula una respuesta, espera la reacción y evalúa su efecto. Si la persona corrige tu reflejo, recibe esa corrección como información. Si habla más, aclara o expresa una prioridad, sigue esa dirección en vez de volver a un guion propio.</p><p>Para dar retroalimentación, describe primero la conducta observable (por ejemplo, pregunta cerrada, reflejo, afirmación o resumen), después su posible impacto y luego ofrece una alternativa concreta. No deduzcas calidad terapéutica solamente de conteos ni conviertas un indicador de investigación en regla universal para todas las sesiones.</p><p>La práctica deliberada puede usar transcripciones simuladas, ejercicios por pares y revisión de grabaciones con consentimiento. Protege confidencialidad, explica el propósito de la evaluación y distingue claramente el entrenamiento pedagógico de la codificación formal MITI.</p>"
+              "heading": "2. Delimitación conceptual y rigor sobre el manual MITI 4.2.1",
+              "html": "<p>Es imperativo hacer una <strong>aclaración científica indispensable</strong> que con frecuencia se omite en cursos no rigurosos: en el manual <em>Motivational Interviewing Treatment Integrity</em> (MITI 4.2.1; Moyers, Manuel & Ernst, 2015), los umbrales cuantitativos recomendados (ej. R:P de 1:1 para competencia básica o «Fair», y 2:1 para buena práctica o «Good») representan <em>estimaciones de consenso clínico entre expertos de la red MINT</em>.</p><p>El propio manual estipula explícitamente que dichos valores <strong>no han sido validados empíricamente como puntos de corte predictivos absolutos</strong> de desenlace clínico en pacientes, por lo que deben entenderse exclusivamente como <em>guías formativas de benchmarking para supervisión</em>, y nunca como reglas rígidas o dogmas infalibles.</p>"
             },
             {
-              "heading": "Aplicación clínica y límites",
-              "html": "<p>En el entrenamiento de <strong>Razón de reflejo/pregunta (R:P) como indicador de fidelidad: objetivo ≥ 2:1 en codificación MITI.</strong>, escucha primero la respuesta completa, elige una sola habilidad y observa qué ocurre después. Practica dos versiones: una intervención que sigue la perspectiva del paciente y otra que introduce prematuramente la agenda profesional. Compara su efecto relacional, no solo su forma gramatical.</p><p>Los recuentos conductuales pueden ayudar a supervisar sesiones, pero no son por sí solos una calificación clínica oficial. El MITI requiere codificación entrenada de una muestra de sesión; esta actividad del curso es práctica formativa y no sustituye esa codificación.</p>"
-            },
-            {
-              "heading": "Viñeta clínica comentada",
-              "html": "<div class=\"dialogue-line\"><b>Consultante (viñeta ficticia):</b> «Sé que esto me preocupa, pero todavía no sé qué estoy dispuesto a cambiar».</div><div class=\"dialogue-line\"><b>Profesional:</b> «Una parte de ti ve motivos para hacer algo distinto, y otra necesita entender qué perderías con ese cambio».</div><div class=\"dialogue-line\"><b>Nota docente:</b> El reflejo es una hipótesis, no una conclusión. La respuesta adecuada depende del contexto; invita a corregirla o ampliarla.</div>"
+              "heading": "3. Calidad vs. cantidad en la interacción motivacional",
+              "html": "<p>Una proporción de 2:1 alcanzada mediante reflejos simples repetitivos e impersonales resulta clínica y éticamente inútil frente a una sesión con razón 1.2:1 sustentada en reflejos complejos profundos y preguntas abiertas de gran impacto evocado (Miller & Rollnick, 2023). La fidelidad técnica en EM es siempre un medio al servicio de la calidez relacional y el espíritu terapéutico.</p>"
             }
           ],
           "quickCheck": {
-            "question": "¿Qué respuesta refleja mejor la idea central de «Razón de reflejo/pregunta (R:P) como indicador de fidelidad: objetivo ≥ 2:1 en codificación MITI.»?",
+            "stem": "En una auditoría de una sesión de 20 minutos con el instrumento MITI 4.2.1, un terapeuta emite 12 preguntas abiertas, 4 preguntas cerradas, 10 reflejos simples y 14 reflejos complejos. ¿Cuál es su razón R:P y cómo debe interpretarse académicamente?",
             "options": [
-              "Repetir una recomendación profesional aunque no responda a la perspectiva de la persona.",
-              "Explorar el tema de manera colaborativa, respetar la autonomía y verificar la comprensión.",
-              "Interpretar la ambivalencia como resistencia y confrontarla de inmediato.",
-              "Dar por supuesto que una técnica produce el mismo resultado en cualquier contexto."
+              "R:P de 0.66:1; indica un estilo directivo insuficiente según los estándares de la EM.",
+              "R:P de 1.5:1; supera el umbral de competencia básica de consenso (1:1) en una muestra formativa, reflejando un buen equilibrio entre evocación y escucha.",
+              "R:P de 3:1; prueba científicamente que el paciente se recuperará de su trastorno con total certeza.",
+              "R:P de 0.5:1; requiere suspender de inmediato al profesional por vulneración del código de ética."
             ],
-            "correctIndex": 1,
-            "explanation": "Esta unidad aborda Lectura guiada de Razón de reflejo/pregunta (R:P) como indicador de fidelidad: objetivo ≥ 2:1 en codificación MITI.. Incluye desarrollo conceptual, aplicación clínica, análisis de una viñeta ficticia y una comprobación de comprensión.. En EM, la aplicación debe ser colaborativa, sensible al contexto y abierta a la perspectiva de la persona; no se trata de imponer una respuesta única."
+            "answerIndex": 1,
+            "explanation": "Total de preguntas: 12 + 4 = 16. Total de reflejos: 10 + 14 = 24. Razón R:P = 24 / 16 = 1.5:1. Esta cifra supera el umbral de consenso formativo del MITI 4.2.1 (1:1), situándose en un rango competente para la supervisión formativa."
           },
-          "supplementaryReading": {
-            "heading": "Lectura complementaria del material del curso",
-            "html": "<div class=\"supplementary-intro\">Lectura ampliada basada en las separatas del programa. Úsala junto con el desarrollo conceptual y verifica las afirmaciones relevantes en las fuentes primarias incluidas en la bibliografía.</div><h4>1. Las Habilidades OARS: La Caja de Herramientas Nucleares</h4><h2>1. Las Habilidades OARS: La Caja de Herramientas Nucleares</h2>\n<p>Las habilidades <strong>OARS</strong> constituyen las micro-habilidades verbales esenciales de la Entrevista Motivacional. Lejos de ser técnicas aisladas, son instrumentos de precisión mediante los cuales se materializa el espíritu clínico y se facilita el avance por las cuatro tareas de la EM.</p>\n<h3>O · Preguntas Abiertas (Open Questions)</h3>\n<p>Las preguntas abiertas invitan a la exploración amplia, la reflexión interior y el relato narrativo del consultante. A diferencia de las preguntas cerradas (que se responden con \"sí\", \"no\" o datos breves), las abiertas comienzan comúnmente con: <em>«¿Qué...?», «¿Cómo...?», «¿De qué manera...?», «Cuénteme más acerca de...»</em>. En la codificación de fidelidad MITI 4.2.1, un terapeuta competente mantiene un balance donde más del 50% de sus preguntas son abiertas.</p>\n<h3>A · Afirmaciones de Fortalezas (Affirmations)</h3>\n<p>Una afirmación genuina reconoce las fortalezas intrínsecas, valores, esfuerzos y logros del consultante. No debe confundirse con el elogio condescendiente (*«¡Qué bien lo hiciste, estoy orgulloso de ti!»*), que sitúa al terapeuta como juez evaluador externo.\n<br/><br/>\n<strong>Avance de la 4.ª Edición (Miller &amp; Moyers, 2021; Miller &amp; Rollnick, 2023):</strong>\n<ul>\n<li><strong>Afirmación Simple:</strong> Reconoce un hecho positivo concreto (*«Llegó puntual hoy a pesar del tráfico complicado»*).</li>\n<li><strong>Afirmación Compleja:</strong> Vincula la conducta con un valor nuclear, rasgo de identidad o fortaleza de carácter profunda del consultante (*«El hecho de que haya venido hoy demuestra el enorme compromiso que usted tiene con estar presente para sus hijos, aun cuando se siente exhausto»*).</li>\n</ul>\n</p>\n<h3>R · Escucha Reflexiva (Reflective Listening)</h3>\n<p>Constituye el corazón operativo de la EM. Un reflejo es una afirmación hipotética que devuelve al consultante el significado de su propio mensaje, formulada con entonación descendente (como una hipótesis comprensiva, no como una pregunta inquisitiva). La proporción recomendada en el estándar internacional MITI es de <strong>al menos 1 a 2 reflejos por cada pregunta formulada</strong>.\n<ul>\n<li><strong>Reflejo Simple:</strong> Reitera o parafrasea el contenido explícito con mínimas alteraciones verbales (*«Siente que el trabajo ha sido muy demandante»*). Estabiliza la alianza.</li>\n<li><strong>Reflejo Complejo:</strong> Va más allá de las palabras literales; deduce el sentimiento implícito, el significado subyacente, metáforas o valores nucleares (*«Parece que en el fondo tiene miedo de perder su independencia si acepta este diagnóstico»*).</li>\n<li><strong>Reflejo Doble (Ambivalencia):</strong> Captura simultáneamente las dos caras de la moneda, utilizando la conjunción <em>«y»</em> en lugar de <em>«pero»</em>: <em>«Por un lado, salir de copas los fines de semana le permite desconectarse de la presión laboral, <strong>y al mismo tiempo</strong> le angustia notar que los lunes llega tarde a su trabajo y teme perder su puesto»</em>.</li>\n</ul>\n</p>\n<h3>S · Resúmenes Estructurados (Summaries)</h3>\n<p>Recopilan y articulan los elementos clave explorados. Miller y Rollnick clasifican los resúmenes en tres tipologías:\n<ol>\n<li><strong>Resumen Colector (*Collecting*):</strong> Reúne varios puntos expresados durante los últimos minutos para verificar comprensión y ordenar la narrativa.</li>\n<li><strong>Resumen Vinculante (*Linking*):</strong> Conecta lo expresado en el momento presente con algo compartido en sesiones anteriores o con valores clave (*«Usted me decía hace un momento que se siente sin energía; recuerdo que en la primera sesión mencionó que su mayor ilusión era poder jugar con sus nietos en el parque...»*).</li>\n<li><strong>Resumen de Transición (*Transitional*):</strong> Marca el cierre de una etapa conversacional o de una tarea y abre el paso hacia la siguiente (*«Permítame resumir lo que hemos conversado para ver si tenemos el cuadro completo antes de hablar sobre los siguientes pasos...»*).</li>\n</ol>\n</p>"
-          }
+          "references": [
+            {
+              "title": "Miller, W. R., & Rollnick, S. (2023)",
+              "citation": "Motivational Interviewing: Helping People Change and Grow (4th ed.). Guilford Press.",
+              "url": "https://www.guilford.com/books/Motivational-Interviewing/Miller-Rollnick/9781462552795"
+            },
+            {
+              "title": "Moyers, T. B., Manuel, J. K., & Ernst, D. (2015)",
+              "citation": "Motivational Interviewing Treatment Integrity Coding Manual 4.2.1 (MITI 4.2.1). University of New Mexico, CASAA.",
+              "url": "https://casaa.unm.edu/download/miti4_2.pdf"
+            },
+            {
+              "title": "Moyers, T. B., Rowell, L. N., Manuel, J. K., Ernst, D., & Houck, J. M. (2016)",
+              "citation": "The Motivational Interviewing Treatment Integrity code (MITI 4): rationale, preliminary reliability and validity. Journal of Substance Abuse Treatment, 65, 36-42.",
+              "url": "https://pubmed.ncbi.nlm.nih.gov/27125969/"
+            }
+          ]
         },
         {
           "id": "2.7",
           "title": "Codificación de sesiones con MITI 4.2: entrenamiento en identificación de conductas del terapeuta.",
-          "overview": "Lectura guiada de Codificación de sesiones con MITI 4.2: entrenamiento en identificación de conductas del terapeuta.. Incluye desarrollo conceptual, aplicación clínica, análisis de una viñeta ficticia y una comprobación de comprensión.",
+          "overview": "Estudio pormenorizado del sistema de codificación conductual y relacional del MITI 4.2.1. Clasificación estandarizada de intervenciones adherentes, no adherentes y neutrales a la Entrevista Motivacional.",
           "learningGoals": [
-            "Explicar los conceptos centrales de Codificación de sesiones con MITI 4.2: entrenamiento en identificación de conductas del terapeuta. con lenguaje propio.",
-            "Relacionar el contenido con una decisión clínica observable.",
-            "Reconocer límites, riesgos de simplificación y preguntas que requieren evidencia adicional."
+            "Diferenciar operativamente entre las Escalas Globales relacionales (Colaboración, Empatía) y el Recuento de Códigos Conductuales del MITI 4.2.1.",
+            "Identificar inequívocamente las conductas No Adherentes a la EM: Confrontación (Confront) y Persuasión sin permiso (Persuade).",
+            "Identificar y registrar con precisión las conductas Adherentes: Búsqueda de colaboración (Seeking Collaboration) y Énfasis en la autonomía (Emphasizing Autonomy)."
           ],
           "sections": [
             {
-              "heading": "Marco conceptual",
-              "html": "<p>Esta unidad desarrolla <strong>Codificación de sesiones con MITI 4.2: entrenamiento en identificación de conductas del terapeuta.</strong> como conducta observable y deliberada, no como una frase hecha. En EM, las habilidades OARS (preguntas abiertas, afirmaciones, reflejos y resúmenes) se seleccionan según lo que el consultante acaba de comunicar y la tarea de la conversación.</p><p>Una pregunta abierta invita a elaborar, pero una secuencia larga de preguntas puede sentirse como interrogatorio. Una afirmación debe ser específica y genuina; un reflejo ofrece una hipótesis comprensiva que el consultante puede corregir. Un resumen selecciona y enlaza elementos, y no debe usarse para forzar una conclusión.</p>"
+              "heading": "1. Arquitectura bifactorial del sistema MITI 4.2.1",
+              "html": "<p>El instrumento <em>MITI 4.2.1</em> (Moyers et al., 2015, 2016) se organiza en dos niveles complementarios de evaluación clínica aplicados sobre segmentos representativos de 20 minutos de grabación continua:</p><ul><li><strong>Escalas Globales (Global Scores):</strong> Evalúan la 'atmósfera' relacional general mediante escalas Likert de 1 a 5 puntos en dos dimensiones fundamentales: <em>Asociación/Colaboración (Partnership)</em> y <em>Empatía (Empathy)</em>.</li><li><strong>Recuentos Conductuales (Behavior Counts):</strong> Registro sistemático de cada turno de habla del terapeuta asignándole una categoría conductual mutuamente excluyente.</li></ul>"
             },
             {
-              "heading": "Desarrollo académico y aplicación",
-              "html": "<p>Estudia entrenamiento en identificación de conductas del terapeuta. como una habilidad que se elige según la función de la conversación. OARS no es una lista de frases para marcar: una intervención puede parecer una pregunta abierta y aun así dirigir demasiado, mientras que un reflejo breve puede abrir espacio si capta con precisión lo que la persona quiso decir.</p><p>En una secuencia de práctica, escucha sin interrumpir, formula una respuesta, espera la reacción y evalúa su efecto. Si la persona corrige tu reflejo, recibe esa corrección como información. Si habla más, aclara o expresa una prioridad, sigue esa dirección en vez de volver a un guion propio.</p><p>Para dar retroalimentación, describe primero la conducta observable (por ejemplo, pregunta cerrada, reflejo, afirmación o resumen), después su posible impacto y luego ofrece una alternativa concreta. No deduzcas calidad terapéutica solamente de conteos ni conviertas un indicador de investigación en regla universal para todas las sesiones.</p><p>La práctica deliberada puede usar transcripciones simuladas, ejercicios por pares y revisión de grabaciones con consentimiento. Protege confidencialidad, explica el propósito de la evaluación y distingue claramente el entrenamiento pedagógico de la codificación formal MITI.</p>"
+              "heading": "2. Taxonomía de los códigos conductuales nucleares",
+              "html": "<ul><li><strong>Conductas Adherentes a la EM (MI-Adherent):</strong> Incluyen <em>Afirmación (Affirm)</em>, <em>Búsqueda de colaboración (Seeking Collaboration)</em> —pedir explícitamente la opinión o permiso del paciente antes de actuar— y <em>Énfasis en la autonomía (Emphasizing Autonomy)</em> —recordar explícitamente que la decisión final y el control residen únicamente en el paciente—.</li><li><strong>Conductas No Adherentes a la EM (MI-Non-Adherent):</strong> Intervenciones que violan el espíritu PACE. Incluyen <em>Confrontar (Confront)</em> —descalificar, corregir de forma punitiva, contradecir o ironizar— y <em>Persuadir sin permiso (Persuade)</em> —dar consejos, argumentos moralistas o directrices de cambio sin que el paciente haya otorgado su consentimiento expreso previo—.</li><li><strong>Códigos Técnicos y Neutrales:</strong> <em>Preguntas abiertas y cerradas</em>, <em>Reflejos simples y complejos</em>, y <em>Dar información (Giving Information)</em> neutral sin sesgo persuasivo.</li></ul>"
             },
             {
-              "heading": "Aplicación clínica y límites",
-              "html": "<p>En el entrenamiento de <strong>Codificación de sesiones con MITI 4.2: entrenamiento en identificación de conductas del terapeuta.</strong>, escucha primero la respuesta completa, elige una sola habilidad y observa qué ocurre después. Practica dos versiones: una intervención que sigue la perspectiva del paciente y otra que introduce prematuramente la agenda profesional. Compara su efecto relacional, no solo su forma gramatical.</p><p>Los recuentos conductuales pueden ayudar a supervisar sesiones, pero no son por sí solos una calificación clínica oficial. El MITI requiere codificación entrenada de una muestra de sesión; esta actividad del curso es práctica formativa y no sustituye esa codificación.</p>"
-            },
-            {
-              "heading": "Viñeta clínica comentada",
-              "html": "<div class=\"dialogue-line\"><b>Consultante (viñeta ficticia):</b> «Sé que esto me preocupa, pero todavía no sé qué estoy dispuesto a cambiar».</div><div class=\"dialogue-line\"><b>Profesional:</b> «Una parte de ti ve motivos para hacer algo distinto, y otra necesita entender qué perderías con ese cambio».</div><div class=\"dialogue-line\"><b>Nota docente:</b> El reflejo es una hipótesis, no una conclusión. La respuesta adecuada depende del contexto; invita a corregirla o ampliarla.</div>"
+              "heading": "3. Aplicación en supervisión clínica e investigación",
+              "html": "<p>El MITI no busca emitir juicios de valor sobre el terapeuta, sino proveer una retroalimentación conductual descriptiva de alta granularidad. Diversos metaanálisis (ej. Magill et al., 2018) han demostrado que la erradicación de conductas no adherentes es el factor aislado que más rápidamente reduce la reactancia y los abandonos prematuros en terapia.</p>"
             }
           ],
           "quickCheck": {
-            "question": "¿Qué respuesta refleja mejor la idea central de «Codificación de sesiones con MITI 4.2: entrenamiento en identificación de conductas del terapeuta.»?",
+            "stem": "Durante una consulta sobre tabaquismo, el terapeuta afirma: «Mire, usted tiene dos hijos pequeños y es inconcebible que siga exponiéndolos al humo pasivo; si usted no compra los parches de nicotina hoy mismo, no se tome la molestia de volver a mi consulta». ¿Cómo codificaría esta intervención un evaluador entrenado en MITI 4.2.1?",
             "options": [
-              "Repetir una recomendación profesional aunque no responda a la perspectiva de la persona.",
-              "Explorar el tema de manera colaborativa, respetar la autonomía y verificar la comprensión.",
-              "Interpretar la ambivalencia como resistencia y confrontarla de inmediato.",
-              "Dar por supuesto que una técnica produce el mismo resultado en cualquier contexto."
+              "Afirmación y búsqueda de colaboración.",
+              "Conducta No Adherente: Confrontación y Persuasión coercitiva.",
+              "Reflejo complejo con matiz metafórico.",
+              "Dar información técnica preventiva neutral."
             ],
-            "correctIndex": 1,
-            "explanation": "Esta unidad aborda Lectura guiada de Codificación de sesiones con MITI 4.2: entrenamiento en identificación de conductas del terapeuta.. Incluye desarrollo conceptual, aplicación clínica, análisis de una viñeta ficticia y una comprobación de comprensión.. En EM, la aplicación debe ser colaborativa, sensible al contexto y abierta a la perspectiva de la persona; no se trata de imponer una respuesta única."
+            "answerIndex": 1,
+            "explanation": "La intervención contiene reproche moral explícito, descalificación de la conducta y un ultimátum coercitivo, lo que tipifica de manera flagrante las categorías de Confrontación (Confront) y Persuasión autoritaria sin permiso (MI-Non-Adherent)."
           },
-          "supplementaryReading": {
-            "heading": "Lectura complementaria del material del curso",
-            "html": "<div class=\"supplementary-intro\">Lectura ampliada basada en las separatas del programa. Úsala junto con el desarrollo conceptual y verifica las afirmaciones relevantes en las fuentes primarias incluidas en la bibliografía.</div><h4>1. Las Habilidades OARS: La Caja de Herramientas Nucleares</h4><h2>1. Las Habilidades OARS: La Caja de Herramientas Nucleares</h2>\n<p>Las habilidades <strong>OARS</strong> constituyen las micro-habilidades verbales esenciales de la Entrevista Motivacional. Lejos de ser técnicas aisladas, son instrumentos de precisión mediante los cuales se materializa el espíritu clínico y se facilita el avance por las cuatro tareas de la EM.</p>\n<h3>O · Preguntas Abiertas (Open Questions)</h3>\n<p>Las preguntas abiertas invitan a la exploración amplia, la reflexión interior y el relato narrativo del consultante. A diferencia de las preguntas cerradas (que se responden con \"sí\", \"no\" o datos breves), las abiertas comienzan comúnmente con: <em>«¿Qué...?», «¿Cómo...?», «¿De qué manera...?», «Cuénteme más acerca de...»</em>. En la codificación de fidelidad MITI 4.2.1, un terapeuta competente mantiene un balance donde más del 50% de sus preguntas son abiertas.</p>\n<h3>A · Afirmaciones de Fortalezas (Affirmations)</h3>\n<p>Una afirmación genuina reconoce las fortalezas intrínsecas, valores, esfuerzos y logros del consultante. No debe confundirse con el elogio condescendiente (*«¡Qué bien lo hiciste, estoy orgulloso de ti!»*), que sitúa al terapeuta como juez evaluador externo.\n<br/><br/>\n<strong>Avance de la 4.ª Edición (Miller &amp; Moyers, 2021; Miller &amp; Rollnick, 2023):</strong>\n<ul>\n<li><strong>Afirmación Simple:</strong> Reconoce un hecho positivo concreto (*«Llegó puntual hoy a pesar del tráfico complicado»*).</li>\n<li><strong>Afirmación Compleja:</strong> Vincula la conducta con un valor nuclear, rasgo de identidad o fortaleza de carácter profunda del consultante (*«El hecho de que haya venido hoy demuestra el enorme compromiso que usted tiene con estar presente para sus hijos, aun cuando se siente exhausto»*).</li>\n</ul>\n</p>\n<h3>R · Escucha Reflexiva (Reflective Listening)</h3>\n<p>Constituye el corazón operativo de la EM. Un reflejo es una afirmación hipotética que devuelve al consultante el significado de su propio mensaje, formulada con entonación descendente (como una hipótesis comprensiva, no como una pregunta inquisitiva). La proporción recomendada en el estándar internacional MITI es de <strong>al menos 1 a 2 reflejos por cada pregunta formulada</strong>.\n<ul>\n<li><strong>Reflejo Simple:</strong> Reitera o parafrasea el contenido explícito con mínimas alteraciones verbales (*«Siente que el trabajo ha sido muy demandante»*). Estabiliza la alianza.</li>\n<li><strong>Reflejo Complejo:</strong> Va más allá de las palabras literales; deduce el sentimiento implícito, el significado subyacente, metáforas o valores nucleares (*«Parece que en el fondo tiene miedo de perder su independencia si acepta este diagnóstico»*).</li>\n<li><strong>Reflejo Doble (Ambivalencia):</strong> Captura simultáneamente las dos caras de la moneda, utilizando la conjunción <em>«y»</em> en lugar de <em>«pero»</em>: <em>«Por un lado, salir de copas los fines de semana le permite desconectarse de la presión laboral, <strong>y al mismo tiempo</strong> le angustia notar que los lunes llega tarde a su trabajo y teme perder su puesto»</em>.</li>\n</ul>\n</p>\n<h3>S · Resúmenes Estructurados (Summaries)</h3>\n<p>Recopilan y articulan los elementos clave explorados. Miller y Rollnick clasifican los resúmenes en tres tipologías:\n<ol>\n<li><strong>Resumen Colector (*Collecting*):</strong> Reúne varios puntos expresados durante los últimos minutos para verificar comprensión y ordenar la narrativa.</li>\n<li><strong>Resumen Vinculante (*Linking*):</strong> Conecta lo expresado en el momento presente con algo compartido en sesiones anteriores o con valores clave (*«Usted me decía hace un momento que se siente sin energía; recuerdo que en la primera sesión mencionó que su mayor ilusión era poder jugar con sus nietos en el parque...»*).</li>\n<li><strong>Resumen de Transición (*Transitional*):</strong> Marca el cierre de una etapa conversacional o de una tarea y abre el paso hacia la siguiente (*«Permítame resumir lo que hemos conversado para ver si tenemos el cuadro completo antes de hablar sobre los siguientes pasos...»*).</li>\n</ol>\n</p>"
-          }
+          "references": [
+            {
+              "title": "Magill, M. et al. (2018)",
+              "citation": "A meta-analysis of motivational interviewing process: Technical, relational, and conditional process models of change. Journal of Consulting and Clinical Psychology, 86(2), 140-157.",
+              "url": "https://pubmed.ncbi.nlm.nih.gov/29265832/"
+            },
+            {
+              "title": "Moyers, T. B., Manuel, J. K., & Ernst, D. (2015)",
+              "citation": "Motivational Interviewing Treatment Integrity Coding Manual 4.2.1 (MITI 4.2.1). University of New Mexico, CASAA.",
+              "url": "https://casaa.unm.edu/download/miti4_2.pdf"
+            },
+            {
+              "title": "Moyers, T. B., Rowell, L. N., Manuel, J. K., Ernst, D., & Houck, J. M. (2016)",
+              "citation": "The Motivational Interviewing Treatment Integrity code (MITI 4): rationale, preliminary reliability and validity. Journal of Substance Abuse Treatment, 65, 36-42.",
+              "url": "https://pubmed.ncbi.nlm.nih.gov/27125969/"
+            }
+          ]
         },
         {
           "id": "2.8",
           "title": "Trampas relacionales: el experto, la etiqueta, el foco prematuro, la confrontación y el dar soluciones.",
-          "overview": "Lectura guiada de Trampas relacionales: el experto, la etiqueta, el foco prematuro, la confrontación y el dar soluciones.. Incluye desarrollo conceptual, aplicación clínica, análisis de una viñeta ficticia y una comprobación de comprensión.",
+          "overview": "Estudio de las 5 trampas relacionales clásicas descritas por Miller y Rollnick y los obstáculos comunicacionales de Gordon. Mecanismos para detectar a tiempo la disonancia interactiva y reorientar el proceso.",
           "learningGoals": [
-            "Explicar los conceptos centrales de Trampas relacionales: el experto, la etiqueta, el foco prematuro, la confrontación y el dar soluciones. con lenguaje propio.",
-            "Relacionar el contenido con una decisión clínica observable.",
-            "Reconocer límites, riesgos de simplificación y preguntas que requieren evidencia adicional."
+            "Reconocer precozmente las 5 trampas relacionales nucleares en la interacción clínica con pacientes ambivalentes.",
+            "Describir el impacto iatrogénico de la trampa del etiquetado y la trampa del experto sobre la alianza terapéutica.",
+            "Aplicar protocolos de negociación de agenda compartida para sortear la trampa del foco prematuro y evitar la confrontación."
           ],
           "sections": [
             {
-              "heading": "Marco conceptual",
-              "html": "<p>Esta unidad desarrolla <strong>Trampas relacionales: el experto, la etiqueta, el foco prematuro, la confrontación y el dar soluciones.</strong> como conducta observable y deliberada, no como una frase hecha. En EM, las habilidades OARS (preguntas abiertas, afirmaciones, reflejos y resúmenes) se seleccionan según lo que el consultante acaba de comunicar y la tarea de la conversación.</p><p>Una pregunta abierta invita a elaborar, pero una secuencia larga de preguntas puede sentirse como interrogatorio. Una afirmación debe ser específica y genuina; un reflejo ofrece una hipótesis comprensiva que el consultante puede corregir. Un resumen selecciona y enlaza elementos, y no debe usarse para forzar una conclusión.</p>"
+              "heading": "1. Las cinco trampas relacionales fundamentales",
+              "html": "<p>Al interactuar con consultantes que exhiben resistencia o ambivalencia, el profesional de la salud suele tropezar en patrones reactivos automáticos conocidos como <strong>trampas relacionales</strong> (Miller & Rollnick, 2023; Lizarraga & Ayarra, 2001):</p><ol><li><strong>La trampa del experto:</strong> Creer que por poseer conocimientos técnicos se tiene la respuesta de cómo debe vivir el paciente. Transmite: <em>«Yo tengo las respuestas, tú solo debes seguir mis órdenes»</em>.</li><li><strong>La trampa del interrogatorio:</strong> Encadenar preguntas cerradas consecutivas, induciendo desidia y defensa pasiva.</li><li><strong>La trampa del etiquetado:</strong> Insistir en que el consultante acepte una etiqueta diagnóstica estigmatizante (ej. <em>«alcoholico»</em>, <em>«obeso»</em>, <em>«enfermo mental»</em>) como condición previa indispensable para el tratamiento. La evidencia demuestra que la etiqueta es irrelevante para el pronóstico y deteriora el enganche.</li><li><strong>La trampa del foco prematuro:</strong> Intentar trabajar sobre el problema que el profesional considera prioritario antes de haber establecido una alianza sólida o sin considerar lo que al paciente realmente le angustia.</li><li><strong>La trampa de la confrontación / discusión:</strong> Entrar en un debate lógico sobre quién tiene la razón, empujando al paciente a defender vehementemente su conducta de riesgo debido a la reactancia psicológica (Festinger, 1957; Brehm, 1966).</li></ol>"
             },
             {
-              "heading": "Desarrollo académico y aplicación",
-              "html": "<p>Estudia el experto, la etiqueta, el foco prematuro, la confrontación y el dar soluciones. como una habilidad que se elige según la función de la conversación. OARS no es una lista de frases para marcar: una intervención puede parecer una pregunta abierta y aun así dirigir demasiado, mientras que un reflejo breve puede abrir espacio si capta con precisión lo que la persona quiso decir.</p><p>En una secuencia de práctica, escucha sin interrumpir, formula una respuesta, espera la reacción y evalúa su efecto. Si la persona corrige tu reflejo, recibe esa corrección como información. Si habla más, aclara o expresa una prioridad, sigue esa dirección en vez de volver a un guion propio.</p><p>Para dar retroalimentación, describe primero la conducta observable (por ejemplo, pregunta cerrada, reflejo, afirmación o resumen), después su posible impacto y luego ofrece una alternativa concreta. No deduzcas calidad terapéutica solamente de conteos ni conviertas un indicador de investigación en regla universal para todas las sesiones.</p><p>La práctica deliberada puede usar transcripciones simuladas, ejercicios por pares y revisión de grabaciones con consentimiento. Protege confidencialidad, explica el propósito de la evaluación y distingue claramente el entrenamiento pedagógico de la codificación formal MITI.</p>"
+              "heading": "2. La trampa de aportar soluciones no solicitadas",
+              "html": "<p>Estrechamente ligada al <em>reflejo de corrección</em>, consiste en comenzar a recetar recetas de cambio de manera acelerada: <em>«¿Por qué no descarga esta app? ¿Por qué no le pide a su pareja que le esconda la comida?»</em>. Cada consejo apresurado suele recibir la respuesta defensiva clásica del paciente: <em>«Sí, pero es que usted no entiende mi situación...»</em>.</p>"
             },
             {
-              "heading": "Aplicación clínica y límites",
-              "html": "<p>En el entrenamiento de <strong>Trampas relacionales: el experto, la etiqueta, el foco prematuro, la confrontación y el dar soluciones.</strong>, escucha primero la respuesta completa, elige una sola habilidad y observa qué ocurre después. Practica dos versiones: una intervención que sigue la perspectiva del paciente y otra que introduce prematuramente la agenda profesional. Compara su efecto relacional, no solo su forma gramatical.</p><p>Los recuentos conductuales pueden ayudar a supervisar sesiones, pero no son por sí solos una calificación clínica oficial. El MITI requiere codificación entrenada de una muestra de sesión; esta actividad del curso es práctica formativa y no sustituye esa codificación.</p>"
-            },
-            {
-              "heading": "Viñeta clínica comentada",
-              "html": "<div class=\"dialogue-line\"><b>Consultante (viñeta ficticia):</b> «Sé que esto me preocupa, pero todavía no sé qué estoy dispuesto a cambiar».</div><div class=\"dialogue-line\"><b>Profesional:</b> «Una parte de ti ve motivos para hacer algo distinto, y otra necesita entender qué perderías con ese cambio».</div><div class=\"dialogue-line\"><b>Nota docente:</b> El reflejo es una hipótesis, no una conclusión. La respuesta adecuada depende del contexto; invita a corregirla o ampliarla.</div>"
+              "heading": "3. Guía de salida y neutralización de trampas",
+              "html": "<p>Cuando el terapeuta detecta que ha entrado en una trampa relacional, la acción inmediata de la EM consiste en <strong>detenerse, dar un paso atrás y emitir un reflejo empático profundo</strong> que valide la perspectiva del consultante y pida disculpas por haber asumido una postura directiva.</p>"
             }
           ],
           "quickCheck": {
-            "question": "¿Qué respuesta refleja mejor la idea central de «Trampas relacionales: el experto, la etiqueta, el foco prematuro, la confrontación y el dar soluciones.»?",
+            "stem": "Un médico de atención primaria insiste acaloradamente ante un paciente con consumo problemático de alcohol: «¡Hasta que usted no admita aquí frente a mí que es un alcohólico sin remedio, este centro de salud no puede hacer nada por su vida!». ¿En qué trampas relacionales de la EM está incurriendo simultáneamente?",
             "options": [
-              "Repetir una recomendación profesional aunque no responda a la perspectiva de la persona.",
-              "Explorar el tema de manera colaborativa, respetar la autonomía y verificar la comprensión.",
-              "Interpretar la ambivalencia como resistencia y confrontarla de inmediato.",
-              "Dar por supuesto que una técnica produce el mismo resultado en cualquier contexto."
+              "Trampa de la empatía profunda y escucha activa.",
+              "Trampa del etiquetado y trampa de la confrontación / disputa.",
+              "Trampa del refuerzo positivo incondicional.",
+              "Trampa de la supervisión entre pares formativa."
             ],
-            "correctIndex": 1,
-            "explanation": "Esta unidad aborda Lectura guiada de Trampas relacionales: el experto, la etiqueta, el foco prematuro, la confrontación y el dar soluciones.. Incluye desarrollo conceptual, aplicación clínica, análisis de una viñeta ficticia y una comprobación de comprensión.. En EM, la aplicación debe ser colaborativa, sensible al contexto y abierta a la perspectiva de la persona; no se trata de imponer una respuesta única."
+            "answerIndex": 1,
+            "explanation": "El profesional fuerza una etiqueta diagnóstica estigmatizante (alcohólico) y adopta una postura de debate confrontativo y ultimátum, configurando de lleno las trampas del etiquetado y de la confrontación."
           },
-          "supplementaryReading": {
-            "heading": "Lectura complementaria del material del curso",
-            "html": "<div class=\"supplementary-intro\">Lectura ampliada basada en las separatas del programa. Úsala junto con el desarrollo conceptual y verifica las afirmaciones relevantes en las fuentes primarias incluidas en la bibliografía.</div><h4>1. Las Habilidades OARS: La Caja de Herramientas Nucleares</h4><h2>1. Las Habilidades OARS: La Caja de Herramientas Nucleares</h2>\n<p>Las habilidades <strong>OARS</strong> constituyen las micro-habilidades verbales esenciales de la Entrevista Motivacional. Lejos de ser técnicas aisladas, son instrumentos de precisión mediante los cuales se materializa el espíritu clínico y se facilita el avance por las cuatro tareas de la EM.</p>\n<h3>O · Preguntas Abiertas (Open Questions)</h3>\n<p>Las preguntas abiertas invitan a la exploración amplia, la reflexión interior y el relato narrativo del consultante. A diferencia de las preguntas cerradas (que se responden con \"sí\", \"no\" o datos breves), las abiertas comienzan comúnmente con: <em>«¿Qué...?», «¿Cómo...?», «¿De qué manera...?», «Cuénteme más acerca de...»</em>. En la codificación de fidelidad MITI 4.2.1, un terapeuta competente mantiene un balance donde más del 50% de sus preguntas son abiertas.</p>\n<h3>A · Afirmaciones de Fortalezas (Affirmations)</h3>\n<p>Una afirmación genuina reconoce las fortalezas intrínsecas, valores, esfuerzos y logros del consultante. No debe confundirse con el elogio condescendiente (*«¡Qué bien lo hiciste, estoy orgulloso de ti!»*), que sitúa al terapeuta como juez evaluador externo.\n<br/><br/>\n<strong>Avance de la 4.ª Edición (Miller &amp; Moyers, 2021; Miller &amp; Rollnick, 2023):</strong>\n<ul>\n<li><strong>Afirmación Simple:</strong> Reconoce un hecho positivo concreto (*«Llegó puntual hoy a pesar del tráfico complicado»*).</li>\n<li><strong>Afirmación Compleja:</strong> Vincula la conducta con un valor nuclear, rasgo de identidad o fortaleza de carácter profunda del consultante (*«El hecho de que haya venido hoy demuestra el enorme compromiso que usted tiene con estar presente para sus hijos, aun cuando se siente exhausto»*).</li>\n</ul>\n</p>\n<h3>R · Escucha Reflexiva (Reflective Listening)</h3>\n<p>Constituye el corazón operativo de la EM. Un reflejo es una afirmación hipotética que devuelve al consultante el significado de su propio mensaje, formulada con entonación descendente (como una hipótesis comprensiva, no como una pregunta inquisitiva). La proporción recomendada en el estándar internacional MITI es de <strong>al menos 1 a 2 reflejos por cada pregunta formulada</strong>.\n<ul>\n<li><strong>Reflejo Simple:</strong> Reitera o parafrasea el contenido explícito con mínimas alteraciones verbales (*«Siente que el trabajo ha sido muy demandante»*). Estabiliza la alianza.</li>\n<li><strong>Reflejo Complejo:</strong> Va más allá de las palabras literales; deduce el sentimiento implícito, el significado subyacente, metáforas o valores nucleares (*«Parece que en el fondo tiene miedo de perder su independencia si acepta este diagnóstico»*).</li>\n<li><strong>Reflejo Doble (Ambivalencia):</strong> Captura simultáneamente las dos caras de la moneda, utilizando la conjunción <em>«y»</em> en lugar de <em>«pero»</em>: <em>«Por un lado, salir de copas los fines de semana le permite desconectarse de la presión laboral, <strong>y al mismo tiempo</strong> le angustia notar que los lunes llega tarde a su trabajo y teme perder su puesto»</em>.</li>\n</ul>\n</p>\n<h3>S · Resúmenes Estructurados (Summaries)</h3>\n<p>Recopilan y articulan los elementos clave explorados. Miller y Rollnick clasifican los resúmenes en tres tipologías:\n<ol>\n<li><strong>Resumen Colector (*Collecting*):</strong> Reúne varios puntos expresados durante los últimos minutos para verificar comprensión y ordenar la narrativa.</li>\n<li><strong>Resumen Vinculante (*Linking*):</strong> Conecta lo expresado en el momento presente con algo compartido en sesiones anteriores o con valores clave (*«Usted me decía hace un momento que se siente sin energía; recuerdo que en la primera sesión mencionó que su mayor ilusión era poder jugar con sus nietos en el parque...»*).</li>\n<li><strong>Resumen de Transición (*Transitional*):</strong> Marca el cierre de una etapa conversacional o de una tarea y abre el paso hacia la siguiente (*«Permítame resumir lo que hemos conversado para ver si tenemos el cuadro completo antes de hablar sobre los siguientes pasos...»*).</li>\n</ol>\n</p>"
-          }
+          "references": [
+            {
+              "title": "Gordon, T. (1970)",
+              "citation": "Parent Effectiveness Training: The Tested New Way to Raise Responsible Children. Peter H. Wyden.",
+              "url": "https://www.gordontraining.com/"
+            },
+            {
+              "title": "Lizarraga, S., & Ayarra, M. (2001)",
+              "citation": "Entrevista motivacional. Anales del Sistema Sanitario de Navarra, 24(Supl. 2), 43-53.",
+              "url": "https://scielo.isciii.es/scielo.php?script=sci_arttext&pid=S1137-66272001000500005"
+            },
+            {
+              "title": "Miller, W. R., & Rollnick, S. (2023)",
+              "citation": "Motivational Interviewing: Helping People Change and Grow (4th ed.). Guilford Press.",
+              "url": "https://www.guilford.com/books/Motivational-Interviewing/Miller-Rollnick/9781462552795"
+            }
+          ]
         },
         {
           "id": "2.9",
           "title": "Rol-play estructurado I: ejercicios dyádicos con retroalimentación diferida por video.",
-          "overview": "Lectura guiada de Rol-play estructurado I: ejercicios dyádicos con retroalimentación diferida por video.. Incluye desarrollo conceptual, aplicación clínica, análisis de una viñeta ficticia y una comprobación de comprensión.",
+          "overview": "Metodología del entrenamiento experiencial y simulación clínica en EM. Diseño de viñetas dyádicas y tríadas formativas con observación estructurada basada en la práctica deliberada de K. Anders Ericsson.",
           "learningGoals": [
-            "Explicar los conceptos centrales de Rol-play estructurado I: ejercicios dyádicos con retroalimentación diferida por video. con lenguaje propio.",
-            "Relacionar el contenido con una decisión clínica observable.",
-            "Reconocer límites, riesgos de simplificación y preguntas que requieren evidencia adicional."
+            "Estructurar tríadas de rol-play formativas con roles definidos de terapeuta, paciente simulado y observador técnico con pauta OARS.",
+            "Aplicar el método de la práctica deliberada (Ericsson, 2006) en micro-habilidades específicas de la Entrevista Motivacional.",
+            "Proveer y recibir retroalimentación descriptiva no punitiva fundamentada en conductas observables y no en juicios subjetivos."
           ],
           "sections": [
             {
-              "heading": "Marco conceptual",
-              "html": "<p>Esta unidad desarrolla <strong>Rol-play estructurado I: ejercicios dyádicos con retroalimentación diferida por video.</strong> como conducta observable y deliberada, no como una frase hecha. En EM, las habilidades OARS (preguntas abiertas, afirmaciones, reflejos y resúmenes) se seleccionan según lo que el consultante acaba de comunicar y la tarea de la conversación.</p><p>Una pregunta abierta invita a elaborar, pero una secuencia larga de preguntas puede sentirse como interrogatorio. Una afirmación debe ser específica y genuina; un reflejo ofrece una hipótesis comprensiva que el consultante puede corregir. Un resumen selecciona y enlaza elementos, y no debe usarse para forzar una conclusión.</p>"
+              "heading": "1. La tríada de aprendizaje como simulador de vuelo clínico",
+              "html": "<p>La adquisición de habilidades en Entrevista Motivacional no se logra mediante la mera lectura pasiva de textos teóricos; requiere un entrenamiento kinestésico y dialógico continuado semejante al de un simulador de vuelo para pilotos (Miller & Moyers, 2006). La metodología de la <strong>tríada formativa</strong> involucra:</p><ul><li><strong>Entrevistador/a:</strong> Profesional que practica una habilidad acotada (ej. emitir únicamente reflejos durante 5 minutos).</li><li><strong>Paciente simulado:</strong> Colega que adopta un caso real o estandarizado con un grado medio de ambivalencia genuina (evitando posturas caricaturescas o de resistencia extrema destructiva).</li><li><strong>Observador/a codificador:</strong> Miembro que registra rigurosamente mediante marcas cuantitativas cada micro-conducta OARS y vigila la presencia del espíritu PACE.</li></ul>"
             },
             {
-              "heading": "Desarrollo académico y aplicación",
-              "html": "<p>Estudia ejercicios dyádicos con retroalimentación diferida por video. como una habilidad que se elige según la función de la conversación. OARS no es una lista de frases para marcar: una intervención puede parecer una pregunta abierta y aun así dirigir demasiado, mientras que un reflejo breve puede abrir espacio si capta con precisión lo que la persona quiso decir.</p><p>En una secuencia de práctica, escucha sin interrumpir, formula una respuesta, espera la reacción y evalúa su efecto. Si la persona corrige tu reflejo, recibe esa corrección como información. Si habla más, aclara o expresa una prioridad, sigue esa dirección en vez de volver a un guion propio.</p><p>Para dar retroalimentación, describe primero la conducta observable (por ejemplo, pregunta cerrada, reflejo, afirmación o resumen), después su posible impacto y luego ofrece una alternativa concreta. No deduzcas calidad terapéutica solamente de conteos ni conviertas un indicador de investigación en regla universal para todas las sesiones.</p><p>La práctica deliberada puede usar transcripciones simuladas, ejercicios por pares y revisión de grabaciones con consentimiento. Protege confidencialidad, explica el propósito de la evaluación y distingue claramente el entrenamiento pedagógico de la codificación formal MITI.</p>"
+              "heading": "2. La práctica deliberada aplicada a la psicoterapia",
+              "html": "<p>Siguiendo los hallazgos de K. Anders Ericsson (2006) sobre la adquisición de maestría profesional, la práctica deliberada implica: tareas con un nivel de dificultad progresivo, retroalimentación inmediata sobre errores técnicos y repetición reflexiva de las secuencias difíciles hasta consolidar el automatismo neural empático.</p>"
             },
             {
-              "heading": "Aplicación clínica y límites",
-              "html": "<p>En el entrenamiento de <strong>Rol-play estructurado I: ejercicios dyádicos con retroalimentación diferida por video.</strong>, escucha primero la respuesta completa, elige una sola habilidad y observa qué ocurre después. Practica dos versiones: una intervención que sigue la perspectiva del paciente y otra que introduce prematuramente la agenda profesional. Compara su efecto relacional, no solo su forma gramatical.</p><p>Los recuentos conductuales pueden ayudar a supervisar sesiones, pero no son por sí solos una calificación clínica oficial. El MITI requiere codificación entrenada de una muestra de sesión; esta actividad del curso es práctica formativa y no sustituye esa codificación.</p>"
-            },
-            {
-              "heading": "Viñeta clínica comentada",
-              "html": "<div class=\"dialogue-line\"><b>Consultante (viñeta ficticia):</b> «Sé que esto me preocupa, pero todavía no sé qué estoy dispuesto a cambiar».</div><div class=\"dialogue-line\"><b>Profesional:</b> «Una parte de ti ve motivos para hacer algo distinto, y otra necesita entender qué perderías con ese cambio».</div><div class=\"dialogue-line\"><b>Nota docente:</b> El reflejo es una hipótesis, no una conclusión. La respuesta adecuada depende del contexto; invita a corregirla o ampliarla.</div>"
+              "heading": "3. Protocolo de retroalimentación diferida constructiva",
+              "html": "<p>Al concluir los minutos de role-play, el orden de intervención para el feedback está estrictamente protocolizado:</p><ol><li>El <em>entrevistador</em> reflexiona sobre su experiencia interna, dificultades y aciertos percibidos.</li><li>El <em>paciente simulado</em> comparte cómo se sintió relacionalmente (¿escuchado?, ¿juzgado?, ¿apresurado?).</li><li>El <em>observador</em> entrega los datos objetivos de la pauta de codificación (número de reflejos, preguntas abiertas vs cerradas, trampas eludidas) sin emitir críticas destructivas.</li></ol>"
             }
           ],
           "quickCheck": {
-            "question": "¿Qué respuesta refleja mejor la idea central de «Rol-play estructurado I: ejercicios dyádicos con retroalimentación diferida por video.»?",
+            "stem": "En un taller de práctica deliberada de EM, ¿cuál de las siguientes condiciones es indispensable para maximizar el aprendizaje técnico durante un ejercicio de simulación en tríadas?",
             "options": [
-              "Repetir una recomendación profesional aunque no responda a la perspectiva de la persona.",
-              "Explorar el tema de manera colaborativa, respetar la autonomía y verificar la comprensión.",
-              "Interpretar la ambivalencia como resistencia y confrontarla de inmediato.",
-              "Dar por supuesto que una técnica produce el mismo resultado en cualquier contexto."
+              "Que el paciente simulado finja una psicosis violenta incontrolable para poner a prueba los nervios del entrevistador.",
+              "Que el observador técnico interrumpa cada diez segundos a gritos para corregir al entrevistador en tiempo real.",
+              "Definir un foco conductual acotado (ej. razón reflejos/preguntas y evitar trampas) acompañado de registro observacional estructurado y feedback pautado.",
+              "Evaluar al terapeuta asignándole una nota de aprobado o reprobado según su carisma personal."
             ],
-            "correctIndex": 1,
-            "explanation": "Esta unidad aborda Lectura guiada de Rol-play estructurado I: ejercicios dyádicos con retroalimentación diferida por video.. Incluye desarrollo conceptual, aplicación clínica, análisis de una viñeta ficticia y una comprobación de comprensión.. En EM, la aplicación debe ser colaborativa, sensible al contexto y abierta a la perspectiva de la persona; no se trata de imponer una respuesta única."
+            "answerIndex": 2,
+            "explanation": "La práctica deliberada eficaz exige metas acotadas de aprendizaje (micro-competencias OARS), pautas objetivas de observación y un protocolo reflexivo de retroalimentación constructiva."
           },
-          "supplementaryReading": {
-            "heading": "Lectura complementaria del material del curso",
-            "html": "<div class=\"supplementary-intro\">Lectura ampliada basada en las separatas del programa. Úsala junto con el desarrollo conceptual y verifica las afirmaciones relevantes en las fuentes primarias incluidas en la bibliografía.</div><h4>1. Las Habilidades OARS: La Caja de Herramientas Nucleares</h4><h2>1. Las Habilidades OARS: La Caja de Herramientas Nucleares</h2>\n<p>Las habilidades <strong>OARS</strong> constituyen las micro-habilidades verbales esenciales de la Entrevista Motivacional. Lejos de ser técnicas aisladas, son instrumentos de precisión mediante los cuales se materializa el espíritu clínico y se facilita el avance por las cuatro tareas de la EM.</p>\n<h3>O · Preguntas Abiertas (Open Questions)</h3>\n<p>Las preguntas abiertas invitan a la exploración amplia, la reflexión interior y el relato narrativo del consultante. A diferencia de las preguntas cerradas (que se responden con \"sí\", \"no\" o datos breves), las abiertas comienzan comúnmente con: <em>«¿Qué...?», «¿Cómo...?», «¿De qué manera...?», «Cuénteme más acerca de...»</em>. En la codificación de fidelidad MITI 4.2.1, un terapeuta competente mantiene un balance donde más del 50% de sus preguntas son abiertas.</p>\n<h3>A · Afirmaciones de Fortalezas (Affirmations)</h3>\n<p>Una afirmación genuina reconoce las fortalezas intrínsecas, valores, esfuerzos y logros del consultante. No debe confundirse con el elogio condescendiente (*«¡Qué bien lo hiciste, estoy orgulloso de ti!»*), que sitúa al terapeuta como juez evaluador externo.\n<br/><br/>\n<strong>Avance de la 4.ª Edición (Miller &amp; Moyers, 2021; Miller &amp; Rollnick, 2023):</strong>\n<ul>\n<li><strong>Afirmación Simple:</strong> Reconoce un hecho positivo concreto (*«Llegó puntual hoy a pesar del tráfico complicado»*).</li>\n<li><strong>Afirmación Compleja:</strong> Vincula la conducta con un valor nuclear, rasgo de identidad o fortaleza de carácter profunda del consultante (*«El hecho de que haya venido hoy demuestra el enorme compromiso que usted tiene con estar presente para sus hijos, aun cuando se siente exhausto»*).</li>\n</ul>\n</p>\n<h3>R · Escucha Reflexiva (Reflective Listening)</h3>\n<p>Constituye el corazón operativo de la EM. Un reflejo es una afirmación hipotética que devuelve al consultante el significado de su propio mensaje, formulada con entonación descendente (como una hipótesis comprensiva, no como una pregunta inquisitiva). La proporción recomendada en el estándar internacional MITI es de <strong>al menos 1 a 2 reflejos por cada pregunta formulada</strong>.\n<ul>\n<li><strong>Reflejo Simple:</strong> Reitera o parafrasea el contenido explícito con mínimas alteraciones verbales (*«Siente que el trabajo ha sido muy demandante»*). Estabiliza la alianza.</li>\n<li><strong>Reflejo Complejo:</strong> Va más allá de las palabras literales; deduce el sentimiento implícito, el significado subyacente, metáforas o valores nucleares (*«Parece que en el fondo tiene miedo de perder su independencia si acepta este diagnóstico»*).</li>\n<li><strong>Reflejo Doble (Ambivalencia):</strong> Captura simultáneamente las dos caras de la moneda, utilizando la conjunción <em>«y»</em> en lugar de <em>«pero»</em>: <em>«Por un lado, salir de copas los fines de semana le permite desconectarse de la presión laboral, <strong>y al mismo tiempo</strong> le angustia notar que los lunes llega tarde a su trabajo y teme perder su puesto»</em>.</li>\n</ul>\n</p>\n<h3>S · Resúmenes Estructurados (Summaries)</h3>\n<p>Recopilan y articulan los elementos clave explorados. Miller y Rollnick clasifican los resúmenes en tres tipologías:\n<ol>\n<li><strong>Resumen Colector (*Collecting*):</strong> Reúne varios puntos expresados durante los últimos minutos para verificar comprensión y ordenar la narrativa.</li>\n<li><strong>Resumen Vinculante (*Linking*):</strong> Conecta lo expresado en el momento presente con algo compartido en sesiones anteriores o con valores clave (*«Usted me decía hace un momento que se siente sin energía; recuerdo que en la primera sesión mencionó que su mayor ilusión era poder jugar con sus nietos en el parque...»*).</li>\n<li><strong>Resumen de Transición (*Transitional*):</strong> Marca el cierre de una etapa conversacional o de una tarea y abre el paso hacia la siguiente (*«Permítame resumir lo que hemos conversado para ver si tenemos el cuadro completo antes de hablar sobre los siguientes pasos...»*).</li>\n</ol>\n</p>"
-          }
+          "references": [
+            {
+              "title": "Colón Ortiz, A. (2016)",
+              "citation": "Módulo Didáctico: Entrevista Motivacional. Universidad Central del Caribe / SAMHSA.",
+              "url": "https://www.samhsa.gov/"
+            },
+            {
+              "title": "Ericsson, K. A. (2006)",
+              "citation": "The influence of experience and deliberate practice on the development of superior expert performance. The Cambridge Handbook of Expertise and Expert Performance, 38, 683-703.",
+              "url": "https://doi.org/10.1017/CBO9780511816796.038"
+            },
+            {
+              "title": "Miller, W. R., & Moyers, T. B. (2006)",
+              "citation": "Eight stages in learning motivational interviewing. Journal of Teaching in the Addictions, 5(1), 3-17.",
+              "url": "https://doi.org/10.1300/J188v05n01_02"
+            }
+          ]
         },
         {
           "id": "2.10",
           "title": "Supervisión entre pares: análisis de fragmentos con rúbrica MITI. Autoevaluación reflexiva.",
-          "overview": "Lectura guiada de Supervisión entre pares: análisis de fragmentos con rúbrica MITI. Autoevaluación reflexiva.. Incluye desarrollo conceptual, aplicación clínica, análisis de una viñeta ficticia y una comprobación de comprensión.",
+          "overview": "Sistemas de mantenimiento de la competencia y prevención de la erosión técnica post-taller. Evidencia empírica sobre supervisión basada en audios de sesiones reales y rúbricas de intervisión clínica reflexiva.",
           "learningGoals": [
-            "Explicar los conceptos centrales de Supervisión entre pares: análisis de fragmentos con rúbrica MITI. Autoevaluación reflexiva. con lenguaje propio.",
-            "Relacionar el contenido con una decisión clínica observable.",
-            "Reconocer límites, riesgos de simplificación y preguntas que requieren evidencia adicional."
+            "Conocer los hallazgos empíricos del estudio de Miller et al. (2004) sobre el declive de las competencias en EM sin supervisión continuada.",
+            "Organizar un espacio de intervisión clínica entre pares basado en muestras breves grabadas y pautas de codificación objetivas.",
+            "Diseñar un plan personal de desarrollo profesional continuo para la preservación del espíritu y la técnica de la EM."
           ],
           "sections": [
             {
-              "heading": "Marco conceptual",
-              "html": "<p>Esta unidad desarrolla <strong>Supervisión entre pares: análisis de fragmentos con rúbrica MITI. Autoevaluación reflexiva.</strong> como conducta observable y deliberada, no como una frase hecha. En EM, las habilidades OARS (preguntas abiertas, afirmaciones, reflejos y resúmenes) se seleccionan según lo que el consultante acaba de comunicar y la tarea de la conversación.</p><p>Una pregunta abierta invita a elaborar, pero una secuencia larga de preguntas puede sentirse como interrogatorio. Una afirmación debe ser específica y genuina; un reflejo ofrece una hipótesis comprensiva que el consultante puede corregir. Un resumen selecciona y enlaza elementos, y no debe usarse para forzar una conclusión.</p>"
+              "heading": "1. La trampa de la ilusión de competencia y el estudio de Miller et al. (2004)",
+              "html": "<p>En un estudio de referencia insoslayable sobre la formación de profesionales de la salud en Entrevista Motivacional, William R. Miller y sus colaboradores (2004) evaluaron la eficacia de los talleres intensivos de capacitación. Los resultados mostraron que los profesionales que asistieron únicamente a talleres de dos días mostraron un incremento inicial inmediato en sus habilidades; sin embargo, <strong>a los cuatro meses sus destrezas habían retrocedido prácticamente a los niveles basales previos</strong>, a pesar de que los propios terapeutas creían erróneamente que seguían aplicando EM con excelencia.</p><p>El único grupo que retuvo y mejoró sus competencias a lo largo del tiempo fue aquel que recibió <strong>coaching continuado y supervisión individualizada basada en la codificación de grabaciones reales de audio</strong> de sus sesiones.</p>"
             },
             {
-              "heading": "Desarrollo académico y aplicación",
-              "html": "<p>Estudia análisis de fragmentos con rúbrica MITI. Autoevaluación reflexiva. como una habilidad que se elige según la función de la conversación. OARS no es una lista de frases para marcar: una intervención puede parecer una pregunta abierta y aun así dirigir demasiado, mientras que un reflejo breve puede abrir espacio si capta con precisión lo que la persona quiso decir.</p><p>En una secuencia de práctica, escucha sin interrumpir, formula una respuesta, espera la reacción y evalúa su efecto. Si la persona corrige tu reflejo, recibe esa corrección como información. Si habla más, aclara o expresa una prioridad, sigue esa dirección en vez de volver a un guion propio.</p><p>Para dar retroalimentación, describe primero la conducta observable (por ejemplo, pregunta cerrada, reflejo, afirmación o resumen), después su posible impacto y luego ofrece una alternativa concreta. No deduzcas calidad terapéutica solamente de conteos ni conviertas un indicador de investigación en regla universal para todas las sesiones.</p><p>La práctica deliberada puede usar transcripciones simuladas, ejercicios por pares y revisión de grabaciones con consentimiento. Protege confidencialidad, explica el propósito de la evaluación y distingue claramente el entrenamiento pedagógico de la codificación formal MITI.</p>"
+              "heading": "2. Metodología de intervisión entre pares con muestras de 20 minutos",
+              "html": "<p>Dado el costo y la escasez de supervisores acreditados por la red MINT, la <strong>supervisión entre pares (peer supervision)</strong> constituye una estrategia costo-efectiva de alto impacto:</p><ul><li>Los profesionales seleccionan segmentos de 20 minutos de audio (con el debido consentimiento informado por escrito del paciente).</li><li>Se escuchan en conjunto utilizando una versión simplificada de la pauta MITI 4.2.1.</li><li>Se analizan las inflexiones de voz, las respuestas ante el discurso de sostenimiento y los momentos donde emergieron las trampas relacionales.</li><li>Se ensayan formulaciones alternativas de reflejos complejos para aquellos momentos en que la interacción se estancó.</li></ul>"
             },
             {
-              "heading": "Aplicación clínica y límites",
-              "html": "<p>En el entrenamiento de <strong>Supervisión entre pares: análisis de fragmentos con rúbrica MITI. Autoevaluación reflexiva.</strong>, escucha primero la respuesta completa, elige una sola habilidad y observa qué ocurre después. Practica dos versiones: una intervención que sigue la perspectiva del paciente y otra que introduce prematuramente la agenda profesional. Compara su efecto relacional, no solo su forma gramatical.</p><p>Los recuentos conductuales pueden ayudar a supervisar sesiones, pero no son por sí solos una calificación clínica oficial. El MITI requiere codificación entrenada de una muestra de sesión; esta actividad del curso es práctica formativa y no sustituye esa codificación.</p>"
-            },
-            {
-              "heading": "Viñeta clínica comentada",
-              "html": "<div class=\"dialogue-line\"><b>Consultante (viñeta ficticia):</b> «Sé que esto me preocupa, pero todavía no sé qué estoy dispuesto a cambiar».</div><div class=\"dialogue-line\"><b>Profesional:</b> «Una parte de ti ve motivos para hacer algo distinto, y otra necesita entender qué perderías con ese cambio».</div><div class=\"dialogue-line\"><b>Nota docente:</b> El reflejo es una hipótesis, no una conclusión. La respuesta adecuada depende del contexto; invita a corregirla o ampliarla.</div>"
+              "heading": "3. Ética y cultura de la vulnerabilidad profesional",
+              "html": "<p>Para que la supervisión entre pares funcione, debe erradicarse cualquier juicio punitivo o afán de exhibicionismo técnico. El espíritu de la EM (Aceptación, No juicio, Colaboración) debe aplicarse tanto hacia el paciente como hacia el colega que expone con valentía sus grabaciones clínicas (MINT, 2020).</p>"
             }
           ],
           "quickCheck": {
-            "question": "¿Qué respuesta refleja mejor la idea central de «Supervisión entre pares: análisis de fragmentos con rúbrica MITI. Autoevaluación reflexiva.»?",
+            "stem": "De acuerdo con el ensayo controlado pionero de Miller, Yahne, Moyers, Martinez y Pirritano (2004), ¿qué intervención educativa resultó imprescindible para evitar que los clínicos perdieran sus habilidades de EM a los cuatro meses de entrenamiento?",
             "options": [
-              "Repetir una recomendación profesional aunque no responda a la perspectiva de la persona.",
-              "Explorar el tema de manera colaborativa, respetar la autonomía y verificar la comprensión.",
-              "Interpretar la ambivalencia como resistencia y confrontarla de inmediato.",
-              "Dar por supuesto que una técnica produce el mismo resultado en cualquier contexto."
+              "Aprobar un examen teórico escrito de 100 preguntas de opción múltiple.",
+              "Recibir sesiones periódicas de retroalimentación y coaching supervisado sobre grabaciones de audio de su práctica clínica real.",
+              "Cobrar honorarios más elevados a los pacientes ambivalentes.",
+              "Memorizar de memoria el manual MITI 4.2.1 sin realizar prácticas."
             ],
-            "correctIndex": 1,
-            "explanation": "Esta unidad aborda Lectura guiada de Supervisión entre pares: análisis de fragmentos con rúbrica MITI. Autoevaluación reflexiva.. Incluye desarrollo conceptual, aplicación clínica, análisis de una viñeta ficticia y una comprobación de comprensión.. En EM, la aplicación debe ser colaborativa, sensible al contexto y abierta a la perspectiva de la persona; no se trata de imponer una respuesta única."
+            "answerIndex": 1,
+            "explanation": "El estudio demostró que los talleres por sí solos no sostienen el cambio conductual del terapeuta a mediano plazo; la retroalimentación supervisada sobre la práctica clínica real mediante grabaciones es el componente esencial para consolidar la maestría técnica."
           },
-          "supplementaryReading": {
-            "heading": "Lectura complementaria del material del curso",
-            "html": "<div class=\"supplementary-intro\">Lectura ampliada basada en las separatas del programa. Úsala junto con el desarrollo conceptual y verifica las afirmaciones relevantes en las fuentes primarias incluidas en la bibliografía.</div><h4>1. Las Habilidades OARS: La Caja de Herramientas Nucleares</h4><h2>1. Las Habilidades OARS: La Caja de Herramientas Nucleares</h2>\n<p>Las habilidades <strong>OARS</strong> constituyen las micro-habilidades verbales esenciales de la Entrevista Motivacional. Lejos de ser técnicas aisladas, son instrumentos de precisión mediante los cuales se materializa el espíritu clínico y se facilita el avance por las cuatro tareas de la EM.</p>\n<h3>O · Preguntas Abiertas (Open Questions)</h3>\n<p>Las preguntas abiertas invitan a la exploración amplia, la reflexión interior y el relato narrativo del consultante. A diferencia de las preguntas cerradas (que se responden con \"sí\", \"no\" o datos breves), las abiertas comienzan comúnmente con: <em>«¿Qué...?», «¿Cómo...?», «¿De qué manera...?», «Cuénteme más acerca de...»</em>. En la codificación de fidelidad MITI 4.2.1, un terapeuta competente mantiene un balance donde más del 50% de sus preguntas son abiertas.</p>\n<h3>A · Afirmaciones de Fortalezas (Affirmations)</h3>\n<p>Una afirmación genuina reconoce las fortalezas intrínsecas, valores, esfuerzos y logros del consultante. No debe confundirse con el elogio condescendiente (*«¡Qué bien lo hiciste, estoy orgulloso de ti!»*), que sitúa al terapeuta como juez evaluador externo.\n<br/><br/>\n<strong>Avance de la 4.ª Edición (Miller &amp; Moyers, 2021; Miller &amp; Rollnick, 2023):</strong>\n<ul>\n<li><strong>Afirmación Simple:</strong> Reconoce un hecho positivo concreto (*«Llegó puntual hoy a pesar del tráfico complicado»*).</li>\n<li><strong>Afirmación Compleja:</strong> Vincula la conducta con un valor nuclear, rasgo de identidad o fortaleza de carácter profunda del consultante (*«El hecho de que haya venido hoy demuestra el enorme compromiso que usted tiene con estar presente para sus hijos, aun cuando se siente exhausto»*).</li>\n</ul>\n</p>\n<h3>R · Escucha Reflexiva (Reflective Listening)</h3>\n<p>Constituye el corazón operativo de la EM. Un reflejo es una afirmación hipotética que devuelve al consultante el significado de su propio mensaje, formulada con entonación descendente (como una hipótesis comprensiva, no como una pregunta inquisitiva). La proporción recomendada en el estándar internacional MITI es de <strong>al menos 1 a 2 reflejos por cada pregunta formulada</strong>.\n<ul>\n<li><strong>Reflejo Simple:</strong> Reitera o parafrasea el contenido explícito con mínimas alteraciones verbales (*«Siente que el trabajo ha sido muy demandante»*). Estabiliza la alianza.</li>\n<li><strong>Reflejo Complejo:</strong> Va más allá de las palabras literales; deduce el sentimiento implícito, el significado subyacente, metáforas o valores nucleares (*«Parece que en el fondo tiene miedo de perder su independencia si acepta este diagnóstico»*).</li>\n<li><strong>Reflejo Doble (Ambivalencia):</strong> Captura simultáneamente las dos caras de la moneda, utilizando la conjunción <em>«y»</em> en lugar de <em>«pero»</em>: <em>«Por un lado, salir de copas los fines de semana le permite desconectarse de la presión laboral, <strong>y al mismo tiempo</strong> le angustia notar que los lunes llega tarde a su trabajo y teme perder su puesto»</em>.</li>\n</ul>\n</p>\n<h3>S · Resúmenes Estructurados (Summaries)</h3>\n<p>Recopilan y articulan los elementos clave explorados. Miller y Rollnick clasifican los resúmenes en tres tipologías:\n<ol>\n<li><strong>Resumen Colector (*Collecting*):</strong> Reúne varios puntos expresados durante los últimos minutos para verificar comprensión y ordenar la narrativa.</li>\n<li><strong>Resumen Vinculante (*Linking*):</strong> Conecta lo expresado en el momento presente con algo compartido en sesiones anteriores o con valores clave (*«Usted me decía hace un momento que se siente sin energía; recuerdo que en la primera sesión mencionó que su mayor ilusión era poder jugar con sus nietos en el parque...»*).</li>\n<li><strong>Resumen de Transición (*Transitional*):</strong> Marca el cierre de una etapa conversacional o de una tarea y abre el paso hacia la siguiente (*«Permítame resumir lo que hemos conversado para ver si tenemos el cuadro completo antes de hablar sobre los siguientes pasos...»*).</li>\n</ol>\n</p>"
-          }
+          "references": [
+            {
+              "title": "Miller, W. R., Yahne, C. E., Moyers, T. B., Martinez, J., & Pirritano, M. (2004)",
+              "citation": "A randomized trial of methods to help clinicians learn motivational interviewing. Journal of Consulting and Clinical Psychology, 72(6), 1050-1062.",
+              "url": "https://pubmed.ncbi.nlm.nih.gov/15563264/"
+            },
+            {
+              "title": "Moyers, T. B., Manuel, J. K., & Ernst, D. (2015)",
+              "citation": "Motivational Interviewing Treatment Integrity Coding Manual 4.2.1 (MITI 4.2.1). University of New Mexico, CASAA.",
+              "url": "https://casaa.unm.edu/download/miti4_2.pdf"
+            },
+            {
+              "title": "Motivational Interviewing Network of Trainers (MINT). (2020)",
+              "citation": "Ethical Guidelines and Professional Standards for MI Trainers.",
+              "url": "https://motivationalinterviewing.org/"
+            }
+          ]
         }
       ],
       "exam": {
@@ -1031,123 +1121,123 @@ window.EM_CURRICULUM = {
         "questions": [
           {
             "id": "m2-q1",
-            "question": "¿Cuál es el tema que corresponde a esta descripción? Lectura guiada de Preguntas abiertas: tipología, función estratégica y errores frecuentes. Diferencia entre explorar y interrogar.. Incluye desarrollo conceptual, aplicación clínica, análisis de una viñeta ficticia y una comprobación de comprensión.",
+            "question": "Un paciente con obesidad mórbida acude a consulta y expresa: «La verdad no sé para qué vengo, todo el mundo me dice lo que tengo que comer y al final termino comiendo el doble por pura ansiedad». Si el terapeuta desea formular una pregunta abierta que explore valores y no induzca defensividad, ¿cuál es la mejor opción?",
             "options": [
-              "Afirmaciones genuinas: distinción de la validación conductual superficial. Construcción basada en fortalezas reales.",
-              "Preguntas abiertas: tipología, función estratégica y errores frecuentes. Diferencia entre explorar y interrogar.",
-              "Reflejo simple: función especular y riesgo de parroteo. Selección del contenido relevante.",
-              "Reflejo complejo: amplificado, de doble cara, de metáfora y parafraseado hipotético. Taxonomía y aplicación."
+              "«¿Por qué no sigue una dieta estricta si ya sabe que la comida le hace daño?»",
+              "«¿Qué cosas son las más importantes para ti en la vida en las que sientes que tu peso y tu salud están influyendo actualmente?»",
+              "«¿No cree que ya es hora de dejar las excusas y asumir la responsabilidad?»",
+              "«¿Ha intentado hacer ayuno intermitente o todavía no lo ha probado?»"
             ],
             "correctIndex": 1,
-            "explanation": "La respuesta correcta es «Preguntas abiertas: tipología, función estratégica y errores frecuentes. Diferencia entre explorar y interrogar.». La unidad desarrolla: Lectura guiada de Preguntas abiertas: tipología, función estratégica y errores frecuentes. Diferencia entre explorar y interrogar.. Incluye desarrollo conceptual, aplicación clínica, análisis de una viñeta ficticia y una comprobación de comprensión."
+            "explanation": "La opción B es una pregunta abierta orientada a los valores personales y a la autoexploración sin emitir juicios evaluativos. Las otras opciones son cerradas, acusatorias o prescriptivas."
           },
           {
             "id": "m2-q2",
-            "question": "¿Cuál es el tema que corresponde a esta descripción? Lectura guiada de Afirmaciones genuinas: distinción de la validación conductual superficial. Construcción basada en fortalezas reales.. Incluye desarrollo conceptual, aplicación clínica, análisis de una viñeta ficticia y una comprobación de comprensión.",
+            "question": "¿Cuál es la diferencia relacional esencial entre un elogio («¡Muy bien, estoy orgulloso de ti!») y una afirmación motivacional («Demostraste una gran tenacidad al sobreponerte a la tentación de beber ayer»)?",
             "options": [
-              "Afirmaciones genuinas: distinción de la validación conductual superficial. Construcción basada en fortalezas reales.",
-              "Reflejo simple: función especular y riesgo de parroteo. Selección del contenido relevante.",
-              "Preguntas abiertas: tipología, función estratégica y errores frecuentes. Diferencia entre explorar y interrogar.",
-              "Reflejo complejo: amplificado, de doble cara, de metáfora y parafraseado hipotético. Taxonomía y aplicación."
+              "El elogio siempre es más efectivo porque el terapeuta premia la conducta adecuada.",
+              "La afirmación se enfoca en las fortalezas y recursos internos del paciente reconociendo su agencia, mientras que el elogio sitúa al profesional como juez evaluador jerárquico.",
+              "No existe ninguna diferencia; en el manual MITI 4.2.1 ambas intervenciones se codifican de forma idéntica sin distinción.",
+              "La afirmación debe ser fría y distante, sin empatía hacia el consultante."
             ],
-            "correctIndex": 0,
-            "explanation": "La respuesta correcta es «Afirmaciones genuinas: distinción de la validación conductual superficial. Construcción basada en fortalezas reales.». La unidad desarrolla: Lectura guiada de Afirmaciones genuinas: distinción de la validación conductual superficial. Construcción basada en fortalezas reales.. Incluye desarrollo conceptual, aplicación clínica, análisis de una viñeta ficticia y una comprobación de comprensión."
+            "correctIndex": 1,
+            "explanation": "La afirmación refuerza la autoeficacia y la autonomía intrínseca del consultante; el elogio externo refuerza la asimetría jerárquica y la aprobación contingente del clínico."
           },
           {
             "id": "m2-q3",
-            "question": "¿Cuál es el tema que corresponde a esta descripción? Lectura guiada de Reflejo simple: función especular y riesgo de parroteo. Selección del contenido relevante.. Incluye desarrollo conceptual, aplicación clínica, análisis de una viñeta ficticia y una comprobación de comprensión.",
+            "question": "En el entrenamiento de la escucha reflexiva en EM, ¿qué característica prosódica distingue formalmente a un reflejo bien ejecutado de una pregunta encubierta?",
             "options": [
-              "Resúmenes colectores, de enlace y de transición: cuándo y cómo estructurarlos sin interrumpir el flujo.",
-              "Afirmaciones genuinas: distinción de la validación conductual superficial. Construcción basada en fortalezas reales.",
-              "Reflejo complejo: amplificado, de doble cara, de metáfora y parafraseado hipotético. Taxonomía y aplicación.",
-              "Reflejo simple: función especular y riesgo de parroteo. Selección del contenido relevante."
+              "El reflejo finaliza con una inflexión vocal descendente en tono declarativo, mientras que la pregunta tiende a subir al final en tono interrogativo.",
+              "El reflejo debe gritarse en voz alta para captar la atención plena del paciente.",
+              "El reflejo debe terminar siempre con la palabra «¿verdad que sí?».",
+              "El reflejo utiliza un tono monótono que imita palabra por palabra lo dicho por el paciente (parroteo)."
             ],
-            "correctIndex": 3,
-            "explanation": "La respuesta correcta es «Reflejo simple: función especular y riesgo de parroteo. Selección del contenido relevante.». La unidad desarrolla: Lectura guiada de Reflejo simple: función especular y riesgo de parroteo. Selección del contenido relevante.. Incluye desarrollo conceptual, aplicación clínica, análisis de una viñeta ficticia y una comprobación de comprensión."
+            "correctIndex": 0,
+            "explanation": "La inflexión declarativa descendente invita a continuar la elaboración interna sin obligar a una respuesta defensiva de confirmación monosilábica."
           },
           {
             "id": "m2-q4",
-            "question": "¿Cuál es el tema que corresponde a esta descripción? Lectura guiada de Reflejo complejo: amplificado, de doble cara, de metáfora y parafraseado hipotético. Taxonomía y aplicación.. Incluye desarrollo conceptual, aplicación clínica, análisis de una viñeta ficticia y una comprobación de comprensión.",
+            "question": "Un paciente relata: «Me encanta reunirme con mis viejos amigos a beber los fines de semana, pero el lunes en el trabajo tengo un bajón tan espantoso que no puedo concentrarme y temo que me despidan». ¿Cuál es la formulación más fiel de un reflejo de doble cara en EM?",
             "options": [
-              "Reflejo simple: función especular y riesgo de parroteo. Selección del contenido relevante.",
-              "Resúmenes colectores, de enlace y de transición: cuándo y cómo estructurarlos sin interrumpir el flujo.",
-              "Reflejo complejo: amplificado, de doble cara, de metáfora y parafraseado hipotético. Taxonomía y aplicación.",
-              "Afirmaciones genuinas: distinción de la validación conductual superficial. Construcción basada en fortalezas reales."
+              "«Disfrutas de las salidas con tus amigos, pero eres muy imprudente sabiendo que te pueden despedir»",
+              "«Por un lado valoras mucho la diversión y camaradería con tus amistades, y a la vez te angustia profundamente el impacto del cansancio sobre la seguridad de tu empleo»",
+              "«Si te despiden del trabajo tus amigos no te van a pagar el arriendo»",
+              "«¿Por qué no cambia de amigos si sabe que le hacen mal?»"
             ],
-            "correctIndex": 2,
-            "explanation": "La respuesta correcta es «Reflejo complejo: amplificado, de doble cara, de metáfora y parafraseado hipotético. Taxonomía y aplicación.». La unidad desarrolla: Lectura guiada de Reflejo complejo: amplificado, de doble cara, de metáfora y parafraseado hipotético. Taxonomía y aplicación.. Incluye desarrollo conceptual, aplicación clínica, análisis de una viñeta ficticia y una comprobación de comprensión."
+            "correctIndex": 1,
+            "explanation": "Captura con neutralidad y empatía las dos caras de la ambivalencia uniéndolas con la conjunción coordinada «y/a la vez», eliminando el «pero» invalidante."
           },
           {
             "id": "m2-q5",
-            "question": "¿Cuál es el tema que corresponde a esta descripción? Lectura guiada de Resúmenes colectores, de enlace y de transición: cuándo y cómo estructurarlos sin interrumpir el flujo.. Incluye desarrollo conceptual, aplicación clínica, análisis de una viñeta ficticia y una comprobación de comprensión.",
+            "question": "¿Cuál es la función principal de un resumen de transición (Transitional summary) en una sesión de Entrevista Motivacional?",
             "options": [
-              "Razón de reflejo/pregunta (R:P) como indicador de fidelidad: objetivo ≥ 2:1 en codificación MITI.",
-              "Resúmenes colectores, de enlace y de transición: cuándo y cómo estructurarlos sin interrumpir el flujo.",
-              "Reflejo complejo: amplificado, de doble cara, de metáfora y parafraseado hipotético. Taxonomía y aplicación.",
-              "Reflejo simple: función especular y riesgo de parroteo. Selección del contenido relevante."
+              "Comprobar si el paciente estaba prestando atención durante la sesión.",
+              "Cerrar de forma pactada una tarea o proceso clínico y tender un puente colaborativo hacia la siguiente etapa del trabajo terapéutico.",
+              "Reprender al paciente por las contradicciones detectadas en su discurso biográfico.",
+              "Demostrar que el terapeuta posee una memoria fotográfica superior a la del consultante."
             ],
             "correctIndex": 1,
-            "explanation": "La respuesta correcta es «Resúmenes colectores, de enlace y de transición: cuándo y cómo estructurarlos sin interrumpir el flujo.». La unidad desarrolla: Lectura guiada de Resúmenes colectores, de enlace y de transición: cuándo y cómo estructurarlos sin interrumpir el flujo.. Incluye desarrollo conceptual, aplicación clínica, análisis de una viñeta ficticia y una comprobación de comprensión."
+            "explanation": "Los resúmenes de transición marcan hitos en la sesión ordenando el material previo y solicitando consentimiento para avanzar hacia una nueva tarea (ej. de evocar a planificar)."
           },
           {
             "id": "m2-q6",
-            "question": "¿Cuál es el tema que corresponde a esta descripción? Lectura guiada de Razón de reflejo/pregunta (R:P) como indicador de fidelidad: objetivo ≥ 2:1 en codificación MITI.. Incluye desarrollo conceptual, aplicación clínica, análisis de una viñeta ficticia y una comprobación de comprensión.",
+            "question": "Respecto a la razón de Reflejo/Pregunta (R:P) y los umbrales de referencia citados en el manual MITI 4.2.1 (ej. 1:1 formativo básico y 2:1 recomendado), ¿cuál de las siguientes afirmaciones es rigurosamente correcta desde el punto de vista psicométrico y académico?",
             "options": [
-              "Razón de reflejo/pregunta (R:P) como indicador de fidelidad: objetivo ≥ 2:1 en codificación MITI.",
-              "Resúmenes colectores, de enlace y de transición: cuándo y cómo estructurarlos sin interrumpir el flujo.",
-              "Codificación de sesiones con MITI 4.2: entrenamiento en identificación de conductas del terapeuta.",
-              "Trampas relacionales: el experto, la etiqueta, el foco prematuro, la confrontación y el dar soluciones."
+              "Son leyes biológicas inmutables que predicen con 100% de exactitud el abandono de sustancias.",
+              "Son recomendaciones de consenso de expertos clínicos de la red MINT útiles para la supervisión y entrenamiento, pero no puntos de corte validados empíricamente como predictores definitivos de desenlace.",
+              "El manual MITI 4.2.1 prohíbe terminantemente emitir más de tres preguntas en toda una sesión.",
+              "Una sesión con proporción R:P de 5:1 siempre es superior clínicamente a cualquier otra, con independencia de la calidez o pertinencia del contenido."
             ],
-            "correctIndex": 0,
-            "explanation": "La respuesta correcta es «Razón de reflejo/pregunta (R:P) como indicador de fidelidad: objetivo ≥ 2:1 en codificación MITI.». La unidad desarrolla: Lectura guiada de Razón de reflejo/pregunta (R:P) como indicador de fidelidad: objetivo ≥ 2:1 en codificación MITI.. Incluye desarrollo conceptual, aplicación clínica, análisis de una viñeta ficticia y una comprobación de comprensión."
+            "correctIndex": 1,
+            "explanation": "El manual MITI 4.2.1 aclara expresamente que estos umbrales son pautas de consenso formativo entre expertos y no verdades estadísticas con validez de criterio clínico demostrada."
           },
           {
             "id": "m2-q7",
-            "question": "¿Cuál es el tema que corresponde a esta descripción? Lectura guiada de Codificación de sesiones con MITI 4.2: entrenamiento en identificación de conductas del terapeuta.. Incluye desarrollo conceptual, aplicación clínica, análisis de una viñeta ficticia y una comprobación de comprensión.",
+            "question": "En el sistema de codificación MITI 4.2.1, un terapeuta que dice: «Si me lo permites, ¿podríamos revisar juntos algunas opciones que otros pacientes en tu situación han encontrado útiles?» está manifestando una conducta clasificada como:",
             "options": [
-              "Resúmenes colectores, de enlace y de transición: cuándo y cómo estructurarlos sin interrumpir el flujo.",
-              "Trampas relacionales: el experto, la etiqueta, el foco prematuro, la confrontación y el dar soluciones.",
-              "Razón de reflejo/pregunta (R:P) como indicador de fidelidad: objetivo ≥ 2:1 en codificación MITI.",
-              "Codificación de sesiones con MITI 4.2: entrenamiento en identificación de conductas del terapeuta."
+              "Persuasión sin permiso (Persuade without Permission).",
+              "Búsqueda de colaboración (Seeking Collaboration).",
+              "Confrontación punitiva (Confront).",
+              "Reflejo simple descriptivo."
             ],
-            "correctIndex": 3,
-            "explanation": "La respuesta correcta es «Codificación de sesiones con MITI 4.2: entrenamiento en identificación de conductas del terapeuta.». La unidad desarrolla: Lectura guiada de Codificación de sesiones con MITI 4.2: entrenamiento en identificación de conductas del terapeuta.. Incluye desarrollo conceptual, aplicación clínica, análisis de una viñeta ficticia y una comprobación de comprensión."
+            "correctIndex": 1,
+            "explanation": "Pedir permiso explícito antes de ofrecer información o explorar opciones es la definición operacional por excelencia de la conducta Adherente «Búsqueda de colaboración»."
           },
           {
             "id": "m2-q8",
-            "question": "¿Cuál es el tema que corresponde a esta descripción? Lectura guiada de Trampas relacionales: el experto, la etiqueta, el foco prematuro, la confrontación y el dar soluciones.. Incluye desarrollo conceptual, aplicación clínica, análisis de una viñeta ficticia y una comprobación de comprensión.",
+            "question": "Un terapeuta le dice a una paciente joven con bulimia nerviosa: «Usted tiene bulimia porque es inmadura y no sabe tolerar la frustración; hasta que no acepte mi diagnóstico no avanzaremos». ¿En qué trampas relacionales de la EM está cayendo de manera flagrante?",
             "options": [
-              "Codificación de sesiones con MITI 4.2: entrenamiento en identificación de conductas del terapeuta.",
-              "Rol-play estructurado I: ejercicios dyádicos con retroalimentación diferida por video.",
-              "Trampas relacionales: el experto, la etiqueta, el foco prematuro, la confrontación y el dar soluciones.",
-              "Razón de reflejo/pregunta (R:P) como indicador de fidelidad: objetivo ≥ 2:1 en codificación MITI."
+              "Trampa del experto y trampa del etiquetado.",
+              "Trampa de la empatía profunda rogeriana.",
+              "Trampa del resumen de enlace anticipado.",
+              "Trampa de la afirmación incondicional."
             ],
-            "correctIndex": 2,
-            "explanation": "La respuesta correcta es «Trampas relacionales: el experto, la etiqueta, el foco prematuro, la confrontación y el dar soluciones.». La unidad desarrolla: Lectura guiada de Trampas relacionales: el experto, la etiqueta, el foco prematuro, la confrontación y el dar soluciones.. Incluye desarrollo conceptual, aplicación clínica, análisis de una viñeta ficticia y una comprobación de comprensión."
+            "correctIndex": 0,
+            "explanation": "Imponer un diagnóstico patologizante como condición y adjudicarse el monopolio del saber sobre la paciente configura plenamente las trampas del experto y del etiquetado."
           },
           {
             "id": "m2-q9",
-            "question": "¿Cuál es el tema que corresponde a esta descripción? Lectura guiada de Rol-play estructurado I: ejercicios dyádicos con retroalimentación diferida por video.. Incluye desarrollo conceptual, aplicación clínica, análisis de una viñeta ficticia y una comprobación de comprensión.",
+            "question": "En el diseño de ejercicios de role-play estructurado en tríadas según el modelo de práctica deliberada (Ericsson, 2006; Miller & Moyers, 2006), ¿cuál es el papel asignado al tercer miembro (el observador)?",
             "options": [
-              "Trampas relacionales: el experto, la etiqueta, el foco prematuro, la confrontación y el dar soluciones.",
-              "Rol-play estructurado I: ejercicios dyádicos con retroalimentación diferida por video.",
-              "Supervisión entre pares: análisis de fragmentos con rúbrica MITI. Autoevaluación reflexiva.",
-              "Codificación de sesiones con MITI 4.2: entrenamiento en identificación de conductas del terapeuta."
+              "Reírse de las equivocaciones de sus compañeros para aumentar la resiliencia bajo estrés.",
+              "Registrar objetivamente las micro-conductas técnicas (OARS, conductas adherentes y no adherentes) mediante una pauta sistemática para proveer retroalimentación descriptiva no punitiva.",
+              "Interrumpir al terapeuta simulado y tomar su lugar en cuanto cometa el primer error sintáctico.",
+              "Calificar moralmente la personalidad del entrevistador sin aportar datos conductuales."
             ],
             "correctIndex": 1,
-            "explanation": "La respuesta correcta es «Rol-play estructurado I: ejercicios dyádicos con retroalimentación diferida por video.». La unidad desarrolla: Lectura guiada de Rol-play estructurado I: ejercicios dyádicos con retroalimentación diferida por video.. Incluye desarrollo conceptual, aplicación clínica, análisis de una viñeta ficticia y una comprobación de comprensión."
+            "explanation": "El observador técnico opera como registrador sistemático de datos observables para retroalimentar constructivamente el proceso de aprendizaje del entrevistador."
           },
           {
             "id": "m2-q10",
-            "question": "¿Cuál es el tema que corresponde a esta descripción? Lectura guiada de Supervisión entre pares: análisis de fragmentos con rúbrica MITI. Autoevaluación reflexiva.. Incluye desarrollo conceptual, aplicación clínica, análisis de una viñeta ficticia y una comprobación de comprensión.",
+            "question": "¿Cuál fue la conclusión central del ensayo clínico aleatorizado de Miller, Yahne, Moyers, Martinez y Pirritano (2004) sobre el aprendizaje y retención de la Entrevista Motivacional en profesionales?",
             "options": [
-              "Supervisión entre pares: análisis de fragmentos con rúbrica MITI. Autoevaluación reflexiva.",
-              "Rol-play estructurado I: ejercicios dyádicos con retroalimentación diferida por video.",
-              "Trampas relacionales: el experto, la etiqueta, el foco prematuro, la confrontación y el dar soluciones.",
-              "Codificación de sesiones con MITI 4.2: entrenamiento en identificación de conductas del terapeuta."
+              "Los talleres teóricos de fin de semana bastan para garantizar la competencia clínica a perpetuidad.",
+              "La lectura solitaria de manuales produce mejores resultados que cualquier práctica en vivo.",
+              "Sin supervisión continuada, feedback objetivo y coaching sobre grabaciones de práctica real, las habilidades decaen a los niveles basales a los cuatro meses del taller.",
+              "Los terapeutas noveles aprenden más rápido cuando se les prohíbe emitir reflejos complejos."
             ],
-            "correctIndex": 0,
-            "explanation": "La respuesta correcta es «Supervisión entre pares: análisis de fragmentos con rúbrica MITI. Autoevaluación reflexiva.». La unidad desarrolla: Lectura guiada de Supervisión entre pares: análisis de fragmentos con rúbrica MITI. Autoevaluación reflexiva.. Incluye desarrollo conceptual, aplicación clínica, análisis de una viñeta ficticia y una comprobación de comprensión."
+            "correctIndex": 2,
+            "explanation": "El estudio demostró de manera contundente la necesidad indispensable de la supervisión continuada y el coaching sobre audios reales para preservar las competencias y evitar la ilusión de maestría sin fundamento."
           }
         ]
       },
