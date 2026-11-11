@@ -12,22 +12,27 @@
 
   // Estado persistente
   function getProgress() {
+    var defaultProg = {
+      unlockedModules: ['m1', 'm2', 'm3', 'm4', 'm5'],
+      examScores: {},
+      completedUnits: {}
+    };
     try {
       var data = localStorage.getItem(STORAGE_KEY);
       if (data) {
         var parsed = JSON.parse(data);
-        if (parsed && Array.isArray(parsed.unlockedModules)) {
+        if (parsed && typeof parsed === 'object') {
+          // Todos los módulos abiertos para revisión directa
+          parsed.unlockedModules = ['m1', 'm2', 'm3', 'm4', 'm5'];
+          if (!parsed.examScores) parsed.examScores = {};
+          if (!parsed.completedUnits) parsed.completedUnits = {};
           return parsed;
         }
       }
     } catch (e) {
       console.error(e);
     }
-    return {
-      unlockedModules: ['m1'],
-      examScores: {},
-      completedUnits: {}
-    };
+    return defaultProg;
   }
 
   function saveProgress(prog) {
@@ -59,43 +64,38 @@
     var prog = getProgress();
     var mods = ['m1', 'm2', 'm3', 'm4', 'm5'];
 
-    mods.forEach(function (mid, idx) {
+    mods.forEach(function (mid) {
       var card = document.getElementById('module-card-' + mid);
       var lockPill = document.getElementById('lock-pill-' + mid);
       var btnExam = document.getElementById('btn-exam-' + mid);
       var statusTag = document.getElementById('exam-status-' + mid);
-      var isUnlocked = prog.unlockedModules.indexOf(mid) !== -1;
       var examScore = prog.examScores[mid];
 
+      // Todos los módulos abiertos para navegación y lectura libre
       if (card) {
-        if (isUnlocked) {
-          card.classList.remove('locked');
-          if (lockPill) lockPill.style.display = 'none';
-        } else {
-          card.classList.add('locked');
-          if (lockPill) lockPill.style.display = 'inline-flex';
-        }
+        card.classList.remove('locked');
+      }
+      if (lockPill) {
+        lockPill.style.display = 'none';
       }
 
       if (btnExam) {
-        if (!isUnlocked) {
-          btnExam.disabled = true;
-          btnExam.textContent = '🔒 Módulo Bloqueado';
-          btnExam.className = 'btn-module-exam';
-          if (statusTag) {
-            statusTag.textContent = '🔒 Requiere aprobar módulo anterior';
-            statusTag.className = 'exam-status-tag locked';
-          }
-        } else if (examScore !== undefined && examScore >= 70) {
-          btnExam.disabled = false;
+        btnExam.disabled = false;
+        if (examScore !== undefined && examScore >= 70) {
           btnExam.textContent = 'Aprobado (' + examScore + '%) · Repetir';
           btnExam.className = 'btn-module-exam passed';
           if (statusTag) {
             statusTag.textContent = '✓ Aprobado con ' + examScore + '%';
             statusTag.className = 'exam-status-tag passed';
           }
+        } else if (examScore !== undefined) {
+          btnExam.textContent = 'Reintentar Examen (' + examScore + '%) ⏱️';
+          btnExam.className = 'btn-module-exam';
+          if (statusTag) {
+            statusTag.textContent = 'Intento previo: ' + examScore + '% · Requiere 70%';
+            statusTag.className = 'exam-status-tag';
+          }
         } else {
-          btnExam.disabled = false;
           btnExam.textContent = 'Iniciar Examen ' + mid.toUpperCase() + ' ⏱️';
           btnExam.className = 'btn-module-exam';
           if (statusTag) {
@@ -123,11 +123,7 @@
     if (targetIdx === -1) return;
     var item = flatUnits[targetIdx];
 
-    // Verificar si el módulo está bloqueado
-    if (prog.unlockedModules.indexOf(item.moduleId) === -1) {
-      alert('🔒 Este módulo está bloqueado.\n\nDebes completar y aprobar la evaluación del módulo previo con al menos 70% para desbloquear esta unidad.');
-      return;
-    }
+    // Módulos abiertos para lectura
 
     currentUnitIdx = targetIdx;
     renderUnitContent(item);
@@ -184,13 +180,17 @@
       checkDiv.innerHTML = qcHtml;
     }
 
-    // Referencias
+    // Referencias y enlaces directos a fuentes
     var refsDiv = document.getElementById('modal-unit-refs');
     refsDiv.innerHTML = '';
     if (u.references && u.references.length > 0) {
-      var refsHtml = '<h4>Referencias y literatura recomendada</h4><ul>';
+      var refsHtml = '<h4>Referencias y literatura recomendada</h4><ul class="modal-refs-list">';
       u.references.forEach(function (r) {
-        refsHtml += '<li><strong>' + (r.title || '') + '</strong>' + (r.citation ? ' — ' + r.citation : '') + '</li>';
+        refsHtml += '<li style="margin-bottom:8px; line-height:1.5;"><strong>' + (r.title || '') + '</strong>' + (r.citation ? ' — ' + r.citation : '');
+        if (r.url) {
+          refsHtml += ' <a href="' + r.url + '" target="_blank" rel="noopener noreferrer" style="display:inline-block; margin-left:6px; color:#1B2B6B; font-weight:700; text-decoration:underline;">[🔗 Ver fuente original]</a>';
+        }
+        refsHtml += '</li>';
       });
       refsHtml += '</ul>';
       refsDiv.innerHTML = refsHtml;
@@ -230,10 +230,7 @@
     if (nextIdx >= 0 && nextIdx < flatUnits.length) {
       var prog = getProgress();
       var targetItem = flatUnits[nextIdx];
-      if (prog.unlockedModules.indexOf(targetItem.moduleId) === -1) {
-        alert('🔒 La siguiente unidad pertenece a un módulo bloqueado. Aprueba el examen anterior para avanzar.');
-        return;
-      }
+      // Módulos abiertos para lectura libre
       currentUnitIdx = nextIdx;
       renderUnitContent(targetItem);
       var scrollArea = document.getElementById('modal-scroll-area');
@@ -244,10 +241,6 @@
   // MODAL DE EXAMEN
   window.openExamModal = function (moduleId) {
     var prog = getProgress();
-    if (prog.unlockedModules.indexOf(moduleId) === -1) {
-      alert('🔒 Este módulo está bloqueado.');
-      return;
-    }
 
     if (!window.EM_CURRICULUM || !window.EM_CURRICULUM.modules) return;
     var modData = null;

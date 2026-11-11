@@ -41,19 +41,23 @@ window.EM_CURRICULUM = {
           "references": [
             {
               "title": "Hernández Ribas, R. (2018)",
-              "citation": "Habilidades de comunicación profesional: Entrevista motivacional. Universitat Oberta de Catalunya (FUOC), PID_00255172."
+              "citation": "Habilidades de comunicación profesional: Entrevista motivacional. Universitat Oberta de Catalunya (FUOC), PID_00255172.",
+              "url": "https://openaccess.uoc.edu/"
             },
             {
               "title": "Lizarraga, S., & Ayarra, M. (2001)",
-              "citation": "Entrevista motivacional. Anales del Sistema Sanitario de Navarra, 24(Supl. 2), 43-53."
+              "citation": "Entrevista motivacional. Anales del Sistema Sanitario de Navarra, 24(Supl. 2), 43-53.",
+              "url": "https://scielo.isciii.es/scielo.php?script=sci_arttext&pid=S1137-66272001000500005"
             },
             {
               "title": "Miller, W. R. (1983)",
-              "citation": "Motivational interviewing with problem drinkers. Behavioral Psychotherapy, 11(2), 147-172."
+              "citation": "Motivational interviewing with problem drinkers. Behavioral Psychotherapy, 11(2), 147-172.",
+              "url": "https://doi.org/10.1017/S0141347300006583"
             },
             {
               "title": "Miller, W. R., & Rollnick, S. (2023)",
-              "citation": "Motivational Interviewing: Helping People Change and Grow (4th ed.). Guilford Press."
+              "citation": "Motivational Interviewing: Helping People Change and Grow (4th ed.). Guilford Press.",
+              "url": "https://www.guilford.com/books/Motivational-Interviewing/Miller-Rollnick/9781462552795"
             }
           ],
           "quickCheck": {
@@ -94,19 +98,23 @@ window.EM_CURRICULUM = {
           "references": [
             {
               "title": "Hernández Ribas, R. (2018)",
-              "citation": "Habilidades de comunicación profesional: Entrevista motivacional. FUOC."
+              "citation": "Habilidades de comunicación profesional: Entrevista motivacional. FUOC.",
+              "url": "https://openaccess.uoc.edu/"
             },
             {
               "title": "Lizarraga, S., & Ayarra, M. (2001)",
-              "citation": "Entrevista motivacional. Anales del Sistema Sanitario de Navarra, 24(Supl. 2), 43-53."
+              "citation": "Entrevista motivacional. Anales del Sistema Sanitario de Navarra, 24(Supl. 2), 43-53.",
+              "url": "https://scielo.isciii.es/scielo.php?script=sci_arttext&pid=S1137-66272001000500005"
             },
             {
               "title": "Rogers, C. R. (1957)",
-              "citation": "The necessary and sufficient conditions of therapeutic personality change. Journal of Consulting Psychology, 21(2), 95-103."
+              "citation": "The necessary and sufficient conditions of therapeutic personality change. Journal of Consulting Psychology, 21(2), 95-103.",
+              "url": "https://doi.org/10.1037/h0045357"
             },
             {
               "title": "Universidad Central del Caribe (2016)",
-              "citation": "Módulo Instruccional: Entrevista Motivacional. Escuela de Medicina UCC / SAMHSA."
+              "citation": "Módulo Instruccional: Entrevista Motivacional. Escuela de Medicina UCC / SAMHSA.",
+              "url": "https://www.samhsa.gov/"
             }
           ],
           "quickCheck": {
@@ -147,15 +155,18 @@ window.EM_CURRICULUM = {
           "references": [
             {
               "title": "Hernández Ribas, R. (2018)",
-              "citation": "Habilidades de comunicación profesional: Entrevista motivacional. FUOC, Módulo didáctico 1."
+              "citation": "Habilidades de comunicación profesional: Entrevista motivacional. FUOC, Módulo didáctico 1.",
+              "url": "https://openaccess.uoc.edu/"
             },
             {
               "title": "Miller, W. R., & Rollnick, S. (2023)",
-              "citation": "Motivational Interviewing: Helping People Change and Grow (4th ed.). Guilford Press."
+              "citation": "Motivational Interviewing: Helping People Change and Grow (4th ed.). Guilford Press.",
+              "url": "https://www.guilford.com/books/Motivational-Interviewing/Miller-Rollnick/9781462552795"
             },
             {
               "title": "Moyers, T. B., Manuel, J. K., & Ernst, D. (2015)",
-              "citation": "Motivational Interviewing Treatment Integrity Coding Manual 4.2.1 (MITI 4.2.1). University of New Mexico."
+              "citation": "Motivational Interviewing Treatment Integrity Coding Manual 4.2.1 (MITI 4.2.1). University of New Mexico.",
+              "url": "https://casaa.unm.edu/download/miti4_2.pdf"
             }
           ],
           "quickCheck": {
@@ -196,15 +207,18 @@ window.EM_CURRICULUM = {
           "references": [
             {
               "title": "Prochaska, J. O., & DiClemente, C. C. (1982)",
-              "citation": "Transtheoretical therapy: Toward a more integrative model of change. Psychotherapy: Theory, Research & Practice, 19(3), 276-288."
+              "citation": "Transtheoretical therapy: Toward a more integrative model of change. Psychotherapy: Theory, Research & Practice, 19(3), 276-288.",
+              "url": "https://doi.org/10.1037/h0088437"
             },
             {
               "title": "Prochaska, J. O., DiClemente, C. C., & Norcross, J. C. (1992)",
-              "citation": "In search of how people change: Applications to addictive behaviors. American Psychologist, 47(9), 1102-1114."
+              "citation": "In search of how people change: Applications to addictive behaviors. American Psychologist, 47(9), 1102-1114.",
+              "url": "https://pubmed.ncbi.nlm.nih.gov/1329589/"
             },
             {
               "title": "Universidad Central del Caribe / SAMHSA (2016)",
-              "citation": "Módulo Instruccional: Entrevista Motivacional. OEC/IRESA, Escuela de Medicina UCC."
+              "citation": "Módulo Instruccional: Entrevista Motivacional. OEC/IRESA, Escuela de Medicina UCC.",
+              "url": "https://www.samhsa.gov/"
             }
           ],
           "quickCheck": {
@@ -245,19 +259,23 @@ window.EM_CURRICULUM = {
           "references": [
             {
               "title": "Bem, D. J. (1972)",
-              "citation": "Self-perception theory. Advances in Experimental Social Psychology, 6, 1-62."
+              "citation": "Self-perception theory. Advances in Experimental Social Psychology, 6, 1-62.",
+              "url": "https://doi.org/10.1016/S0065-2601(08)60024-6"
             },
             {
               "title": "Brehm, J. W. (1966)",
-              "citation": "A theory of psychological reactance. Academic Press."
+              "citation": "A theory of psychological reactance. Academic Press.",
+              "url": "https://psycnet.apa.org/record/1967-00971-000"
             },
             {
               "title": "Feldstein Ewing, S. W. et al. (2011)",
-              "citation": "How does motivational interviewing work? A neuroimaging perspective. Addiction, 106(4), 699-708."
+              "citation": "How does motivational interviewing work? A neuroimaging perspective. Addiction, 106(4), 699-708.",
+              "url": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC3188824/"
             },
             {
               "title": "Festinger, L. (1957)",
-              "citation": "A Theory of Cognitive Dissonance. Stanford University Press."
+              "citation": "A Theory of Cognitive Dissonance. Stanford University Press.",
+              "url": "https://www.sup.org/books/title/?id=3850"
             }
           ],
           "quickCheck": {
@@ -298,19 +316,23 @@ window.EM_CURRICULUM = {
           "references": [
             {
               "title": "Gordon, T. (1970)",
-              "citation": "Parent Effectiveness Training: The Tested New Way to Raise Responsible Children. Peter H. Wyden."
+              "citation": "Parent Effectiveness Training: The Tested New Way to Raise Responsible Children. Peter H. Wyden.",
+              "url": "https://www.gordontraining.com/"
             },
             {
               "title": "Hernández Ribas, R. (2018)",
-              "citation": "Habilidades de comunicación profesional: Entrevista motivacional. FUOC, Módulo 1, pp. 11-13."
+              "citation": "Habilidades de comunicación profesional: Entrevista motivacional. FUOC, Módulo 1, pp. 11-13.",
+              "url": "https://openaccess.uoc.edu/"
             },
             {
               "title": "Lizarraga, S., & Ayarra, M. (2001)",
-              "citation": "Entrevista motivacional. Anales Sis San Navarra, 24(Supl. 2), 43-53."
+              "citation": "Entrevista motivacional. Anales Sis San Navarra, 24(Supl. 2), 43-53.",
+              "url": "https://scielo.isciii.es/scielo.php?script=sci_arttext&pid=S1137-66272001000500005"
             },
             {
               "title": "Miller, W. R., & Rollnick, S. (2023)",
-              "citation": "Motivational Interviewing: Helping People Change and Grow (4th ed.). Guilford Press."
+              "citation": "Motivational Interviewing: Helping People Change and Grow (4th ed.). Guilford Press.",
+              "url": "https://www.guilford.com/books/Motivational-Interviewing/Miller-Rollnick/9781462552795"
             }
           ],
           "quickCheck": {
@@ -351,19 +373,23 @@ window.EM_CURRICULUM = {
           "references": [
             {
               "title": "Amrhein, P. C. et al. (2003)",
-              "citation": "Client commitment language during motivational interviewing predicts drug use outcomes. Journal of Consulting and Clinical Psychology, 71(5), 862."
+              "citation": "Client commitment language during motivational interviewing predicts drug use outcomes. Journal of Consulting and Clinical Psychology, 71(5), 862.",
+              "url": "https://pubmed.ncbi.nlm.nih.gov/14516234/"
             },
             {
               "title": "Lundahl, B. et al. (2010)",
-              "citation": "A meta-analysis of motivational interviewing: Twenty-five years of empirical research. Journal of Clinical Psychology, 66(2), 137-160."
+              "citation": "A meta-analysis of motivational interviewing: Twenty-five years of empirical research. Journal of Clinical Psychology, 66(2), 137-160.",
+              "url": "https://pubmed.ncbi.nlm.nih.gov/20146265/"
             },
             {
               "title": "Project MATCH Research Group. (1997)",
-              "citation": "Matching alcoholism treatments to client heterogeneity: Project MATCH posttreatment drinking outcomes. Journal of Studies on Alcohol, 58(1), 7-29."
+              "citation": "Matching alcoholism treatments to client heterogeneity: Project MATCH posttreatment drinking outcomes. Journal of Studies on Alcohol, 58(1), 7-29.",
+              "url": "https://pubmed.ncbi.nlm.nih.gov/8979210/"
             },
             {
               "title": "Rubak, S. et al. (2005)",
-              "citation": "Motivational interviewing: a systematic review and meta-analysis. British Journal of General Practice, 55(513), 305-312."
+              "citation": "Motivational interviewing: a systematic review and meta-analysis. British Journal of General Practice, 55(513), 305-312.",
+              "url": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC1463134/"
             }
           ],
           "quickCheck": {
@@ -404,15 +430,18 @@ window.EM_CURRICULUM = {
           "references": [
             {
               "title": "Miller, W. R., & Rollnick, S. (2012)",
-              "citation": "Motivational Interviewing: Helping People Change (3rd ed.). Guilford Press, Capítulo 28: Ética y Valores."
+              "citation": "Motivational Interviewing: Helping People Change (3rd ed.). Guilford Press, Capítulo 28: Ética y Valores.",
+              "url": "https://www.guilford.com/books/Motivational-Interviewing/Miller-Rollnick/9781462503759"
             },
             {
               "title": "Miller, W. R., & Rollnick, S. (2023)",
-              "citation": "Motivational Interviewing: Helping People Change and Grow (4th ed.). Guilford Press."
+              "citation": "Motivational Interviewing: Helping People Change and Grow (4th ed.). Guilford Press.",
+              "url": "https://www.guilford.com/books/Motivational-Interviewing/Miller-Rollnick/9781462552795"
             },
             {
               "title": "Motivational Interviewing Network of Trainers (MINT). (2020)",
-              "citation": "Ethical Guidelines and Professional Standards for MI Trainers."
+              "citation": "Ethical Guidelines and Professional Standards for MI Trainers.",
+              "url": "https://motivationalinterviewing.org/"
             }
           ],
           "quickCheck": {
